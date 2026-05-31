@@ -1,0 +1,195 @@
+{
+  "schema_version": "phase1-cast/0.1",
+  "source": "后日谈",
+  "focalizer": "艾尼克",
+  "focalizer_note": "全篇第一人称'我'=艾尼克(狗)。叙述里的'主人'恒指艾尼克的主人=诺儿菈;此映射是视角相对的,不可进全局别名表。",
+  "cast": [
+    {
+      "canonical": "艾尼克",
+      "aka": [
+        "艾尼克"
+      ],
+      "appellations": [
+        "骑士大人",
+        "骑士"
+      ],
+      "descriptors": [
+        "狗",
+        "牧羊犬",
+        "这只狗",
+        "满嘴利牙的我"
+      ],
+      "present": true,
+      "is_focalizer": true,
+      "speech": "仅以吠声成话:'汪'。叙述全是其内心独白。",
+      "persona": "诺儿菈的老牧羊犬,叙述者。咸口味、慵懒、护主。",
+      "confidence": "high"
+    },
+    {
+      "canonical": "诺儿菈",
+      "aka": [
+        "诺儿菈",
+        "诺儿菈·爱伦",
+        "诺儿菈小姐"
+      ],
+      "appellations": [
+        "主人",
+        "祭司大人",
+        "祭司"
+      ],
+      "descriptors": [
+        "胆小的羊",
+        "羊",
+        "那只少根筋的羊",
+        "笨羊",
+        "妖精诺儿菈",
+        "妖精牧羊人"
+      ],
+      "present": true,
+      "speech": "礼貌、腼腆、自谦;无方言语癖。常自比'羊'。",
+      "persona": "前牧羊人(妖精诺儿菈),现任某城镇祭司;认真却少根筋;艾尼克的主人。",
+      "confidence": "high",
+      "evidence": {
+        "first_mention": "1_16(主人)",
+        "first_named": "2_0(妖精诺儿菈)/3_13(我是诺儿菈·爱伦)"
+      }
+    },
+    {
+      "canonical": "里夫金女士",
+      "aka": [
+        "里夫金",
+        "里夫金女士"
+      ],
+      "appellations": [],
+      "descriptors": [
+        "女子(场景1)",
+        "桶子店的人",
+        "如熊般体格"
+      ],
+      "present": true,
+      "present_scope": "仅场景1",
+      "speech": "热情、爱八卦('幽灵马车'),豪迈大笑。",
+      "persona": "城里桶子店的人,体格壮硕如熊、性格如猫。来圣堂报信。",
+      "confidence": "high",
+      "evidence": {
+        "first_mention": "1_4(女子)",
+        "first_named": "1_27(里夫金女士)"
+      },
+      "note": "★倒指代:1_0~1_26 只以'女子'出现,名字到 1_27 才揭晓 → 标 1_0/1_3/1_7 等需读到 1_27 回填。"
+    },
+    {
+      "canonical": "艾普",
+      "aka": [
+        "艾普",
+        "艾普·布朗",
+        "艾普小姐",
+        "布朗小姐"
+      ],
+      "appellations": [
+        "艾普大小姐"
+      ],
+      "descriptors": [
+        "女子/高挑女子/如狼般的女子(场景3起)",
+        "那女人",
+        "那个叫艾普的女人",
+        "掠食者"
+      ],
+      "present": true,
+      "present_scope": "场景3起",
+      "speech": "沉默寡言、毒舌、居高临下;喉咙发笑。",
+      "persona": "南方沙漠国家的女商人,高挑如狼,精于算钱,看不起诺儿菈。",
+      "confidence": "high",
+      "evidence": {
+        "first_mention": "3_7(高个子的女子)",
+        "first_named": "3_9(艾普·布朗)"
+      }
+    },
+    {
+      "canonical": "狄安娜",
+      "aka": [
+        "狄安娜",
+        "狄安·鲁本斯",
+        "狄安娜小姐"
+      ],
+      "appellations": [],
+      "descriptors": [
+        "全黑乌鸦",
+        "魔女般的女子",
+        "这只鸟",
+        "一只全黑乌鸦"
+      ],
+      "present": true,
+      "present_scope": "场景6起",
+      "speech": "沉稳、神秘、话里有话('呵呵');直捣核心地发问。",
+      "persona": "统领炼金术师的人物;非人(鸟类化身,自承'不是狼');曾有丈夫。",
+      "confidence": "high",
+      "evidence": {
+        "first_mention": "6_24(魔女般的女子)",
+        "first_named": "6_25(狄安·鲁本斯/狄安娜)"
+      }
+    },
+    {
+      "canonical": "赫萝",
+      "aka": [
+        "赫萝",
+        "赫萝小姐"
+      ],
+      "appellations": [
+        "贤狼大人"
+      ],
+      "descriptors": [
+        "那只狼",
+        "狼"
+      ],
+      "present": false,
+      "speech": "—(本篇未登场,仅被提及)",
+      "persona": "贤狼;与罗伦斯即将举办婚礼的'那对恋人'之一。本篇的旅途目的地是其婚礼。",
+      "confidence": "high",
+      "note": "跨篇实体。与罗伦斯合称'那两人/那对恋人/那对傻男女'。"
+    },
+    {
+      "canonical": "罗伦斯",
+      "aka": [
+        "罗伦斯",
+        "罗伦斯先生"
+      ],
+      "appellations": [],
+      "descriptors": [
+        "那男人",
+        "那个男人",
+        "那家伙",
+        "那个笨男人",
+        "他"
+      ],
+      "present": false,
+      "speech": "—(本篇未登场,仅被提及)",
+      "persona": "商人;赫萝的伴侣;'那对恋人'之一。",
+      "confidence": "high",
+      "note": "跨篇实体。"
+    }
+  ],
+  "ambiguous": [
+    {
+      "expression": "女子",
+      "issue": "泛称,非稳定别名:随场景指不同人。",
+      "resolution": "场景1=里夫金女士;场景3起=艾普。",
+      "action": "Phase2 须按场景/上下文消解,不可静态映射。"
+    },
+    {
+      "expression": "那两人 / 那对恋人 / 那对傻男女 / 那对狼与羊的二人组",
+      "issue": "集体指代。",
+      "resolution": "= 罗伦斯 + 赫萝。",
+      "action": "若台词归集体,非单一说话人;本篇他们无台词。"
+    }
+  ],
+  "needs_registry": [
+    {
+      "where": "场景9 (9_1)",
+      "expression": "个性强悍的女祭司 / 旅行银器工艺师",
+      "issue": "全篇未点名,只能靠系列正典推断(女祭司≈艾尔莎? 银器工艺师≈芙兰?)。",
+      "reviewed": "人工已核",
+      "verdict": "resolve",
+      "resolution": "已定夺=「艾尔莎/芙兰」。 推测正确"
+    }
+  ]
+}
