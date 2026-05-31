@@ -22,7 +22,8 @@ Phase 2  序列标注     每窗 = 角色表(小) + 带 uid 台词 + 滚动状�
 
 | 文件 | 角色 |
 |---|---|
-| `jsons/<篇名>.json` | **小说正文素材**（45 篇，`scenes[].sents[]`）。Phase 1/dialogue 的输入；坏档 `幕间.json` 跳过。 |
+| `jsons/<篇名>.json` | **番外素材**（45 篇短篇，`scenes[].sents[]`）。Phase 1/dialogue 的输入；坏档 `幕间.json` 跳过。 |
+| `maintext/卷NN.json` | **正文素材**（11 卷，由 `sw-sft/main_text.json` 按卷切分；章→scenes 扁平、scene id 全局重编、原章标题存于 `scenes[].chapter`）。共 87 章 46,534 句，uid 全卷唯一。focalizer 全卷为罗伦斯，故按卷一张角色表。`python3 dialogue.py --all maintext` 抽全量。 |
 | `aliases.json` | 全局**专名**别名表（不放代词/关系称谓）。Phase 1 角色表的种子。已含跨卷音译变体归一与 `_note_艾普`。 |
 | `casts/<篇名>.json` | **Phase 1 产物**：每章一张角色表（44/44 已生成、人工核验）。Phase 2 输入。 |
 | `registry_review.tsv` | needs_registry 人工裁决总账（58 条，verdict=drop/keep_local/resolve）。已回写进各 cast，仅作审计留存。 |

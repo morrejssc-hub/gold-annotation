@@ -16,9 +16,10 @@ description: 为《狼与香辛料》语料生成 Phase 1 角色表(cast sheet)�
 工作目录基准：**仓库根目录**（本仓库即 `gold-annotation/`，章节正文在 `jsons/`）。
 
 1. **定范围**：从用户参数取章节。
-   - 具体篇名（一个或多个）→ 就做这些。
-   - "全部 / all" → `jsons/*.json` 全部（跳过坏 json：`幕间.json`）。
-   - "剩余 / 补" → 列出 `jsons/` 里有、但 `casts/` 里还没有对应 `<篇名>.json` 的。
+   - 语料分两套：**番外** = `jsons/*.json`（45 短篇，每篇一表）；**正文** = `maintext/卷NN.json`（11 卷，focalizer 全卷为罗伦斯，**按卷一张表**）。
+   - 具体篇名/卷名（一个或多个）→ 就做这些。
+   - "全部 / all" → 番外 `jsons/*.json` 全部（跳过坏 json：`幕间.json`）；正文 `maintext/*.json` 全部。
+   - "剩余 / 补" → 列出语料目录里有、但 `casts/` 里还没有对应 `<篇名>.json` 的。
    - 默认**不覆盖**已存在的 `casts/<篇名>.json`，除非用户说"重做/覆盖"。
 
 2. **取每篇 focalizer**：从 `focalizers.tsv` 的 `focalizer` 列按 `source` 查；查不到就让 subagent 自行从全文判断（第一人称"我"通常即视角）。
@@ -42,7 +43,7 @@ description: 为《狼与香辛料》语料生成 Phase 1 角色表(cast sheet)�
 1. 读规范与范例（照其 schema 和规则）：PHASE1.md 与 casts/后日谈.json。
 2. 读 canonical 专名种子：aliases.json。
 3. 本篇 focalizer = {FOCALIZER}（若为空请自全文判断；第一人称"我"通常即视角，is_focalizer=true）。
-4. 读**整章**正文：jsons/{SOURCE}.json（doc.scenes[].sents[]，句号写作 sceneid_sentid）。读完整章再下结论。
+4. 读**整篇/整卷**正文：番外为 jsons/{SOURCE}.json，正文为 maintext/{SOURCE}.json（doc.scenes[].sents[]，句号写作 sceneid_sentid；正文每个 scene 的 chapter 字段标原章）。读完再下结论。
 
 关键规则（详见 PHASE1.md）：
 - 倒指代必须回填：开头以泛称(女子/来客/少年/那男人/这女孩)出现、后文才点名的，把名字补到该实体，evidence 标 first_mention 与 first_named。
