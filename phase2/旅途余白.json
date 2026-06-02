@@ -20,284 +20,1910 @@
     "场景7(活人葬礼尾框架)：罗伦斯⇄赫萝。'棺中死者/呻吟/天使等不及'=赫萝扮尸(7_7)。罗伦斯主持仪式词，赫萝语癖'汝/咱/呗'。"
   ],
   "labels": [
-    {"uid": "1_3", "speaker": "领路的祭司", "type": "dialogue", "confidence": "med", "basis": "1_4 '随声抬头时一切已准备就绪…领路的祭司表情肃穆地行礼'，仪式起步发令为祭司。"},
-    {"uid": "1_6", "speaker": "领路的祭司", "type": "dialogue", "confidence": "high", "basis": "1_7 '祭司庄严地吟出祷词'。"},
-    {"uid": "1_13", "speaker": "领路的祭司", "type": "dialogue", "confidence": "high", "basis": "门前祭司宣告'平安抵达神的家园'；1_14 '众人随门前祭司的宣告恭敬低头'。"},
-    {"uid": "1_17", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "1_18 '罗伦斯这么说，并以指尖轻抚棺中…脸庞'。对扮尸的赫萝说话(倒指代)。"},
-
-    {"uid": "2_0", "speaker": "罗伦斯", "type": "dialogue", "confidence": "med", "basis": "承场景1框架收尾，罗伦斯呼妻名'赫萝……'(focalizer 对棺中扮尸者)。"},
-    {"uid": "2_5", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "2_6 '温泉旅馆老板罗伦斯脖子扭得喀喀响'，本句为罗伦斯抱怨。"},
-    {"uid": "2_6", "speaker": "-", "type": "narration_quote", "confidence": "high", "basis": "'狼与辛香料亭'=旅馆招牌字样，非发言。"},
-    {"uid": "2_16", "speaker": "汉娜", "type": "dialogue", "confidence": "high", "basis": "2_16 '罗伦斯…坐下喘息时，汉娜走了进来'；'您辛苦了'=汉娜进门招呼。"},
-    {"uid": "2_18", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'汉娜小姐，今天也辛苦了'=罗伦斯回礼(他唤汉娜小姐)。"},
-    {"uid": "2_20", "speaker": "汉娜", "type": "dialogue", "confidence": "high", "basis": "'先生您累倒了那可就没戏唱'=汉娜(唤罗伦斯'先生')。"},
-    {"uid": "2_22", "speaker": "-", "type": "narration_quote", "confidence": "high", "basis": "'对于\"先生\"这称呼，他也相当习惯了'——引述称呼，非发言。"},
-    {"uid": "2_23", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'我当然会尽快雇用新员工…山下快入春了'=罗伦斯(雇主口吻)。"},
-    {"uid": "2_24", "speaker": "汉娜", "type": "dialogue", "confidence": "high", "basis": "'哎呀呀'=汉娜口头禅。"},
-    {"uid": "2_25", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'汉娜小姐，你不会期待春天…'=罗伦斯发问。"},
-    {"uid": "2_28", "speaker": "汉娜", "type": "dialogue", "confidence": "high", "basis": "2_29 '汉娜抱着胸…遥望远方'；自述偏好辛勤工作。"},
-    {"uid": "2_31", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'太太还在休息吗'=罗伦斯问(太太=赫萝)。"},
-    {"uid": "2_34", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "2_34 '罗伦斯…咬下一口后说'；'那家伙就是等不及春天'。"},
-    {"uid": "2_35", "speaker": "汉娜", "type": "dialogue", "confidence": "high", "basis": "'哎呀呀'+2_36 '汉娜轻笑一声…返回厨房'。"},
-    {"uid": "2_36", "speaker": "汉娜", "type": "dialogue", "confidence": "high", "basis": "2_36 '汉娜…留下\"我去准备晚餐材料了\"就返回厨房'。"},
-    {"uid": "2_39", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "进卧室叫醒赫萝；'喂，你要睡到什么时候'=罗伦斯。"},
-    {"uid": "2_42", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'赫萝？'=罗伦斯试探唤名(揭晓床上=赫萝)。"},
-    {"uid": "2_43", "speaker": "-", "type": "narration_quote", "confidence": "high", "basis": "'令人希望自己临终时也能这么安祥的脸'——叙述比喻其睡容，非发言。"},
-    {"uid": "2_48", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "2_48 '…叹口气说'；'想吃饭就下床到餐厅来吃'=罗伦斯。"},
-    {"uid": "2_50", "speaker": "赫萝", "type": "vocalization", "confidence": "high", "basis": "2_51 '赫萝打了个傻呼呼的呵欠'；'呼啊…啊呼'。"},
-    {"uid": "2_52", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'咱不想下床'=赫萝语癖'咱'。"},
-    {"uid": "2_54", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝都让咱很晚才睡'=赫萝(汝/咱)。"},
-    {"uid": "2_57", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "2_58 '罗伦斯弯下腰，脸凑近赫萝'；'我是很感谢你啦'。"},
-    {"uid": "2_59", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'睡美人这样也该醒了吧'续罗伦斯。"},
-    {"uid": "2_63", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝这只大笨驴'=赫萝(大笨驴语癖)。"},
-    {"uid": "2_64", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "2_64 后 '听罗伦斯论起现实'；'我知道每晚那样搞让你很累…还有很多东西要缝'。"},
-    {"uid": "2_66", "speaker": "赫萝", "type": "vocalization", "confidence": "high", "basis": "'唔……好冷！'=赫萝爬出棉被(2_64尾)。"},
-    {"uid": "2_67", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'喏，穿起来'+2_67 '罗伦斯替…赫萝披起毛线袍'。"},
-    {"uid": "2_69", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'好少喔'=赫萝(喔语癖，嫌酒少)。"},
-    {"uid": "2_71", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'老板娘白天就喝得醉醺醺地像话吗'=罗伦斯(老板娘=赫萝)。"},
-    {"uid": "2_72", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝还是一样古板'+2_72 '赫萝如此嘀咕'。"},
-    {"uid": "2_74", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "2_75 '罗伦斯这么问'；'那么，昨晚怎么样'(问巡山)。"},
-    {"uid": "2_76", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝最近都一下就睡着了'+2_77 '赫萝轻轻用肩撞'。"},
-    {"uid": "2_79", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "2_79 前 '罗伦斯…干咳一声'；'我不是问那个'。"},
-    {"uid": "2_81", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'我也很想好好表现，只是…'续罗伦斯(语塞)。"},
-    {"uid": "2_82", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'呵呵，因为这阵子很忙呗'=赫萝(呗语癖)。"},
-    {"uid": "2_84", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'至于巡山那边，昨晚…雪堆全都打散了'=赫萝(夜化巨狼巡山者)。"},
-    {"uid": "2_85", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'这样啊，辛苦了'=罗伦斯回应巡山报告。"},
-    {"uid": "2_89", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'晚上都得这么忙，难为你了'=罗伦斯体恤赫萝。"},
-    {"uid": "2_90", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'这座温泉旅馆的卖点就是让客人笑着来笑着回去嘛'=赫萝；2_90尾'赫萝也像个少女似的笑了'。"},
-    {"uid": "2_97", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'话说汝啊'=赫萝(汝)；2_97尾'这个赫萝慢慢地开口了'。"},
-    {"uid": "2_98", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'嗯？'=罗伦斯应声(被赫萝唤)。"},
-    {"uid": "2_100", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'真正忙的是汝呗…忙得团团转呗'=赫萝(呗)。"},
-    {"uid": "2_101", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'太依赖寇尔了…既然他想出去见世面，我哪有脸留他'=罗伦斯。"},
-    {"uid": "2_106", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'我很希望他能待到春天再走'=罗伦斯(雇主愧疚)。"},
-    {"uid": "2_107", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'寇尔小鬼…汝放手让他走…咱觉得是一点也没错喔'=赫萝(汝/咱/喔)。"},
-    {"uid": "2_108", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "2_108尾'罗伦斯也为自己的锡杯注酒…听得赫萝咯咯笑'；'我不想妨碍前途看好的年轻人'。"},
-    {"uid": "2_110", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'咱还真的没想到她会趁这机会跟寇尔小鬼私奔呢'=赫萝(咱)；惊得罗伦斯打翻酒。"},
-    {"uid": "2_113", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝真是只大笨驴。干脆就准了他们呗'=赫萝(汝/大笨驴/呗)。"},
-    {"uid": "2_114", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'什、什么意思啊？'=罗伦斯被逗时语塞特征；2_114尾'罗伦斯声音僵硬'。"},
-    {"uid": "2_117", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "2_116 '赫萝…指著罗伦斯说'；'寇尔小鬼这雄性还不错呗'=赫萝(呗)。"},
-    {"uid": "2_118", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'唔……'=罗伦斯语塞反应(2_118尾'罗伦斯十分明白…')。"},
-    {"uid": "2_124", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "2_125 '罗伦斯仍尽可能理性反驳'；'那孩子要结婚还太早'=罗伦斯(那孩子=缪里)。"},
-    {"uid": "2_125", "speaker": "-", "type": "narration_quote", "confidence": "high", "basis": "'两名女性互相确认\"男人到几岁都一样蠢\"的笑法'——叙述描述笑意，非发言。"},
-    {"uid": "2_126", "speaker": "赫萝", "type": "dialogue", "confidence": "med", "basis": "'那么到几岁才不算早呀'=反诘罗伦斯；紧接女性笑后，赫萝/汉娜其一，赫萝更可能(主导逗弄)。"},
-    {"uid": "2_127", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'唔……呃……'=罗伦斯被问倒(2_127尾'罗伦斯…捂住耳朵')。"},
-    {"uid": "2_128", "speaker": "汉娜", "type": "dialogue", "confidence": "high", "basis": "'先生，您就别逞强了'=汉娜(唤'先生'/'您')；2_128尾'为汉娜…的话懊恼'。"},
-    {"uid": "2_130", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'私奔对象是寇尔小鬼已经算不错了呗'=赫萝(呗)。"},
-    {"uid": "2_131", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'又不一定是私奔！'=罗伦斯抗辩(2_131尾'罗伦斯就是忍不住想反驳')。"},
-    {"uid": "2_133", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'以咱的女儿来说，咱倒还觉得她动作太慢了点呢'=赫萝(咱的女儿=缪里)。"},
-    {"uid": "2_136", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "2_136尾'听罗伦斯这么问'；'会不会这里大多是教会的人，被他们影响啦'。"},
-    {"uid": "2_137", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'教会？'=赫萝回声(2_137尾'赫萝…解释')。"},
-    {"uid": "2_139", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝想想，他们…真正重大的事要等到最后关头才会说吗'=赫萝(汝)。"},
-    {"uid": "2_140", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'啊，你是指临终的告解吗'=罗伦斯(称'你')。"},
-    {"uid": "2_141", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'嗯，就是那个'=赫萝肯定。"},
-    {"uid": "2_143", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'重要的话不在需要的时候说出来就没意义了'=赫萝续论；2_143尾'罗伦斯也同意她的看法'。"},
-    {"uid": "2_146", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "2_145 '赫萝冷不防冒出一句'；'好想早点抱孙子啊'=赫萝。"},
-    {"uid": "2_147", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'什么！你……！'=罗伦斯哑口(2_147尾'罗伦斯哑口无言')。"},
-    {"uid": "2_154", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "2_154 '赫萝将\"唔唔唔\"地咬牙切齿的罗伦斯搁在一边'——罗伦斯咬牙发声。"},
-    {"uid": "2_155", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "2_154尾'赫萝…闭着眼感慨地说'；'只要她能好好享受第一次的旅行就够了呗'=赫萝(呗)。"},
-    {"uid": "2_158", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'就只有咱会永远陪着汝喔'=赫萝(咱/汝/喔)。"},
-    {"uid": "2_160", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'还有哪里不满意吗'续赫萝(2_159 '抬起星瞳注视而来')。"},
-    {"uid": "2_163", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "2_162 '罗伦斯双肩一垂，投降了'；'岂敢岂敢'=罗伦斯。"},
-    {"uid": "2_164", "speaker": "赫萝", "type": "vocalization", "confidence": "high", "basis": "'呵呵'+2_164 '赫萝轻笑一声，头倚上罗伦斯的肩'。"},
-    {"uid": "2_168", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'再一杯？'+2_169 '赫萝回答罗伦斯道'(罗伦斯先问)。"},
-    {"uid": "2_170", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "2_169 '赫萝回答罗伦斯道'；'汝也来一杯咱才喝'=赫萝(汝/咱)。"},
-
-    {"uid": "3_4", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "high", "basis": "3_5 '一进集会所，众人的欢呼涌来…老板们围向罗伦斯'；'罗伦斯老弟驾到喽'=群口。"},
-    {"uid": "3_7", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "high", "basis": "'罗伦斯先生，今天就喝到天亮吧'=围拢的老板群。"},
-    {"uid": "3_8", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'咦？啊，喔……'=错愕的罗伦斯。"},
-    {"uid": "3_11", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "high", "basis": "3_10 '一个手拿酒杯的大叔说'；'我知道你心里苦'=老板群(归集体)。"},
-    {"uid": "3_12", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'啊…呃，您在说什么'=罗伦斯不明所以。"},
-    {"uid": "3_13", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "high", "basis": "'少装了…我们都很清楚放开女儿有多难过'=老板群。"},
-    {"uid": "3_14", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'嗯？啊、啊啊……'=罗伦斯才听懂(3_14尾'罗伦斯这才终于听懂')。"},
-    {"uid": "3_17", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'我又还没答应要把女儿嫁给他'=罗伦斯辩白。"},
-    {"uid": "3_18", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "high", "basis": "3_18尾'被另一人不由分说地安抚'；'我懂你不想点头的心情'=老板群。"},
-    {"uid": "3_19", "speaker": "罗伦斯", "type": "inner_monologue", "confidence": "high", "basis": "3_18尾'心里仍不停念著\"他们没有私奔、他们没有私奔\"'——焦点者内心默念。"},
-    {"uid": "3_20", "speaker": "议长", "type": "dialogue", "confidence": "high", "basis": "'抱歉泼一下冷水，能等到会开完之后再聊吗'+3_20尾'几下响亮的拍掌声后，众人各自回座'=主持人(议长)。"},
-    {"uid": "3_23", "speaker": "议长", "type": "dialogue", "confidence": "high", "basis": "'今天应该是今年冬天最后一次开会了'=议长开场主持。"},
-    {"uid": "3_25", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "high", "basis": "3_26 '一人举手插嘴道'；'最近有个不太好的传闻'=与会老板。"},
-    {"uid": "3_27", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "high", "basis": "续 3_26 举手者；'听说西方那座山的另一边可能要开发另一条温泉街'。"},
-    {"uid": "3_28", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "high", "basis": "'啊啊，我也有听说'=另一与会老板附和(群戏)。"},
-    {"uid": "3_29", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "high", "basis": "'什么，真的吗'=与会老板惊问(群戏)。"},
-    {"uid": "3_30", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "high", "basis": "'山的另一边，那客人会怎么走'=与会老板；3_31议长随即遏止。"},
-    {"uid": "3_31", "speaker": "议长", "type": "dialogue", "confidence": "high", "basis": "'肃静！'+3_31尾'议长遏止众人的喧哗'。"},
-    {"uid": "3_33", "speaker": "议长", "type": "dialogue", "confidence": "high", "basis": "续议长压场后表态'我也听过这件事，恐怕是真的'。"},
-    {"uid": "3_35", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "med", "basis": "'他们说不定也会跟斯威奈尔调物资'=与会老板补充(随后3_36某人大喊)。"},
-    {"uid": "3_36", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "high", "basis": "3_36 '\"神啊！\"某人大喊'=群戏无名者→集体。"},
-    {"uid": "3_39", "speaker": "议长", "type": "dialogue", "confidence": "high", "basis": "3_39尾'议长此言立刻让躁动变成…笑声'；'几十年前我们已经人手一棍翻过山去了'。"},
-    {"uid": "3_41", "speaker": "议长", "type": "dialogue", "confidence": "high", "basis": "续议长'这里可是…温泉乡纽希拉…只能靠这个地方的魅力把人潮拉过来'(主持稳健)。"},
-    {"uid": "3_42", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "high", "basis": "3_42 '\"没错没错！\"赞同声此起彼落'=群口附和。"},
-    {"uid": "3_43", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "med", "basis": "'可是，实际上该怎么做呢'=与会者发问(3_43尾'使大家又闭上了嘴')。"},
-    {"uid": "3_46", "speaker": "议长", "type": "dialogue", "confidence": "high", "basis": "3_45 '议长…突然看着罗伦斯说'；'有必要认真考虑罗伦斯先生以前的提议'。"},
-    {"uid": "3_48", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'您是指替村子想个新活动吗'=罗伦斯接话(脑筋搭上线)。"},
-    {"uid": "3_49", "speaker": "议长", "type": "dialogue", "confidence": "high", "basis": "'正是'=议长确认。"},
-    {"uid": "3_53", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "high", "basis": "3_54 '一名与会者问道'；'上次为什么没下文啊'。"},
-    {"uid": "3_55", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "med", "basis": "'好像是因为嫌麻烦吧…总是想休息一下'=与会老板答(群戏)；3_55尾罗伦斯当时还嫌他们懒。"},
-    {"uid": "3_57", "speaker": "纽希拉温泉旅馆老板们", "type": "dialogue", "confidence": "med", "basis": "'我们脚下这块地…会塌得一点也不剩…就像教会一样'=与会老板感叹；3_57尾'议长面色凝重地提出警告'另起一轮。"},
-    {"uid": "3_60", "speaker": "议长", "type": "dialogue", "confidence": "high", "basis": "3_57尾'议长面色凝重地提出警告'；'诚如各位所知…纽希拉正逐渐失去魅力'=议长。"},
-    {"uid": "3_64", "speaker": "议长", "type": "dialogue", "confidence": "high", "basis": "3_65 '议长大手一挥…说道'；'那么，我们该做些什么呢'。"},
-    {"uid": "3_66", "speaker": "议长", "type": "dialogue", "confidence": "high", "basis": "续议长'这就得、靠大家、集思广益了'(cast 标注其口吻)。"},
-    {"uid": "3_69", "speaker": "-", "type": "narration_quote", "confidence": "high", "basis": "'听说了缪里和寇尔\"离家出走\"一事'——引述传闻措辞，非发言。"},
-
-    {"uid": "4_3", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'泡咱们的温泉看日出特别过瘾'=赫萝(咱们)；4_3尾'赫萝…跳进浴池'。"},
-    {"uid": "4_5", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝不来泡吗'=赫萝(汝/喔)。"},
-    {"uid": "4_6", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'嗯？嗯……'+4_6尾'罗伦斯随口应声'(他在看信)。"},
-    {"uid": "4_9", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'大笨驴！'=赫萝(泼水，因罗伦斯只顾看信)。"},
-    {"uid": "4_10", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'哇！'=罗伦斯被泼水惊呼(4_10尾'吓得罗伦斯仓皇跳开')。"},
-    {"uid": "4_12", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝要婆婆妈妈地看到什么时候…凭他们两个…不会怎么样呗'=赫萝(汝/呗)。"},
-    {"uid": "4_13", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'唔、啊、唔……'=罗伦斯(4_13尾'表情活像只点心被抢的牧羊犬')。"},
-    {"uid": "4_20", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "4_20尾'赫萝…重读抢来的信，咯咯笑了笑'；'他们俩感情还真好'=赫萝。"},
-    {"uid": "4_23", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "4_23尾'罗伦斯清咳一声，说出能用来安慰自己的话'；'寇尔他…是个好哥哥嘛'(哥哥=寇尔)。"},
-    {"uid": "4_25", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "续罗伦斯自我安慰'他们比真正的兄妹更像兄妹'。"},
-    {"uid": "4_26", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'……'=赫萝白眼无言(4_26尾'赫萝听不下去而白了一眼')。"},
-    {"uid": "4_28", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'好呗，爱怎么想都随便汝'=赫萝(呗/汝)。"},
-    {"uid": "4_29", "speaker": "-", "type": "narration_quote", "confidence": "med", "basis": "'说完听似\"这家伙则是从以前就很笨了\"的话之后，赫萝打了个喷嚏'——叙述者揣测的'听似'内容，非确指赫萝成句发言，记 abstain。"},
-    {"uid": "4_32", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "4_32尾'赫萝又说话了'；'话说汝想到春天能玩些什么了吗'=赫萝(汝)。"},
-    {"uid": "4_33", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'嗯？'=罗伦斯应声(被赫萝追问)。"},
-    {"uid": "4_34", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝等不是想办些热闹的活动…吗'=赫萝(汝等)。"},
-    {"uid": "4_36", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'这个嘛…我实在是想不到'=罗伦斯(4_34尾'罗伦斯面色无光')。"},
-    {"uid": "4_37", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'不是每年都有办什么圣人庆典吗'=赫萝追问。"},
-    {"uid": "4_39", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'再说，那也没什么特别的'=罗伦斯答。"},
-    {"uid": "4_40", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'办个…请大狼饱尝一顿的活动也可以喔'+4_40尾'赫萝…拍著水说'(大狼自指/喔)。"},
-    {"uid": "4_43", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'真的每个人都来进奉，你也吃不完吧'=罗伦斯打趣(称'你')。"},
-    {"uid": "4_45", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝以前不是…旅行商人吗…学人家办办看呗'=赫萝(汝/呗)。"},
-    {"uid": "4_46", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'有个叫追牛节的是很热闹啦'=罗伦斯(回忆商旅见闻)。"},
-    {"uid": "4_47", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'喔？'=赫萝好奇追问。"},
-    {"uid": "4_48", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "续罗伦斯解释追牛节'…可是……'。"},
-    {"uid": "4_49", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'不行吗？'=赫萝追问。"},
-    {"uid": "4_50", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'每年都有人受伤…牛很容易撞坏房子'=罗伦斯(4_50尾赫萝想像房子被撞)。"},
-    {"uid": "4_52", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'那实在……很伤脑筋'=赫萝(深知盖房不易，表情沉下)。"},
-    {"uid": "4_53", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'是吧？'=罗伦斯回应。"},
-    {"uid": "4_54", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'还有其他的吗？'=赫萝追问。"},
-    {"uid": "4_55", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'每个城镇的教区组队踢皮球游行的庆典'=罗伦斯(商旅见闻)。"},
-    {"uid": "4_56", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'听起来很好玩嘛'=赫萝。"},
-    {"uid": "4_57", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'这个村里年轻人少，恐怕…受不了了'=罗伦斯(4_57尾赫萝想到啤酒肚老板们)。"},
-    {"uid": "4_59", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝最近也有点肚子呢'=赫萝调侃(汝)。"},
-    {"uid": "4_60", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'咳哼！…就只能办点化装舞会…可是到处都有'=罗伦斯(被戳痛清嗓)。"},
-    {"uid": "4_61", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'真难想'=赫萝(4_61尾'赫萝又…拍响池水')。"},
-    {"uid": "4_64", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'嗯……'=罗伦斯苦恼(4_64尾'在罗伦斯苦恼时')。"},
-    {"uid": "4_66", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝还不下来吗！'+4_66尾'以比缪里更纯真的笑容这么喊'=赫萝(汝)。"},
-
-    {"uid": "5_0", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "5_0尾'罗伦斯…望着蓝天喃喃自语'；'这种懒散的乐趣还真毒啊'。"},
-    {"uid": "5_2", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'旅行的时候啊，咱很喜欢在草原上打滚喔'=赫萝(咱/喔)。"},
-    {"uid": "5_3", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'滚来滚去以后还会在马车上大声打呼'=罗伦斯调侃赫萝睡相。"},
-    {"uid": "5_4", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'咱才不会打呼！'=赫萝(咱)。"},
-    {"uid": "5_6", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'这里的温泉…要是这都不算人间仙境…'=罗伦斯生意脑(引出仙境噱头)。"},
-    {"uid": "5_7", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'是啊，这里以前真的很热闹'+5_7尾'早在罗伦斯出生几百年前，赫萝就泡过纽希拉'=赫萝(亲历者)。"},
-    {"uid": "5_9", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'也可以用人间仙境的招牌正式卖给教会'=罗伦斯(5_9尾'罗伦斯却一副有商机的表情')。"},
-    {"uid": "5_10", "speaker": "赫萝", "type": "vocalization", "confidence": "high", "basis": "'啊？'+5_10尾'赫萝投出怀疑的眼神'。"},
-    {"uid": "5_12", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'你有听过圣地巡礼吧…对眼疾灵验的圣人'=罗伦斯滔滔不绝(5_12尾'不理会滔滔不绝的罗伦斯')。"},
-    {"uid": "5_15", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "续罗伦斯长篇'把这里封为圣地…天堂和人间之间…纽希拉──'(5_15尾赫萝拿肉干塞嘴)。"},
-    {"uid": "5_17", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'唔嘎？'=罗伦斯被肉干塞嘴(5_17前'赫萝拿肉干塞住了罗伦斯的嘴')。"},
-    {"uid": "5_18", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'那在汝的这个仙境喝酒作乱，不就要下地狱了吗'=赫萝(汝)。"},
-    {"uid": "5_20", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'唔、嗯……'=罗伦斯语塞被驳。"},
-    {"uid": "5_21", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'他们不会帮这种会让客人更多的忙呗'=赫萝(呗)。"},
-    {"uid": "5_22", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'……嗯'=罗伦斯认同(5_22尾'的确是这样没错')。"},
-    {"uid": "5_24", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝等要想的是个能在闲暇时期招揽生意的活动喔…汝这傻瓜该不会已经忘了呗'=赫萝(汝/喔/呗)。"},
-    {"uid": "5_25", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'也、也对。嗯'=罗伦斯认错。"},
-    {"uid": "5_28", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'我是觉得人间和天堂的夹缝这噱头真的不错耶'=罗伦斯(生意执念)。"},
-    {"uid": "5_29", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'因为有咱这样的天使吗'+5_29尾'赫萝咯咯笑着贴上罗伦斯'(咱/天使戏言)。"},
-    {"uid": "5_32", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'天堂与人间的夹缝……庆典……嗯……'=罗伦斯念念有词(5_32尾'罗伦斯嘴里念念有词')。"},
-    {"uid": "5_34", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'怎么啦？'=罗伦斯(见赫萝忽然爬出池子)。"},
-    {"uid": "5_36", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'先生，有您的客人'=赫萝代汉娜通报口吻；5_36尾'原来是汉娜带着人来通报'(赫萝转述/掩饰)。"},
-    {"uid": "5_38", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'喔，马上去'=罗伦斯应(5_38尾'罗伦斯也跟着离开浴池')。"},
-
-    {"uid": "6_1", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "6_1 '赫萝…以手指戳戳罗伦斯的腰，表情像在问：\"有什么事？\"'——赫萝以表情/低语发问。"},
-    {"uid": "6_3", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "6_3尾'于是罗伦斯先开口了'；'是令尊请你来传话的吗'=罗伦斯。"},
-    {"uid": "6_7", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'快趁热喝了吧'+6_7尾'再催促一次后，卡姆才捧起了杯'=罗伦斯催卡姆。"},
-    {"uid": "6_10", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'是、是我自己有事要求您的！'=卡姆(结巴/敬语'您'；倒指代，名6_5揭晓)。"},
-    {"uid": "6_13", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'只要我帮得上忙，你尽管说'+6_13尾'罗伦斯…挺直了背回话'。"},
-    {"uid": "6_15", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'那个！请您、请您……！'=卡姆(结巴/请您)；6_15尾'卡姆鼓不起更多勇气'。"},
-    {"uid": "6_18", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'请、请您答应我和缪里小姐的婚事！'=卡姆提亲冲口而出。"},
-    {"uid": "6_22", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'等、等等，你突然这么说，呃……'+6_22尾'罗伦斯的脑筋接不上线'。"},
-    {"uid": "6_26", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'……你要向缪里求婚吗'+6_26尾'罗伦斯终于整理好思绪'。"},
-    {"uid": "6_28", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'没、没错'=卡姆(结巴肯定)。"},
-    {"uid": "6_30", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'令尊知道吗'+6_30尾'这问题使卡姆面露难色'=罗伦斯(旅馆主人身份)。"},
-    {"uid": "6_34", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'嗯……'+6_34尾'该怎么回答呢。罗伦斯头疼地叹气'。"},
-    {"uid": "6_36", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'抱、抱歉，有、有件事，我想请教一下'=卡姆(结巴)；6_36尾'卡姆往前倾'。"},
-    {"uid": "6_37", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'嗯？'=罗伦斯应声(被卡姆请教)。"},
-    {"uid": "6_38", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'缪、缪里她…私奔的传闻是……'=卡姆(结巴/改口'缪里小姐')。"},
-    {"uid": "6_39", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'喔……'+6_39尾'罗伦斯唏嘘一叹'。"},
-    {"uid": "6_42", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'私奔啊…有几成是那样吧'+6_42尾'罗伦斯依然含糊其词'。"},
-    {"uid": "6_44", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'总之，还没有确定就是那样'=罗伦斯(对卡姆表示尊重而明说)。"},
-    {"uid": "6_47", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'你也很清楚缪里的个性…三分钟热度'=罗伦斯(6_47尾'与缪里一块长大的卡姆…点头')。"},
-    {"uid": "6_49", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "续罗伦斯'不是不可能…突然自己回来吧'。"},
-    {"uid": "6_51", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'你自己去找缪里求婚就行了'+6_51尾'卡姆的脸…亮起来'=罗伦斯。"},
-    {"uid": "6_53", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'可是…对方…是寇尔先生吧'=卡姆(失望/敬语'先生')。"},
-    {"uid": "6_56", "speaker": "卡姆", "type": "vocalization", "confidence": "high", "basis": "'唉……'+6_56尾'凭着一股冲劲而来的少年，现在却…意志消沉'=卡姆叹气。"},
-    {"uid": "6_59", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'你怎么突然有这种想法'+6_59尾'卡姆反问后，罗伦斯…压低声音问'=罗伦斯。"},
-    {"uid": "6_60", "speaker": "卡姆", "type": "vocalization", "confidence": "high", "basis": "'咦？'+6_60尾'卡姆反问后'。"},
-    {"uid": "6_62", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'我以为你比较喜欢舞娘耶'=罗伦斯压低声音问(6_62尾卡姆满脸通红)。"},
-    {"uid": "6_64", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'那个……我……'+6_64尾'卡姆一时语塞'。"},
-    {"uid": "6_66", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'后来，我发现缪里…和她们都不一样'=卡姆续述。"},
-    {"uid": "6_70", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'贵族家里的猫…和山中野狼的差别吧'+6_70尾'罗伦斯无奈地这么说'=罗伦斯。"},
-    {"uid": "6_73", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'不是啦，不是那样……'+6_73尾'卡姆…急忙摇头'。"},
-    {"uid": "6_74", "speaker": "卡姆", "type": "vocalization", "confidence": "high", "basis": "'嗯……'+6_74尾'卡姆视线垂到手边，说'。"},
-    {"uid": "6_76", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "续卡姆'那些舞娘…即使下山，再过一阵子就又见得到了'。"},
-    {"uid": "6_77", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'这样啊'=罗伦斯接话。"},
-    {"uid": "6_78", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'可是一听说缪里离开村子，我就…！'+6_78尾'是一张泫然欲泣…的脸'=卡姆。"},
-    {"uid": "6_80", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'你就做什么都不对劲，好像快发疯了'+6_80尾'卡姆…颔首'=罗伦斯替他说出。"},
-    {"uid": "6_81", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'……'+6_81尾'卡姆出不了声，嘴唇颤抖地颔首'=卡姆无言默认。"},
-    {"uid": "6_87", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'我明明应该很清楚这种事……'+6_87尾'卡姆…泪水扑簌簌地掉'=卡姆。"},
-    {"uid": "6_89", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'哥哥病死那时候，我就应该学过教训了'=卡姆('哥哥'=卡姆已故的哥哥)。"},
-    {"uid": "6_91", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'有话就要早点说出来…不然很可能就没有下一次了'=卡姆(哭诉)。"},
-    {"uid": "6_94", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "6_94前'罗伦斯又拍拍少年的背说'；'可是，缪里她还活着'=罗伦斯。"},
-    {"uid": "6_95", "speaker": "卡姆", "type": "vocalization", "confidence": "high", "basis": "'唔咕……呜呜'=卡姆抽泣。"},
-    {"uid": "6_96", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'我很想把觊觎我女儿的人全部打跑就是了'=罗伦斯(6_96尾卡姆胆怯)。"},
-    {"uid": "6_98", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'你可以尽管去追她──但…有点不负责任'+6_98尾'罗伦斯按住正要起身的卡姆'。"},
-    {"uid": "6_100", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'缪里那孩子的态度还不是很明确…很可能突然自个儿跑回来'=罗伦斯(那孩子=缪里)。"},
-    {"uid": "6_102", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'你只要在那之前成为一个真正的男人…到时候再正式……'+6_102尾'罗伦斯怎么也说不出这几个字'=罗伦斯。"},
-    {"uid": "6_104", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'我会来正式对缪里求婚的！'+6_104前'卡姆抓紧手帕大声说道'。"},
-    {"uid": "6_107", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "6_107前'罗伦斯双肩一松，笑着点点头说'；'我会等你的。…对空气练练拳头'=罗伦斯。"},
-    {"uid": "6_109", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'好了，眼泪擦干，把这杯喝了吧'=罗伦斯。"},
-    {"uid": "6_110", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'好、好的！'=卡姆(结巴顺从)；6_110尾'看着卡姆听话地喝起羊奶'。"},
-    {"uid": "6_113", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'想洗脸…直接去泡个澡也可以。你弟弟他们都不知道你来这吧'=罗伦斯。"},
-    {"uid": "6_114", "speaker": "卡姆", "type": "dialogue", "confidence": "high", "basis": "'那、那就不好意思了'=卡姆(结巴)；6_114尾'卡姆起身离席…走向浴场'。"},
-    {"uid": "6_117", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'干、干什么？'=罗伦斯(被赫萝坐腿上的窘态语塞)。"},
-    {"uid": "6_118", "speaker": "赫萝", "type": "vocalization", "confidence": "high", "basis": "'嗯～？呵呵呵'+6_118尾'巧笑倩兮的赫萝尾巴膨得袍子都盖不住'。"},
-    {"uid": "6_120", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝这头雄大笨驴可真神气呀'=赫萝(汝/大笨驴)。"},
-    {"uid": "6_122", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'就是因为汝偶尔威严得起来，咱才没法小看汝'=赫萝(汝/咱)。"},
-    {"uid": "6_123", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'我就当你是夸奖了'=罗伦斯。"},
-    {"uid": "6_124", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'大笨驴'+6_124尾'赫萝隔着袍子蹭起耳朵撒娇'。"},
-    {"uid": "6_127", "speaker": "罗伦斯", "type": "inner_monologue", "confidence": "med", "basis": "6_126尾'罗伦斯…茫茫然地想：'；'很可能没有下一次啊……'=罗伦斯内心独白(呼应卡姆教训)。"},
-    {"uid": "6_129", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'这么年轻就能明白这道理，将来一定是个好雄性'=罗伦斯评卡姆。"},
-    {"uid": "6_130", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'我应该也很明白喔'=赫萝(喔)；6_130尾'赫萝…注视起罗伦斯'。"},
-    {"uid": "6_133", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'是怎样，难道不是吗'=罗伦斯(被赫萝非难眼神扫兴)。"},
-    {"uid": "6_134", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝就是动不动就把以前的自己想得很美好，才会是一只大笨驴'=赫萝(汝/大笨驴)。"},
-    {"uid": "6_135", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'哪、哪有啊'=罗伦斯(语塞辩白)。"},
-    {"uid": "6_136", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'汝是花了多少时间才敢说汝最最最爱咱呀'=赫萝(汝/咱)。"},
-    {"uid": "6_137", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'……'=罗伦斯被问倒无言(6_137尾'赫萝的轻咬较平时来得痛')。"},
-    {"uid": "6_138", "speaker": "罗伦斯", "type": "inner_monologue", "confidence": "med", "basis": "6_138 '要是痛得不小心说\"你还不是一样\"，搞不好会留下清楚的齿印'——罗伦斯设想要说但忍住的话(被引号括起的内心)。"},
-    {"uid": "6_141", "speaker": "罗伦斯", "type": "inner_monologue", "confidence": "high", "basis": "6_141尾'他不禁如此呢喃'；'说不出心里的话？'=罗伦斯灵感呢喃(由告解联想到庆典点子)。"},
-    {"uid": "6_143", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'嗯、啊？汝、汝说啥'=赫萝(汝)；6_143尾赫萝吃瘪表情。"},
-    {"uid": "6_149", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'所以……'=罗伦斯思绪串接出声(承6_141灵感)。"},
-    {"uid": "6_150", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'大笨驴？大～笨～驴～？'=赫萝(大笨驴；拍他脸颊)。"},
-    {"uid": "6_152", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'在人间和天堂之间架个平台就行了嘛！'+6_152尾'赫萝傻着眼…看他高声大喊'=罗伦斯。"},
-
-    {"uid": "7_4", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'赫萝。'+7_4尾'罗伦斯呼唤她的名字'=罗伦斯(葬礼尾框架，对扮尸赫萝)。"},
-    {"uid": "7_7", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'天使都快等不及了啦'+7_7尾'棺木中传来死者的呻吟'(死者=赫萝扮尸；天使戏言)。"},
-    {"uid": "7_10", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "7_10前'罗伦斯…窥视里头窃笑的赫萝说'；'认识你到现在，我每天都很幸福'=罗伦斯告白。"},
-    {"uid": "7_11", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'……到现在？'+7_11尾'赫萝微睁一只眼质问道'。"},
-    {"uid": "7_13", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'这毕竟是葬礼嘛'=罗伦斯(解释'到现在'措辞)。"},
-    {"uid": "7_14", "speaker": "赫萝", "type": "vocalization", "confidence": "med", "basis": "'嗯。'=赫萝应声(7_13后单字回应，紧接罗伦斯7_15续说)。"},
-    {"uid": "7_15", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'在这场葬礼中，死者将因温泉的奇迹功效重返人间'+7_15尾'罗伦斯…抹在赫萝额头上'=罗伦斯主持仪式词。"},
-    {"uid": "7_17", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'复活的感觉如何呀'+7_17尾'赫萝睁开双眼…嗤嗤一笑'=罗伦斯问。"},
-    {"uid": "7_19", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'还能继续跟汝在一起，咱好高兴'=赫萝(汝/咱)。"},
-    {"uid": "7_20", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'！'+7_20尾'出乎意料的话使罗伦斯一时语塞'=罗伦斯无言惊讶。"},
-    {"uid": "7_22", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'我的荣幸'+7_22尾'说完，罗伦斯伸出手扶赫萝起身'。"},
-    {"uid": "7_24", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'你觉得这个仪式怎么样'=罗伦斯问。"},
-    {"uid": "7_25", "speaker": "赫萝", "type": "vocalization", "confidence": "high", "basis": "'嗯？'=赫萝应声(被问)。"},
-    {"uid": "7_26", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'死了以后…干脆在活着的时候当对方死掉了，把想说的话说出来…在天堂门前走一遭的仪式'=罗伦斯阐释。"},
-    {"uid": "7_27", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'咱跟汝说'+7_27尾'赫萝注视罗伦斯，表情认真地说'(咱/汝)。"},
-    {"uid": "7_29", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'其实还不错'=赫萝认真评价。"},
-    {"uid": "7_30", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'哈哈，这样啊…我真的觉得值得一试'=罗伦斯。"},
-    {"uid": "7_34", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "'蜡烛花费不小…有搞头，真的有搞头'+7_34尾'罗伦斯才发现赫萝直勾勾盯着他'=罗伦斯生意盘算。"},
-    {"uid": "7_37", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'咱呀，是真的……'+7_37前'赫萝…扯了扯他的衣摆'(咱)。"},
-    {"uid": "7_38", "speaker": "罗伦斯", "type": "vocalization", "confidence": "high", "basis": "'咦？'=罗伦斯应声(被赫萝打断盘算)。"},
-    {"uid": "7_39", "speaker": "赫萝", "type": "dialogue", "confidence": "high", "basis": "'很高兴自己还活着喔'+7_39尾'赫萝笑着这么说，泪水从眼角滑落'(喔)。"},
-    {"uid": "7_42", "speaker": "罗伦斯", "type": "dialogue", "confidence": "med", "basis": "'汝的旅行还没结束呗'——句用'汝/呗'似赫萝语癖，但7_42前'吓得罗伦斯急忙替她拭泪'紧邻，且7_45罗伦斯抱赫萝、7_46罗伦斯'那当然'回应'还没结束呗'之问，故此问句更可能为罗伦斯向赫萝确认(借用赫萝口吻打趣)。"},
-    {"uid": "7_45", "speaker": "-", "type": "narration_quote", "confidence": "high", "basis": "'仿佛要…多少留住一点彼此的\"现在\"'——叙述引号强调词，非发言。"},
-    {"uid": "7_46", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "7_45尾'罗伦斯…将她拥入怀中'+7_46后'并说：'；'那当然'=罗伦斯答(回应'旅行还没结束呗')。"},
-    {"uid": "7_48", "speaker": "罗伦斯", "type": "dialogue", "confidence": "high", "basis": "7_46尾'并说：'；'我会继续旅行。再一阵子'=罗伦斯。"}
+    {
+      "uid": "1_3",
+      "speaker": "领路的祭司",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "1_4 '随声抬头时一切已准备就绪…领路的祭司表情肃穆地行礼'，仪式起步发令为祭司。"
+    },
+    {
+      "uid": "1_6",
+      "speaker": "领路的祭司",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "1_7 '祭司庄严地吟出祷词'。"
+    },
+    {
+      "uid": "1_13",
+      "speaker": "领路的祭司",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "门前祭司宣告'平安抵达神的家园'；1_14 '众人随门前祭司的宣告恭敬低头'。"
+    },
+    {
+      "uid": "1_17",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "1_18 '罗伦斯这么说，并以指尖轻抚棺中…脸庞'。对扮尸的赫萝说话(倒指代)。"
+    },
+    {
+      "uid": "2_0",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "承场景1框架收尾，罗伦斯呼妻名'赫萝……'(focalizer 对棺中扮尸者)。"
+    },
+    {
+      "uid": "2_5",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_6 '温泉旅馆老板罗伦斯脖子扭得喀喀响'，本句为罗伦斯抱怨。"
+    },
+    {
+      "uid": "2_6",
+      "speaker": "-",
+      "type": "narration_quote",
+      "confidence": "high",
+      "basis": "'狼与辛香料亭'=旅馆招牌字样，非发言。"
+    },
+    {
+      "uid": "2_16",
+      "speaker": "汉娜",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_16 '罗伦斯…坐下喘息时，汉娜走了进来'；'您辛苦了'=汉娜进门招呼。"
+    },
+    {
+      "uid": "2_18",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汉娜小姐，今天也辛苦了'=罗伦斯回礼(他唤汉娜小姐)。"
+    },
+    {
+      "uid": "2_20",
+      "speaker": "汉娜",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'先生您累倒了那可就没戏唱'=汉娜(唤罗伦斯'先生')。"
+    },
+    {
+      "uid": "2_22",
+      "speaker": "-",
+      "type": "narration_quote",
+      "confidence": "high",
+      "basis": "'对于\"先生\"这称呼，他也相当习惯了'——引述称呼，非发言。"
+    },
+    {
+      "uid": "2_23",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我当然会尽快雇用新员工…山下快入春了'=罗伦斯(雇主口吻)。"
+    },
+    {
+      "uid": "2_24",
+      "speaker": "汉娜",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'哎呀呀'=汉娜口头禅。"
+    },
+    {
+      "uid": "2_25",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汉娜小姐，你不会期待春天…'=罗伦斯发问。"
+    },
+    {
+      "uid": "2_28",
+      "speaker": "汉娜",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_29 '汉娜抱着胸…遥望远方'；自述偏好辛勤工作。"
+    },
+    {
+      "uid": "2_31",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'太太还在休息吗'=罗伦斯问(太太=赫萝)。"
+    },
+    {
+      "uid": "2_34",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_34 '罗伦斯…咬下一口后说'；'那家伙就是等不及春天'。"
+    },
+    {
+      "uid": "2_35",
+      "speaker": "汉娜",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'哎呀呀'+2_36 '汉娜轻笑一声…返回厨房'。"
+    },
+    {
+      "uid": "2_36",
+      "speaker": "汉娜",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_36 '汉娜…留下\"我去准备晚餐材料了\"就返回厨房'。"
+    },
+    {
+      "uid": "2_39",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "进卧室叫醒赫萝；'喂，你要睡到什么时候'=罗伦斯。"
+    },
+    {
+      "uid": "2_42",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'赫萝？'=罗伦斯试探唤名(揭晓床上=赫萝)。"
+    },
+    {
+      "uid": "2_43",
+      "speaker": "-",
+      "type": "narration_quote",
+      "confidence": "high",
+      "basis": "'令人希望自己临终时也能这么安祥的脸'——叙述比喻其睡容，非发言。"
+    },
+    {
+      "uid": "2_48",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_48 '…叹口气说'；'想吃饭就下床到餐厅来吃'=罗伦斯。"
+    },
+    {
+      "uid": "2_50",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "2_51 '赫萝打了个傻呼呼的呵欠'；'呼啊…啊呼'。"
+    },
+    {
+      "uid": "2_52",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱不想下床'=赫萝语癖'咱'。"
+    },
+    {
+      "uid": "2_54",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝都让咱很晚才睡'=赫萝(汝/咱)。"
+    },
+    {
+      "uid": "2_57",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_58 '罗伦斯弯下腰，脸凑近赫萝'；'我是很感谢你啦'。"
+    },
+    {
+      "uid": "2_59",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'睡美人这样也该醒了吧'续罗伦斯。"
+    },
+    {
+      "uid": "2_63",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝这只大笨驴'=赫萝(大笨驴语癖)。"
+    },
+    {
+      "uid": "2_64",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_64 后 '听罗伦斯论起现实'；'我知道每晚那样搞让你很累…还有很多东西要缝'。"
+    },
+    {
+      "uid": "2_66",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'唔……好冷！'=赫萝爬出棉被(2_64尾)。"
+    },
+    {
+      "uid": "2_67",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'喏，穿起来'+2_67 '罗伦斯替…赫萝披起毛线袍'。"
+    },
+    {
+      "uid": "2_69",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'好少喔'=赫萝(喔语癖，嫌酒少)。"
+    },
+    {
+      "uid": "2_71",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'老板娘白天就喝得醉醺醺地像话吗'=罗伦斯(老板娘=赫萝)。"
+    },
+    {
+      "uid": "2_72",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝还是一样古板'+2_72 '赫萝如此嘀咕'。"
+    },
+    {
+      "uid": "2_74",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_75 '罗伦斯这么问'；'那么，昨晚怎么样'(问巡山)。"
+    },
+    {
+      "uid": "2_76",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝最近都一下就睡着了'+2_77 '赫萝轻轻用肩撞'。"
+    },
+    {
+      "uid": "2_79",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_79 前 '罗伦斯…干咳一声'；'我不是问那个'。"
+    },
+    {
+      "uid": "2_81",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我也很想好好表现，只是…'续罗伦斯(语塞)。"
+    },
+    {
+      "uid": "2_82",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'呵呵，因为这阵子很忙呗'=赫萝(呗语癖)。"
+    },
+    {
+      "uid": "2_84",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'至于巡山那边，昨晚…雪堆全都打散了'=赫萝(夜化巨狼巡山者)。"
+    },
+    {
+      "uid": "2_85",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'这样啊，辛苦了'=罗伦斯回应巡山报告。"
+    },
+    {
+      "uid": "2_89",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'晚上都得这么忙，难为你了'=罗伦斯体恤赫萝。"
+    },
+    {
+      "uid": "2_90",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'这座温泉旅馆的卖点就是让客人笑着来笑着回去嘛'=赫萝；2_90尾'赫萝也像个少女似的笑了'。"
+    },
+    {
+      "uid": "2_97",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'话说汝啊'=赫萝(汝)；2_97尾'这个赫萝慢慢地开口了'。"
+    },
+    {
+      "uid": "2_98",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'嗯？'=罗伦斯应声(被赫萝唤)。"
+    },
+    {
+      "uid": "2_100",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'真正忙的是汝呗…忙得团团转呗'=赫萝(呗)。"
+    },
+    {
+      "uid": "2_101",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'太依赖寇尔了…既然他想出去见世面，我哪有脸留他'=罗伦斯。"
+    },
+    {
+      "uid": "2_106",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我很希望他能待到春天再走'=罗伦斯(雇主愧疚)。"
+    },
+    {
+      "uid": "2_107",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'寇尔小鬼…汝放手让他走…咱觉得是一点也没错喔'=赫萝(汝/咱/喔)。"
+    },
+    {
+      "uid": "2_108",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_108尾'罗伦斯也为自己的锡杯注酒…听得赫萝咯咯笑'；'我不想妨碍前途看好的年轻人'。"
+    },
+    {
+      "uid": "2_110",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱还真的没想到她会趁这机会跟寇尔小鬼私奔呢'=赫萝(咱)；惊得罗伦斯打翻酒。"
+    },
+    {
+      "uid": "2_113",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝真是只大笨驴。干脆就准了他们呗'=赫萝(汝/大笨驴/呗)。"
+    },
+    {
+      "uid": "2_114",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'什、什么意思啊？'=罗伦斯被逗时语塞特征；2_114尾'罗伦斯声音僵硬'。"
+    },
+    {
+      "uid": "2_117",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_116 '赫萝…指著罗伦斯说'；'寇尔小鬼这雄性还不错呗'=赫萝(呗)。"
+    },
+    {
+      "uid": "2_118",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'唔……'=罗伦斯语塞反应(2_118尾'罗伦斯十分明白…')。"
+    },
+    {
+      "uid": "2_124",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_125 '罗伦斯仍尽可能理性反驳'；'那孩子要结婚还太早'=罗伦斯(那孩子=缪里)。"
+    },
+    {
+      "uid": "2_125",
+      "speaker": "-",
+      "type": "narration_quote",
+      "confidence": "high",
+      "basis": "'两名女性互相确认\"男人到几岁都一样蠢\"的笑法'——叙述描述笑意，非发言。"
+    },
+    {
+      "uid": "2_126",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'那么到几岁才不算早呀'=反诘罗伦斯；紧接女性笑后，赫萝/汉娜其一，赫萝更可能(主导逗弄)。"
+    },
+    {
+      "uid": "2_127",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'唔……呃……'=罗伦斯被问倒(2_127尾'罗伦斯…捂住耳朵')。"
+    },
+    {
+      "uid": "2_128",
+      "speaker": "汉娜",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'先生，您就别逞强了'=汉娜(唤'先生'/'您')；2_128尾'为汉娜…的话懊恼'。"
+    },
+    {
+      "uid": "2_130",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'私奔对象是寇尔小鬼已经算不错了呗'=赫萝(呗)。"
+    },
+    {
+      "uid": "2_131",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'又不一定是私奔！'=罗伦斯抗辩(2_131尾'罗伦斯就是忍不住想反驳')。"
+    },
+    {
+      "uid": "2_133",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'以咱的女儿来说，咱倒还觉得她动作太慢了点呢'=赫萝(咱的女儿=缪里)。"
+    },
+    {
+      "uid": "2_136",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_136尾'听罗伦斯这么问'；'会不会这里大多是教会的人，被他们影响啦'。"
+    },
+    {
+      "uid": "2_137",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'教会？'=赫萝回声(2_137尾'赫萝…解释')。"
+    },
+    {
+      "uid": "2_139",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝想想，他们…真正重大的事要等到最后关头才会说吗'=赫萝(汝)。"
+    },
+    {
+      "uid": "2_140",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'啊，你是指临终的告解吗'=罗伦斯(称'你')。"
+    },
+    {
+      "uid": "2_141",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'嗯，就是那个'=赫萝肯定。"
+    },
+    {
+      "uid": "2_143",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'重要的话不在需要的时候说出来就没意义了'=赫萝续论；2_143尾'罗伦斯也同意她的看法'。"
+    },
+    {
+      "uid": "2_146",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_145 '赫萝冷不防冒出一句'；'好想早点抱孙子啊'=赫萝。"
+    },
+    {
+      "uid": "2_147",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'什么！你……！'=罗伦斯哑口(2_147尾'罗伦斯哑口无言')。"
+    },
+    {
+      "uid": "2_154",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "2_154 '赫萝将\"唔唔唔\"地咬牙切齿的罗伦斯搁在一边'——罗伦斯咬牙发声。"
+    },
+    {
+      "uid": "2_155",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_154尾'赫萝…闭着眼感慨地说'；'只要她能好好享受第一次的旅行就够了呗'=赫萝(呗)。"
+    },
+    {
+      "uid": "2_158",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'就只有咱会永远陪着汝喔'=赫萝(咱/汝/喔)。"
+    },
+    {
+      "uid": "2_160",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'还有哪里不满意吗'续赫萝(2_159 '抬起星瞳注视而来')。"
+    },
+    {
+      "uid": "2_163",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_162 '罗伦斯双肩一垂，投降了'；'岂敢岂敢'=罗伦斯。"
+    },
+    {
+      "uid": "2_164",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'呵呵'+2_164 '赫萝轻笑一声，头倚上罗伦斯的肩'。"
+    },
+    {
+      "uid": "2_168",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'再一杯？'+2_169 '赫萝回答罗伦斯道'(罗伦斯先问)。"
+    },
+    {
+      "uid": "2_170",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "2_169 '赫萝回答罗伦斯道'；'汝也来一杯咱才喝'=赫萝(汝/咱)。"
+    },
+    {
+      "uid": "3_4",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "3_5 '一进集会所，众人的欢呼涌来…老板们围向罗伦斯'；'罗伦斯老弟驾到喽'=群口。"
+    },
+    {
+      "uid": "3_7",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'罗伦斯先生，今天就喝到天亮吧'=围拢的老板群。"
+    },
+    {
+      "uid": "3_8",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咦？啊，喔……'=错愕的罗伦斯。"
+    },
+    {
+      "uid": "3_11",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "3_10 '一个手拿酒杯的大叔说'；'我知道你心里苦'=老板群(归集体)。"
+    },
+    {
+      "uid": "3_12",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'啊…呃，您在说什么'=罗伦斯不明所以。"
+    },
+    {
+      "uid": "3_13",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'少装了…我们都很清楚放开女儿有多难过'=老板群。"
+    },
+    {
+      "uid": "3_14",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'嗯？啊、啊啊……'=罗伦斯才听懂(3_14尾'罗伦斯这才终于听懂')。"
+    },
+    {
+      "uid": "3_17",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我又还没答应要把女儿嫁给他'=罗伦斯辩白。"
+    },
+    {
+      "uid": "3_18",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "3_18尾'被另一人不由分说地安抚'；'我懂你不想点头的心情'=老板群。"
+    },
+    {
+      "uid": "3_19",
+      "speaker": "罗伦斯",
+      "type": "inner_monologue",
+      "confidence": "high",
+      "basis": "3_18尾'心里仍不停念著\"他们没有私奔、他们没有私奔\"'——焦点者内心默念。"
+    },
+    {
+      "uid": "3_20",
+      "speaker": "议长",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'抱歉泼一下冷水，能等到会开完之后再聊吗'+3_20尾'几下响亮的拍掌声后，众人各自回座'=主持人(议长)。"
+    },
+    {
+      "uid": "3_23",
+      "speaker": "议长",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'今天应该是今年冬天最后一次开会了'=议长开场主持。"
+    },
+    {
+      "uid": "3_25",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "3_26 '一人举手插嘴道'；'最近有个不太好的传闻'=与会老板。"
+    },
+    {
+      "uid": "3_27",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续 3_26 举手者；'听说西方那座山的另一边可能要开发另一条温泉街'。"
+    },
+    {
+      "uid": "3_28",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'啊啊，我也有听说'=另一与会老板附和(群戏)。"
+    },
+    {
+      "uid": "3_29",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'什么，真的吗'=与会老板惊问(群戏)。"
+    },
+    {
+      "uid": "3_30",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'山的另一边，那客人会怎么走'=与会老板；3_31议长随即遏止。"
+    },
+    {
+      "uid": "3_31",
+      "speaker": "议长",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'肃静！'+3_31尾'议长遏止众人的喧哗'。"
+    },
+    {
+      "uid": "3_33",
+      "speaker": "议长",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续议长压场后表态'我也听过这件事，恐怕是真的'。"
+    },
+    {
+      "uid": "3_35",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'他们说不定也会跟斯威奈尔调物资'=与会老板补充(随后3_36某人大喊)。"
+    },
+    {
+      "uid": "3_36",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "3_36 '\"神啊！\"某人大喊'=群戏无名者→集体。"
+    },
+    {
+      "uid": "3_39",
+      "speaker": "议长",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "3_39尾'议长此言立刻让躁动变成…笑声'；'几十年前我们已经人手一棍翻过山去了'。"
+    },
+    {
+      "uid": "3_41",
+      "speaker": "议长",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续议长'这里可是…温泉乡纽希拉…只能靠这个地方的魅力把人潮拉过来'(主持稳健)。"
+    },
+    {
+      "uid": "3_42",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "3_42 '\"没错没错！\"赞同声此起彼落'=群口附和。"
+    },
+    {
+      "uid": "3_43",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'可是，实际上该怎么做呢'=与会者发问(3_43尾'使大家又闭上了嘴')。"
+    },
+    {
+      "uid": "3_46",
+      "speaker": "议长",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "3_45 '议长…突然看着罗伦斯说'；'有必要认真考虑罗伦斯先生以前的提议'。"
+    },
+    {
+      "uid": "3_48",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'您是指替村子想个新活动吗'=罗伦斯接话(脑筋搭上线)。"
+    },
+    {
+      "uid": "3_49",
+      "speaker": "议长",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'正是'=议长确认。"
+    },
+    {
+      "uid": "3_53",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "3_54 '一名与会者问道'；'上次为什么没下文啊'。"
+    },
+    {
+      "uid": "3_55",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "units 双模型一致回灌（原 phase2=纽希拉温泉旅馆老板们）。'好像是因为嫌麻烦吧…总是想休息一下'=与会老板答(群戏)；3_55尾罗伦斯当时还嫌他们懒。"
+    },
+    {
+      "uid": "3_57",
+      "speaker": "议长",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "units 双模型一致回灌（原 phase2=纽希拉温泉旅馆老板们）。'我们脚下这块地…会塌得一点也不剩…就像教会一样'=与会老板感叹；3_57尾'议长面色凝重地提出警告'另起一轮。"
+    },
+    {
+      "uid": "3_60",
+      "speaker": "议长",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "3_57尾'议长面色凝重地提出警告'；'诚如各位所知…纽希拉正逐渐失去魅力'=议长。"
+    },
+    {
+      "uid": "3_64",
+      "speaker": "纽希拉温泉旅馆老板们",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "units 双模型一致回灌（原 phase2=议长）。3_65 '议长大手一挥…说道'；'那么，我们该做些什么呢'。"
+    },
+    {
+      "uid": "3_66",
+      "speaker": "议长",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续议长'这就得、靠大家、集思广益了'(cast 标注其口吻)。"
+    },
+    {
+      "uid": "3_69",
+      "speaker": "-",
+      "type": "narration_quote",
+      "confidence": "high",
+      "basis": "'听说了缪里和寇尔\"离家出走\"一事'——引述传闻措辞，非发言。"
+    },
+    {
+      "uid": "4_3",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'泡咱们的温泉看日出特别过瘾'=赫萝(咱们)；4_3尾'赫萝…跳进浴池'。"
+    },
+    {
+      "uid": "4_5",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝不来泡吗'=赫萝(汝/喔)。"
+    },
+    {
+      "uid": "4_6",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'嗯？嗯……'+4_6尾'罗伦斯随口应声'(他在看信)。"
+    },
+    {
+      "uid": "4_9",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'大笨驴！'=赫萝(泼水，因罗伦斯只顾看信)。"
+    },
+    {
+      "uid": "4_10",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'哇！'=罗伦斯被泼水惊呼(4_10尾'吓得罗伦斯仓皇跳开')。"
+    },
+    {
+      "uid": "4_12",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝要婆婆妈妈地看到什么时候…凭他们两个…不会怎么样呗'=赫萝(汝/呗)。"
+    },
+    {
+      "uid": "4_13",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'唔、啊、唔……'=罗伦斯(4_13尾'表情活像只点心被抢的牧羊犬')。"
+    },
+    {
+      "uid": "4_20",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "4_20尾'赫萝…重读抢来的信，咯咯笑了笑'；'他们俩感情还真好'=赫萝。"
+    },
+    {
+      "uid": "4_23",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "4_23尾'罗伦斯清咳一声，说出能用来安慰自己的话'；'寇尔他…是个好哥哥嘛'(哥哥=寇尔)。"
+    },
+    {
+      "uid": "4_25",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续罗伦斯自我安慰'他们比真正的兄妹更像兄妹'。"
+    },
+    {
+      "uid": "4_26",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'……'=赫萝白眼无言(4_26尾'赫萝听不下去而白了一眼')。"
+    },
+    {
+      "uid": "4_28",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'好呗，爱怎么想都随便汝'=赫萝(呗/汝)。"
+    },
+    {
+      "uid": "4_29",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "units 双模型一致回灌（原 phase2=-）。'说完听似\"这家伙则是从以前就很笨了\"的话之后，赫萝打了个喷嚏'——叙述者揣测的'听似'内容，非确指赫萝成句发言，记 abstain。"
+    },
+    {
+      "uid": "4_32",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "4_32尾'赫萝又说话了'；'话说汝想到春天能玩些什么了吗'=赫萝(汝)。"
+    },
+    {
+      "uid": "4_33",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'嗯？'=罗伦斯应声(被赫萝追问)。"
+    },
+    {
+      "uid": "4_34",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝等不是想办些热闹的活动…吗'=赫萝(汝等)。"
+    },
+    {
+      "uid": "4_36",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'这个嘛…我实在是想不到'=罗伦斯(4_34尾'罗伦斯面色无光')。"
+    },
+    {
+      "uid": "4_37",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'不是每年都有办什么圣人庆典吗'=赫萝追问。"
+    },
+    {
+      "uid": "4_39",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'再说，那也没什么特别的'=罗伦斯答。"
+    },
+    {
+      "uid": "4_40",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'办个…请大狼饱尝一顿的活动也可以喔'+4_40尾'赫萝…拍著水说'(大狼自指/喔)。"
+    },
+    {
+      "uid": "4_43",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'真的每个人都来进奉，你也吃不完吧'=罗伦斯打趣(称'你')。"
+    },
+    {
+      "uid": "4_45",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝以前不是…旅行商人吗…学人家办办看呗'=赫萝(汝/呗)。"
+    },
+    {
+      "uid": "4_46",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'有个叫追牛节的是很热闹啦'=罗伦斯(回忆商旅见闻)。"
+    },
+    {
+      "uid": "4_47",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'喔？'=赫萝好奇追问。"
+    },
+    {
+      "uid": "4_48",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续罗伦斯解释追牛节'…可是……'。"
+    },
+    {
+      "uid": "4_49",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'不行吗？'=赫萝追问。"
+    },
+    {
+      "uid": "4_50",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'每年都有人受伤…牛很容易撞坏房子'=罗伦斯(4_50尾赫萝想像房子被撞)。"
+    },
+    {
+      "uid": "4_52",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'那实在……很伤脑筋'=赫萝(深知盖房不易，表情沉下)。"
+    },
+    {
+      "uid": "4_53",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'是吧？'=罗伦斯回应。"
+    },
+    {
+      "uid": "4_54",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'还有其他的吗？'=赫萝追问。"
+    },
+    {
+      "uid": "4_55",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'每个城镇的教区组队踢皮球游行的庆典'=罗伦斯(商旅见闻)。"
+    },
+    {
+      "uid": "4_56",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'听起来很好玩嘛'=赫萝。"
+    },
+    {
+      "uid": "4_57",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'这个村里年轻人少，恐怕…受不了了'=罗伦斯(4_57尾赫萝想到啤酒肚老板们)。"
+    },
+    {
+      "uid": "4_59",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝最近也有点肚子呢'=赫萝调侃(汝)。"
+    },
+    {
+      "uid": "4_60",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咳哼！…就只能办点化装舞会…可是到处都有'=罗伦斯(被戳痛清嗓)。"
+    },
+    {
+      "uid": "4_61",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'真难想'=赫萝(4_61尾'赫萝又…拍响池水')。"
+    },
+    {
+      "uid": "4_64",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'嗯……'=罗伦斯苦恼(4_64尾'在罗伦斯苦恼时')。"
+    },
+    {
+      "uid": "4_66",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝还不下来吗！'+4_66尾'以比缪里更纯真的笑容这么喊'=赫萝(汝)。"
+    },
+    {
+      "uid": "5_0",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "5_0尾'罗伦斯…望着蓝天喃喃自语'；'这种懒散的乐趣还真毒啊'。"
+    },
+    {
+      "uid": "5_2",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'旅行的时候啊，咱很喜欢在草原上打滚喔'=赫萝(咱/喔)。"
+    },
+    {
+      "uid": "5_3",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'滚来滚去以后还会在马车上大声打呼'=罗伦斯调侃赫萝睡相。"
+    },
+    {
+      "uid": "5_4",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱才不会打呼！'=赫萝(咱)。"
+    },
+    {
+      "uid": "5_6",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'这里的温泉…要是这都不算人间仙境…'=罗伦斯生意脑(引出仙境噱头)。"
+    },
+    {
+      "uid": "5_7",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'是啊，这里以前真的很热闹'+5_7尾'早在罗伦斯出生几百年前，赫萝就泡过纽希拉'=赫萝(亲历者)。"
+    },
+    {
+      "uid": "5_9",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'也可以用人间仙境的招牌正式卖给教会'=罗伦斯(5_9尾'罗伦斯却一副有商机的表情')。"
+    },
+    {
+      "uid": "5_10",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'啊？'+5_10尾'赫萝投出怀疑的眼神'。"
+    },
+    {
+      "uid": "5_12",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你有听过圣地巡礼吧…对眼疾灵验的圣人'=罗伦斯滔滔不绝(5_12尾'不理会滔滔不绝的罗伦斯')。"
+    },
+    {
+      "uid": "5_15",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续罗伦斯长篇'把这里封为圣地…天堂和人间之间…纽希拉──'(5_15尾赫萝拿肉干塞嘴)。"
+    },
+    {
+      "uid": "5_17",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'唔嘎？'=罗伦斯被肉干塞嘴(5_17前'赫萝拿肉干塞住了罗伦斯的嘴')。"
+    },
+    {
+      "uid": "5_18",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'那在汝的这个仙境喝酒作乱，不就要下地狱了吗'=赫萝(汝)。"
+    },
+    {
+      "uid": "5_20",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'唔、嗯……'=罗伦斯语塞被驳。"
+    },
+    {
+      "uid": "5_21",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'他们不会帮这种会让客人更多的忙呗'=赫萝(呗)。"
+    },
+    {
+      "uid": "5_22",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'……嗯'=罗伦斯认同(5_22尾'的确是这样没错')。"
+    },
+    {
+      "uid": "5_24",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝等要想的是个能在闲暇时期招揽生意的活动喔…汝这傻瓜该不会已经忘了呗'=赫萝(汝/喔/呗)。"
+    },
+    {
+      "uid": "5_25",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'也、也对。嗯'=罗伦斯认错。"
+    },
+    {
+      "uid": "5_28",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我是觉得人间和天堂的夹缝这噱头真的不错耶'=罗伦斯(生意执念)。"
+    },
+    {
+      "uid": "5_29",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'因为有咱这样的天使吗'+5_29尾'赫萝咯咯笑着贴上罗伦斯'(咱/天使戏言)。"
+    },
+    {
+      "uid": "5_32",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'天堂与人间的夹缝……庆典……嗯……'=罗伦斯念念有词(5_32尾'罗伦斯嘴里念念有词')。"
+    },
+    {
+      "uid": "5_34",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'怎么啦？'=罗伦斯(见赫萝忽然爬出池子)。"
+    },
+    {
+      "uid": "5_36",
+      "speaker": "汉娜",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "units 双模型一致回灌（原 phase2=赫萝）。'先生，有您的客人'=赫萝代汉娜通报口吻；5_36尾'原来是汉娜带着人来通报'(赫萝转述/掩饰)。"
+    },
+    {
+      "uid": "5_38",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'喔，马上去'=罗伦斯应(5_38尾'罗伦斯也跟着离开浴池')。"
+    },
+    {
+      "uid": "6_1",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "6_1 '赫萝…以手指戳戳罗伦斯的腰，表情像在问：\"有什么事？\"'——赫萝以表情/低语发问。"
+    },
+    {
+      "uid": "6_3",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "6_3尾'于是罗伦斯先开口了'；'是令尊请你来传话的吗'=罗伦斯。"
+    },
+    {
+      "uid": "6_7",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'快趁热喝了吧'+6_7尾'再催促一次后，卡姆才捧起了杯'=罗伦斯催卡姆。"
+    },
+    {
+      "uid": "6_10",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'是、是我自己有事要求您的！'=卡姆(结巴/敬语'您'；倒指代，名6_5揭晓)。"
+    },
+    {
+      "uid": "6_13",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'只要我帮得上忙，你尽管说'+6_13尾'罗伦斯…挺直了背回话'。"
+    },
+    {
+      "uid": "6_15",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'那个！请您、请您……！'=卡姆(结巴/请您)；6_15尾'卡姆鼓不起更多勇气'。"
+    },
+    {
+      "uid": "6_18",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'请、请您答应我和缪里小姐的婚事！'=卡姆提亲冲口而出。"
+    },
+    {
+      "uid": "6_22",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'等、等等，你突然这么说，呃……'+6_22尾'罗伦斯的脑筋接不上线'。"
+    },
+    {
+      "uid": "6_26",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'……你要向缪里求婚吗'+6_26尾'罗伦斯终于整理好思绪'。"
+    },
+    {
+      "uid": "6_28",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'没、没错'=卡姆(结巴肯定)。"
+    },
+    {
+      "uid": "6_30",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'令尊知道吗'+6_30尾'这问题使卡姆面露难色'=罗伦斯(旅馆主人身份)。"
+    },
+    {
+      "uid": "6_34",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'嗯……'+6_34尾'该怎么回答呢。罗伦斯头疼地叹气'。"
+    },
+    {
+      "uid": "6_36",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'抱、抱歉，有、有件事，我想请教一下'=卡姆(结巴)；6_36尾'卡姆往前倾'。"
+    },
+    {
+      "uid": "6_37",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'嗯？'=罗伦斯应声(被卡姆请教)。"
+    },
+    {
+      "uid": "6_38",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'缪、缪里她…私奔的传闻是……'=卡姆(结巴/改口'缪里小姐')。"
+    },
+    {
+      "uid": "6_39",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'喔……'+6_39尾'罗伦斯唏嘘一叹'。"
+    },
+    {
+      "uid": "6_42",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'私奔啊…有几成是那样吧'+6_42尾'罗伦斯依然含糊其词'。"
+    },
+    {
+      "uid": "6_44",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'总之，还没有确定就是那样'=罗伦斯(对卡姆表示尊重而明说)。"
+    },
+    {
+      "uid": "6_47",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你也很清楚缪里的个性…三分钟热度'=罗伦斯(6_47尾'与缪里一块长大的卡姆…点头')。"
+    },
+    {
+      "uid": "6_49",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续罗伦斯'不是不可能…突然自己回来吧'。"
+    },
+    {
+      "uid": "6_51",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你自己去找缪里求婚就行了'+6_51尾'卡姆的脸…亮起来'=罗伦斯。"
+    },
+    {
+      "uid": "6_53",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'可是…对方…是寇尔先生吧'=卡姆(失望/敬语'先生')。"
+    },
+    {
+      "uid": "6_56",
+      "speaker": "卡姆",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'唉……'+6_56尾'凭着一股冲劲而来的少年，现在却…意志消沉'=卡姆叹气。"
+    },
+    {
+      "uid": "6_59",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你怎么突然有这种想法'+6_59尾'卡姆反问后，罗伦斯…压低声音问'=罗伦斯。"
+    },
+    {
+      "uid": "6_60",
+      "speaker": "卡姆",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'咦？'+6_60尾'卡姆反问后'。"
+    },
+    {
+      "uid": "6_62",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我以为你比较喜欢舞娘耶'=罗伦斯压低声音问(6_62尾卡姆满脸通红)。"
+    },
+    {
+      "uid": "6_64",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'那个……我……'+6_64尾'卡姆一时语塞'。"
+    },
+    {
+      "uid": "6_66",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'后来，我发现缪里…和她们都不一样'=卡姆续述。"
+    },
+    {
+      "uid": "6_70",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'贵族家里的猫…和山中野狼的差别吧'+6_70尾'罗伦斯无奈地这么说'=罗伦斯。"
+    },
+    {
+      "uid": "6_73",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'不是啦，不是那样……'+6_73尾'卡姆…急忙摇头'。"
+    },
+    {
+      "uid": "6_74",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "units 双模型一致回灌（原 phase2=卡姆）。'嗯……'+6_74尾'卡姆视线垂到手边，说'。"
+    },
+    {
+      "uid": "6_76",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续卡姆'那些舞娘…即使下山，再过一阵子就又见得到了'。"
+    },
+    {
+      "uid": "6_77",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'这样啊'=罗伦斯接话。"
+    },
+    {
+      "uid": "6_78",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'可是一听说缪里离开村子，我就…！'+6_78尾'是一张泫然欲泣…的脸'=卡姆。"
+    },
+    {
+      "uid": "6_80",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你就做什么都不对劲，好像快发疯了'+6_80尾'卡姆…颔首'=罗伦斯替他说出。"
+    },
+    {
+      "uid": "6_81",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'……'+6_81尾'卡姆出不了声，嘴唇颤抖地颔首'=卡姆无言默认。"
+    },
+    {
+      "uid": "6_87",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我明明应该很清楚这种事……'+6_87尾'卡姆…泪水扑簌簌地掉'=卡姆。"
+    },
+    {
+      "uid": "6_89",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'哥哥病死那时候，我就应该学过教训了'=卡姆('哥哥'=卡姆已故的哥哥)。"
+    },
+    {
+      "uid": "6_91",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'有话就要早点说出来…不然很可能就没有下一次了'=卡姆(哭诉)。"
+    },
+    {
+      "uid": "6_94",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "6_94前'罗伦斯又拍拍少年的背说'；'可是，缪里她还活着'=罗伦斯。"
+    },
+    {
+      "uid": "6_95",
+      "speaker": "卡姆",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'唔咕……呜呜'=卡姆抽泣。"
+    },
+    {
+      "uid": "6_96",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我很想把觊觎我女儿的人全部打跑就是了'=罗伦斯(6_96尾卡姆胆怯)。"
+    },
+    {
+      "uid": "6_98",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你可以尽管去追她──但…有点不负责任'+6_98尾'罗伦斯按住正要起身的卡姆'。"
+    },
+    {
+      "uid": "6_100",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'缪里那孩子的态度还不是很明确…很可能突然自个儿跑回来'=罗伦斯(那孩子=缪里)。"
+    },
+    {
+      "uid": "6_102",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你只要在那之前成为一个真正的男人…到时候再正式……'+6_102尾'罗伦斯怎么也说不出这几个字'=罗伦斯。"
+    },
+    {
+      "uid": "6_104",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我会来正式对缪里求婚的！'+6_104前'卡姆抓紧手帕大声说道'。"
+    },
+    {
+      "uid": "6_107",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "6_107前'罗伦斯双肩一松，笑着点点头说'；'我会等你的。…对空气练练拳头'=罗伦斯。"
+    },
+    {
+      "uid": "6_109",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'好了，眼泪擦干，把这杯喝了吧'=罗伦斯。"
+    },
+    {
+      "uid": "6_110",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'好、好的！'=卡姆(结巴顺从)；6_110尾'看着卡姆听话地喝起羊奶'。"
+    },
+    {
+      "uid": "6_113",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'想洗脸…直接去泡个澡也可以。你弟弟他们都不知道你来这吧'=罗伦斯。"
+    },
+    {
+      "uid": "6_114",
+      "speaker": "卡姆",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'那、那就不好意思了'=卡姆(结巴)；6_114尾'卡姆起身离席…走向浴场'。"
+    },
+    {
+      "uid": "6_117",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'干、干什么？'=罗伦斯(被赫萝坐腿上的窘态语塞)。"
+    },
+    {
+      "uid": "6_118",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'嗯～？呵呵呵'+6_118尾'巧笑倩兮的赫萝尾巴膨得袍子都盖不住'。"
+    },
+    {
+      "uid": "6_120",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝这头雄大笨驴可真神气呀'=赫萝(汝/大笨驴)。"
+    },
+    {
+      "uid": "6_122",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'就是因为汝偶尔威严得起来，咱才没法小看汝'=赫萝(汝/咱)。"
+    },
+    {
+      "uid": "6_123",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我就当你是夸奖了'=罗伦斯。"
+    },
+    {
+      "uid": "6_124",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'大笨驴'+6_124尾'赫萝隔着袍子蹭起耳朵撒娇'。"
+    },
+    {
+      "uid": "6_127",
+      "speaker": "罗伦斯",
+      "type": "inner_monologue",
+      "confidence": "med",
+      "basis": "6_126尾'罗伦斯…茫茫然地想：'；'很可能没有下一次啊……'=罗伦斯内心独白(呼应卡姆教训)。"
+    },
+    {
+      "uid": "6_129",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "units 双模型一致回灌（原 phase2=罗伦斯）。'这么年轻就能明白这道理，将来一定是个好雄性'=罗伦斯评卡姆。"
+    },
+    {
+      "uid": "6_130",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "units 双模型一致回灌（原 phase2=赫萝）。'我应该也很明白喔'=赫萝(喔)；6_130尾'赫萝…注视起罗伦斯'。"
+    },
+    {
+      "uid": "6_133",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'是怎样，难道不是吗'=罗伦斯(被赫萝非难眼神扫兴)。"
+    },
+    {
+      "uid": "6_134",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝就是动不动就把以前的自己想得很美好，才会是一只大笨驴'=赫萝(汝/大笨驴)。"
+    },
+    {
+      "uid": "6_135",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'哪、哪有啊'=罗伦斯(语塞辩白)。"
+    },
+    {
+      "uid": "6_136",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝是花了多少时间才敢说汝最最最爱咱呀'=赫萝(汝/咱)。"
+    },
+    {
+      "uid": "6_137",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'……'=罗伦斯被问倒无言(6_137尾'赫萝的轻咬较平时来得痛')。"
+    },
+    {
+      "uid": "6_138",
+      "speaker": "罗伦斯",
+      "type": "inner_monologue",
+      "confidence": "med",
+      "basis": "6_138 '要是痛得不小心说\"你还不是一样\"，搞不好会留下清楚的齿印'——罗伦斯设想要说但忍住的话(被引号括起的内心)。"
+    },
+    {
+      "uid": "6_141",
+      "speaker": "罗伦斯",
+      "type": "inner_monologue",
+      "confidence": "high",
+      "basis": "6_141尾'他不禁如此呢喃'；'说不出心里的话？'=罗伦斯灵感呢喃(由告解联想到庆典点子)。"
+    },
+    {
+      "uid": "6_143",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'嗯、啊？汝、汝说啥'=赫萝(汝)；6_143尾赫萝吃瘪表情。"
+    },
+    {
+      "uid": "6_149",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'所以……'=罗伦斯思绪串接出声(承6_141灵感)。"
+    },
+    {
+      "uid": "6_150",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'大笨驴？大～笨～驴～？'=赫萝(大笨驴；拍他脸颊)。"
+    },
+    {
+      "uid": "6_152",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'在人间和天堂之间架个平台就行了嘛！'+6_152尾'赫萝傻着眼…看他高声大喊'=罗伦斯。"
+    },
+    {
+      "uid": "7_4",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'赫萝。'+7_4尾'罗伦斯呼唤她的名字'=罗伦斯(葬礼尾框架，对扮尸赫萝)。"
+    },
+    {
+      "uid": "7_7",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'天使都快等不及了啦'+7_7尾'棺木中传来死者的呻吟'(死者=赫萝扮尸；天使戏言)。"
+    },
+    {
+      "uid": "7_10",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "7_10前'罗伦斯…窥视里头窃笑的赫萝说'；'认识你到现在，我每天都很幸福'=罗伦斯告白。"
+    },
+    {
+      "uid": "7_11",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'……到现在？'+7_11尾'赫萝微睁一只眼质问道'。"
+    },
+    {
+      "uid": "7_13",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'这毕竟是葬礼嘛'=罗伦斯(解释'到现在'措辞)。"
+    },
+    {
+      "uid": "7_14",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "med",
+      "basis": "'嗯。'=赫萝应声(7_13后单字回应，紧接罗伦斯7_15续说)。"
+    },
+    {
+      "uid": "7_15",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'在这场葬礼中，死者将因温泉的奇迹功效重返人间'+7_15尾'罗伦斯…抹在赫萝额头上'=罗伦斯主持仪式词。"
+    },
+    {
+      "uid": "7_17",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'复活的感觉如何呀'+7_17尾'赫萝睁开双眼…嗤嗤一笑'=罗伦斯问。"
+    },
+    {
+      "uid": "7_19",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'还能继续跟汝在一起，咱好高兴'=赫萝(汝/咱)。"
+    },
+    {
+      "uid": "7_20",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'！'+7_20尾'出乎意料的话使罗伦斯一时语塞'=罗伦斯无言惊讶。"
+    },
+    {
+      "uid": "7_22",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我的荣幸'+7_22尾'说完，罗伦斯伸出手扶赫萝起身'。"
+    },
+    {
+      "uid": "7_24",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你觉得这个仪式怎么样'=罗伦斯问。"
+    },
+    {
+      "uid": "7_25",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'嗯？'=赫萝应声(被问)。"
+    },
+    {
+      "uid": "7_26",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'死了以后…干脆在活着的时候当对方死掉了，把想说的话说出来…在天堂门前走一遭的仪式'=罗伦斯阐释。"
+    },
+    {
+      "uid": "7_27",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱跟汝说'+7_27尾'赫萝注视罗伦斯，表情认真地说'(咱/汝)。"
+    },
+    {
+      "uid": "7_29",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'其实还不错'=赫萝认真评价。"
+    },
+    {
+      "uid": "7_30",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'哈哈，这样啊…我真的觉得值得一试'=罗伦斯。"
+    },
+    {
+      "uid": "7_34",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'蜡烛花费不小…有搞头，真的有搞头'+7_34尾'罗伦斯才发现赫萝直勾勾盯着他'=罗伦斯生意盘算。"
+    },
+    {
+      "uid": "7_37",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱呀，是真的……'+7_37前'赫萝…扯了扯他的衣摆'(咱)。"
+    },
+    {
+      "uid": "7_38",
+      "speaker": "罗伦斯",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'咦？'=罗伦斯应声(被赫萝打断盘算)。"
+    },
+    {
+      "uid": "7_39",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'很高兴自己还活着喔'+7_39尾'赫萝笑着这么说，泪水从眼角滑落'(喔)。"
+    },
+    {
+      "uid": "7_42",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "units 双模型一致回灌（原 phase2=罗伦斯）。'汝的旅行还没结束呗'——句用'汝/呗'似赫萝语癖，但7_42前'吓得罗伦斯急忙替她拭泪'紧邻，且7_45罗伦斯抱赫萝、7_46罗伦斯'那当然'回应'还没结束呗'之问，故此问句更可能为罗伦斯向赫萝确认(借用赫萝口吻打趣)。"
+    },
+    {
+      "uid": "7_45",
+      "speaker": "-",
+      "type": "narration_quote",
+      "confidence": "high",
+      "basis": "'仿佛要…多少留住一点彼此的\"现在\"'——叙述引号强调词，非发言。"
+    },
+    {
+      "uid": "7_46",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "7_45尾'罗伦斯…将她拥入怀中'+7_46后'并说：'；'那当然'=罗伦斯答(回应'旅行还没结束呗')。"
+    },
+    {
+      "uid": "7_48",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "7_46尾'并说：'；'我会继续旅行。再一阵子'=罗伦斯。"
+    }
   ],
   "eval_discrepancies": [
     {
@@ -315,5 +1941,59 @@
     "4_29：叙述'听似…的话'，记 narration_quote/'-'(非确指赫萝成句发言)。",
     "5_36 '先生，有您的客人'：赫萝代汉娜口吻通报，亦可理解为转述汉娜原话。",
     "群戏 3_35/3_43/3_53/3_55/3_57：与会无名老板，集体实体与议长边界靠'议长…'锚点切分，个别句信心 med。"
+  ],
+  "revisions": [
+    {
+      "date": "2026-06-02",
+      "source": "units/gold/旅途余白.json（claude+gpt 双模型说层一致）",
+      "note": "说层回归暴露 phase2 错判，按 units 回灌；1_3 保留(units弃权)、2_154 保留(units共享盲区误标，phase2 罗伦斯正确)",
+      "changed": [
+        {
+          "uid": "3_55",
+          "from": "纽希拉温泉旅馆老板们",
+          "to": "罗伦斯"
+        },
+        {
+          "uid": "3_57",
+          "from": "纽希拉温泉旅馆老板们",
+          "to": "议长"
+        },
+        {
+          "uid": "3_64",
+          "from": "议长",
+          "to": "纽希拉温泉旅馆老板们"
+        },
+        {
+          "uid": "4_29",
+          "from": "-",
+          "to": "赫萝"
+        },
+        {
+          "uid": "5_36",
+          "from": "赫萝",
+          "to": "汉娜"
+        },
+        {
+          "uid": "6_74",
+          "from": "卡姆",
+          "to": "罗伦斯"
+        },
+        {
+          "uid": "6_129",
+          "from": "罗伦斯",
+          "to": "赫萝"
+        },
+        {
+          "uid": "6_130",
+          "from": "赫萝",
+          "to": "罗伦斯"
+        },
+        {
+          "uid": "7_42",
+          "from": "罗伦斯",
+          "to": "赫萝"
+        }
+      ]
+    }
   ]
 }

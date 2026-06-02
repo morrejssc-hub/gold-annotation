@@ -11,11 +11,25 @@ units_assemble.py —— 纯机械组装：从 units/<model>/<篇>.json 按句�
   python3 units_assemble.py units/claude/旅途余白.json --char 赫萝
   python3 units_assemble.py units/claude/旅途余白.json --char 赫萝 --scene 2 --samples 2
 """
-import json, argparse
+import json, os, argparse
+
+HERE = os.path.dirname(os.path.abspath(__file__))
 
 
 def scene_of(uid):
     return uid.split("_")[0]
+
+
+def load_cast_entry(source, char):
+    """返回该 char 的 cast 条目（找不到/无 cast 返回 None）。"""
+    p = os.path.join(HERE, "casts", source + ".json")
+    if not os.path.exists(p):
+        return None
+    cast = json.load(open(p, encoding="utf-8"))
+    for c in cast.get("cast", []):
+        if c["canonical"] == char or char in c.get("aka", []):
+            return c
+    return None
 
 
 def main():
@@ -23,16 +37,39 @@ def main():
     ap.add_argument("units"); ap.add_argument("--char", required=True)
     ap.add_argument("--scene", default=None, help="只看某 scene")
     ap.add_argument("--samples", type=int, default=0, help="渲染 N 个 (上文→回合) 样本")
+    ap.add_argument("--keep-low", action="store_true",
+                    help="保留 conf=low 的「做」（默认 target 侧丢弃，只留高质量回应）")
     args = ap.parse_args()
 
-    U = json.load(open(args.units, encoding="utf-8"))["units"]
+    d = json.load(open(args.units, encoding="utf-8"))
+    U = d["units"]
     char = args.char
-    # 该角色 involved 的句子位置 + role
-    mine = {}  # pos -> roles set
+
+    # playable 门控：present:false 或 playable:false 的角色不组装角色扮演样本
+    entry = load_cast_entry(d.get("source", ""), char)
+    if entry is not None:
+        if entry.get("present") is False:
+            print(f"# ⚠ {char} present=false（本篇未当场登场，无场景内回应）→ 不可组装为角色扮演样本")
+            return
+        if entry.get("playable") is False:
+            note = entry.get("playable_note", "群体/路人/背景，非可扮演角色")
+            print(f"# ⚠ {char} playable=false（{note}）→ 不组装角色扮演样本")
+            return
+
+    # 该角色 involved 的句子位置 + role；target 侧默认丢弃 low-conf 的「做」（边缘/焦点者推断）
+    dropped_low = 0
+    mine = {}  # pos -> roles list
     for i, u in enumerate(U):
-        roles = sorted({x["role"] for x in u["involves"] if x["char"] == char})
+        roles = set()
+        for x in u["involves"]:
+            if x["char"] != char:
+                continue
+            if x["role"] == "做" and x.get("conf") == "low" and not args.keep_low:
+                dropped_low += 1
+                continue
+            roles.add(x["role"])
         if roles:
-            mine[i] = roles
+            mine[i] = sorted(roles)
 
     # 切回合：相邻位置(差1)归一回合
     turns, cur = [], []
@@ -48,9 +85,11 @@ def main():
         turns = [t for t in turns if scene_of(U[t[0]]["uid"]) == str(args.scene)]
 
     n_say = sum(1 for p in mine if "说" in mine[p])
+    low_note = f"；已滤 low-conf 做 {dropped_low} 句" if (dropped_low and not args.keep_low) else (
+        "；--keep-low 保留低 conf 做" if args.keep_low else "")
     print(f"# {char} @ {args.units}")
     print(f"# 出现句 {len(mine)}（含说 {n_say} / 做 {sum(1 for p in mine if '做' in mine[p])}）；回合 {len(turns)}"
-          + (f"（scene {args.scene}）" if args.scene else ""))
+          + (f"（scene {args.scene}）" if args.scene else "") + low_note)
     print()
 
     # 流视图（回合分段）

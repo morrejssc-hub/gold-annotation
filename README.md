@@ -40,7 +40,7 @@ Phase 2  序列标注     每窗 = 角色表(小) + 带 uid 台词 + 滚动状�
 | `.claude/skills/phase2-attribution/` | Phase 2 的 subagent 扇出流程（一个 subagent 一篇，读整章+cast 一次产出）。 |
 | [`UNITS.md`](UNITS.md) | **角色单元层规范**：终点=角色扮演、单元=按句 `说/做` 多标签、双模型交叉验证、机械组装。Phase 2 的泛化与延伸。 |
 | `units/<model>/<篇名>.json` | **Units 产物**：每句 `involves:[{char,role∈说/做,conf}]`（schema=`units/0.2`）。`<model>`=claude/gpt 双跑互证。 |
-| `units_check.py` | Units 自检：覆盖、role/char 域、说≤1/句、有引号≠说审计、说层 vs `phase2/` 回归。 |
+| `units_check.py` | Units 自检：覆盖、role/char 域、说≤1/句、有引号≠说审计、说层 vs `phase2/` 回归（**顺手白捡，非质检支柱**；主柱是人工抽检，详见 [`UNITS.md`](UNITS.md) §5）。 |
 | `units_diff.py` | 两模型 units 的 `(uid,char,role)` 三元组分歧分桶 → 审计清单。 |
 | `units_assemble.py` | 按 uid 序机械抽某角色流/回合、渲染 (场景上文→回合) 角色扮演样本。**无 AI**。 |
 | `units_prompt_<篇>.txt` | Units 抽取提示词（A/B 双模型逐字相同）。 |

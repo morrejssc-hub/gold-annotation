@@ -30,6 +30,7 @@ focalizer 自动从 `focalizers.tsv` 读取并注入；canonical 种子取自 `a
 | `appellations` | **关系/职务称谓**：主人、祭司大人、旅伴、父亲…**视角相对，不进全局表**。 |
 | `descriptors` | 叙述里的描述性/比喻指代：女子、如狼般的女子、那只羊。 |
 | `present` / `present_scope` | 是否登场（可能有台词）/ 出现范围。仅被提及=false。 |
+| `playable`（可选，缺省 true） | 是否可作角色扮演样本对象。群体/路人/背景（…老板们、议长、领路祭司、马、狼群）标 false；配 `playable_note`。Units 层 `units_assemble` 据此（及 `present:false`）跳过。详见 [`UNITS.md`](UNITS.md)。 |
 | `speech` | 语癖/口吻签名（供 Phase 2 判说话人，如赫萝：汝/咱/呐）。 |
 | `evidence.first_mention / first_named` | **倒指代证据**：首次出现 vs 首次点名的句号。 |
 

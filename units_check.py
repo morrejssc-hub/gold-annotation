@@ -11,9 +11,22 @@ units_check.py —— 单份 units 产物自检（结构不变量 + 说层 vs Ph
 
 用法: python3 units_check.py units/claude/旅途余白.json
 """
-import json, sys, os, subprocess, argparse
+import json, sys, os, re, subprocess, argparse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+Q_OPEN = "“"
+# 引出下一句发言的说话标签（…说：/…道：/…问道：），出现在含引号的句子里 = 机械台词键定易错
+SAY_TAG = re.compile(r"[说道喊嚷问答叫嚷骂](?:道)?[：:]\s*$|[说道喊嚷问答叫嚷骂](?:道)?[：:]“")
+
+
+def multiquote_flag(text):
+    """同句多引号/「引号+说道：标签」——共谋盲区高发桶（如 2_154 唔唔唔 + …感慨地说：）。"""
+    nq = text.count(Q_OPEN)
+    if nq >= 2:
+        return "多引号同句"
+    if nq >= 1 and SAY_TAG.search(text):
+        return "引号+说道：标签"
+    return None
 
 
 def render_uids(src_json):
@@ -59,6 +72,14 @@ def main():
     say = {k: v[0] for k, v in say.items() if v}
     noquote_say = sorted(dlg - set(say))
     print(f"  ‣ 机械台词 {len(dlg)} 中未标说（有引号≠说）{len(noquote_say)} 条: {noquote_say}")
+
+    # 抽检预筛（零模型、不依赖 phase2）：同句多引号桶 → 共谋盲区高发，捞给人工抽检（§5.B.3）
+    flagged = [(u["uid"], multiquote_flag(u["text"]),
+               sorted({(x["char"], x["role"]) for x in u["involves"]}))
+              for u in U if multiquote_flag(u["text"])]
+    print(f"  ‣ 抽检预筛·同句多引号 {len(flagged)} 句（待人工抽检；非错，是共谋盲区高发桶）:")
+    for uid, why, inv in flagged:
+        print(f"      ⚑ {uid} [{why}] {inv}")
 
     p2p = os.path.join(HERE, "phase2", src + ".json")
     if os.path.exists(p2p):
