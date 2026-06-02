@@ -4,13 +4,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## 一句话
 
-为《狼与香辛料》语料构建**说话人归属（speaker attribution）的 gold 数据**，给 SFT 产出训练/评测集。任务锚点：给定正文，判断每条台词的说话人。
+为《狼与香辛料》语料构建 **角色扮演（在场景下模仿角色回应）的 SFT gold 数据**。**回应 = 动作 + 台词**。
+说话人归属（speaker attribution）**不是终任务，是切角色数据的底料**——判断每句话归谁，才能组装 (场景上文 → 该角色回应) 成对样本。详见 [`UNITS.md`](UNITS.md)。
 
 ## 先读这些（细节都在里面，别在 CLAUDE.md 复述）
 
 - [`README.md`](README.md) — 当前架构总览 + 文件清单 + 进展/下一步。**入口**。
 - [`DESIGN-PIVOTS.md`](DESIGN-PIVOTS.md) — 为什么转向两次、反复踩的坑。**改架构前必读第 4 节**。
 - [`PHASE1.md`](PHASE1.md) — Phase 1 角色表的规范、schema、验证。范例见 `casts/后日谈.json`。
+- [`UNITS.md`](UNITS.md) — 角色单元层：终点(角色扮演)、units schema(说/做)、双模型交叉验证、机械组装。**当前主线**。
 - [`.claude/skills/cast-sheet/SKILL.md`](.claude/skills/cast-sheet/SKILL.md) — Claude 跑 Phase 1 的 subagent 扇出流程。
 
 ## 三条不能违反的约束（违反即重蹈覆辙，详见 DESIGN-PIVOTS）
@@ -35,5 +37,6 @@ python3 finalize_registry.py --apply          # registry 裁决回写各 cast
 
 - `jsons/<篇名>.json` — 番外 45 篇，每篇一表（坏档 `幕间.json` 跳过）。
 - `maintext/卷NN.json` — 正文 11 卷，focalizer 全卷为罗伦斯，**按卷一张表**。
-- `casts/` Phase 1 产物 → Phase 2 输入；`aliases.json` 全局专名种子；`focalizers.tsv` Phase 0 视角；`eval.tsv`/`sheet.tsv` 人工 gold。
+- `casts/` Phase 1 产物 → Phase 2/Units 输入；`aliases.json` 全局专名种子；`focalizers.tsv` Phase 0 视角；`eval.tsv`/`sheet.tsv` 人工 gold。
+- `phase2/<篇>.json` 归属产物（uid→speaker）；`units/<model>/<篇>.json` 角色单元产物（按句 说/做 多标签，双模型互证）。
 - 结构统一 `doc.scenes[].sents[]`，句号写作 `sceneid_sentid`。
