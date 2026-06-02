@@ -30,16 +30,26 @@ Phase 2  序列标注     每窗 = 角色表(小) + 带 uid 台词 + 滚动状�
 | `normalize_casts.py` | 跨卷音译归一脚本（canonical 取官方名、变体进 aka）。 |
 | `finalize_registry.py` | 把 `registry_review.tsv` 裁决回写各 cast 的 needs_registry，使每份 cast 自足。 |
 | `dialogue.py` | 纯机械抽取：台词 + 确定性 uid + 上下文窗口（独立可跑）。 |
+| `render_chapter.py` | **Phase 2 紧凑视图**：整章渲染成「全文(scene_sent 标号) + 待标 uid 列表」单份文本，替代「Read 整篇 JSON + dialogue.py 带窗口输出」的冗余（输入字节 ~−75%）。uid 逻辑复用 `dialogue.py`。 |
+| `phase2/<篇名>.json` | **Phase 2 产物**：每章 `uid→speaker`（`labels[]`：speaker/type/confidence/basis）。schema=`phase2-labels/0.1`，范例 `phase2/后日谈.json`。 |
+| `phase2_eval.py` | Phase 2 校验：①覆盖与 `dialogue.py` 严格对齐 ②对 `eval.tsv` 已核 gold(checked=y) 算一致率（经 cast 别名归一）③未核机器猜测的复核候选。 |
 | `dialogue_all.tsv` | 全量已抽台词（`python3 dialogue.py --all jsons`）。 |
 | `focalizers.tsv` | Phase 0：每篇视角角色（手填；Phase 1 已校正 10 行，note 标 `[Phase1校正]`）。 |
-| `eval.tsv` | 人工 gold（86 行已核）：验证集 + 本次转向的证据。 |
+| `eval.tsv` | 人工 gold（86 行已核）：验证集 + 本次转向的证据。**注意**：`checked=y` 才是真 gold；`checked` 为空的行是未核机器猜测（gold==guess），不计入一致率。 |
 | `sheet.tsv` | Pivot 0 累积人工 gold（gold_speaker 可复用）。 |
+| `.claude/skills/phase2-attribution/` | Phase 2 的 subagent 扇出流程（一个 subagent 一篇，读整章+cast 一次产出）。 |
 
 ## 进展
 
 - **Phase 1 完成**：`casts/` 覆盖全部 44 章（坏档 `幕间.json` 跳过），JSON 全部合法、已人工核验。详见 [`PHASE1.md`](PHASE1.md) 的「进展」。
 - focalizer 校正 10 篇、跨卷音译归一、needs_registry 58 条全部人工 check。每份 cast 自足（无需外部总账即可进 Phase 2）。
+- **Phase 2 起步**：流程跑通并落地工具链——`phase2-attribution` skill（subagent 扇出）、`render_chapter.py`（紧凑输入）、`phase2_eval.py`（覆盖+一致率校验）。已产出 `phase2/后日谈.json`、`phase2/旅途余白.json`，覆盖均与 `dialogue.py` 完全对齐、已核 gold 100%，并各纠正 1 处 `eval.tsv` 未核猜测（后日谈 5_12、旅途余白 3_23）。
 
 ## 下一步
 
-进入 **Phase 2**：以 `casts/<篇名>.json`（小角色表）+ `dialogue.py` 抽出的带 uid 台词 + 滚动状态 → `uid→speaker`（窗口化、id 键、可续）。建议先在 `eval.tsv` 已核章上验证覆盖率。
+继续 **Phase 2** 批量化：用 `phase2-attribution` skill 对剩余番外/正文卷扇出，跑 `phase2_eval.py` 校验。命令：
+
+```bash
+python3 render_chapter.py jsons/<篇名>.json   # subagent 的紧凑输入
+python3 phase2_eval.py phase2/<篇名>.json      # 覆盖 + 已核 gold 一致率 + 复核候选
+```
