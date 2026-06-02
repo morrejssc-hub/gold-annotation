@@ -1,0 +1,2963 @@
+{
+  "schema_version": "phase2-labels/0.1",
+  "source": "狼与星空下的远吠",
+  "focalizer": "赫萝",
+  "cast_ref": "casts/狼与星空下的远吠.json",
+  "method": "整章塞进 context + cast 小表 + 滚动在场状态(赫萝⇄罗伦斯二人交替)人工/模型阅读归属；无 agent、无逐句循环。本篇场景大量重复:场景1/3/5/7/9 同'黄昏赶路'段,场景2/4/6/8/10 同'夜晚晚饭'段,场景3/5/7/9/11 含同'失眠夜'段;对重复段套用同一映射(见 present_state_notes)。",
+  "present_state_notes": [
+    "全篇在场恒为 赫萝(focalizer,语癖'汝/咱/呐/喔')⇄罗伦斯(本篇正文从不点名,以'旅伴/同伴/男人/对方/他'指代;语癖'我/你');马为背景道具,无台词。",
+    "锚定:赫萝用'汝/咱';罗伦斯用'我/你'+谈金钱;再靠紧邻叙述句'旅伴…说/赫萝…道'确认轮替。少数'你/汝'随译文串味,以显式叙述标签为准(如 11_175 '赫萝…嘲讽道'即赫萝)。",
+    "场景重复:黄昏赶路段=场景1(_9.._70)及场景3/5/7/9(_148.._209);晚饭段=场景2/4/6/8/10;失眠夜段=场景3/5/7/9/11(_27.._134)。同段同映射。",
+    "X_10/X_149 '只要在路上持续两天旅程…'是叙述引用旅伴旧话(narration_quote)→'-',非当下发言。",
+    "唯一推进剧情在场景11(11_139 起):赫萝跳车以贤狼气味退散狼群,狼群(11_155/11_162)以远吠交流;结尾罗伦斯'我可不是狼'与赫萝'咱是贤狼'+反复'汝啊'。",
+    "'……'/'！'按发出者标:赫萝语塞/错愕(3_50/3_67/3_106/3_101/3_122 等)归赫萝,旅伴沉默(3_118)归罗伦斯;startle'！'记 vocalization。"
+  ],
+  "type_legend": {
+    "dialogue": "正常台词(含'……'静默回应,有明确发出者)。",
+    "vocalization": "非成句发声:远吠/嗥叫/惊叹'！'等。",
+    "inner_monologue": "焦点者(赫萝)内心独白被引号括起(本篇无独立引号内独白条目)。",
+    "narration_quote": "叙述引用的旧话/比喻,非当下发言→speaker='-'。"
+  },
+  "labels": [
+    {
+      "uid": "1_9",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "1_8 '听到旁边传来一声叹息'，旅伴=罗伦斯发问。"
+    },
+    {
+      "uid": "1_10",
+      "speaker": "-",
+      "type": "narration_quote",
+      "confidence": "high",
+      "basis": "'旅伴曾说过的：…'——叙述引用旅伴旧话，非当下发言。"
+    },
+    {
+      "uid": "1_13",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "男人数肉干数，嫌弃语气=罗伦斯。"
+    },
+    {
+      "uid": "1_17",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'她摇着尾巴回答道'=赫萝。"
+    },
+    {
+      "uid": "1_18",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'对方回答得很干脆'=罗伦斯。"
+    },
+    {
+      "uid": "1_20",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝拿咱…'=赫萝语癖。"
+    },
+    {
+      "uid": "1_21",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'帮我运货'=罗伦斯。"
+    },
+    {
+      "uid": "1_25",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝的意思是…'=赫萝。"
+    },
+    {
+      "uid": "1_26",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'让你看看马儿怎么工作'；下句'旅伴一边说着'=罗伦斯。"
+    },
+    {
+      "uid": "1_29",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱很认真地告诉汝'=赫萝。"
+    },
+    {
+      "uid": "1_30",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'诶？'=罗伦斯惊问。"
+    },
+    {
+      "uid": "1_31",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'能让汝倾心的咱'=赫萝。"
+    },
+    {
+      "uid": "1_34",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你很介意吗'用'你'；下句'她的旅伴…咬紧嘴唇'=罗伦斯。"
+    },
+    {
+      "uid": "1_41",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'怎么说这里也只有汝和马'=赫萝。"
+    },
+    {
+      "uid": "1_43",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我和马是一样的吗'用'我'=罗伦斯。"
+    },
+    {
+      "uid": "1_44",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'如果汝讨厌它的话'=赫萝。"
+    },
+    {
+      "uid": "1_46",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'至少今晚汝不要惹咱生气'=赫萝。"
+    },
+    {
+      "uid": "1_47",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴有点惊讶地擡起头'=罗伦斯。"
+    },
+    {
+      "uid": "1_51",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "岩石上散步的野兽/狼引发，旅人对狼的担忧；下句'同伴是个旅人,旅人的天敌正是狼'=罗伦斯发问。"
+    },
+    {
+      "uid": "1_55",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱可不是眼里只有肉干的狗'=赫萝。"
+    },
+    {
+      "uid": "1_62",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝每天晚上不是都安稳地睡在狼身边'=赫萝。"
+    },
+    {
+      "uid": "1_63",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你这话什么意思'用'你'=罗伦斯。"
+    },
+    {
+      "uid": "1_64",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'赫萝微笑着反问'=赫萝。"
+    },
+    {
+      "uid": "1_66",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'喂~汝怎么了'=赫萝。"
+    },
+    {
+      "uid": "1_68",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝只要操心晚饭…有趣的猎物'=赫萝。"
+    },
+    {
+      "uid": "1_70",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'好不容易回过头来的旅伴…道'=罗伦斯。"
+    },
+    {
+      "uid": "2_0",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴…忽然傻傻发问'=罗伦斯。"
+    },
+    {
+      "uid": "2_2",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝的信究竟…'=赫萝。"
+    },
+    {
+      "uid": "2_3",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我还没有腻'用'我'=罗伦斯。"
+    },
+    {
+      "uid": "2_4",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续上，罗伦斯谈换肉。"
+    },
+    {
+      "uid": "2_8",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'浪费金钱的必要'=罗伦斯金钱观。"
+    },
+    {
+      "uid": "2_9",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱也不讨厌鱼啊'=赫萝。"
+    },
+    {
+      "uid": "2_10",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'估计你都会觉得好吃'；下句'旅伴…继续吃着'=罗伦斯。"
+    },
+    {
+      "uid": "2_14",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱也想去狩猎'=赫萝。"
+    },
+    {
+      "uid": "2_19",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "问赫萝狩猎方式=罗伦斯。"
+    },
+    {
+      "uid": "2_20",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'整个囫囵吞下去'=赫萝答狩猎。"
+    },
+    {
+      "uid": "2_21",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴无邪地笑着'=罗伦斯。"
+    },
+    {
+      "uid": "2_23",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱才对汝们拼命追求的东西觉得不可思议'=赫萝。"
+    },
+    {
+      "uid": "2_24",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'给我们的生命带来光明'=罗伦斯。"
+    },
+    {
+      "uid": "2_27",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "问赫萝以前狩猎什么=罗伦斯。"
+    },
+    {
+      "uid": "2_28",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝们吃的东西咱大部分都吃过'=赫萝。"
+    },
+    {
+      "uid": "2_29",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'是鹌鹑吗'=罗伦斯。"
+    },
+    {
+      "uid": "2_30",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'对咱来说还不够塞牙缝'=赫萝。"
+    },
+    {
+      "uid": "2_32",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'赫萝…继续说到'=赫萝。"
+    },
+    {
+      "uid": "2_33",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'鹌鹑是我们吃得起的吗'=罗伦斯。"
+    },
+    {
+      "uid": "2_34",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'是吗？'=赫萝回声。"
+    },
+    {
+      "uid": "2_38",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我可以帮你做'；下句'旅伴在面包里夹'=罗伦斯。"
+    },
+    {
+      "uid": "2_43",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'听到赫萝的决心，旅伴的笑容凝固了'=罗伦斯。"
+    },
+    {
+      "uid": "2_45",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'他惊慌地反问'=罗伦斯。"
+    },
+    {
+      "uid": "2_51",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'偶尔也想迟迟上等肉嘛'=赫萝掩饰不安。"
+    },
+    {
+      "uid": "2_55",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'旅伴…露出苦笑说了声'=罗伦斯。"
+    },
+    {
+      "uid": "3_27",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴轻轻地说'=罗伦斯。"
+    },
+    {
+      "uid": "3_31",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'因为汝的呼吸太臭了'；本句'赫萝…道'=赫萝。"
+    },
+    {
+      "uid": "3_37",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'开玩笑的'；下句'赫萝随口说了句'=赫萝。"
+    },
+    {
+      "uid": "3_40",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝没有口臭啦'=赫萝。"
+    },
+    {
+      "uid": "3_44",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴说着,拉了拉被子'=罗伦斯。"
+    },
+    {
+      "uid": "3_50",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "转头后的'……'=赫萝撞见旅伴睁眼凝视的错愕沉默(下句'赫萝连尾巴上的毛都炸开了')。"
+    },
+    {
+      "uid": "3_54",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'听到旅伴悠然的语气'=罗伦斯。"
+    },
+    {
+      "uid": "3_57",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续 54，'是因为我的关系吗'=罗伦斯。"
+    },
+    {
+      "uid": "3_58",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'赫萝立刻回答道'=赫萝。"
+    },
+    {
+      "uid": "3_62",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'她下意识地说道'=赫萝。"
+    },
+    {
+      "uid": "3_65",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'男人闭着眼睛仰躺着'=罗伦斯。"
+    },
+    {
+      "uid": "3_67",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'……'=赫萝未作答的沉默(下文'让她生气的是他不等自己回答')。"
+    },
+    {
+      "uid": "3_68",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续问；下句'旅伴自己一个人笑了起来'=罗伦斯。"
+    },
+    {
+      "uid": "3_74",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴…真诚地道歉'=罗伦斯。"
+    },
+    {
+      "uid": "3_77",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'混账！'；下句'这句话完全出自内心'(赫萝)。"
+    },
+    {
+      "uid": "3_79",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我知道你有话要说…不知分寸'=罗伦斯续道歉。"
+    },
+    {
+      "uid": "3_87",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'呐'；下句'小心翼翼的声音从耳边传来'+'是旅伴之后的那句话'=罗伦斯。"
+    },
+    {
+      "uid": "3_91",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你说要去狩猎,也多少对我有帮助'=罗伦斯。"
+    },
+    {
+      "uid": "3_98",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'赫萝以厌恶的口气道'=赫萝。"
+    },
+    {
+      "uid": "3_100",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'旅伴平静地道'=罗伦斯。"
+    },
+    {
+      "uid": "3_101",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "med",
+      "basis": "'！'=赫萝被那句话击中的反应(下句'在男人脸上…爪子慢了下来')。"
+    },
+    {
+      "uid": "3_106",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'……'=赫萝语塞(下句'她不知道改说什么')。"
+    },
+    {
+      "uid": "3_118",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'……'=旅伴的沉默(下句'旅伴的沉默让赫萝竖起的耳朵等得都痛了')。"
+    },
+    {
+      "uid": "3_122",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "med",
+      "basis": "'！'=赫萝察觉异响的反应(下句'赫萝擡起头')。"
+    },
+    {
+      "uid": "3_126",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'为什么…'；下句'赫萝按住想要开口的旅伴的嘴'=旅伴=罗伦斯。"
+    },
+    {
+      "uid": "3_131",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴轻声问'=罗伦斯。"
+    },
+    {
+      "uid": "3_134",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'看咱的'；下句'赫萝说着'=赫萝。"
+    },
+    {
+      "uid": "3_148",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "1_8 '听到旁边传来一声叹息'，旅伴=罗伦斯发问。"
+    },
+    {
+      "uid": "3_149",
+      "speaker": "-",
+      "type": "narration_quote",
+      "confidence": "high",
+      "basis": "'旅伴曾说过的：…'——叙述引用旅伴旧话，非当下发言。"
+    },
+    {
+      "uid": "3_152",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "男人数肉干数，嫌弃语气=罗伦斯。"
+    },
+    {
+      "uid": "3_156",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'她摇着尾巴回答道'=赫萝。"
+    },
+    {
+      "uid": "3_157",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'对方回答得很干脆'=罗伦斯。"
+    },
+    {
+      "uid": "3_159",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝拿咱…'=赫萝语癖。"
+    },
+    {
+      "uid": "3_160",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'帮我运货'=罗伦斯。"
+    },
+    {
+      "uid": "3_164",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝的意思是…'=赫萝。"
+    },
+    {
+      "uid": "3_165",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'让你看看马儿怎么工作'；下句'旅伴一边说着'=罗伦斯。"
+    },
+    {
+      "uid": "3_168",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱很认真地告诉汝'=赫萝。"
+    },
+    {
+      "uid": "3_169",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'诶？'=罗伦斯惊问。"
+    },
+    {
+      "uid": "3_170",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'能让汝倾心的咱'=赫萝。"
+    },
+    {
+      "uid": "3_173",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你很介意吗'用'你'；下句'她的旅伴…咬紧嘴唇'=罗伦斯。"
+    },
+    {
+      "uid": "3_180",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'怎么说这里也只有汝和马'=赫萝。"
+    },
+    {
+      "uid": "3_182",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我和马是一样的吗'用'我'=罗伦斯。"
+    },
+    {
+      "uid": "3_183",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'如果汝讨厌它的话'=赫萝。"
+    },
+    {
+      "uid": "3_185",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'至少今晚汝不要惹咱生气'=赫萝。"
+    },
+    {
+      "uid": "3_186",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴有点惊讶地擡起头'=罗伦斯。"
+    },
+    {
+      "uid": "3_190",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "岩石上散步的野兽/狼引发，旅人对狼的担忧；下句'同伴是个旅人,旅人的天敌正是狼'=罗伦斯发问。"
+    },
+    {
+      "uid": "3_194",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱可不是眼里只有肉干的狗'=赫萝。"
+    },
+    {
+      "uid": "3_201",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝每天晚上不是都安稳地睡在狼身边'=赫萝。"
+    },
+    {
+      "uid": "3_202",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你这话什么意思'用'你'=罗伦斯。"
+    },
+    {
+      "uid": "3_203",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'赫萝微笑着反问'=赫萝。"
+    },
+    {
+      "uid": "3_205",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'喂~汝怎么了'=赫萝。"
+    },
+    {
+      "uid": "3_207",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝只要操心晚饭…有趣的猎物'=赫萝。"
+    },
+    {
+      "uid": "3_209",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'好不容易回过头来的旅伴…道'=罗伦斯。"
+    },
+    {
+      "uid": "5_27",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴轻轻地说'=罗伦斯。"
+    },
+    {
+      "uid": "5_31",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'因为汝的呼吸太臭了'；本句'赫萝…道'=赫萝。"
+    },
+    {
+      "uid": "5_37",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'开玩笑的'；下句'赫萝随口说了句'=赫萝。"
+    },
+    {
+      "uid": "5_40",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝没有口臭啦'=赫萝。"
+    },
+    {
+      "uid": "5_44",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴说着,拉了拉被子'=罗伦斯。"
+    },
+    {
+      "uid": "5_50",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "转头后的'……'=赫萝撞见旅伴睁眼凝视的错愕沉默(下句'赫萝连尾巴上的毛都炸开了')。"
+    },
+    {
+      "uid": "5_54",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'听到旅伴悠然的语气'=罗伦斯。"
+    },
+    {
+      "uid": "5_57",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续 54，'是因为我的关系吗'=罗伦斯。"
+    },
+    {
+      "uid": "5_58",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'赫萝立刻回答道'=赫萝。"
+    },
+    {
+      "uid": "5_62",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'她下意识地说道'=赫萝。"
+    },
+    {
+      "uid": "5_65",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'男人闭着眼睛仰躺着'=罗伦斯。"
+    },
+    {
+      "uid": "5_67",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'……'=赫萝未作答的沉默(下文'让她生气的是他不等自己回答')。"
+    },
+    {
+      "uid": "5_68",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续问；下句'旅伴自己一个人笑了起来'=罗伦斯。"
+    },
+    {
+      "uid": "5_74",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴…真诚地道歉'=罗伦斯。"
+    },
+    {
+      "uid": "5_77",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'混账！'；下句'这句话完全出自内心'(赫萝)。"
+    },
+    {
+      "uid": "5_79",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我知道你有话要说…不知分寸'=罗伦斯续道歉。"
+    },
+    {
+      "uid": "5_87",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'呐'；下句'小心翼翼的声音从耳边传来'+'是旅伴之后的那句话'=罗伦斯。"
+    },
+    {
+      "uid": "5_91",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你说要去狩猎,也多少对我有帮助'=罗伦斯。"
+    },
+    {
+      "uid": "5_98",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'赫萝以厌恶的口气道'=赫萝。"
+    },
+    {
+      "uid": "5_100",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'旅伴平静地道'=罗伦斯。"
+    },
+    {
+      "uid": "5_101",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "med",
+      "basis": "'！'=赫萝被那句话击中的反应(下句'在男人脸上…爪子慢了下来')。"
+    },
+    {
+      "uid": "5_106",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'……'=赫萝语塞(下句'她不知道改说什么')。"
+    },
+    {
+      "uid": "5_118",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'……'=旅伴的沉默(下句'旅伴的沉默让赫萝竖起的耳朵等得都痛了')。"
+    },
+    {
+      "uid": "5_122",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "med",
+      "basis": "'！'=赫萝察觉异响的反应(下句'赫萝擡起头')。"
+    },
+    {
+      "uid": "5_126",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'为什么…'；下句'赫萝按住想要开口的旅伴的嘴'=旅伴=罗伦斯。"
+    },
+    {
+      "uid": "5_131",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴轻声问'=罗伦斯。"
+    },
+    {
+      "uid": "5_134",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'看咱的'；下句'赫萝说着'=赫萝。"
+    },
+    {
+      "uid": "5_148",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "1_8 '听到旁边传来一声叹息'，旅伴=罗伦斯发问。"
+    },
+    {
+      "uid": "5_149",
+      "speaker": "-",
+      "type": "narration_quote",
+      "confidence": "high",
+      "basis": "'旅伴曾说过的：…'——叙述引用旅伴旧话，非当下发言。"
+    },
+    {
+      "uid": "5_152",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "男人数肉干数，嫌弃语气=罗伦斯。"
+    },
+    {
+      "uid": "5_156",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'她摇着尾巴回答道'=赫萝。"
+    },
+    {
+      "uid": "5_157",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'对方回答得很干脆'=罗伦斯。"
+    },
+    {
+      "uid": "5_159",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝拿咱…'=赫萝语癖。"
+    },
+    {
+      "uid": "5_160",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'帮我运货'=罗伦斯。"
+    },
+    {
+      "uid": "5_164",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝的意思是…'=赫萝。"
+    },
+    {
+      "uid": "5_165",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'让你看看马儿怎么工作'；下句'旅伴一边说着'=罗伦斯。"
+    },
+    {
+      "uid": "5_168",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱很认真地告诉汝'=赫萝。"
+    },
+    {
+      "uid": "5_169",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'诶？'=罗伦斯惊问。"
+    },
+    {
+      "uid": "5_170",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'能让汝倾心的咱'=赫萝。"
+    },
+    {
+      "uid": "5_173",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你很介意吗'用'你'；下句'她的旅伴…咬紧嘴唇'=罗伦斯。"
+    },
+    {
+      "uid": "5_180",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'怎么说这里也只有汝和马'=赫萝。"
+    },
+    {
+      "uid": "5_182",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我和马是一样的吗'用'我'=罗伦斯。"
+    },
+    {
+      "uid": "5_183",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'如果汝讨厌它的话'=赫萝。"
+    },
+    {
+      "uid": "5_185",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'至少今晚汝不要惹咱生气'=赫萝。"
+    },
+    {
+      "uid": "5_186",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴有点惊讶地擡起头'=罗伦斯。"
+    },
+    {
+      "uid": "5_190",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "岩石上散步的野兽/狼引发，旅人对狼的担忧；下句'同伴是个旅人,旅人的天敌正是狼'=罗伦斯发问。"
+    },
+    {
+      "uid": "5_194",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱可不是眼里只有肉干的狗'=赫萝。"
+    },
+    {
+      "uid": "5_201",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝每天晚上不是都安稳地睡在狼身边'=赫萝。"
+    },
+    {
+      "uid": "5_202",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你这话什么意思'用'你'=罗伦斯。"
+    },
+    {
+      "uid": "5_203",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'赫萝微笑着反问'=赫萝。"
+    },
+    {
+      "uid": "5_205",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'喂~汝怎么了'=赫萝。"
+    },
+    {
+      "uid": "5_207",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝只要操心晚饭…有趣的猎物'=赫萝。"
+    },
+    {
+      "uid": "5_209",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'好不容易回过头来的旅伴…道'=罗伦斯。"
+    },
+    {
+      "uid": "7_27",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴轻轻地说'=罗伦斯。"
+    },
+    {
+      "uid": "7_31",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'因为汝的呼吸太臭了'；本句'赫萝…道'=赫萝。"
+    },
+    {
+      "uid": "7_37",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'开玩笑的'；下句'赫萝随口说了句'=赫萝。"
+    },
+    {
+      "uid": "7_40",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝没有口臭啦'=赫萝。"
+    },
+    {
+      "uid": "7_44",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴说着,拉了拉被子'=罗伦斯。"
+    },
+    {
+      "uid": "7_50",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "转头后的'……'=赫萝撞见旅伴睁眼凝视的错愕沉默(下句'赫萝连尾巴上的毛都炸开了')。"
+    },
+    {
+      "uid": "7_54",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'听到旅伴悠然的语气'=罗伦斯。"
+    },
+    {
+      "uid": "7_57",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续 54，'是因为我的关系吗'=罗伦斯。"
+    },
+    {
+      "uid": "7_58",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'赫萝立刻回答道'=赫萝。"
+    },
+    {
+      "uid": "7_62",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'她下意识地说道'=赫萝。"
+    },
+    {
+      "uid": "7_65",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'男人闭着眼睛仰躺着'=罗伦斯。"
+    },
+    {
+      "uid": "7_67",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'……'=赫萝未作答的沉默(下文'让她生气的是他不等自己回答')。"
+    },
+    {
+      "uid": "7_68",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续问；下句'旅伴自己一个人笑了起来'=罗伦斯。"
+    },
+    {
+      "uid": "7_74",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴…真诚地道歉'=罗伦斯。"
+    },
+    {
+      "uid": "7_77",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'混账！'；下句'这句话完全出自内心'(赫萝)。"
+    },
+    {
+      "uid": "7_79",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我知道你有话要说…不知分寸'=罗伦斯续道歉。"
+    },
+    {
+      "uid": "7_87",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'呐'；下句'小心翼翼的声音从耳边传来'+'是旅伴之后的那句话'=罗伦斯。"
+    },
+    {
+      "uid": "7_91",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你说要去狩猎,也多少对我有帮助'=罗伦斯。"
+    },
+    {
+      "uid": "7_98",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'赫萝以厌恶的口气道'=赫萝。"
+    },
+    {
+      "uid": "7_100",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'旅伴平静地道'=罗伦斯。"
+    },
+    {
+      "uid": "7_101",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "med",
+      "basis": "'！'=赫萝被那句话击中的反应(下句'在男人脸上…爪子慢了下来')。"
+    },
+    {
+      "uid": "7_106",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'……'=赫萝语塞(下句'她不知道改说什么')。"
+    },
+    {
+      "uid": "7_118",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'……'=旅伴的沉默(下句'旅伴的沉默让赫萝竖起的耳朵等得都痛了')。"
+    },
+    {
+      "uid": "7_122",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "med",
+      "basis": "'！'=赫萝察觉异响的反应(下句'赫萝擡起头')。"
+    },
+    {
+      "uid": "7_126",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'为什么…'；下句'赫萝按住想要开口的旅伴的嘴'=旅伴=罗伦斯。"
+    },
+    {
+      "uid": "7_131",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴轻声问'=罗伦斯。"
+    },
+    {
+      "uid": "7_134",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'看咱的'；下句'赫萝说着'=赫萝。"
+    },
+    {
+      "uid": "7_148",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "1_8 '听到旁边传来一声叹息'，旅伴=罗伦斯发问。"
+    },
+    {
+      "uid": "7_149",
+      "speaker": "-",
+      "type": "narration_quote",
+      "confidence": "high",
+      "basis": "'旅伴曾说过的：…'——叙述引用旅伴旧话，非当下发言。"
+    },
+    {
+      "uid": "7_152",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "男人数肉干数，嫌弃语气=罗伦斯。"
+    },
+    {
+      "uid": "7_156",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'她摇着尾巴回答道'=赫萝。"
+    },
+    {
+      "uid": "7_157",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'对方回答得很干脆'=罗伦斯。"
+    },
+    {
+      "uid": "7_159",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝拿咱…'=赫萝语癖。"
+    },
+    {
+      "uid": "7_160",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'帮我运货'=罗伦斯。"
+    },
+    {
+      "uid": "7_164",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝的意思是…'=赫萝。"
+    },
+    {
+      "uid": "7_165",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'让你看看马儿怎么工作'；下句'旅伴一边说着'=罗伦斯。"
+    },
+    {
+      "uid": "7_168",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱很认真地告诉汝'=赫萝。"
+    },
+    {
+      "uid": "7_169",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'诶？'=罗伦斯惊问。"
+    },
+    {
+      "uid": "7_170",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'能让汝倾心的咱'=赫萝。"
+    },
+    {
+      "uid": "7_173",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你很介意吗'用'你'；下句'她的旅伴…咬紧嘴唇'=罗伦斯。"
+    },
+    {
+      "uid": "7_180",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'怎么说这里也只有汝和马'=赫萝。"
+    },
+    {
+      "uid": "7_182",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我和马是一样的吗'用'我'=罗伦斯。"
+    },
+    {
+      "uid": "7_183",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'如果汝讨厌它的话'=赫萝。"
+    },
+    {
+      "uid": "7_185",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'至少今晚汝不要惹咱生气'=赫萝。"
+    },
+    {
+      "uid": "7_186",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴有点惊讶地擡起头'=罗伦斯。"
+    },
+    {
+      "uid": "7_190",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "岩石上散步的野兽/狼引发，旅人对狼的担忧；下句'同伴是个旅人,旅人的天敌正是狼'=罗伦斯发问。"
+    },
+    {
+      "uid": "7_194",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱可不是眼里只有肉干的狗'=赫萝。"
+    },
+    {
+      "uid": "7_201",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝每天晚上不是都安稳地睡在狼身边'=赫萝。"
+    },
+    {
+      "uid": "7_202",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你这话什么意思'用'你'=罗伦斯。"
+    },
+    {
+      "uid": "7_203",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'赫萝微笑着反问'=赫萝。"
+    },
+    {
+      "uid": "7_205",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'喂~汝怎么了'=赫萝。"
+    },
+    {
+      "uid": "7_207",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝只要操心晚饭…有趣的猎物'=赫萝。"
+    },
+    {
+      "uid": "7_209",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'好不容易回过头来的旅伴…道'=罗伦斯。"
+    },
+    {
+      "uid": "9_27",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴轻轻地说'=罗伦斯。"
+    },
+    {
+      "uid": "9_31",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'因为汝的呼吸太臭了'；本句'赫萝…道'=赫萝。"
+    },
+    {
+      "uid": "9_37",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'开玩笑的'；下句'赫萝随口说了句'=赫萝。"
+    },
+    {
+      "uid": "9_40",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝没有口臭啦'=赫萝。"
+    },
+    {
+      "uid": "9_44",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴说着,拉了拉被子'=罗伦斯。"
+    },
+    {
+      "uid": "9_50",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "转头后的'……'=赫萝撞见旅伴睁眼凝视的错愕沉默(下句'赫萝连尾巴上的毛都炸开了')。"
+    },
+    {
+      "uid": "9_54",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'听到旅伴悠然的语气'=罗伦斯。"
+    },
+    {
+      "uid": "9_57",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续 54，'是因为我的关系吗'=罗伦斯。"
+    },
+    {
+      "uid": "9_58",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'赫萝立刻回答道'=赫萝。"
+    },
+    {
+      "uid": "9_62",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'她下意识地说道'=赫萝。"
+    },
+    {
+      "uid": "9_65",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'男人闭着眼睛仰躺着'=罗伦斯。"
+    },
+    {
+      "uid": "9_67",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'……'=赫萝未作答的沉默(下文'让她生气的是他不等自己回答')。"
+    },
+    {
+      "uid": "9_68",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续问；下句'旅伴自己一个人笑了起来'=罗伦斯。"
+    },
+    {
+      "uid": "9_74",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴…真诚地道歉'=罗伦斯。"
+    },
+    {
+      "uid": "9_77",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'混账！'；下句'这句话完全出自内心'(赫萝)。"
+    },
+    {
+      "uid": "9_79",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我知道你有话要说…不知分寸'=罗伦斯续道歉。"
+    },
+    {
+      "uid": "9_87",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'呐'；下句'小心翼翼的声音从耳边传来'+'是旅伴之后的那句话'=罗伦斯。"
+    },
+    {
+      "uid": "9_91",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你说要去狩猎,也多少对我有帮助'=罗伦斯。"
+    },
+    {
+      "uid": "9_98",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'赫萝以厌恶的口气道'=赫萝。"
+    },
+    {
+      "uid": "9_100",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'旅伴平静地道'=罗伦斯。"
+    },
+    {
+      "uid": "9_101",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "med",
+      "basis": "'！'=赫萝被那句话击中的反应(下句'在男人脸上…爪子慢了下来')。"
+    },
+    {
+      "uid": "9_106",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'……'=赫萝语塞(下句'她不知道改说什么')。"
+    },
+    {
+      "uid": "9_118",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'……'=旅伴的沉默(下句'旅伴的沉默让赫萝竖起的耳朵等得都痛了')。"
+    },
+    {
+      "uid": "9_122",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "med",
+      "basis": "'！'=赫萝察觉异响的反应(下句'赫萝擡起头')。"
+    },
+    {
+      "uid": "9_126",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'为什么…'；下句'赫萝按住想要开口的旅伴的嘴'=旅伴=罗伦斯。"
+    },
+    {
+      "uid": "9_131",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴轻声问'=罗伦斯。"
+    },
+    {
+      "uid": "9_134",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'看咱的'；下句'赫萝说着'=赫萝。"
+    },
+    {
+      "uid": "9_148",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "1_8 '听到旁边传来一声叹息'，旅伴=罗伦斯发问。"
+    },
+    {
+      "uid": "9_149",
+      "speaker": "-",
+      "type": "narration_quote",
+      "confidence": "high",
+      "basis": "'旅伴曾说过的：…'——叙述引用旅伴旧话，非当下发言。"
+    },
+    {
+      "uid": "9_152",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "男人数肉干数，嫌弃语气=罗伦斯。"
+    },
+    {
+      "uid": "9_156",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'她摇着尾巴回答道'=赫萝。"
+    },
+    {
+      "uid": "9_157",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'对方回答得很干脆'=罗伦斯。"
+    },
+    {
+      "uid": "9_159",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝拿咱…'=赫萝语癖。"
+    },
+    {
+      "uid": "9_160",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'帮我运货'=罗伦斯。"
+    },
+    {
+      "uid": "9_164",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝的意思是…'=赫萝。"
+    },
+    {
+      "uid": "9_165",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'让你看看马儿怎么工作'；下句'旅伴一边说着'=罗伦斯。"
+    },
+    {
+      "uid": "9_168",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱很认真地告诉汝'=赫萝。"
+    },
+    {
+      "uid": "9_169",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'诶？'=罗伦斯惊问。"
+    },
+    {
+      "uid": "9_170",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'能让汝倾心的咱'=赫萝。"
+    },
+    {
+      "uid": "9_173",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你很介意吗'用'你'；下句'她的旅伴…咬紧嘴唇'=罗伦斯。"
+    },
+    {
+      "uid": "9_180",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'怎么说这里也只有汝和马'=赫萝。"
+    },
+    {
+      "uid": "9_182",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我和马是一样的吗'用'我'=罗伦斯。"
+    },
+    {
+      "uid": "9_183",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'如果汝讨厌它的话'=赫萝。"
+    },
+    {
+      "uid": "9_185",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'至少今晚汝不要惹咱生气'=赫萝。"
+    },
+    {
+      "uid": "9_186",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴有点惊讶地擡起头'=罗伦斯。"
+    },
+    {
+      "uid": "9_190",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "岩石上散步的野兽/狼引发，旅人对狼的担忧；下句'同伴是个旅人,旅人的天敌正是狼'=罗伦斯发问。"
+    },
+    {
+      "uid": "9_194",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱可不是眼里只有肉干的狗'=赫萝。"
+    },
+    {
+      "uid": "9_201",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝每天晚上不是都安稳地睡在狼身边'=赫萝。"
+    },
+    {
+      "uid": "9_202",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你这话什么意思'用'你'=罗伦斯。"
+    },
+    {
+      "uid": "9_203",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'赫萝微笑着反问'=赫萝。"
+    },
+    {
+      "uid": "9_205",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'喂~汝怎么了'=赫萝。"
+    },
+    {
+      "uid": "9_207",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝只要操心晚饭…有趣的猎物'=赫萝。"
+    },
+    {
+      "uid": "9_209",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'好不容易回过头来的旅伴…道'=罗伦斯。"
+    },
+    {
+      "uid": "4_0",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴…忽然傻傻发问'=罗伦斯。"
+    },
+    {
+      "uid": "4_2",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝的信究竟…'=赫萝。"
+    },
+    {
+      "uid": "4_3",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我还没有腻'用'我'=罗伦斯。"
+    },
+    {
+      "uid": "4_4",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续上，罗伦斯谈换肉。"
+    },
+    {
+      "uid": "4_8",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'浪费金钱的必要'=罗伦斯金钱观。"
+    },
+    {
+      "uid": "4_9",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱也不讨厌鱼啊'=赫萝。"
+    },
+    {
+      "uid": "4_10",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'估计你都会觉得好吃'；下句'旅伴…继续吃着'=罗伦斯。"
+    },
+    {
+      "uid": "4_14",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱也想去狩猎'=赫萝。"
+    },
+    {
+      "uid": "4_19",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "问赫萝狩猎方式=罗伦斯。"
+    },
+    {
+      "uid": "4_20",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'整个囫囵吞下去'=赫萝答狩猎。"
+    },
+    {
+      "uid": "4_21",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴无邪地笑着'=罗伦斯。"
+    },
+    {
+      "uid": "4_23",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱才对汝们拼命追求的东西觉得不可思议'=赫萝。"
+    },
+    {
+      "uid": "4_24",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'给我们的生命带来光明'=罗伦斯。"
+    },
+    {
+      "uid": "4_27",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "问赫萝以前狩猎什么=罗伦斯。"
+    },
+    {
+      "uid": "4_28",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝们吃的东西咱大部分都吃过'=赫萝。"
+    },
+    {
+      "uid": "4_29",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'是鹌鹑吗'=罗伦斯。"
+    },
+    {
+      "uid": "4_30",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'对咱来说还不够塞牙缝'=赫萝。"
+    },
+    {
+      "uid": "4_32",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'赫萝…继续说到'=赫萝。"
+    },
+    {
+      "uid": "4_33",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'鹌鹑是我们吃得起的吗'=罗伦斯。"
+    },
+    {
+      "uid": "4_34",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'是吗？'=赫萝回声。"
+    },
+    {
+      "uid": "4_38",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我可以帮你做'；下句'旅伴在面包里夹'=罗伦斯。"
+    },
+    {
+      "uid": "4_43",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'听到赫萝的决心，旅伴的笑容凝固了'=罗伦斯。"
+    },
+    {
+      "uid": "4_45",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'他惊慌地反问'=罗伦斯。"
+    },
+    {
+      "uid": "4_51",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'偶尔也想迟迟上等肉嘛'=赫萝掩饰不安。"
+    },
+    {
+      "uid": "4_55",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'旅伴…露出苦笑说了声'=罗伦斯。"
+    },
+    {
+      "uid": "6_0",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴…忽然傻傻发问'=罗伦斯。"
+    },
+    {
+      "uid": "6_2",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝的信究竟…'=赫萝。"
+    },
+    {
+      "uid": "6_3",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我还没有腻'用'我'=罗伦斯。"
+    },
+    {
+      "uid": "6_4",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续上，罗伦斯谈换肉。"
+    },
+    {
+      "uid": "6_8",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'浪费金钱的必要'=罗伦斯金钱观。"
+    },
+    {
+      "uid": "6_9",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱也不讨厌鱼啊'=赫萝。"
+    },
+    {
+      "uid": "6_10",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'估计你都会觉得好吃'；下句'旅伴…继续吃着'=罗伦斯。"
+    },
+    {
+      "uid": "6_14",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱也想去狩猎'=赫萝。"
+    },
+    {
+      "uid": "6_19",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "问赫萝狩猎方式=罗伦斯。"
+    },
+    {
+      "uid": "6_20",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'整个囫囵吞下去'=赫萝答狩猎。"
+    },
+    {
+      "uid": "6_21",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴无邪地笑着'=罗伦斯。"
+    },
+    {
+      "uid": "6_23",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱才对汝们拼命追求的东西觉得不可思议'=赫萝。"
+    },
+    {
+      "uid": "6_24",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'给我们的生命带来光明'=罗伦斯。"
+    },
+    {
+      "uid": "6_27",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "问赫萝以前狩猎什么=罗伦斯。"
+    },
+    {
+      "uid": "6_28",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝们吃的东西咱大部分都吃过'=赫萝。"
+    },
+    {
+      "uid": "6_29",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'是鹌鹑吗'=罗伦斯。"
+    },
+    {
+      "uid": "6_30",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'对咱来说还不够塞牙缝'=赫萝。"
+    },
+    {
+      "uid": "6_32",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'赫萝…继续说到'=赫萝。"
+    },
+    {
+      "uid": "6_33",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'鹌鹑是我们吃得起的吗'=罗伦斯。"
+    },
+    {
+      "uid": "6_34",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'是吗？'=赫萝回声。"
+    },
+    {
+      "uid": "6_38",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我可以帮你做'；下句'旅伴在面包里夹'=罗伦斯。"
+    },
+    {
+      "uid": "6_43",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'听到赫萝的决心，旅伴的笑容凝固了'=罗伦斯。"
+    },
+    {
+      "uid": "6_45",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'他惊慌地反问'=罗伦斯。"
+    },
+    {
+      "uid": "6_51",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'偶尔也想迟迟上等肉嘛'=赫萝掩饰不安。"
+    },
+    {
+      "uid": "6_55",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'旅伴…露出苦笑说了声'=罗伦斯。"
+    },
+    {
+      "uid": "8_0",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴…忽然傻傻发问'=罗伦斯。"
+    },
+    {
+      "uid": "8_2",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝的信究竟…'=赫萝。"
+    },
+    {
+      "uid": "8_3",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我还没有腻'用'我'=罗伦斯。"
+    },
+    {
+      "uid": "8_4",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续上，罗伦斯谈换肉。"
+    },
+    {
+      "uid": "8_8",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'浪费金钱的必要'=罗伦斯金钱观。"
+    },
+    {
+      "uid": "8_9",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱也不讨厌鱼啊'=赫萝。"
+    },
+    {
+      "uid": "8_10",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'估计你都会觉得好吃'；下句'旅伴…继续吃着'=罗伦斯。"
+    },
+    {
+      "uid": "8_14",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱也想去狩猎'=赫萝。"
+    },
+    {
+      "uid": "8_19",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "问赫萝狩猎方式=罗伦斯。"
+    },
+    {
+      "uid": "8_20",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'整个囫囵吞下去'=赫萝答狩猎。"
+    },
+    {
+      "uid": "8_21",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴无邪地笑着'=罗伦斯。"
+    },
+    {
+      "uid": "8_23",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱才对汝们拼命追求的东西觉得不可思议'=赫萝。"
+    },
+    {
+      "uid": "8_24",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'给我们的生命带来光明'=罗伦斯。"
+    },
+    {
+      "uid": "8_27",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "问赫萝以前狩猎什么=罗伦斯。"
+    },
+    {
+      "uid": "8_28",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝们吃的东西咱大部分都吃过'=赫萝。"
+    },
+    {
+      "uid": "8_29",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'是鹌鹑吗'=罗伦斯。"
+    },
+    {
+      "uid": "8_30",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'对咱来说还不够塞牙缝'=赫萝。"
+    },
+    {
+      "uid": "8_32",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'赫萝…继续说到'=赫萝。"
+    },
+    {
+      "uid": "8_33",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'鹌鹑是我们吃得起的吗'=罗伦斯。"
+    },
+    {
+      "uid": "8_34",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'是吗？'=赫萝回声。"
+    },
+    {
+      "uid": "8_38",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我可以帮你做'；下句'旅伴在面包里夹'=罗伦斯。"
+    },
+    {
+      "uid": "8_43",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'听到赫萝的决心，旅伴的笑容凝固了'=罗伦斯。"
+    },
+    {
+      "uid": "8_45",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'他惊慌地反问'=罗伦斯。"
+    },
+    {
+      "uid": "8_51",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'偶尔也想迟迟上等肉嘛'=赫萝掩饰不安。"
+    },
+    {
+      "uid": "8_55",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'旅伴…露出苦笑说了声'=罗伦斯。"
+    },
+    {
+      "uid": "10_0",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴…忽然傻傻发问'=罗伦斯。"
+    },
+    {
+      "uid": "10_2",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝的信究竟…'=赫萝。"
+    },
+    {
+      "uid": "10_3",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我还没有腻'用'我'=罗伦斯。"
+    },
+    {
+      "uid": "10_4",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续上，罗伦斯谈换肉。"
+    },
+    {
+      "uid": "10_8",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'浪费金钱的必要'=罗伦斯金钱观。"
+    },
+    {
+      "uid": "10_9",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱也不讨厌鱼啊'=赫萝。"
+    },
+    {
+      "uid": "10_10",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'估计你都会觉得好吃'；下句'旅伴…继续吃着'=罗伦斯。"
+    },
+    {
+      "uid": "10_14",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱也想去狩猎'=赫萝。"
+    },
+    {
+      "uid": "10_19",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "问赫萝狩猎方式=罗伦斯。"
+    },
+    {
+      "uid": "10_20",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'整个囫囵吞下去'=赫萝答狩猎。"
+    },
+    {
+      "uid": "10_21",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴无邪地笑着'=罗伦斯。"
+    },
+    {
+      "uid": "10_23",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱才对汝们拼命追求的东西觉得不可思议'=赫萝。"
+    },
+    {
+      "uid": "10_24",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'给我们的生命带来光明'=罗伦斯。"
+    },
+    {
+      "uid": "10_27",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "问赫萝以前狩猎什么=罗伦斯。"
+    },
+    {
+      "uid": "10_28",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝们吃的东西咱大部分都吃过'=赫萝。"
+    },
+    {
+      "uid": "10_29",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'是鹌鹑吗'=罗伦斯。"
+    },
+    {
+      "uid": "10_30",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'对咱来说还不够塞牙缝'=赫萝。"
+    },
+    {
+      "uid": "10_32",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'赫萝…继续说到'=赫萝。"
+    },
+    {
+      "uid": "10_33",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'鹌鹑是我们吃得起的吗'=罗伦斯。"
+    },
+    {
+      "uid": "10_34",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'是吗？'=赫萝回声。"
+    },
+    {
+      "uid": "10_38",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我可以帮你做'；下句'旅伴在面包里夹'=罗伦斯。"
+    },
+    {
+      "uid": "10_43",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'听到赫萝的决心，旅伴的笑容凝固了'=罗伦斯。"
+    },
+    {
+      "uid": "10_45",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'他惊慌地反问'=罗伦斯。"
+    },
+    {
+      "uid": "10_51",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'偶尔也想迟迟上等肉嘛'=赫萝掩饰不安。"
+    },
+    {
+      "uid": "10_55",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'旅伴…露出苦笑说了声'=罗伦斯。"
+    },
+    {
+      "uid": "11_27",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴轻轻地说'=罗伦斯。"
+    },
+    {
+      "uid": "11_31",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'因为汝的呼吸太臭了'；本句'赫萝…道'=赫萝。"
+    },
+    {
+      "uid": "11_37",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'开玩笑的'；下句'赫萝随口说了句'=赫萝。"
+    },
+    {
+      "uid": "11_40",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝没有口臭啦'=赫萝。"
+    },
+    {
+      "uid": "11_44",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴说着,拉了拉被子'=罗伦斯。"
+    },
+    {
+      "uid": "11_50",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "转头后的'……'=赫萝撞见旅伴睁眼凝视的错愕沉默(下句'赫萝连尾巴上的毛都炸开了')。"
+    },
+    {
+      "uid": "11_54",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'听到旅伴悠然的语气'=罗伦斯。"
+    },
+    {
+      "uid": "11_57",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续 54，'是因为我的关系吗'=罗伦斯。"
+    },
+    {
+      "uid": "11_58",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'赫萝立刻回答道'=赫萝。"
+    },
+    {
+      "uid": "11_62",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'她下意识地说道'=赫萝。"
+    },
+    {
+      "uid": "11_65",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'男人闭着眼睛仰躺着'=罗伦斯。"
+    },
+    {
+      "uid": "11_67",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'……'=赫萝未作答的沉默(下文'让她生气的是他不等自己回答')。"
+    },
+    {
+      "uid": "11_68",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "续问；下句'旅伴自己一个人笑了起来'=罗伦斯。"
+    },
+    {
+      "uid": "11_74",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴…真诚地道歉'=罗伦斯。"
+    },
+    {
+      "uid": "11_77",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'混账！'；下句'这句话完全出自内心'(赫萝)。"
+    },
+    {
+      "uid": "11_79",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'我知道你有话要说…不知分寸'=罗伦斯续道歉。"
+    },
+    {
+      "uid": "11_87",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'呐'；下句'小心翼翼的声音从耳边传来'+'是旅伴之后的那句话'=罗伦斯。"
+    },
+    {
+      "uid": "11_91",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'你说要去狩猎,也多少对我有帮助'=罗伦斯。"
+    },
+    {
+      "uid": "11_98",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'赫萝以厌恶的口气道'=赫萝。"
+    },
+    {
+      "uid": "11_100",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "前句'旅伴平静地道'=罗伦斯。"
+    },
+    {
+      "uid": "11_101",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "med",
+      "basis": "'！'=赫萝被那句话击中的反应(下句'在男人脸上…爪子慢了下来')。"
+    },
+    {
+      "uid": "11_106",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'……'=赫萝语塞(下句'她不知道改说什么')。"
+    },
+    {
+      "uid": "11_118",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'……'=旅伴的沉默(下句'旅伴的沉默让赫萝竖起的耳朵等得都痛了')。"
+    },
+    {
+      "uid": "11_122",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "med",
+      "basis": "'！'=赫萝察觉异响的反应(下句'赫萝擡起头')。"
+    },
+    {
+      "uid": "11_126",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'为什么…'；下句'赫萝按住想要开口的旅伴的嘴'=旅伴=罗伦斯。"
+    },
+    {
+      "uid": "11_131",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴轻声问'=罗伦斯。"
+    },
+    {
+      "uid": "11_134",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'看咱的'；下句'赫萝说着'=赫萝。"
+    },
+    {
+      "uid": "11_140",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'隐蔽在赫萝脚边的旅伴…说'=罗伦斯。"
+    },
+    {
+      "uid": "11_146",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱可是唯一的贤狼赫萝'=赫萝自报名号。"
+    },
+    {
+      "uid": "11_155",
+      "speaker": "赫萝",
+      "type": "vocalization",
+      "confidence": "med",
+      "basis": "'呜哦哦哦哦！'=赫萝以远吠报上名字(11_156 '在报上自己的名字后')。非成句发声。"
+    },
+    {
+      "uid": "11_162a",
+      "speaker": "狼群",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'嗷呜'=狼群远吠(11_162 '含有各种特殊意义的远吠…解除包围')。"
+    },
+    {
+      "uid": "11_162b",
+      "speaker": "狼群",
+      "type": "vocalization",
+      "confidence": "high",
+      "basis": "'嗷嗷嗷'=狼群远吠。"
+    },
+    {
+      "uid": "11_166",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "med",
+      "basis": "'汝'=赫萝语癖；赫萝转身见旅伴罕见严肃神色而问(11_167-168 描写旅伴严肃表情)。"
+    },
+    {
+      "uid": "11_169",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'随后,他说'=罗伦斯。"
+    },
+    {
+      "uid": "11_172",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'狼群会比较热闹吧'=赫萝(11_171 赫萝被看穿的反应)。"
+    },
+    {
+      "uid": "11_173",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'这倒是'=罗伦斯接话。"
+    },
+    {
+      "uid": "11_175",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'赫萝有点害羞地故意嘲讽道'=赫萝。"
+    },
+    {
+      "uid": "11_178",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'旅伴一本正经地道'=罗伦斯。"
+    },
+    {
+      "uid": "11_181",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'赫萝…拿起毛毯'=赫萝。"
+    },
+    {
+      "uid": "11_183",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱是贤狼';下句'她看也不看旅伴一眼'=赫萝。"
+    },
+    {
+      "uid": "11_188",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'男人的声音通过背直接传到她心里'=罗伦斯。"
+    },
+    {
+      "uid": "11_191",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'如果你完全化为狼…我会宽容'=罗伦斯。"
+    },
+    {
+      "uid": "11_192",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'咱能想象汝那时候的表情啦'=赫萝。"
+    },
+    {
+      "uid": "11_194",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'只要你还是以人的模样…哪怕你偶尔像狼'=罗伦斯。"
+    },
+    {
+      "uid": "11_204",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝啊'=赫萝反复呼唤旅伴。"
+    },
+    {
+      "uid": "11_205",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'嗯？';下句'男人想回头'=罗伦斯。"
+    },
+    {
+      "uid": "11_207",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝啊'=赫萝。"
+    },
+    {
+      "uid": "11_208",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'……什么？'=罗伦斯应答。"
+    },
+    {
+      "uid": "11_209",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝啊'=赫萝。"
+    },
+    {
+      "uid": "11_213",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝啊';下句'赫萝满含期待再次开口'=赫萝。"
+    },
+    {
+      "uid": "11_216",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "下句'这次回答的声音…带着笑意'=罗伦斯。"
+    },
+    {
+      "uid": "11_220",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'……汝啊'=赫萝。"
+    },
+    {
+      "uid": "11_221",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'怎么了？'=罗伦斯应答。"
+    },
+    {
+      "uid": "11_222",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝啊'=赫萝。"
+    },
+    {
+      "uid": "11_223",
+      "speaker": "罗伦斯",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'是是'=罗伦斯应答。"
+    },
+    {
+      "uid": "11_235",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝啊'=赫萝(11_236 '广阔星空下的呢喃')。"
+    },
+    {
+      "uid": "11_241",
+      "speaker": "赫萝",
+      "type": "dialogue",
+      "confidence": "high",
+      "basis": "'汝啊'=赫萝结尾呼唤。"
+    }
+  ]
+}
