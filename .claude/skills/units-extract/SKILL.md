@@ -27,8 +27,16 @@ description: 为《狼与香辛料》语料抽取角色单元层(按句 说/做 
 
 2. **A 臂(claude)扇出**：每篇起一个 `general-purpose` subagent，用下方【SUBAGENT 提示词模板】，`{OUTDIR}`=`units/claude`、`{MODEL}`=`opus-4.8`。一次最多并行 ~6 个（同消息多 Agent 调用），其余分批。
 
-3. **B 臂(第二模型)**：**同一份 prompt** 用 codex/GPT-5.5 跑一遍，写 `units/gpt/<篇>.json`、`{MODEL}`=`gpt-5.5`。
-   - 经 API 后端跑（`OPENAI_API_KEY` / `DASHSCOPE_API_KEY`）。无第二模型时**只出 A 臂 + 结构自检**，并明确告知"缺互证、未出 gold"。
+3. **B 臂(第二模型)**：**同一份 prompt** 用 codex 跑一遍，写 `units/gpt/<篇>.json`、`{MODEL}`=`gpt-5.5`。
+   - **codex CLI**（`/root/.local/bin/codex`，ChatGPT 登录态、openai 默认模型，与 Opus 不同家族）。把 SUBAGENT 模板填好(`{OUTDIR}`=`units/gpt`)写入临时文件，非交互跑：
+     ```bash
+     export PATH="$HOME/.local/bin:$PATH"
+     timeout 900 codex exec --sandbox workspace-write --skip-git-repo-check \
+       -C /root/gold-annotation - < /tmp/units_b_<篇>.txt
+     ```
+     `--sandbox workspace-write` 让它能跑 `render_chapter.py` 并写 `units/gpt/`。它是 agent，会自己读 cast/render、自检、落盘；单篇约 6–13 万 tokens、数分钟。多篇可后台并行。
+   - 备选 API 后端（`OPENAI_API_KEY` / `DASHSCOPE_API_KEY`，OpenAI 兼容）。无第二模型时**只出 A 臂 + 结构自检**，并明确告知"缺互证、未出 gold"。
+   > 实测(将晓之色)：codex 79/79 覆盖、`units_check` OK、与 A 臂三元组一致 87%、**说话人分歧 0**、9 句涉及角色分歧入 audit。codex 还自发把「有引号≠说」判对(1_38 归做)，与 A 臂分歧恰好落在规范欠定处——双家族互证如期生效。
 
 4. **校验 + 互证 + 固化**（产物回来后，在 gold-annotation 下跑）：
    ```bash
