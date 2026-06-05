@@ -62,9 +62,10 @@ render_chapter ──┘     (Opus 4.8 + codex/GPT-5.5，同一份 prompt)
 | 工具 | 作用 |
 |---|---|
 | `render_chapter.py` | 整章紧凑视图（全文 scene_sent + 待标 uid），抽取的输入。**scene 头内联 `[在场]`**（机械 alias 匹配 canonical+aka 的 present:true 角色 + focalizer；称谓/泛指排除，约束#2）——逐节闭集提示，仍单请求整章、不滚动。 |
-| `units_prompt_<篇>.txt` | 抽取任务提示词（A/B 逐字相同，仅换产物目录/model）。 |
+| 抽取提示词 | A/B 双模型逐字相同，**提示源 = `render_chapter.py` 输出 + `.claude/skills/units-extract/SKILL.md`**（A 臂 subagent 用 skill，B 臂 codex 喂同一份）。不再维护逐篇 `units_prompt_*.txt`（已 gitignore）。 |
 | `units_check.py` | 单份产物自检：覆盖、role 域、说≤1/句、char∈cast；**抽检预筛·同句多引号桶**（零模型、不依赖 phase2，捞共谋盲区高发句给人工抽检）；说层 vs `phase2/<篇>.json` 回归（顺手白捡，非支柱）。 |
 | `units_diff.py` | 两模型产物比对，分歧分桶（说话人/说存在性/涉及角色/说做角色），出审计 TSV（人工填 `audit` 列后即 `_v2`）。 |
+| `units_sample.py` | **抽检单生成器**（零模型）：从两臂一致句采难桶（多引号/群戏/互换/焦点低），等距采样、报丢弃。**质检主柱**；人工 verdict → `fix_<篇>.tsv`。 |
 | `units_merge.py` | 双模型 → 一份 **gold**：一致取共识（conf 取低档），分歧按 `audit_<篇>_v2.tsv` 裁决（A/B/点名角色），**共谋盲区按 `fix_<篇>.tsv` 覆盖**（uid→修正 involves；audit 管分歧、fix 管共错），产 `units/gold/<篇>.json`。**无 AI**。 |
 | `units_assemble.py` | `--char` 抽某角色流、切回合、`--samples` 渲染 (上文→回合) 样本。**target 侧默认丢 conf=low 的「做」**（`--keep-low` 关）；`playable:false`/`present:false` 角色不组装。**无 AI**。 |
 

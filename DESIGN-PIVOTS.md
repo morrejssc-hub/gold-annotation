@@ -5,12 +5,12 @@
 
 ---
 
-## 1. 任务的真问题（唯一不变的锚点）
+## 1. 任务的真问题（锚点，2026-06 归位）
 
-> **给定小说正文，判断每条台词的说话人（speaker attribution / 归属）。**
-> 终点是为 SFT 产出可靠的训练 + 评测数据（本目录 = gold 构建）。
+> **为《狼与香辛料》语料构建「在场景下模仿角色回应（角色扮演）」的 SFT gold。回应 = 动作 + 台词。**
+> 说话人**归属（speaker attribution）是底料，不是终任务**——判断每句归谁，才能机械组装 (场景上文 → 该角色回应) 成对样本。
 
-这一句从头到尾没变过。变的全是**怎么把它框成一个可解、可标、可评的形状**——而两次转向都栽在"框错形状"上。
+**注意这条锚点本身被修过一次**：Pivot 0/1/2 都把终点框成"判说话人"，到 2026-06 才**目标归位**——归属只是切角色数据的中间产物，真正要的是角色扮演样本（见下表「目标归位」行）。"怎么把它框成可解可标可评的形状"是反复栽跟头的地方；连"它"是什么都修正过一次。
 
 ---
 
@@ -20,9 +20,10 @@
 |---|---|---|---|
 | **Pivot 0** 富标注 | 多标签：对话/动作 × 难度桶/心理-自指/心理-推测/物理 + focalizer + target(addressee) + FID 消解 + 置信度校准 | `prepare/pool/sample/merge/health/score`、`sheet.tsv`、`example.tsv` | 砍 → Pivot 1 |
 | **Pivot 1** 单次归属 | "重定"：只做 **(±3句上下文 + 指定台词) → 说话人**，单条 i.i.d.；机械抽取，启发式 baseline | `dialogue.py`、`build_eval.py`、`eval.tsv` | 砍 → Pivot 2 |
-| **Pivot 2** 章节级序列标注（当前） | **两阶段**：①每章先解析角色表（人主导，AI 辅助）②带角色表+滚动状态的**窗口化序列标注**；**无 agent** | （建设中）；`dialogue.py`/`focalizers.tsv`/`aliases.json`/`eval.tsv` 复用为土台 | 当前方向 |
+| **Pivot 2** 章节级序列标注 | **两阶段**：①每章先解析角色表（人主导，AI 辅助）②带角色表+滚动状态的篇章级**序列标注**；**无 agent** | `casts/`、`phase2/`、`render_chapter.py`、`phase2_eval.py` | 落地为底料 |
+| **目标归位** 角色扮演（当前） | 归属是**底料**不是终点；终点=按句 `说/做` 多标签 units → 双模型交叉验证 + 人工 audit/抽检 → 机械组装 (场景上文→该角色回应) 样本 | `units/`、`UNITS.md`、`units_*.py`、`units-extract` skill | 当前方向 |
 
-旧两阶段的代码全部在 `archive/`（见 `archive/README.md`）。
+旧归属两阶段之前（Pivot 0/1）的代码全部在 `archive/`（见 `archive/README.md`）。
 
 ---
 
@@ -113,11 +114,13 @@ Phase 2  序列标注        每窗输入 = 角色表(小,可命中cache) + 本�
 |---|---|
 | `aliases.json` | 全局**专名**别名表（只放专名/绰号，**不放代词、不放关系称谓**）。Phase 1 角色表的种子。 |
 | `dialogue.py` | 纯机械抽取：每条台词 + 确定性 uid + 上下文窗口。标注阶段的土台（独立、无外部依赖）。 |
-| `dialogue_all.tsv` | 全量已抽台词（`dialogue.py --all` 产物）。 |
 | `focalizers.tsv` | Phase 0 产物：每篇视角角色（手填）。 |
 | `eval.tsv` | 人工 gold（86 行已核）。既是验证集，也是本次转向的**证据**。 |
 | `sheet.tsv` | Pivot 0 累积的人工 gold（gold_speaker 可复用）。 |
+| `casts/`·`phase2/`·`units/` | Phase 1 角色表 / Phase 2 归属底料 / Units 角色单元产物（含 `units/gold/`）。**完整清单见 [`README.md`](README.md)、[`UNITS.md`](UNITS.md)**。 |
 | `archive/` | Pivot 0/1 的全部代码与中间物，见 `archive/README.md`。 |
+
+> 可再生派生物已 gitignore：`dialogue_all.tsv`（`dialogue.py --all`）、`units_prompt_*.txt`（脚手架逐篇提示词，提示源已收敛到 `render_chapter.py` + `units-extract` skill）。
 
 ---
 

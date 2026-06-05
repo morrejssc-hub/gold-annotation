@@ -16,3 +16,8 @@ venv/
 .DS_Store
 Thumbs.db
 *.swp
+
+# 可再生派生物（dialogue.py --all 产物，~7MB，需要时本地重跑）
+dialogue_all.tsv
+# 脚手架散落的逐篇提示词（提示源已收敛到 render_chapter.py + units-extract skill）
+units_prompt_*.txt

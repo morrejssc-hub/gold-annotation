@@ -1,64 +1,79 @@
-# 归属 gold 构建（当前方向：章节级序列标注）
+# 角色扮演 gold 构建（《狼与香辛料》语料）
 
-任务：**给定小说正文，判断每条台词的说话人**，为 SFT 产出可靠的训练/评测数据。
+**终点：在场景下模仿角色回应（角色扮演）的 SFT gold 数据。回应 = 动作 + 台词。**
+说话人归属（speaker attribution）**不是终任务，是切角色数据的底料**——判断每句话归谁，才能机械组装 (场景上文 → 该角色回应) 成对样本。详见 [`UNITS.md`](UNITS.md)。
 
-> 这套方案**已转向两次**。动手改之前，请先读 [`DESIGN-PIVOTS.md`](DESIGN-PIVOTS.md)——
-> 尤其是「第 4 节·反复踩的坑」，避免重蹈覆辙。旧两阶段的代码全在 [`archive/`](archive/)。
+> 这套方案**转向过两次 + 一次目标归位**。动手改架构前，先读 [`DESIGN-PIVOTS.md`](DESIGN-PIVOTS.md)——
+> 尤其「第 4 节·反复踩的坑」。旧归属两阶段之前的代码全在 [`archive/`](archive/)。
 
-## 当前架构（Pivot 2，两阶段·无 agent）
+## 当前架构（自下而上：素材 → 底料 → 角色单元 → 样本）
 
 ```
-Phase 0  视角判定     focalizers.tsv（已有，手填 POV）
-Phase 1  角色表解析   整章 → AI 列候选角色表 + 标判不准项 → 人定夺（辅助工具，非 agent）
-                      产物：每章 (focalizer) → {专名/别名/关系称谓 → canonical, 一行语癖签名}；含倒指代回填
-Phase 2  序列标注     每窗 = 角色表(小) + 带 uid 台词 + 滚动状态 → uid→speaker（窗口化、id 键、可续）
+Phase 0  视角判定     focalizers.tsv（手填 POV）
+Phase 1  角色表       整章 → AI 列候选角色表 + 标判不准项 → 人定夺（非 agent）
+                      产物 casts/<篇>.json：每章 {专名/别名/关系称谓 → canonical, 语癖签名}；含倒指代回填
+Phase 2  归属(底料)   整章 → uid→speaker（id 键、保留显式 abstain）
+Units    角色单元     整章 → 每句 involves:[{char, role∈说/做, conf}]；双模型(Opus×codex)交叉验证
+                      → 人工 audit(分歧)/抽检(共谋盲区) → units_merge → gold
+组装     机械抽取     units_assemble.py：按 uid 序抽某角色的回合，渲染 (场景上文→回合) 样本（无 AI）
 ```
 
-要点（详见 DESIGN-PIVOTS）：归属是**带状态的篇章级问题**，不是单条 i.i.d. 分类；
-关系称谓（主人/旅伴/父亲）按章按 focalizer 解析、不进全局别名表；
-整章能塞进 context，**不用 agent**；输出用 uid 键、窗口化以绕开"大进大出"。
+三条不能违反的约束（详见 DESIGN-PIVOTS / CLAUDE.md）：①归属是**带状态的篇章级序列标注**，不是单条 i.i.d. 分类；②关系称谓（主人/旅伴/父亲）**视角相对，只进各章 cast 的 appellations，绝不进全局 `aliases.json`**；③**不用 agent、不逐句循环**——整章塞进 context，输出用 uid 键、保留显式 abstain（`-`）。
 
-## 文件（保留 = 土台 + gold + 数据）
+## 文件（土台 + gold + 数据）
 
 | 文件 | 角色 |
 |---|---|
-| `jsons/<篇名>.json` | **番外素材**（45 篇短篇，`scenes[].sents[]`）。Phase 1/dialogue 的输入；坏档 `幕间.json` 跳过。 |
-| `maintext/卷NN.json` | **正文素材**（11 卷，由 `sw-sft/main_text.json` 按卷切分；章→scenes 扁平、scene id 全局重编、原章标题存于 `scenes[].chapter`）。共 87 章 46,534 句，uid 全卷唯一。focalizer 全卷为罗伦斯，故按卷一张角色表。`python3 dialogue.py --all maintext` 抽全量。 |
-| `aliases.json` | 全局**专名**别名表（不放代词/关系称谓）。Phase 1 角色表的种子。已含跨卷音译变体归一与 `_note_艾普`。 |
-| `casts/<篇名>.json` | **Phase 1 产物**：每章一张角色表（44/44 已生成、人工核验）。Phase 2 输入。 |
-| `registry_review.tsv` | needs_registry 人工裁决总账（58 条，verdict=drop/keep_local/resolve）。已回写进各 cast，仅作审计留存。 |
-| `normalize_casts.py` | 跨卷音译归一脚本（canonical 取官方名、变体进 aka）。 |
-| `finalize_registry.py` | 把 `registry_review.tsv` 裁决回写各 cast 的 needs_registry，使每份 cast 自足。 |
-| `dialogue.py` | 纯机械抽取：台词 + 确定性 uid + 上下文窗口（独立可跑）。 |
-| `render_chapter.py` | **Phase 2 / Units 紧凑视图**：整章渲染成「全文(scene_sent 标号) + 待标 uid 列表」单份文本，替代「Read 整篇 JSON + dialogue.py 带窗口输出」的冗余（输入字节 ~−75%）。uid 逻辑复用 `dialogue.py`。 |
-| `phase2/<篇名>.json` | **Phase 2 产物**：每章 `uid→speaker`（`labels[]`：speaker/type/confidence/basis）。schema=`phase2-labels/0.1`，范例 `phase2/后日谈.json`。 |
-| `phase2_eval.py` | Phase 2 校验：①覆盖与 `dialogue.py` 严格对齐 ②对 `eval.tsv` 已核 gold(checked=y) 算一致率（经 cast 别名归一）③未核机器猜测的复核候选。 |
-| `dialogue_all.tsv` | 全量已抽台词（`python3 dialogue.py --all jsons`）。 |
-| `focalizers.tsv` | Phase 0：每篇视角角色（手填；Phase 1 已校正 10 行，note 标 `[Phase1校正]`）。 |
-| `eval.tsv` | 人工 gold（86 行已核）：验证集 + 本次转向的证据。**注意**：`checked=y` 才是真 gold；`checked` 为空的行是未核机器猜测（gold==guess），不计入一致率。 |
-| `sheet.tsv` | Pivot 0 累积人工 gold（gold_speaker 可复用）。 |
-| `.claude/skills/phase2-attribution/` | Phase 2 的 subagent 扇出流程（一个 subagent 一篇，读整章+cast 一次产出）。 |
-| [`UNITS.md`](UNITS.md) | **角色单元层规范**：终点=角色扮演、单元=按句 `说/做` 多标签、双模型交叉验证、机械组装。Phase 2 的泛化与延伸。 |
+| `jsons/<篇名>.json` | **番外素材**（45 篇短篇，`scenes[].sents[]`）。坏档 `幕间.json` 跳过。 |
+| `maintext/卷NN.json` | **正文素材**（11 卷，共 87 章 46,534 句，uid 全卷唯一）。focalizer 全卷为罗伦斯，**按卷一张角色表**。 |
+| `aliases.json` | 全局**专名**别名表（不放代词/关系称谓）。Phase 1 角色表的种子。 |
+| `casts/<篇名>.json` | **Phase 1 产物**：每章一张角色表（44/44 已生成、人工核验）。下游输入。 |
+| `registry_review.tsv` | needs_registry 人工裁决总账（58 条），已回写各 cast，仅作审计留存。 |
+| `phase2/<篇名>.json` | **Phase 2 产物**：每章 `uid→speaker`（schema=`phase2-labels/0.1`）。units 说层回归基线。 |
 | `units/<model>/<篇名>.json` | **Units 产物**：每句 `involves:[{char,role∈说/做,conf}]`（schema=`units/0.2`）。`<model>`=claude/gpt 双跑互证。 |
-| `units_check.py` | Units 自检：覆盖、role/char 域、说≤1/句、有引号≠说审计、说层 vs `phase2/` 回归（**顺手白捡，非质检支柱**；主柱是人工抽检，详见 [`UNITS.md`](UNITS.md) §5）。 |
-| `units_diff.py` | 两模型 units 的 `(uid,char,role)` 三元组分歧分桶 → 审计清单。 |
-| `units_assemble.py` | 按 uid 序机械抽某角色流/回合、渲染 (场景上文→回合) 角色扮演样本。**无 AI**。 |
-| `units_prompt_<篇>.txt` | Units 抽取提示词（A/B 双模型逐字相同）。 |
+| `units/audit_<篇>_v2.tsv` | 双模型**分歧**人工裁决（含 audit 列 A/B/角色名）。 |
+| `units/fix_<篇>.tsv` | 抽检发现的**共谋盲区**人工修正通道。 |
+| `units/gold/<篇名>.json` | **合并 gold**（一致取共识 + audit 裁决 + fix 覆盖）。 |
+| `focalizers.tsv` | Phase 0：每篇视角角色（手填；Phase 1 已校正 10 行）。 |
+| `eval.tsv` | 人工 gold（86 行）：`checked=y` 才是真 gold，空 checked 是未核机器猜测。 |
+| `sheet.tsv` | Pivot 0 累积人工 gold（gold_speaker 可复用）。 |
 
-## 进展
+工具脚本：
 
-- **Phase 1 完成**：`casts/` 覆盖全部 44 章（坏档 `幕间.json` 跳过），JSON 全部合法、已人工核验。详见 [`PHASE1.md`](PHASE1.md) 的「进展」。
-- focalizer 校正 10 篇、跨卷音译归一、needs_registry 58 条全部人工 check。每份 cast 自足（无需外部总账即可进 Phase 2）。
-- **Phase 2 起步**：流程跑通并落地工具链——`phase2-attribution` skill（subagent 扇出）、`render_chapter.py`（紧凑输入）、`phase2_eval.py`（覆盖+一致率校验）。已产出 `phase2/后日谈.json`、`phase2/旅途余白.json`，覆盖均与 `dialogue.py` 完全对齐、已核 gold 100%，并各纠正 1 处 `eval.tsv` 未核猜测（后日谈 5_12、旅途余白 3_23）。
-- **目标归位 + Units 层试点**（详见 [`UNITS.md`](UNITS.md)）：终点确认为**角色扮演**（归属是切数据的底料）；落地按句 `说/做` 多标签 units、双模型（Opus×codex/GPT-5.5）交叉验证。**旅途余白** 试点全链跑通：收紧 schema 后两模型一致率 **76%→96%**，并用 `units_assemble.py` 机械组出赫萝/罗伦斯角色流。
+| 脚本 | 作用 |
+|---|---|
+| `dialogue.py` | 纯机械抽台词 + 确定性 uid + 上下文窗口。`--all jsons\|maintext` 全量。 |
+| `phase1_cast.py` | Phase 1：整章 → 角色表提示词/API 调用（`--backend dump\|claude\|bailian\|codex`）。 |
+| `normalize_casts.py` / `finalize_registry.py` | 跨卷音译归一 / registry 裁决回写各 cast。 |
+| `render_chapter.py` | **Phase 2/Units 紧凑输入**：整章渲染成「全文(scene_sent 标号, 含 `[在场]`) + 待标 uid」单份文本。 |
+| `phase2_eval.py` | Phase 2 校验：覆盖对齐 + 已核 gold 一致率 + 复核候选。 |
+| `units_check.py` | Units 自检：覆盖、role/char 域、说≤1/句、有引号≠说审计、说层 vs `phase2/` 回归（顺手白捡，非主柱）。 |
+| `units_diff.py` | 两模型 units `(uid,char,role)` 三元组分歧分桶 → `audit_<篇>.tsv`。 |
+| `units_sample.py` | **抽检单生成器**（零模型，从两臂一致句采难桶 多引号/群戏/互换/焦点低）。质检主柱。 |
+| `units_merge.py` | 机械合并双模型 → gold：一致取共识(conf 取低档) + audit 裁决 + fix 覆盖。 |
+| `units_assemble.py` | 按 uid 序抽某角色回合、渲染角色扮演样本（target 侧默认滤 conf=low 做）。**无 AI**。 |
 
-## 下一步
+skills（`.claude/skills/`）：`cast-sheet`(Phase 1 扇出)、`phase2-attribution`(Phase 2 扇出)、`units-extract`(Units 抽取，A 臂 subagent + B 臂 codex 同享此 prompt)。
 
-进入 **Units 层**（[`UNITS.md`](UNITS.md) 第 9 节）：人工固化旅途余白 units gold → 定稿角色扮演 jsonl 格式 → 沉淀 `units-extract` skill → 铺开番外/正文卷。命令：
+## 进展（baseline）
+
+- **Phase 1 完成**：`casts/` 覆盖全部 44 章，JSON 合法、人工核验；focalizer 校正 10 篇、跨卷音译归一、needs_registry 58 条全核。每份 cast 自足。
+- **Phase 2 落地**：流程跑通 + 工具链（skill / `render_chapter.py` / `phase2_eval.py`）；已产 `phase2/` 三篇，覆盖与 `dialogue.py` 对齐、已核 gold 100%。
+- **Units 层脚手架基本可用**：终点归位为角色扮演；按句 `说/做` 多标签 + 双模型（Opus×codex/GPT-5.5）交叉验证 + 抽检主柱。判据固化两条新规（**现场性闸**：辖域判据非词表；**心理活动走显式施事测试**：需显式心理动词+本人施事，裸命题→`[]`）。
+  - **merged gold 两篇**：旅途余白、后日谈（后日谈 448 句，校验 OK，说层 vs Phase2 98%）。
+  - 将晓之色、麦穗：已有双臂产物 + audit/sample，待人审 → merge。
+
+## 下一步：扇出（fan-out）
+
+脚手架到基线，铺开番外 45 篇 + 正文 11 卷。单篇全链命令：
 
 ```bash
-python3 render_chapter.py jsons/<篇名>.json                 # 抽取输入（双模型同享）
-python3 units_check.py units/<model>/<篇名>.json            # 单份自检 + 说层回归
-python3 units_diff.py units/claude/<篇>.json units/gpt/<篇>.json   # 跨模型分歧 → 审计
-python3 units_assemble.py units/claude/<篇>.json --char 赫萝 --samples 2  # 机械组装
+python3 render_chapter.py jsons/<篇名>.json                       # 抽取输入（双模型同享；含 [在场]）
+# A 臂 Claude subagent（units-extract skill）+ B 臂 codex 同 prompt 各产一份
+python3 units_check.py units/claude/<篇>.json                     # 单份自检 + 说层回归
+python3 units_diff.py units/claude/<篇>.json units/gpt/<篇>.json  # 分歧 → audit_<篇>.tsv
+python3 units_sample.py <篇>                                       # 抽检单（人审主柱）
+#   人工填 audit_<篇>_v2.tsv（A/B/角色名）+ fix_<篇>.tsv（共谋盲区）
+python3 units_merge.py <篇>                                        # → units/gold/<篇>.json
+python3 units_assemble.py units/gold/<篇>.json --char 赫萝 --samples 2  # 机械组装样本
 ```
