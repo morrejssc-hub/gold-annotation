@@ -1,29 +1,37 @@
 #!/usr/bin/env python3
 """
-units_api.py —— 方案 B：单轮调用 Anthropic 兼容 API（含 anyrouter 中转）逐篇抽 units。
+units_api.py —— 单轮调用 API 逐篇抽 units（不走 agent），支持自动分段 + 并发。
 
-不走 agent：把 SUBAGENT 规则 + cast + render 全文塞进单条 message，直接吐整章 units JSON。
+把 SUBAGENT 规则 + cast + render 全文塞进单条 message，直接吐整章 units JSON。
 契合 CLAUDE.md 铁律「不用 agent、整章塞 context、输出 uid 键 JSON」。
-每篇打印 input/output token 用量，便于核 anyrouter 额度成本。
 
-接入（anyrouter 或任意 Anthropic 兼容中转）：
-  export ANTHROPIC_BASE_URL=https://anyrouter.top   # 中转根地址（脚本自动补 /v1/messages）
-  export ANTHROPIC_AUTH_TOKEN=sk-xxx                # 或 ANTHROPIC_API_KEY
-  python3 units_api.py 狼与星空下的远吠 狼与森林色彩      # 指定篇
-  python3 units_api.py --remaining --limit 2            # 有 cast 但 units/claude 缺产物的，跑前 2 篇
-  python3 units_api.py --remaining --dry               # 只列待跑篇 + 句数估算，不调 API
+分段（治大章单次输出撞 max_tokens）：章句数 > --chunk-sents 时，按 uid 顺序切成多段；
+  **每段都把【全文】完整给做上下文（保证归属），只要求模型输出本段的 uid**，最后拼回整章。
+并发：--workers N 同时跑 N 篇（线程池，IO 密集有效）。
 
-默认不覆盖已存在产物（--force 覆盖）。输出落 units/claude/<篇>.json。
+两个后端：
+  --backend openai     OpenAI 兼容（百炼 DashScope / OpenAI）。key: DASHSCOPE_API_KEY / OPENAI_API_KEY
+  --backend anthropic  Anthropic /v1/messages。key: ANTHROPIC_AUTH_TOKEN / ANTHROPIC_API_KEY
+
+实测：qwen3.7-max + --no-thinking 说话人与 opus 仅差 1 句、206s/小章；deepseek-v4-pro 说话人差 12 句已淘汰。
+
+用法：
+  export DASHSCOPE_API_KEY=sk-xxx
+  python3 units_api.py 黑狼的摇篮 --model qwen3.7-max --no-thinking --outdir units/qwen
+  python3 units_api.py --remaining --scope fanwai --workers 5 --model qwen3.7-max --no-thinking --outdir units/qwen
+  python3 units_api.py --remaining --scope fanwai --dry
 """
-import os, sys, re, json, glob, time, argparse, urllib.request, urllib.error
+import os, sys, re, json, glob, time, argparse, threading, urllib.request, urllib.error
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
-sys.stdout.reconfigure(encoding="utf-8")  # 防 Windows GBK 控制台炸中文
+sys.stdout.reconfigure(encoding="utf-8")
 HERE = os.path.dirname(os.path.abspath(__file__))
-OUTDIR = os.path.join(HERE, "units", "claude")
-MODEL_DEFAULT = "claude-opus-4-8"
+MODEL_DEFAULT = "qwen3.7-max"
+DASHSCOPE_BASE = "https://dashscope.aliyuncs.com/compatible-mode/v1"
+_print_lock = threading.Lock()
 
 RULES = """== 抽取规则(按句、多标签、可重复) ==
-- 给【全章每一句】产出一条 unit：{uid, text(逐字原文), involves:[{char, role, conf}]}。
+- 给【要求提取的每一句】产出一条 unit：{uid, text(逐字原文), involves:[{char, role, conf}]}。
 - role 只有两种：
     说 = 引号内的成句口头台词(说话人)。
     做 = 该角色一切非台词表现：动作 / 神态 / 体态 / 显式内心思绪(明确以角色为主语的思考)
@@ -42,17 +50,26 @@ RULES = """== 抽取规则(按句、多标签、可重复) ==
     - 混合句(现场动作+非现场议论同句) → "做"只挂现场动作那部分，非现场议论不另标。
     - "现场"相对所述场景：闪回被渲染成独立 scene 时，其内部动作照标现场"做"。
 - 一句涉及多角色 → involves 列多个(整句重复进各角色，不切分句)。
-- char = cast 的 canonical(视角相对称谓归一到所指实体；按场景消解)。群戏无名 → cast 集体实体或 "-"。
+- char = cast 的 canonical(视角相对称谓归一到所指实体；按场景消解；严格用 cast 里的 canonical 串，群戏无名 → "-")。
 - 台词句必恰一个 role=说。但"有引号 ≠ 一定是说"：招牌名/书名/比喻/被引述词/标题等非口头发言的引号，
   按写景或"做"处理，不强标说；无引号的自由间接引语若确为口说，可标说。
   ★同句多引号警觉：一句里既有引号又带"…说/道："标签(引出下句台词)时，本句的引号内容(常是发声/拟声)
    与下句台词分属不同人，别把下句说话人错挂到本句。
 - conf ∈ {high, med, low}，锚弱标 low 或弃标。
 - 护栏：单元只记 who + 说/做 + 原文。绝不写动作类型/动机/对谁/因果/情绪标签。
-- cast 里 playable:false / present:false 的群体/路人/未登场者仍要照常标(它们也在场说做)，只是下游不为其组装样本。"""
+- cast 里 playable:false / present:false 的群体/路人/未登场者仍要照常标(它们也在场说做)，只是下游不为其组装样本。
+- text 字段务必逐字照搬 render [全文] 原文(含全角引号 “ ” 「 」 等标点)，不可改写成半角，否则破坏 JSON。"""
 
 
-def build_prompt(source, cast_json, render_txt, focalizer):
+def build_prompt(source, cast_json, render_txt, focalizer, only_uids=None):
+    if only_uids:
+        scope_note = (f"\n\n⚠⚠ 分段提取：本章较长，分多次提取。你**必须通读上面【全文】**做归属判断，"
+                      f"但【本次只输出】下列 {len(only_uids)} 个 uid 的 units，严格按此顺序、一个不漏、不在列表中的 uid 一律不要输出：\n"
+                      + " ".join(only_uids))
+        cover = f"覆盖【本段上列 {len(only_uids)} 个 uid】，顺序与列表一致(纯写景句 involves:[])"
+    else:
+        scope_note = ""
+        cover = "覆盖【全章每一句】，uid 顺序与 render [全文] 一致(纯写景句 involves:[])"
     return f"""你是《狼与香辛料》系列的"角色单元"抽取器。本语料用于"在场景下模仿角色回应"的 SFT，
 要把每句话归到"哪个角色 说了 / 做了 什么"。这是 gold 数据，宁可弃标(abstain)也不要硬猜。
 
@@ -65,7 +82,7 @@ def build_prompt(source, cast_json, render_txt, focalizer):
 读完整章再下结论(倒指代/晚点名要读到后文回填)。
 {render_txt}
 
-{RULES}
+{RULES}{scope_note}
 
 == 输出 ==
 只输出纯 JSON、UTF-8，不要任何解释、不要 markdown 代码围栏。结构：
@@ -76,31 +93,84 @@ def build_prompt(source, cast_json, render_txt, focalizer):
     {{"uid":"2_44","text":"逐字原文…","involves":[{{"char":"罗伦斯","role":"做","conf":"high"}}]}}
   ]
 }}
-- units 覆盖【全章每一句】，uid 顺序与 render [全文] 一致(纯写景句 involves:[])。
+- units {cover}。
 - 每句 role=说 至多 1 个；role 仅 {{说,做}}；char ∈ cast.canonical ∪ "-"。"""
 
 
-def call(prompt, model, base_url, key, max_tokens):
-    endpoint = base_url.rstrip("/")
-    if not endpoint.endswith("/messages"):
-        endpoint += "/v1/messages"
-    body = json.dumps({"model": model, "max_tokens": max_tokens, "temperature": 0,
-                       "messages": [{"role": "user", "content": prompt}]}).encode()
-    req = urllib.request.Request(endpoint, data=body, headers={
-        "x-api-key": key, "authorization": f"Bearer {key}",
-        "anthropic-version": "2023-06-01", "content-type": "application/json",
-        "anthropic-beta": "context-1m-2025-08-07"})
-    with urllib.request.urlopen(req, timeout=600) as r:
+def _post(endpoint, body, headers, timeout=900):
+    req = urllib.request.Request(endpoint, data=json.dumps(body).encode(), headers=headers)
+    with urllib.request.urlopen(req, timeout=timeout) as r:
         return json.load(r)
+
+
+def call(prompt, model, backend, base_url, key, max_tokens, no_thinking=False):
+    """返回 (text, input_tokens, output_tokens, stop_reason)。"""
+    if backend == "anthropic":
+        ep = base_url.rstrip("/")
+        if not ep.endswith("/messages"):
+            ep += "/v1/messages"
+        resp = _post(ep, {"model": model, "max_tokens": max_tokens, "temperature": 0,
+                          "messages": [{"role": "user", "content": prompt}]},
+                     {"x-api-key": key, "authorization": f"Bearer {key}",
+                      "anthropic-version": "2023-06-01", "content-type": "application/json",
+                      "anthropic-beta": "context-1m-2025-08-07"})
+        text = "".join(b.get("text", "") for b in resp.get("content", []) if b.get("type") == "text")
+        u = resp.get("usage", {})
+        return text, u.get("input_tokens", 0), u.get("output_tokens", 0), resp.get("stop_reason")
+    else:  # openai 兼容（百炼 DashScope / OpenAI）
+        ep = base_url.rstrip("/")
+        if not ep.endswith("/chat/completions"):
+            ep += "/chat/completions"
+        b = {"model": model, "max_tokens": max_tokens, "temperature": 0,
+             "messages": [{"role": "user", "content": prompt}]}
+        if no_thinking:
+            b["enable_thinking"] = False
+        resp = _post(ep, b, {"Authorization": f"Bearer {key}", "Content-Type": "application/json"})
+        ch = resp["choices"][0]
+        u = resp.get("usage", {})
+        return ch["message"]["content"], u.get("prompt_tokens", 0), u.get("completion_tokens", 0), ch.get("finish_reason")
 
 
 def extract_json(text):
     t = text.strip()
-    t = re.sub(r"^```(?:json)?\s*|\s*```$", "", t).strip()  # 剥 markdown fence
+    t = re.sub(r"^```(?:json)?\s*|\s*```$", "", t).strip()
     i, j = t.find("{"), t.rfind("}")
     if i >= 0 and j > i:
         t = t[i:j + 1]
     return t
+
+
+def parse_units(text, render_map):
+    """健壮解析 LLM 输出的 units JSON：整体失败则逐行救，text 用 render 原文回填、
+    involves 尽力修复（去多余 ]）。返回 (units, n_repaired)。"""
+    raw = extract_json(text)
+    try:
+        return json.loads(raw).get("units", []), 0
+    except json.JSONDecodeError:
+        pass
+    units, rep = [], 0
+    for line in raw.splitlines():
+        s = line.strip().rstrip(",")
+        if not s.startswith('{"uid"') or not s.endswith("}"):
+            continue
+        try:
+            units.append(json.loads(s)); continue
+        except json.JSONDecodeError:
+            pass
+        m = re.match(r'\{"uid"\s*:\s*"([^"]+)"', s)
+        if not m:
+            continue
+        uid, inv = m.group(1), []
+        im = re.search(r'"involves"\s*:\s*(\[.*\])\s*\}?\s*$', s)
+        if im:
+            for fix in (im.group(1), im.group(1).rstrip("]") + "]", "[]"):
+                try:
+                    inv = json.loads(fix); break
+                except json.JSONDecodeError:
+                    inv = []
+        units.append({"uid": uid, "text": render_map.get(uid, ""), "involves": inv})
+        rep += 1
+    return units, rep
 
 
 def cast_of(source):
@@ -114,41 +184,111 @@ def focalizer_of(cast):
     return ""
 
 
-def render_sentcount(source):
+def render_uids_list(source):
     p = os.path.join(HERE, "renders", source + ".txt")
-    if not os.path.exists(p):
-        return None
-    return sum(1 for l in open(p, encoding="utf-8") if "│" in l)
+    return [l.split("│")[0].strip() for l in open(p, encoding="utf-8") if "│" in l]
 
 
-def remaining_sources():
-    have = {os.path.splitext(os.path.basename(p))[0] for p in glob.glob(os.path.join(OUTDIR, "*.json"))}
+def render_map_of(source):
+    """有序 dict：uid -> render 全文原文（verbatim 真源，修复坏行时回填 text）。"""
+    p = os.path.join(HERE, "renders", source + ".txt")
+    m = {}
+    for l in open(p, encoding="utf-8"):
+        if "│" in l:
+            uid, t = l.split("│", 1)
+            m[uid.strip()] = t.rstrip("\n")
+    return m
+
+
+def remaining_sources(outdir, scope):
+    have = {os.path.splitext(os.path.basename(p))[0] for p in glob.glob(os.path.join(outdir, "*.json"))}
+    pats = []
+    if scope in ("fanwai", "all"):
+        pats.append("jsons/*.json")
+    if scope in ("vols", "all"):
+        pats.append("maintext/*.json")
     out = []
-    for p in sorted(glob.glob(os.path.join(HERE, "casts", "*.json"))):
-        s = os.path.splitext(os.path.basename(p))[0]
-        if s in have:
-            continue
-        if not os.path.exists(os.path.join(HERE, "renders", s + ".txt")):
-            continue
-        out.append(s)
+    for pat in pats:
+        for p in sorted(glob.glob(os.path.join(HERE, pat))):
+            s = os.path.splitext(os.path.basename(p))[0]
+            if s in ("幕间",) or s in have:
+                continue
+            if not os.path.exists(os.path.join(HERE, "renders", s + ".txt")):
+                continue
+            if not os.path.exists(os.path.join(HERE, "casts", s + ".json")):
+                continue
+            out.append(s)
     return out
+
+
+def process_one(s, args, base_url, key):
+    """跑一篇（含分段），落盘，返回 (source, msg, in_tok, out_tok)。"""
+    outp = os.path.join(args.outdir, s + ".json")
+    if os.path.exists(outp) and not args.force:
+        return s, "跳过(已存在)", 0, 0
+    rp = os.path.join(HERE, "renders", s + ".txt")
+    if not os.path.exists(rp):
+        return s, "✗ 缺 render", 0, 0
+    cast = cast_of(s)
+    foc = focalizer_of(cast)
+    cast_json = json.dumps(cast, ensure_ascii=False, indent=1)
+    render_txt = open(rp, encoding="utf-8").read()
+    render_map = render_map_of(s)
+    all_uids = list(render_map)
+    n = len(all_uids)
+    cs = args.chunk_sents
+    chunks = [all_uids] if n <= cs else [all_uids[i:i + cs] for i in range(0, n, cs)]
+    merged, ti, to, stops, nrep = {}, 0, 0, [], 0
+    t0 = time.time()
+    for cu in chunks:
+        only = cu  # 总是给 uid 清单（单段也给）——逼模型逐句对应，否则单段会跳采样偷懒
+        prompt = build_prompt(s, cast_json, render_txt, foc, only)
+        try:
+            text, a, b, stop = call(prompt, args.model, args.backend, base_url, key, args.max_tokens, args.no_thinking)
+        except urllib.error.HTTPError as e:
+            return s, f"✗ HTTP {e.code}: {e.read().decode('utf-8','replace')[:160]}", ti, to
+        except Exception as e:
+            return s, f"✗ {type(e).__name__}: {str(e)[:160]}", ti, to
+        ti += a; to += b; stops.append(stop)
+        seg_units, rep = parse_units(text, render_map)
+        nrep += rep
+        want = set(cu)
+        for u in seg_units:
+            if (only is None) or (u.get("uid") in want):
+                merged[u["uid"]] = u
+    units = [merged[u] for u in all_uids if u in merged]
+    obj = {"schema_version": "units/0.2", "source": s, "focalizer": foc,
+           "cast_ref": f"casts/{s}.json", "model": args.model, "units": units}
+    json.dump(obj, open(outp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    dt = time.time() - t0
+    miss = n - len(units)
+    trunc = "  ⚠截断" if any(x in ("length", "max_tokens") for x in stops) else ""
+    cov = f"{len(units)}/{n}" + ("" if miss == 0 else f"  ⚠缺{miss}")
+    rp_note = f"  修复{nrep}行" if nrep else ""
+    return s, f"✓ {cov}  {len(chunks)}段  in={ti} out={to}  {dt:.0f}s{trunc}{rp_note}", ti, to
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("sources", nargs="*", help="篇名（不带扩展名）")
-    ap.add_argument("--remaining", action="store_true", help="有 cast+render 但 units/claude 缺产物的全部")
-    ap.add_argument("--limit", type=int, default=0, help="最多跑前 N 篇")
-    ap.add_argument("--dry", action="store_true", help="只列待跑篇 + 句数，不调 API")
-    ap.add_argument("--force", action="store_true", help="覆盖已存在产物")
+    ap.add_argument("sources", nargs="*")
+    ap.add_argument("--backend", choices=["openai", "anthropic"], default="openai")
+    ap.add_argument("--outdir", default=os.path.join(HERE, "units", "qwen"))
+    ap.add_argument("--scope", choices=["fanwai", "vols", "all"], default="fanwai", help="--remaining 的范围")
+    ap.add_argument("--remaining", action="store_true")
+    ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--dry", action="store_true")
+    ap.add_argument("--force", action="store_true")
     ap.add_argument("--model", default=os.environ.get("UNITS_MODEL", MODEL_DEFAULT))
-    ap.add_argument("--base-url", default=os.environ.get("ANTHROPIC_BASE_URL", ""))
+    ap.add_argument("--base-url", default="")
     ap.add_argument("--max-tokens", type=int, default=32000)
+    ap.add_argument("--no-thinking", action="store_true")
+    ap.add_argument("--chunk-sents", type=int, default=350, help="超此句数则分段")
+    ap.add_argument("--workers", type=int, default=1, help="并发篇数")
     args = ap.parse_args()
 
     srcs = list(args.sources)
     if args.remaining:
-        srcs += remaining_sources()
+        srcs += remaining_sources(args.outdir, args.scope)
     seen, uniq = set(), []
     for s in srcs:
         if s not in seen:
@@ -156,70 +296,40 @@ def main():
     srcs = uniq
     if args.limit:
         srcs = srcs[:args.limit]
-
     if not srcs:
-        print("没有待跑篇。用法见脚本头注释。"); return
+        print("没有待跑篇。"); return
 
     if args.dry:
-        print(f"待跑 {len(srcs)} 篇（句数估算）：")
+        print(f"待跑 {len(srcs)} 篇（句数 / 预计段数 @chunk={args.chunk_sents}）：")
         tot = 0
         for s in srcs:
-            n = render_sentcount(s) or 0
-            tot += n
-            print(f"  {s}\t{n} 句")
+            nn = len(render_uids_list(s)) if os.path.exists(os.path.join(HERE, "renders", s + ".txt")) else 0
+            tot += nn
+            segs = 1 if nn <= args.chunk_sents else -(-nn // args.chunk_sents)
+            print(f"  {s}\t{nn} 句\t{segs} 段")
         print(f"合计约 {tot} 句")
         return
 
-    key = os.environ.get("ANTHROPIC_AUTH_TOKEN") or os.environ.get("ANTHROPIC_API_KEY", "")
-    if not args.base_url:
-        print("✗ 缺 ANTHROPIC_BASE_URL（anyrouter 根地址）。export 后再跑。"); sys.exit(1)
-    if not key:
-        print("✗ 缺 ANTHROPIC_AUTH_TOKEN / ANTHROPIC_API_KEY。"); sys.exit(1)
+    base_url = args.base_url or (DASHSCOPE_BASE if args.backend == "openai" else os.environ.get("ANTHROPIC_BASE_URL", ""))
+    if args.backend == "openai":
+        key = os.environ.get("DASHSCOPE_API_KEY") or os.environ.get("OPENAI_API_KEY", "")
+    else:
+        key = os.environ.get("ANTHROPIC_AUTH_TOKEN") or os.environ.get("ANTHROPIC_API_KEY", "")
+    if not base_url or not key:
+        print("✗ 缺 base_url 或 key（检查对应 env）。"); sys.exit(1)
 
-    os.makedirs(OUTDIR, exist_ok=True)
-    print(f"模型={args.model}  base={args.base_url}  max_tokens={args.max_tokens}\n")
-    tot_in = tot_out = 0
-    for s in srcs:
-        outp = os.path.join(OUTDIR, s + ".json")
-        if os.path.exists(outp) and not args.force:
-            print(f"跳过(已存在) {s}"); continue
-        rp = os.path.join(HERE, "renders", s + ".txt")
-        if not os.path.exists(rp):
-            print(f"✗ 缺 render {s}"); continue
-        cast = cast_of(s)
-        foc = focalizer_of(cast)
-        prompt = build_prompt(s, json.dumps(cast, ensure_ascii=False, indent=1),
-                              open(rp, encoding="utf-8").read(), foc)
-        nsent = render_sentcount(s)
-        print(f"▶ {s}　{nsent} 句　发起…", flush=True)
-        t0 = time.time()
-        try:
-            resp = call(prompt, args.model, args.base_url, key, args.max_tokens)
-        except urllib.error.HTTPError as e:
-            print(f"  ✗ HTTP {e.code}: {e.read().decode('utf-8','replace')[:300]}"); continue
-        except Exception as e:
-            print(f"  ✗ {type(e).__name__}: {str(e)[:200]}"); continue
-        dt = time.time() - t0
-        usage = resp.get("usage", {})
-        ti, to = usage.get("input_tokens", 0), usage.get("output_tokens", 0)
-        tot_in += ti; tot_out += to
-        stop = resp.get("stop_reason")
-        text = "".join(b.get("text", "") for b in resp.get("content", []) if b.get("type") == "text")
-        raw = extract_json(text)
-        try:
-            obj = json.loads(raw)
-            obj["model"] = args.model
-            json.dump(obj, open(outp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
-            nunits = len(obj.get("units", []))
-            warn = "  ⚠ 截断(max_tokens)!" if stop == "max_tokens" else ""
-            cover = "" if nunits == nsent else f"  ⚠ 句数 {nunits}≠render {nsent}"
-            print(f"  ✓ {nunits} units  in={ti} out={to}  {dt:.0f}s  stop={stop}{warn}{cover}")
-            print(f"    → {outp}（跑完用 units_check.py 卡）")
-        except json.JSONDecodeError as e:
-            badp = outp + ".raw.txt"
-            open(badp, "w", encoding="utf-8").write(text)
-            print(f"  ✗ JSON 解析失败({e})  in={ti} out={to} stop={stop}  原文存 {badp}")
-    print(f"\n本次合计 input={tot_in} output={tot_out} tokens（核对 anyrouter 额度扣减）")
+    os.makedirs(args.outdir, exist_ok=True)
+    print(f"后端={args.backend} 模型={args.model} no_thinking={args.no_thinking} outdir={args.outdir} "
+          f"chunk={args.chunk_sents} workers={args.workers}  共 {len(srcs)} 篇\n")
+    tot_in = tot_out = done = 0
+    with ThreadPoolExecutor(max_workers=args.workers) as ex:
+        futs = {ex.submit(process_one, s, args, base_url, key): s for s in srcs}
+        for f in as_completed(futs):
+            s, msg, ti, to = f.result()
+            tot_in += ti; tot_out += to; done += 1
+            with _print_lock:
+                print(f"[{done}/{len(srcs)}] {s}: {msg}", flush=True)
+    print(f"\n合计 input={tot_in} output={tot_out} tokens")
 
 
 if __name__ == "__main__":

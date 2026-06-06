@@ -65,7 +65,13 @@
 
 ---
 
+## units/qwen —— 全番外统一臂（2026-06-06，qwen3.7-max batch 单轮）
+**44 篇番外全部覆盖完整**（百炼 batch 50% 成本 112 请求 + 同步补漏）。说话人 vs opus 仅差 1 句、vs sonnet 0 句 → 作 **gold 主力候选臂**。
+- char 越界已机械修（橡实 艾莉莎→艾尔莎 81 处）。
+- **双说 10 句待人工降级**（多为合法双人同句，规范欠定）：两匹狼婚礼 2_706/2_772、少年少女 14_14、尾巴圆舞 3_73、橡实 4_381、泉烟彼方 7_87、灰色笑颜 7_9、金黄记忆 11_19/11_61、黑狼摇篮 20_30。
+- 下一步：qwen × opus/gpt 互证（`units_diff` → audit → `units/gold/`）；正文 11 卷 `--scope vols` 同法 batch。
+
 ## 已知问题 / 待办
-- `units_diff.py` 输出文件名 bug：审计 tsv 文件名未按当前篇取，曾把白色道路 diff 误写成 `audit_旅途余白.tsv`（已从 HEAD 恢复）。**修脚本前，跑 diff 后务必核对输出文件名。**
-- sonnet 下位替代弱点：偶把拟声"哇啊/呵"误标成"说"；偶把全角引号写成半角破坏 JSON（`units_check` 的 json.load 会卡住，用 render 原文重建该行 text 即可修）。
-- 提速路径：`units_api.py` 单轮 API 抽取脚本已就绪（比 subagent 快一个数量级），待选可用 API 端点（anyrouter 推理端当时 503/429 不可用）。
+- ~~`units_diff.py` 输出文件名 bug~~ **已修**：`--tsv` default 改为按 a 的 source 自动命名（`units/audit_<source>.tsv`）。
+- LLM 抽取共性弱点（已在 `units_api.parse_units` repair 兜底）：偶把拟声误标"说"、偶把全角引号写半角、偶发多余 `]`/双说；坏行用 render 原文回填 text。
+- ~~提速路径待选端点~~ **已落地**：百炼 qwen3.7-max batch（50% 成本）。关键三招：`--no-thinking`（治推理模型偷懒/中断）、always `only_uids`（治单段跳采样）、自动分段（治大章输出撞顶）。anyrouter 推理端不可用已弃。

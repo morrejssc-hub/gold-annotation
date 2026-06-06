@@ -17,8 +17,11 @@ def load(p):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("a"); ap.add_argument("b")
-    ap.add_argument("--tsv", default="units/audit_旅途余白.tsv")
+    ap.add_argument("--tsv", default=None, help="默认 units/audit_<a的source>.tsv")
     args = ap.parse_args()
+    if args.tsv is None:
+        src = json.load(open(args.a, encoding="utf-8")).get("source", "diff")
+        args.tsv = f"units/audit_{src}.tsv"
     A, txt = load(args.a); B, _ = load(args.b)
     uids = sorted(set(A) | set(B), key=lambda s: tuple(int(x) for x in s.split("_")))
 
