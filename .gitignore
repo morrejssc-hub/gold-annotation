@@ -22,3 +22,5 @@ dialogue_all.tsv
 # 脚手架散落的逐篇提示词（提示源已收敛到 render_chapter.py + units-extract skill）
 units_prompt_*.txt
 renders/
+# 扇出过程产物（调度 prompt、批次日志、强模型质检报告本地留存，不入库）
+tmp/
