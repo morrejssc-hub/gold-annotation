@@ -124,6 +124,6 @@ units 的 **说层 = Phase 2 的 speaker，泛化版**（Phase 2 = 台词子集�
   - [ ] 铺开后每章按预筛池 + 难桶随机样做一轮人工抽检，发现的共谋盲区进 `fix`。
 - [ ] **v0 SFT 样本格式定稿**：用 `units_assemble.py` 输出 jsonl（input=场景上文 / target=角色回合），先 dialogue+action 整句 target。
 - [ ] **沉淀 skill**：`units-extract`（双模型扇出 + 自动 diff），仿 `phase2-attribution`。
-- [ ] **铺开**：番外 44 篇 + 正文 11 卷（maintext 按卷、focalizer=罗伦斯）。
+- [ ] **铺开**：番外 44 篇 + 正文 11 卷（maintext 按卷、focalizer=罗伦斯）。**正文作业规程见 [`正文-SOP.md`](正文-SOP.md)**——番外预演定论：精度优先（gold=高一致∩高置信、弃分歧）、proposer–verifier（机械锚说存在性 + 模型出说话人 + 思考/agent 验证）、机械提议对"谁"实测死路、规则补丁 #1 施事-only 做 / #3 说必含引号。
 - [ ] **共享句 target 切割**（option a）：仅当 v0 保真不足时启用。
 - [ ] **情节层索引**（顺序+在场），仅在需要跨场景长程一致性时做，**不抽语义关系**。

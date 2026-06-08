@@ -1,7 +1,7 @@
 # 角色扮演 gold 构建（《狼与香辛料》语料）
 
 **终点：在场景下模仿角色回应（角色扮演）的 SFT gold 数据。回应 = 动作 + 台词。**
-说话人归属（speaker attribution）**不是终任务，是切角色数据的底料**——判断每句话归谁，才能机械组装 (场景上文 → 该角色回应) 成对样本。详见 [`UNITS.md`](UNITS.md)。
+说话人归属（speaker attribution）**不是终任务，是切角色数据的底料**——判断每句话归谁，才能机械组装 (场景上文 → 该角色回应) 成对样本。详见 [`UNITS.md`](UNITS.md)。正文 11 卷的作业规程（精度优先 / proposer–verifier / 番外预演实证）见 [`正文-SOP.md`](正文-SOP.md)。
 
 > 这套方案**转向过两次 + 一次目标归位**。动手改架构前，先读 [`DESIGN-PIVOTS.md`](DESIGN-PIVOTS.md)——
 > 尤其「第 4 节·反复踩的坑」。旧归属两阶段之前的代码全在 [`archive/`](archive/)。
