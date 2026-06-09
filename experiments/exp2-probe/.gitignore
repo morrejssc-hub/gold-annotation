@@ -1,0 +1,11 @@
+# 虚拟环境 / 模型 / 缓存 / 中间产物 —— 不入库
+.venv/
+__pycache__/
+*.pyc
+Qwen3-14B/
+acts.npz
+_holdout_to_label.md
+_highscene_dump.md
+_steer_result.txt
+_*.md
+_*.txt
