@@ -31,8 +31,16 @@ exp1 产出一个单体散文圣经（§0–§8）。exp3 问的是**工程形�
 2. **验机制是否真站住，要剥身份+语癖**：留着本体和语癖，"像角色"是模型在 recall，证不了机制。把伴侣改名、身体语癖换掉，机制还产招牌形状，才证它是程序。**裸 vs 机制同 persona 对照**（exp1 式）是必须的——单看机制臂"挺像"不够。
 3. **裸臂的失败方向会变**：全身份时裸臂**过漏**（Bob 测试乙直接说 wound）；剥光身份后裸臂**藏过头/两清**（白领甲）。机制臂两种语境都钉住校准点 → 机制的价值正是**消除这种随语境漂移**。
 
+## 评测态/生产态双投影（2026-06-09 增补，修一处架构内伤）
+原先「去身份」是对 Atlas **源**的一次性 sweep——把本体名词剥进了真源，**违反「Atlas 是最全真源、Runtime 才是剥后投影」**，且手工剥离会漏（runtime.md 里漏过「汝」、output-bans 硬编「耳朵尾巴」）。已改为**剥离=编译模式**：
+- **本体复活为 `type: substrate` 一等层**（`atlas/substrate/holo.md`，挂锚）——本体论是 wound→lie 的根，留真源剥不得，只在投影时选择进不进。
+- **`compile.py --mode eval|prod`**：eval（默认）只发 Decision 层=**去名词留结构**（反 recall 的公平评测投影，把 capstone 白领上司测试从手搓场景升级成系统投影）；prod=**披回皮肉但保持源码分层**（Substrate / Decision / Voice 三段并列，非熔回单体散文）。
+- **`check.py` 反 recall lint**：扫每张决策卡的会编译段，内联专名/体征专名/语癖即告警——「去身份」从靠人盯变成结构强制 + lint 守。
+- 验证：`runtime.eval.md` vs 旧 `runtime.md` 仅差两处 leak-fix（耳尾→体征通道、去汝）→ **机械证编译决策无损**；item09 盲判半待人审。
+- **未浇筑**（避单角色过度工程）：prod 的「披全身份后机制仍点火」生产态盲判，待真要发 artifact 或上第二角色再做。
+
 ## 悬而未决 / 下一步
-- **语气轨**：voice-boundary 已降 pending（它是编写方法论、不是决策机制）。下一步把"正面腔提示 + voice_gold few-shot"重构成**独立语气轨**，与决策 Runtime 并列喂 agent；prompt 为现态，攒够 gold 迁 LoRA。
+- **语气轨**：voice-boundary 已降 pending（它是编写方法论、不是决策机制）。下一步把"正面腔提示 + voice_gold few-shot"重构成 **`type: voice` 卡**，填上 prod 投影里现为空的「三、语气轨」层；prompt 为现态，攒够 gold 迁 LoRA。
 - **锚待补**：5 张卡（多源自 skill 定型前、测试在他机过时未提交）`anchors:[]`，check.py lint 不阻断；日后补。
 - **promote**：目录整理后把 `atlas/ + compile.py + check.py + runtime.md` 提出 experiments/ 成生产圣经的家。
 - **扩角色才兑现横向价值**：单角色下卡片体系=为不存在的扩展性提前优化的边界仍在；卡边界/检索引擎等多角色再说。

@@ -8,14 +8,25 @@ Atlas 卡片 = YAML frontmatter + `## 段名` 正文。本脚本：
   - modulated_by 渲染成"受 X 调制"，trigger 谓词紧凑成一行。
 单一真源 → 编译，故 Atlas↔Runtime 不可能 desync（不手维两份）。
 
-用法: python3 compile.py [--atlas atlas] [--out runtime.md]
+**两个投影目标（评测态剥离、生产态合并）**：
+  --mode eval（默认）：只编译 Decision 层（spine + trigger），剥掉 substrate/voice 层。
+      = 去名词留结构，验决策机制 substrate-independent（反 recall 评测的公平投影）。
+      输出 runtime.eval.md。
+  --mode prod：Substrate + Decision + Voice 分层合并（披回皮肉但保持源码分层）。
+      输出 runtime.prod.md。
+身份/语癖只活在 Substrate/Voice 层，决策卡正文一律本体无关——两投影同源、靠分层而非改卡。
+
+用法: python3 compile.py [--mode eval|prod] [--atlas atlas] [--out PATH]
 """
 import argparse, sys
 from pathlib import Path
 import yaml
 
 ATLAS_ONLY_SECTIONS = {"例子", "笔记", "出处说明"}
-DROP_FIELDS = {"anchors", "source", "status", "id", "type"}
+# 层归类：Decision = 决策机制（两投影都进）；Substrate/Voice = 仅 prod 合并。
+DECISION_TYPES = {"spine", "trigger"}
+SUBSTRATE_TYPES = {"substrate"}
+VOICE_TYPES = {"voice"}
 
 
 def parse_card(path: Path):
@@ -51,10 +62,21 @@ def render(meta, sections):
     return "\n\n".join(out)
 
 
+def decision_block(promoted):
+    spine = [(m, s) for m, s in promoted if m.get("type") == "spine"]
+    trig = [(m, s) for m, s in promoted if m.get("type", "trigger") == "trigger"]
+    parts = ["## 常驻（始终生效）\n"]
+    parts += [render(m, s) for m, s in spine]
+    parts.append("\n## 情景触发（命中条件才取）\n")
+    parts += [render(m, s) for m, s in trig]
+    return parts, len(spine), len(trig)
+
+
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("--mode", choices=["eval", "prod"], default="eval")
     ap.add_argument("--atlas", default="atlas")
-    ap.add_argument("--out", default="runtime.md")
+    ap.add_argument("--out", default=None)
     a = ap.parse_args()
     root = Path(__file__).parent
     cards = [parse_card(p) for p in sorted((root / a.atlas).rglob("*.md"))
@@ -62,19 +84,35 @@ def main():
 
     promoted = [(m, s) for m, s, _ in cards if m.get("status") == "promoted"]
     pending = [p for m, s, p in cards if m.get("status") != "promoted"]
-    spine = [(m, s) for m, s in promoted if m.get("type") == "spine"]
-    trig = [(m, s) for m, s in promoted if m.get("type") != "spine"]
+    decision = [(m, s) for m, s in promoted if m.get("type") in DECISION_TYPES]
+    substrate = [(m, s) for m, s in promoted if m.get("type") in SUBSTRATE_TYPES]
+    voice = [(m, s) for m, s in promoted if m.get("type") in VOICE_TYPES]
 
-    parts = ["# 生成机制（角色回应的内部规则；勿手改——改 atlas/）\n",
-             "> 单向编译产物：`python3 compile.py`。\n",
-             "## 常驻（始终生效）\n"]
-    parts += [render(m, s) for m, s in spine]
-    parts.append("\n## 情景触发（命中条件才取）\n")
-    parts += [render(m, s) for m, s in trig]
+    out_path = a.out or (f"runtime.{a.mode}.md")
+    dparts, n_spine, n_trig = decision_block(decision)
 
-    (root / a.out).write_text("\n\n".join(parts) + "\n", encoding="utf-8")
-    print(f"✓ 编译 {len(promoted)} 张已晋升卡 → {a.out}"
-          f"（脊柱 {len(spine)} / 触发 {len(trig)}）")
+    if a.mode == "eval":
+        # 评测态：去名词留结构——只发 Decision 层。
+        parts = ["# 生成机制（角色回应的内部规则；勿手改——改 atlas/）\n",
+                 "> 评测投影：`python3 compile.py --mode eval`。已剥本体/语癖，"
+                 "只留决策机制的抽象生成规则（验 substrate-independent）。\n"]
+        parts += dparts
+    else:
+        # 生产态：披回皮肉但保持源码分层——Substrate + Decision + Voice 并列。
+        parts = ["# 角色生成圣经（生产态；勿手改——改 atlas/）\n",
+                 "> 生产投影：`python3 compile.py --mode prod`。分层合并，非单体散文。\n",
+                 "# 一、角色本体（Substrate）\n"]
+        parts += [render(m, s) for m, s in substrate] or ["（无 substrate 卡）"]
+        parts.append("\n# 二、决策机制（Decision Runtime）\n")
+        parts += dparts
+        parts.append("\n# 三、语气轨（Voice Runtime）\n")
+        parts += ([render(m, s) for m, s in voice]
+                  or ["（voice 层待重构成独立语气轨，见 PLAN 收尾①）"])
+
+    (root / out_path).write_text("\n\n".join(parts) + "\n", encoding="utf-8")
+    tag = (f"脊柱 {n_spine} / 触发 {n_trig}" if a.mode == "eval"
+           else f"substrate {len(substrate)} / 决策 {len(decision)} / voice {len(voice)}")
+    print(f"✓ [{a.mode}] 编译 → {out_path}（{tag}）")
     if pending:
         print(f"  待验证池（未进 Runtime）：{', '.join(p.stem for p in pending)}",
               file=sys.stderr)

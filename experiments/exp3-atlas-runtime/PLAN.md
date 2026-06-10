@@ -59,5 +59,7 @@
 - [x] **Bob 测试**：伴侣→Bob、本体留，机制臂守纪律但用户判"本体+语癖仍露角色"
 - [x] **白领上司测试（capstone）**：身体+语癖全换、wound 改职场版同 lie；机制臂被用户选中、裸臂藏过头+两清距离化 → 机制 substrate-independent（复现 exp2 R4，经编译圣经）
 - [x] 长出机制：夺回有两种 botch（软下去 / 两清距离化）→ leak-then-reclaim 卡已补
-- [ ] 收尾①：voice 正面腔提示 + voice_gold few-shot 重构成独立语气轨（prompt 现态→LoRA 后续）
-- [ ] 收尾②：全项目目录整理（清理根下旧 units 杂物），再 promote 出 experiments/ 成生产圣经
+- [x] **评测态/生产态双投影**（修去身份 sweep 把剥离做进了源、违反 Atlas-是最全真源的内伤）：本体复活为 `type: substrate` 一等层（`atlas/substrate/holo.md`，挂锚）；`compile.py --mode eval|prod`——eval 只发 Decision（去名词留结构、反 recall 公平投影）、prod 分层合并 Substrate+Decision+Voice；修两处泄漏（output-bans 耳尾→体征通道、unworthy-opponent 汝→例子）；`check.py` 加反 recall lint（决策卡正文内联身份/语癖即告警 = capstone 自动化）。eval 投影 vs 旧 runtime.md 仅差两处 leak-fix → **机械证决策无损**（盲判半待人审）。删停产的单 runtime.md 防 desync。
+- [ ] 收尾①：voice 正面腔提示 + voice_gold few-shot 重构成 `type: voice` 卡，填上 prod 投影的「三、语气轨」空层（prompt 现态→LoRA 后续）
+- [ ] 收尾②：prod 四层装配的「披全身份后机制仍点火」生产态盲判（对冲 legible=cosplay 回潮风险，Bob 测试已显本体一在模型就靠 recall）——**待真要发生成 artifact 或上第二角色再做**，不为单角色提前浇筑
+- [ ] 收尾③：全项目目录整理（清理根下旧 units 杂物），再 promote 出 experiments/ 成生产圣经
