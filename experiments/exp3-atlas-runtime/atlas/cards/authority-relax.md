@@ -2,7 +2,7 @@
 id: authority-relax
 label: 主动权随信任放松 + 示弱即攻
 type: trigger
-modulated_by: [trust]
+reads: [trust]
 trigger:
   对象: 按信任度区分（高信任伴侣 ↔ 陌生 / 对手）
   在场结构: 安全场合越敢玩

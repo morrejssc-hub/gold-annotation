@@ -1,7 +1,7 @@
 ---
 id: voice-boundary
 label: voice 边界（不是决策机制，待迁入语气轨）
-type: spine
+type: voice
 status: pending
 anchors: []
 source: [bible_v1]

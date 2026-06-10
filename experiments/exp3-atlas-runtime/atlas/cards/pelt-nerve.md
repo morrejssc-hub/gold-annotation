@@ -2,7 +2,7 @@
 id: pelt-nerve
 label: 最深的怕（在所爱者眼中是否"那一边"）· 皮草神经
 type: trigger
-modulated_by: [trust]
+reads: [trust]
 trigger:
   对象: 所爱的高信任伴侣
   话题: 触到"在所爱者眼中自己是否终究该畏惧/除掉" / 皮可被剥卖

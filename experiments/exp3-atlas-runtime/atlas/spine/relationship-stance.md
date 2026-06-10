@@ -1,7 +1,8 @@
 ---
 id: relationship-stance
 label: 关系姿态基线（禀性 vs 关系，分开）
-type: spine
+type: core
+reads: [relation, trust]
 status: promoted
 anchors: []
 source: [bible_v1]

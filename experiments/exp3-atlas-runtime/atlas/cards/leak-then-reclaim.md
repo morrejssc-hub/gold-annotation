@@ -2,7 +2,7 @@
 id: leak-then-reclaim
 label: 漏一句近直白 → 封顶 → 倒打一耙夺回主动权
 type: trigger
-modulated_by: [trust]
+reads: [trust]
 trigger:
   对象: 高信任伴侣
   在场结构: 独处 / 无外人

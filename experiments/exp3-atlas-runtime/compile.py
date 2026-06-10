@@ -4,9 +4,10 @@
 Atlas 卡片 = YAML frontmatter + `## 段名` 正文。本脚本：
   - 只收 status: promoted 的卡（pending 留待验证池，不进 Runtime）；
   - 剥掉 Atlas-only：frontmatter 的 anchors/source/status + 正文的 例子/笔记/出处说明；
-  - 脊柱（spine）先排，触发卡（trigger）后排；
-  - modulated_by 渲染成"受 X 调制"，trigger 谓词紧凑成一行。
+  - Decision 渲染顺序（v2）：输入轴（scene-axis）→ 常驻策略（core）→ 触发卡（trigger）；
+  - reads/derives/overrides 纯编写期元数据，不渲染（防 kebab id 研究术语泄漏）。
 单一真源 → 编译，故 Atlas↔Runtime 不可能 desync（不手维两份）。
+v2（exp4 re-type）：废 `spine`，拆成 core（不变策略 π）/ scene-axis（情景输入轴）。
 
 **两个投影目标（评测态剥离、生产态合并）**：
   --mode eval（默认）：只编译 Decision 层（spine + trigger），剥掉 substrate/voice 层。
@@ -24,7 +25,8 @@ import yaml
 
 ATLAS_ONLY_SECTIONS = {"例子", "笔记", "出处说明"}
 # 层归类：Decision = 决策机制（两投影都进）；Substrate/Voice = 仅 prod 合并。
-DECISION_TYPES = {"spine", "trigger"}
+# v2：spine 已废——遇到即报错（应 re-type 为 core / scene-axis）。
+DECISION_TYPES = {"core", "scene-axis", "trigger"}
 SUBSTRATE_TYPES = {"substrate"}
 VOICE_TYPES = {"voice"}
 
@@ -48,9 +50,9 @@ def parse_card(path: Path):
 
 
 def render(meta, sections):
-    # modulated_by / overrides 只是编写期耦合元数据（防复制、记关系），
+    # reads / derives / overrides 只是编写期耦合元数据（防复制、记关系），
     # 不渲染进 Runtime：①避免 kebab id 作研究术语泄漏给 agent；
-    # ②耦合/覆盖关系本就写在卡体里（trust 常驻、危难卡自述覆盖）。check.py 仍读这些字段。
+    # ②耦合/覆盖关系本就写在卡体里（轴常驻、危难卡自述覆盖）。check.py 仍读这些字段。
     out = [f"## {meta['label']}"]
     trig = meta.get("trigger")
     if trig:
@@ -63,13 +65,16 @@ def render(meta, sections):
 
 
 def decision_block(promoted):
-    spine = [(m, s) for m, s in promoted if m.get("type") == "spine"]
+    axes = [(m, s) for m, s in promoted if m.get("type") == "scene-axis"]
+    core = [(m, s) for m, s in promoted if m.get("type") == "core"]
     trig = [(m, s) for m, s in promoted if m.get("type", "trigger") == "trigger"]
-    parts = ["## 常驻（始终生效）\n"]
-    parts += [render(m, s) for m, s in spine]
+    parts = ["## 情景输入轴（每场先从场景读出，喂给下面的策略）\n"]
+    parts += [render(m, s) for m, s in axes]
+    parts.append("\n## 常驻策略（始终生效）\n")
+    parts += [render(m, s) for m, s in core]
     parts.append("\n## 情景触发（命中条件才取）\n")
     parts += [render(m, s) for m, s in trig]
-    return parts, len(spine), len(trig)
+    return parts, len(axes), len(core), len(trig)
 
 
 def main():
@@ -82,6 +87,10 @@ def main():
     cards = [parse_card(p) for p in sorted((root / a.atlas).rglob("*.md"))
              if p.name != "SCHEMA.md"]
 
+    stale = [m.get("id", p.stem) for m, s, p in cards if m.get("type") == "spine"]
+    if stale:
+        sys.exit(f"✗ 过时 type: spine（v2 已废，应 re-type 为 core/scene-axis）：{', '.join(stale)}")
+
     promoted = [(m, s) for m, s, _ in cards if m.get("status") == "promoted"]
     pending = [p for m, s, p in cards if m.get("status") != "promoted"]
     decision = [(m, s) for m, s in promoted if m.get("type") in DECISION_TYPES]
@@ -89,7 +98,7 @@ def main():
     voice = [(m, s) for m, s in promoted if m.get("type") in VOICE_TYPES]
 
     out_path = a.out or (f"runtime.{a.mode}.md")
-    dparts, n_spine, n_trig = decision_block(decision)
+    dparts, n_axes, n_core, n_trig = decision_block(decision)
 
     if a.mode == "eval":
         # 评测态：去名词留结构——只发 Decision 层。
@@ -110,7 +119,7 @@ def main():
                   or ["（voice 层待重构成独立语气轨，见 PLAN 收尾①）"])
 
     (root / out_path).write_text("\n\n".join(parts) + "\n", encoding="utf-8")
-    tag = (f"脊柱 {n_spine} / 触发 {n_trig}" if a.mode == "eval"
+    tag = (f"输入轴 {n_axes} / 常驻 {n_core} / 触发 {n_trig}" if a.mode == "eval"
            else f"substrate {len(substrate)} / 决策 {len(decision)} / voice {len(voice)}")
     print(f"✓ [{a.mode}] 编译 → {out_path}（{tag}）")
     if pending:
