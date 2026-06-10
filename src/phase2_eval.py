@@ -17,11 +17,11 @@ phase2_eval.py —— Phase 2 归属产物的自动校验。
 """
 import sys, os, re, json, glob, csv, argparse, subprocess
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root: 脚本在 src/, 数据在根
 
 
 def extracted_uids(src_json):
-    out = subprocess.run([sys.executable, os.path.join(HERE, "dialogue.py"), src_json],
+    out = subprocess.run([sys.executable, os.path.join(HERE, "src", "dialogue.py"), src_json],
                          capture_output=True, text=True).stdout.splitlines()
     return [l.split("\t")[0] for l in out[1:] if l.strip()]
 

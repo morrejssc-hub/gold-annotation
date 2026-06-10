@@ -13,7 +13,7 @@ units_check.py —— 单份 units 产物自检（结构不变量 + 说层 vs Ph
 """
 import json, sys, os, re, subprocess, argparse
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root: 脚本在 src/, 数据在根
 Q_OPEN = "“"
 # 引出下一句发言的说话标签（…说：/…道：/…问道：），出现在含引号的句子里 = 机械台词键定易错
 SAY_TAG = re.compile(r"[说道喊嚷问答叫嚷骂](?:道)?[：:]\s*$|[说道喊嚷问答叫嚷骂](?:道)?[：:]“")
@@ -30,7 +30,7 @@ def multiquote_flag(text):
 
 
 def render_uids(src_json):
-    out = subprocess.run([sys.executable, os.path.join(HERE, "render_chapter.py"), src_json],
+    out = subprocess.run([sys.executable, os.path.join(HERE, "src", "render_chapter.py"), src_json],
                          capture_output=True, text=True).stdout.splitlines()
     allsent = [l.split("│")[0] for l in out if "│" in l]
     dlg = [l.split("\t")[0] for l in out if "\t" in l]

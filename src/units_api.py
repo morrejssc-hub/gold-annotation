@@ -25,7 +25,7 @@ import os, sys, re, json, glob, time, argparse, threading, urllib.request, urlli
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 sys.stdout.reconfigure(encoding="utf-8")
-HERE = os.path.dirname(os.path.abspath(__file__))
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root: 脚本在 src/, 数据在根
 MODEL_DEFAULT = "qwen3.7-max"
 DASHSCOPE_BASE = "https://dashscope.aliyuncs.com/compatible-mode/v1"
 _print_lock = threading.Lock()

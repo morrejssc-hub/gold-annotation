@@ -20,7 +20,7 @@ render_chapter.py —— 把一章渲染成 Phase 2 标注用的【紧凑文本�
 import sys, os, json, argparse
 import dialogue  # 复用 load / extract / OUTER —— uid 与引号规则的唯一真源
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root: 脚本在 src/, 数据在根
 
 
 def load_cast(source):

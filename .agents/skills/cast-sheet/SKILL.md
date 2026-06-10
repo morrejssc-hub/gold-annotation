@@ -9,7 +9,7 @@ description: 为《狼与香辛料》语料生成 Phase 1 角色表(cast sheet)�
 解决倒指代回填、视角相对称谓(主人/旅伴/父亲)、泛称按场景消解、跨章点名。
 规范与 schema 见 `PHASE1.md`，标准范例见 `casts/后日谈.json`。
 
-**Codex 路线（本 skill）= subagent 扇出**；非 Codex 路线（百炼/Codex）用 `phase1_cast.py`。
+**Codex 路线（本 skill）= subagent 扇出**；非 Codex 路线（百炼/Codex）用 `src/phase1_cast.py`。
 
 ## 执行步骤
 

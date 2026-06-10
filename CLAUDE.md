@@ -24,10 +24,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## 命令
 
 ```bash
-python3 dialogue.py jsons/后日谈.json          # 机械抽台词（单篇）；--all jsons|maintext 全量
-python3 phase1_cast.py jsons/后日谈.json --backend dump   # Phase 1 提示词；--backend claude|bailian|codex 调 API
-python3 normalize_casts.py --apply            # 跨卷音译归一（默认 dry-run）
-python3 finalize_registry.py --apply          # registry 裁决回写各 cast
+python3 src/dialogue.py jsons/后日谈.json          # 机械抽台词（单篇）；--all jsons|maintext 全量
+python3 src/phase1_cast.py jsons/后日谈.json --backend dump   # Phase 1 提示词；--backend claude|bailian|codex 调 API
+python3 src/normalize_casts.py --apply            # 跨卷音译归一（默认 dry-run）
+python3 src/finalize_registry.py --apply          # registry 裁决回写各 cast
 # 校验 cast：for f in casts/*.json; do python3 -c "import json;json.load(open('$f',encoding='utf-8'))"||echo BAD $f; done
 ```
 
@@ -35,6 +35,7 @@ python3 finalize_registry.py --apply          # registry 裁决回写各 cast
 
 ## 数据布局
 
+- `src/` — 全部 `.py` 脚本。**从仓库根运行**（如 `python3 src/dialogue.py jsons/…`）：脚本按相对/`__file__` 根路径读 `jsons/ maintext/ casts/ …`，数据与产物目录留在根。
 - `jsons/<篇名>.json` — 番外 45 篇，每篇一表（坏档 `幕间.json` 跳过）。
 - `maintext/卷NN.json` — 正文 11 卷，focalizer 全卷为罗伦斯，**按卷一张表**。
 - `casts/` Phase 1 产物 → Phase 2/Units 输入；`aliases.json` 全局专名种子；`focalizers.tsv` Phase 0 视角；`eval.tsv`/`sheet.tsv` 人工 gold。

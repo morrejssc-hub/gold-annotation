@@ -20,7 +20,7 @@
 """
 import json, os, csv, re, argparse
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root: 脚本在 src/, 数据在根
 CONF_RANK = {"low": 0, "med": 1, "high": 2}
 
 

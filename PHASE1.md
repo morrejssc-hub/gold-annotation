@@ -8,12 +8,12 @@
 
 ```bash
 # A) dump 模式: 只生成提示词(无需 key)，可直接贴进 Claude Max
-python3 phase1_cast.py jsons/后日谈.json --backend dump > prompt.txt
+python3 src/phase1_cast.py jsons/后日谈.json --backend dump > prompt.txt
 
 # B) 直接调 API（产物落 casts/<篇名>.json）
-python3 phase1_cast.py jsons/后日谈.json --backend bailian --model qwen-max
-python3 phase1_cast.py jsons/后日谈.json --backend codex   --model gpt-4o
-python3 phase1_cast.py jsons/后日谈.json --backend claude  --model claude-opus-4-8
+python3 src/phase1_cast.py jsons/后日谈.json --backend bailian --model qwen-max
+python3 src/phase1_cast.py jsons/后日谈.json --backend codex   --model gpt-4o
+python3 src/phase1_cast.py jsons/后日谈.json --backend claude  --model claude-opus-4-8
 ```
 
 后端 key 用环境变量：`DASHSCOPE_API_KEY`(百炼) / `OPENAI_API_KEY`(codex) / `ANTHROPIC_API_KEY`(claude)。

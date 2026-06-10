@@ -23,7 +23,7 @@ UNITS.md §5.B：跨模型 diff 只抓「分歧」，抓不到「两臂共谋盲
 import json, os, csv, argparse
 from units_check import multiquote_flag
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root: 脚本在 src/, 数据在根
 
 
 def load_units(p):

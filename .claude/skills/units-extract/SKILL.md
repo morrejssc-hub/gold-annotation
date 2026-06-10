@@ -40,13 +40,13 @@ description: 为《狼与香辛料》语料抽取角色单元层(按句 说/做 
 
 4. **校验 + 互证 + 固化**（产物回来后，在 gold-annotation 下跑）：
    ```bash
-   python3 units_check.py units/claude/<篇>.json      # 结构不变量 + 抽检预筛(同句多引号) + (顺手)说层回归
-   python3 units_check.py units/gpt/<篇>.json
-   python3 units_diff.py units/claude/<篇>.json units/gpt/<篇>.json --tsv units/audit_<篇>.tsv
+   python3 src/units_check.py units/claude/<篇>.json      # 结构不变量 + 抽检预筛(同句多引号) + (顺手)说层回归
+   python3 src/units_check.py units/gpt/<篇>.json
+   python3 src/units_diff.py units/claude/<篇>.json units/gpt/<篇>.json --tsv units/audit_<篇>.tsv
    # 人工填 audit 列(A/B/点名角色) → 另存 units/audit_<篇>_v2.tsv
    # 共谋盲区(抽检预筛 ⚑ + 难桶随机样发现的两家共错) → units/fix_<篇>.tsv
-   python3 units_merge.py <篇>                          # 一致取共识 + audit 裁决 + fix 覆盖 → units/gold/<篇>.json
-   python3 units_check.py units/gold/<篇>.json
+   python3 src/units_merge.py <篇>                          # 一致取共识 + audit 裁决 + fix 覆盖 → units/gold/<篇>.json
+   python3 src/units_check.py units/gold/<篇>.json
    ```
 
 5. **汇报**：每篇一行——句数 / 覆盖✓ / 说句数 / `[]`空句数 / 两模型三元组一致率 / 分歧句数 / **抽检预筛 ⚑ 句**。**把分歧集、low/med-conf、抽检预筛句单独列出请人定夺**（audit 管两模型分歧、fix 管两模型共错，都是 gold 构建的人审环节，不是失败）。
@@ -63,7 +63,7 @@ description: 为《狼与香辛料》语料抽取角色单元层(按句 说/做 
    倒指代回填、语癖签名。先吃透 focalizer_note / ambiguous / needs_registry。
    注意 cast 里 playable:false / present:false 的群体/路人/未登场者仍要照常标(它们也在场说做)，
    只是下游不为其组装样本——你只管忠实标注。
-2) 运行：python3 render_chapter.py {CORPUS_DIR}/{SOURCE}.json —— 输出 [全文]每句 `scene_sent│正文`
+2) 运行：python3 src/render_chapter.py {CORPUS_DIR}/{SOURCE}.json —— 输出 [全文]每句 `scene_sent│正文`
    (完整上下文) + [待标台词] uid。**scene 头的 [在场] 是机械名匹配的辅助闭集**(present:true 角色)，
    帮你缩小该节说话人候选；但它 recall 取向、可能漏(只靠代词出场者)，**以正文为准**。
    **读完整章再下结论**(倒指代/晚点名要读到后文回填)。

@@ -13,7 +13,7 @@ units_assemble.py —— 纯机械组装：从 units/<model>/<篇>.json 按句�
 """
 import json, os, argparse
 
-HERE = os.path.dirname(os.path.abspath(__file__))
+HERE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # repo root: 脚本在 src/, 数据在根
 
 
 def scene_of(uid):

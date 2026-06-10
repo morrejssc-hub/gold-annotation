@@ -28,7 +28,7 @@ description: 为《狼与香辛料》语料做 Phase 2 说话人归属(uid→spe
    一次最多并行 ~6 个（同一条消息多个 Agent 调用），其余分批。大章节(>700 台词)正常，可单独成批。
 
 3. **校验**（全部回来后，在 gold-annotation 下跑）：
-   - `python3 phase2_eval.py phase2/<篇>.json`（或 `--all phase2`）：查①覆盖是否与 `dialogue.py` 完全对齐（无遗漏/多余/重复）②已核 gold 一致率③未核机器猜测的复核候选。
+   - `python3 src/phase2_eval.py phase2/<篇>.json`（或 `--all phase2`）：查①覆盖是否与 `dialogue.py` 完全对齐（无遗漏/多余/重复）②已核 gold 一致率③未核机器猜测的复核候选。
    - JSON 合法性：`python3 -c "import json;json.load(open('phase2/<篇>.json',encoding='utf-8'))"`。
 
 4. **汇报**：每篇一行——台词数 / 覆盖✓ / gold 一致率 / abstain(`-`) 数 / med+low confidence 数 / 复核候选。**把 low/med confidence、abstain、与旧猜测冲突的复核候选单独列出请人定夺**（这是 gold 构建的人审环节）。
@@ -42,7 +42,7 @@ description: 为《狼与香辛料》语料做 Phase 2 说话人归属(uid→spe
 步骤：
 1. 读范例与 schema：phase2/后日谈.json（照其 labels 项结构、type_legend、字段）。
 2. 读本篇角色表：casts/{SOURCE}.json —— 这是你的实体清单、视角相对称谓表、ambiguous 消解规则、倒指代回填线索、语癖签名。务必先吃透 focalizer_note / ambiguous / needs_registry。
-3. 取章节文本：运行 `python3 render_chapter.py {CORPUS_DIR}/{SOURCE}.json`（**不要**再去 Read 整篇 JSON——那是缩进膨胀的冗余）。输出两块：
+3. 取章节文本：运行 `python3 src/render_chapter.py {CORPUS_DIR}/{SOURCE}.json`（**不要**再去 Read 整篇 JSON——那是缩进膨胀的冗余）。输出两块：
    [全文] 每句一行 `scene_sent│text`，是你做归属的完整上下文，**读完整章再下结论**（倒指代/晚点名要读到后文才能回填）；
    [待标台词] `uid \t 台词`，是你必须标的 uid 集合，不多不少。
 
