@@ -126,7 +126,7 @@
 - [x] 四臂构造与锁版 → `arms/{A,B,C,D}.runtime.prod.md`（A/D=pin 651d67c 旧编译器，C/B=新编译器；`diff(C→B)==diff(A→D)` 已机器验证，见 arms/README.md）
 - [x] `compile.py` / `check.py` 适配：三段渲染（输入轴/常驻/触发）、spine 报错废止、reads/derives 悬空引用 lint、kebab 研究术语泄漏 lint、scene-axis 免四栏免锚；lint 全绿（19 promoted）
 - [ ] **提交纪律（待用户）**：re-type 一笔 commit、新两条单独一笔 commit（diff 留档与 arms/ 互证）
-- [ ] 目的合法性探针集（14–18 条**三元组**，四族+3a/3b 下限，预登记手算链 git 冻结后才跑）——**草稿已出**（`probes/probes.draft.md`，14 条），待用户逐条签收 → 改名 frozen → commit 冻结 → 跑 agent
+- [x] 目的合法性探针集 round1：14 条签收冻结 → 14 独立盲判 subagent（B 臂 eval）→ 逐环比对（`probes/runs/round1.md`）。**闸②按预登记 FAIL（总判 4/14）**，但失败**纯单向过度拒绝**（零假阳性/零假放行；端 6 错全 接→拒、法 7 错全 过→违）。两铁证：P01/P02 同手段法墙自相矛盾、端拒不短路行为层失效。下一轮：core「目的」段补宽容度锚 + 双墙拆两次独立调用 + 修 P07/P09 预登记疑点
 - [ ] 描述/规范扫轴体检
 - [ ] item09 **2×2 消融**（四臂 × 2–3 次生成，目的读数四格勾选 + 并列排序 + 链审计）+ **≥1 新域目的校准场景**，写 `regression/`
 - [ ] 收口 FINDINGS：双闸结果按读法分支表归因 → 判 exp4 是"真改行为"还是"干净重写"；"过族1"与"证非枚举"分开报
