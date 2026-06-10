@@ -72,7 +72,11 @@ def decision_block(promoted):
     parts += [render(m, s) for m, s in axes]
     parts.append("\n## 常驻策略（始终生效）\n")
     parts += [render(m, s) for m, s in core]
-    parts.append("\n## 情景触发（命中条件才取）\n")
+    # v3.1 修法 C：禁令作用域规则随段头渲染（SCHEMA 不变量7）——
+    # 防 agent 把卡内场景特定禁令搬运成通用禁令（round1-bareR P13 法墙同型错）。
+    parts.append("\n## 情景触发（命中条件才取）\n\n"
+                 "以下各卡的全部内容——**含其「禁止」条目**——只在该卡触发条件命中的场景内生效，"
+                 "不得搬运到其他场景作通用禁令。\n")
     parts += [render(m, s) for m, s in trig]
     return parts, len(axes), len(core), len(trig)
 

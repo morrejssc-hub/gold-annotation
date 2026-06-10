@@ -38,6 +38,6 @@ axes/{presence, pressure, relation}、spine/trust-axis（轴声明，SCHEMA 免�
 
 1. ✅ 纸面体检（paper-check.md）——待用户签收
 2. ✅ **round1 双臂回归已跑**（用户指示先行；[probes/runs/round1-bareR.md](probes/runs/round1-bareR.md)）：裸R 8/14 ≥ 全量 7/14（v2 基线 4–5/14）。读法分支 1 → **建议 N 移出 runtime**；新主导失败模式 = 端法互渗；修法清单 A–E 在报告
-3. **当前位置：待用户裁定**——签收两份报告 + N 去留拍板 + 修法 A/B/C/E 批准 → 落卡 → commit 基重写与定稿（diff 留档）
-4. 定稿版进 round2 实跑（18 条）——重点观察族5（纸面 ⚠ 格）与法墙同型错是否被修法 B 治住
-5. item09 2×2 消融（C/B 重快照，用定稿版）+ 新域场景 → FINDINGS 收口
+3. ✅ **定稿 v3.1 已落卡并 commit**（用户拍板 2026-06-11）：N 移出 runtime（core 笔记段保引用键）+ 修法 A（lie 端法明确化，core）/ B（"演"的边界，output-bans）/ C（禁令作用域，compile.py + SCHEMA 不变量7）/ D（SPEC §5.5/5.6）。三笔 commit：基重写+体检 → 双臂实验 → 定稿（diff 各自可审）
+4. **当前位置：round2 实跑前置**——P07 法墙 P3 之争待用户裁决（E，全量臂三轮一致判违）；裁决后跑 round2（18 条，被测 = v3.1）——重点观察族5 假阳性、修法 B 是否治住法墙同型错、P12 误杀是否复发
+5. item09 2×2 消融（C/B 重快照，用 v3.1）+ 新域场景 → FINDINGS 收口
