@@ -2,6 +2,22 @@
 
 This orphan branch is the clean starting point for the next architecture pass.
 
+## Goal
+
+Build a relation-first character runtime instead of another character-specific bible.
+
+The runtime is split into:
+
+- generic contract: invariant architecture with no proper nouns, canon examples, or trigger-card labels
+- character instance: roots, posture, lie/masking behavior, substrate, and voice for one character
+- scene binding: runtime inputs for scene frame, relationship edges, and local affordances
+- legality gates: purpose correction against root ownership and method constraints
+- renderer: final action + line, with hidden reasoning
+
+## Branch contents
+
+New architecture docs live under `experiments/exp5-generic-character-function/`.
+
 Retained from `exp4` for evaluation only:
 
 - `experiments/exp4-core-function/probes/probes.frozen.md`
