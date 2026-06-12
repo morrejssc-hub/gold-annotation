@@ -12,7 +12,7 @@ from openai import OpenAI
 
 OUT = Path(__file__).resolve().parent
 BASE = "https://dashscope.aliyuncs.com/compatible-mode/v1"
-MODELS = ["qwen3.7-plus", "qwen3.7-max", "deepseek-v4"]
+MODELS = ["qwen3.7-plus", "qwen3.7-max"]  # deepseek-v4-pro 不在 Batch 白名单，走实时（run_realtime.py）
 
 key = os.environ.get("DASHSCOPE_API_KEY", "")
 if not key:

@@ -1,0 +1,10 @@
+{
+ "qwen3.7-plus": {
+  "file_id": "file-batch-f1b718324fe14a2fafd738a6",
+  "batch_id": "batch_c274297b-f703-4d59-9e94-32ef157425f7"
+ },
+ "qwen3.7-max": {
+  "file_id": "file-batch-73157855b5e14411bd9084e8",
+  "batch_id": "batch_cf22e4a9-222f-4028-b651-42e344a70b57"
+ }
+}

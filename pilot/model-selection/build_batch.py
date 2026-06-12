@@ -13,7 +13,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 OUT = Path(__file__).resolve().parent
 
-MODELS = ["qwen3.7-plus", "qwen3.7-max", "deepseek-v4"]  # deepseek ID 以 /models 实查为准
+MODELS = ["qwen3.7-plus", "qwen3.7-max", "deepseek-v4-pro"]  # 钉版快照 2026-06-12 实查
 PARAMS = dict(temperature=0.7, top_p=0.9, max_tokens=500, seed=7)
 
 IDENTITY = """你将扮演一个角色进行单轮回应续写。
