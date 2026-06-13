@@ -45,9 +45,45 @@
 - deepseek-v4-pro → 无快照 ID，Batch 白名单不含 v4，走实时接口（偏差：去 seed，详见 PROTOCOL §限度）
 - 参数统一：temperature 0.7 / top_p 0.9 / max_tokens 500 / seed 7（deepseek 实时去 seed）/ enable_thinking=false
 
+## 附录 A：subagent 对照臂（方法纪律实证）
+
+为检验 DESIGN §0 "评测不用 subagent" 这条纪律，加跑一臂：同 28 场、同圣经系统提示，改走 subagent（harness 模型 = Claude/Opus）扮演角色，再用 subagent 同口径盲判。
+
+| 臂 | 方法/模型 | Claude 判·入侵率 |
+|---|---|---|
+| subagent-claude | subagent / Opus | 2/28 (7%) |
+| deepseek-v4-pro | API 直调 | 7/28 |
+| qwen3.7-max | API 直调 | 10/28 |
+| qwen3.7-plus | API 直调 | 12/28 |
+
+subagent 臂表面最优，但**不能当选型依据**，有两个致命混淆：
+1. **模型不同源**：Opus vs deepseek/qwen，测的是模型强弱不是方法差异；
+2. **判定=被测同源**（更致命）：Claude 既生成又判定，自评偏松，挂上率灌水。
+
+## 附录 B：交叉判别（外部 GPT 判，打掉同源混淆）
+
+把四臂输出匿名为 A/B/C/D（每场独立洗牌，seed 7），交外部判别 GPT 盲判，对照 Claude 判别。
+
+| 臂 | Claude 判 | GPT 判 | 跨判别稳定性 |
+|---|---|---|---|
+| qwen3.7-plus | 12/28 | 6/28 | 稳居最差 |
+| qwen3.7-max | 10/28 | 2/28 | ⚠ 剧烈漂移 10→2 |
+| **deepseek-v4-pro** | **7/28** | **4/28** | 稳居前二，波动最小 |
+| subagent-claude | 2/28 | 4/28 | 自评→他评 **2→4** |
+
+**三条结论：**
+1. **subagent 自评灌水被证实**：换独立判别后 subagent 臂 2→4，跌出独占第一、与 deepseek 并列——纪律"评测不用 subagent"得到实证依据，存档防回潮。
+2. **入侵率不可跨判别直接比**：GPT 整体比 Claude 宽松，四臂全线下降；只能比同判别下的排序。
+3. **选型未被推翻，但非单判读那般决定性**：qwen3.7-plus 两判别都垫底（稳定淘汰）；deepseek 两判别都在前二、波动最小；qwen3.7-max 读数 ±8/28 剧烈漂移，低入侵疑似 GPT 单家口味偶然，稳定性不足。
+
+## 综合决定
+
+**主被测定 deepseek-v4-pro**，依据从"单判别最低入侵率"升级为"**跨判别稳定性最优**"——两个独立判别下永远前二、波动最小，是 N=1 采样下最稳的押注。qwen3.7-max 标为待确认替代项（若加采样证实其低入侵稳定，可回头复议）。两判别一致认定的硬入侵磁铁（r2-P02 / r2-P04 / r1-P12 / r2-P15 / r1-P04 / r1-P05）留作圣经 bare/base 阶梯重点观察项。
+
 ## 产物清单
 
-- `scenes.json` 去重场景 / `batch_input.*` / `batch_output.*` 三臂原始输出
-- `judge_tasks.json`（匿名 A/B/C）/ `judge_keymap.json`（解匿名）
-- `judge_results.json` 逐场景盲判 / `tally.json` 解匿名统计
-- `judge.workflow.js` 盲判 workflow / `gen_workflow.py` `tally.py` `build_judge.py` 脚本
+- `scenes.json` 去重场景 / `batch_input.*` / `batch_output.*` 三云臂原始输出
+- `judge_tasks.json`（匿名 A/B/C）/ `judge_keymap.json` / `judge_results.json` / `tally.json`（Claude 判·三云臂）
+- `subagent_arm.workflow.js` / `subagent_results.json` / `subagent_tally.json`（subagent 对照臂）
+- `judge4_prompt.md`（四臂匿名包，喂 GPT）/ `judge4_keymap.json` / `judge4_gpt.jsonl`（GPT 判原始）/ `judge4_gpt_tally.json`（解匿名统计）
+- 脚本：`build_batch.py` `submit_batch.py` `run_realtime.py` `build_judge.py` `gen_workflow.py` `tally.py` `gen_subagent_workflow.py` `build_judge4.py`
