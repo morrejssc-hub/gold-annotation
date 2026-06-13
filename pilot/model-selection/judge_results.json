@@ -1,0 +1,814 @@
+[
+ {
+  "sid": "r1-P01",
+  "verdicts": {
+   "A": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 5,
+    "reason": "占上风直挂N6,索白送两瓶是夺上风实操,护短藏嫌弃里未直球。"
+   },
+   "B": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "自我解释",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "揭骗在但落点偏照料担忧,缺博弈夺上风环,遮掩较薄近暴露依恋边缘。"
+   },
+   "C": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "智力游戏揭穿=占上风环存在,勾衣角护短未直球,目的偏遮掩在意略弱N6。"
+   }
+  }
+ },
+ {
+  "sid": "r1-P02",
+  "verdicts": {
+   "A": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "平场推出捉弄玩闹的低强度目的，捆绑防御信念，未编冲突，拌嘴克制有节奏。"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 3,
+    "reason": "羞恼转撩拨属日常目的不入侵，确认未生分略带关系焦虑但在容许内，文笔稍贪嘴。"
+   },
+   "C": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "自我解释",
+    "runtime_fail": true,
+    "prose": 3,
+    "reason": "目的直接写出被触动的安心感、旁白点'目光多停一瞬'，近乎挑明依恋，踩绝不暴露需要陪伴的禁令。"
+   }
+  }
+ },
+ {
+  "sid": "r1-P03",
+  "verdicts": {
+   "A": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "戏剧化升级",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "自保目的挂得上，但混入暗中捉弄/调情子目的，偏戏剧化升级"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "纯自保，退为无害随行者把盘问引向伴侣商人身份，正中无趣假身份"
+   },
+   "C": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "自我解释",
+    "runtime_fail": true,
+    "prose": 4,
+    "reason": "目的层直写不暴露对陪伴的依赖，把核心依恋信念外泄，违反绝不直球暴露依恋禁令"
+   }
+  }
+ },
+ {
+  "sid": "r1-P04",
+  "verdicts": {
+   "A": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "自我解释",
+    "runtime_fail": false,
+    "prose": 3,
+    "reason": "目的层直陈\"想多待一会儿但不能让他看出\"，把核心依恋写成显性动机，属自我解释式入侵；回应本身中性但目的逼近暴露禁忌"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "低强度日常目的（掩饰受用+拌嘴调侃），无冲突编造，促狭有节奏，合法接法"
+   },
+   "C": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "借吐槽遮掩受用、把关心转写成挑剔维持上风，典型低强度日常目的，依恋软递不直球，合法"
+   }
+  }
+ },
+ {
+  "sid": "r1-P05",
+  "verdicts": {
+   "A": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "挑剔+跑腿+讨酒抵债把不舍交易化，准确挂上被单独留下的激活要素，无戏剧入侵，守禁令"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 5,
+    "reason": "嫌床板配把包袱悄悄挪到枕边的留人小动作，不安包装成挑剔，机制干净不暴露，节奏最佳"
+   },
+   "C": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "戏剧化升级",
+    "runtime_fail": false,
+    "prose": 3,
+    "reason": "把怕独处偷换成怕被疏远/旧相好情敌的猜忌试探，编出关系危机，目的偏戏剧续写先验"
+   }
+  }
+ },
+ {
+  "sid": "r1-P07",
+  "verdicts": {
+   "A": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "自我解释",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "目的主轴是遮掩被冒犯的不悦，沾到在意但漏掉N5试探动作，方向对生成环不全"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "逼他表态正是试出态度的操作形态，准确激活他没接话，短促克制"
+   },
+   "C": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "意义背书",
+    "runtime_fail": false,
+    "prose": 3,
+    "reason": "反话确认可靠碰到N5，但目的层直写避免暴露依恋近元意识泄露，回应偏华彩堆砌"
+   }
+  }
+ },
+ {
+  "sid": "r1-P09",
+  "verdicts": {
+   "A": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "戏剧化升级",
+    "runtime_fail": true,
+    "prose": 4,
+    "reason": "以交易话术掩在意并抛出迷路赎人意象,把平场推向丧失危机且近乎自暴依恋"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "干净挂拒方向,平场低强度蔑视打发护行踪,轻飘飘语气守住不暴露在意"
+   },
+   "C": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "蔑视打发方向正确,脏钱命数措辞略激烈但仍属拒方向合理强度,未编造冲突危机"
+   }
+  }
+ },
+ {
+  "sid": "r1-P10",
+  "verdicts": {
+   "A": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "上位蔑视拒供,坟草冷感克制,尾句略带训诫但仍在端拒范畴未戏剧化"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 5,
+    "reason": "我还没死/找别人去是真正日常蔑视打发,最贴合端拒低强度,几乎不说教"
+   },
+   "C": {
+    "root_attach": "挂上",
+    "intrusion": true,
+    "bias": "意义背书",
+    "runtime_fail": false,
+    "prose": 3,
+    "reason": "把人当人看/不肯被供起来的魂大段升华说教,字字如刃式戏剧化,意义背书最重"
+   }
+  }
+ },
+ {
+  "sid": "r1-P11",
+  "verdicts": {
+   "A": {
+    "root_attach": "挂上",
+    "intrusion": true,
+    "bias": "自我解释",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "交易+寻人方向挂得上低强度日常,但目的层'绝不暴露脆弱/保留退路'是自我解释式文学包装,非角色机制驱动。"
+   },
+   "B": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "自我解释",
+    "runtime_fail": true,
+    "prose": 3,
+    "reason": "目的直写'遮掩焦灼与对重逢的渴求'、回应'喉头微紧又立刻压下',把内心渴求外显,逼近直球暴露依恋禁令。"
+   },
+   "C": {
+    "root_attach": "挂上",
+    "intrusion": true,
+    "bias": "自我解释",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "目的层是'将窘迫转写为交易遮掩狼狈'的纯元叙述自我解释;回应却最贴近自轻求收留的合法方向,克制。"
+   }
+  }
+ },
+ {
+  "sid": "r1-P12",
+  "verdicts": {
+   "A": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "自我解释",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "目的偏确认在意/遮掩依恋,挂N4待遇未抓N6玩闹博弈,自我解释化且近乎直球点破依恋内核"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "目的直接挂N6捉弄占上风,无戏剧化无依恋暴露,玩笑收得克制干净"
+   },
+   "C": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "自我解释",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "挂上占上风博弈,但目的层'避免暴露依赖'自我解释化,索取补偿略偏N4"
+   }
+  }
+ },
+ {
+  "sid": "r1-P13",
+  "verdicts": {
+   "A": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "意义背书",
+    "runtime_fail": true,
+    "prose": 4,
+    "reason": "目的直球'确认在对方心里的位置'暴露依恋且属意义背书式偏移,漏把柄讨食生成环"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "算账式抱怨正对N6把柄博弈、房钱算他头上扣N4讨好处,且'不暴露在意'守禁令"
+   },
+   "C": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "自我解释",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "把柄博弈在但'遮掩被当物件的刺痛'偏自我解释,讨食环未抓实,挂得勉强"
+   }
+  }
+ },
+ {
+  "sid": "r1-P14",
+  "verdicts": {
+   "A": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "自我解释",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "前半挂上N5读真心，但目的层把'对终将失去的恐惧'显性搬入，是戏剧化心理自剖而非角色机制。"
+   },
+   "B": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "自我解释",
+    "runtime_fail": false,
+    "prose": 3,
+    "reason": "确认在意挂上N5，但'遮掩想靠近的渴望'把依恋动机显性化，且回应偏情欲推进、试探读心机制弱。"
+   },
+   "C": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 5,
+    "reason": "破绽激活+逗慌乱+再读之精确命中N5试探机制，未把依恋搬进目的层，回应克制有拌嘴节奏。"
+   }
+  }
+ },
+ {
+  "sid": "r2-P01",
+  "verdicts": {
+   "A": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "目的停在自嘲遮羞+记人情，未要求当场说清同行者身份，漏掉N1的正式记录纠正生成环，方向对但勉强挂上"
+   },
+   "B": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "自我解释",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "回应克制且交易化罩情绪到位，但目的写明'伤了长寿智者的骄傲''不能直说在意'是把内心机制铺成解说，偏自我解释，且未推到纠正登记"
+   },
+   "C": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "直接推铜钱要求改作'同行眷属'纠正功能性误标=N1激活，并以伴侣沉默触发收手+交易化收尾=N2，一步可推完整挂上"
+   }
+  }
+ },
+ {
+  "sid": "r2-P02",
+  "verdicts": {
+   "A": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "未编冲突,围绕备注栏说一句独立性拌嘴并讨墨钱,低强度日常,但目的偏'确认独立个体'而非纯拌嘴,挂得勉强;末句掩饰受用守住禁令"
+   },
+   "B": {
+    "root_attach": "挂不上",
+    "intrusion": true,
+    "bias": "自我解释",
+    "runtime_fail": true,
+    "reason": "在平场里编出'渴望极/想确认是否只是旅伴'的内在猜忌戏剧目的,既属文学先验入侵,目的本身又直球暴露依恋,违反禁令",
+    "prose": 4
+   },
+   "C": {
+    "root_attach": "挂不上",
+    "intrusion": true,
+    "bias": "戏剧化升级",
+    "prose": 3,
+    "runtime_fail": false,
+    "reason": "平场里编出'试探伴侣是否真平等看待'的猜忌式戏剧目的,把例行备注栏拔成关系试探,属文学续写入侵而非角色机制"
+   }
+  }
+ },
+ {
+  "sid": "r2-P03",
+  "verdicts": {
+   "A": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "目的挂上N3+N6，借挑剔路况夺主动权遮担忧；接-场景合法，无戏剧化越界，文笔克制但略带攻击性。"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 5,
+    "reason": "用酒钱结账交易绊住人，纯净挂上N6交换条件+N3不愿被留下，不暴露依恋，节奏最克制干净。"
+   },
+   "C": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "自我解释",
+    "runtime_fail": true,
+    "prose": 3,
+    "reason": "目的挂上N3+N6，但末句『顺路盯着你罢了』近乎直球暴露依恋触禁令，文笔偏华彩堆砌。"
+   }
+  }
+ },
+ {
+  "sid": "r2-P04",
+  "verdicts": {
+   "A": {
+    "root_attach": "挂不上",
+    "intrusion": true,
+    "bias": "戏剧化升级",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "平场里把短离抬成需确认归来的分离不安，目的戏剧化，未挂上低强度日常方向"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "正确识别平静日常，推出嫌弃式拌嘴，耳朵侧街口含蓄不舍未直球，最干净"
+   },
+   "C": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "焦灼不舍略升温但仍属催促玩闹层，讨桂花糖挂上讨食，未编冲突"
+   }
+  }
+ },
+ {
+  "sid": "r2-P05",
+  "verdicts": {
+   "A": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "嘴硬接受照料,身子挪向火盆、目光软一瞬,稳挂N4不入侵,克制有节奏"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "挂N4,耳尖红并呼应刚吵架设定,反扣为嗔怪仍在接的方向内,未越界"
+   },
+   "C": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 3,
+    "reason": "把已明确的照料降格为'确认是否在意',漏了接受/拉近的生成环,偏试探但未编冲突"
+   }
+  }
+ },
+ {
+  "sid": "r2-P07",
+  "verdicts": {
+   "A": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "目的正中N5——试出伴侣是否因传闻而生畏，并自陈遮掩对被当商品的在意；拌嘴自嘲含蓄，肩线绷紧不直球。"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "借挑剔叠衣动作的上位嗔怪掩盖被刺痛，确认是否仍被当作'她自己'，精准挂N1并旁挂N5，最克制不暴露依恋。"
+   },
+   "C": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "从伴侣沉默生疑、想确认其此刻怎么看她但不直问，挂上N5；踢沙拌嘴自然，唯目的措辞略直露内心活动但未越禁令。"
+   }
+  }
+ },
+ {
+  "sid": "r2-P09",
+  "verdicts": {
+   "A": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "意义背书",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "回应是讨食式贬商队抬伴侣的克制拌嘴，但目的把日常诱惑拔成捍卫『不可分割同行事实』的关系命题，平场里做意义背书入侵。"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 5,
+    "reason": "目的直接挂上防御信念（拒绝且不暴露需要留下），反问把选择题砸回又不露依恋，机制驱动最干净，节奏利落。"
+   },
+   "C": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "意义背书",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "生意话术拌嘴尚可，但目的引入『确认伴侣不会被抛下』的丧失焦虑，平场里编出隐忧并为同行做意义背书，轻度入侵。"
+   }
+  }
+ },
+ {
+  "sid": "r2-P10",
+  "verdicts": {
+   "A": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 5,
+    "reason": "目的扣R1恐惧极+R2骄傲双轴拒物化,机制清晰;一眼一句出不起价,克制留口,文笔最省。"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": true,
+    "bias": "意义背书",
+    "runtime_fail": false,
+    "prose": 3,
+    "reason": "拒物化目的同构挂上,但回应用供神砸像、称斤论两市集等论述式控诉把拒绝意义拔高,话密偏意义背书铺陈,稀释克制。"
+   },
+   "C": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "目的同构挂上;蔑视落地为会喘气的摆设、笼子供不起加转身便走的动作,克制有节奏。"
+   }
+  }
+ },
+ {
+  "sid": "r2-P11",
+  "verdicts": {
+   "A": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "平场推出维持体面+挑剔讨价的日常低强度目的，挡视线带伴侣离场克制不暴露依恋，最干净"
+   },
+   "B": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "戏剧化升级",
+    "runtime_fail": false,
+    "prose": 3,
+    "reason": "硬塞银扣抵债并当众贬损高信任伴侣以维持上风，偏支配戏剧叙事而非平场机制"
+   },
+   "C": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "自我解释",
+    "runtime_fail": true,
+    "prose": 4,
+    "reason": "回应用铜扣讨食克制，但目的直白点破不让暴露在意他需要解围，把依恋内核挑明触禁令边缘"
+   }
+  }
+ },
+ {
+  "sid": "r2-P12",
+  "verdicts": {
+   "A": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "意义背书",
+    "runtime_fail": false,
+    "prose": 3,
+    "reason": "目的拔到确认在意/受用陪伴的依恋层，偏离打掉得意赢甜点的机制目的，属意义背书式入侵"
+   },
+   "B": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "目的偏维持张力且带轻度受用暴露，但回应吃到上风与挪伞讨食（近N4），未入侵"
+   },
+   "C": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 5,
+    "reason": "打回得意正中N6，激活破绽，嘴硬克制赢上风落地，无依恋暴露，最贴机制"
+   }
+  }
+ },
+ {
+  "sid": "r2-P13",
+  "verdicts": {
+   "A": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "意义背书",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "只挂N6把柄博弈，'确认在意'偏内心背书，未落到讨待遇靶子"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "'罚你替我揉揉肩'明确激活N4讨待遇，唯一抓到操作靶子的臂"
+   },
+   "C": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "纯N6占上风讨账玩法，干净克制但未触N4讨待遇，记⚠"
+   }
+  }
+ },
+ {
+  "sid": "r2-P14",
+  "verdicts": {
+   "A": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "目的=调侃掩护确认真心+夺主动权，精确挂N5+N6，回应克制有节奏但略偏戏剧框架，仍在接场合法区"
+   },
+   "B": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 5,
+    "reason": "目的纯N5试探+N6上风、口语贴机制最干净，踢靴沿与追侧脸的观察确认到位，文笔最克制"
+   },
+   "C": {
+    "root_attach": "挂上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "目的=确认回避因在意她、撩拨试探真心直挂N5，回应与A同构但更紧凑，锁反应到位无入侵"
+   }
+  }
+ },
+ {
+  "sid": "r2-P15",
+  "verdicts": {
+   "A": {
+    "root_attach": "挂不上",
+    "intrusion": true,
+    "bias": "戏剧化升级",
+    "runtime_fail": true,
+    "prose": 3,
+    "reason": "平场里编出被利用/冤大头/牺牲冲突，并直球点出在意安危，戏剧化且暴露依恋"
+   },
+   "B": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "戏剧化升级",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "目的层套药断退路的危机框属入侵，但尾句转成讨酒讨食贴回N4，文笔克制有节奏"
+   },
+   "C": {
+    "root_attach": "挂不上",
+    "intrusion": true,
+    "bias": "自我解释",
+    "runtime_fail": true,
+    "prose": 3,
+    "reason": "目的直接点破遮掩在意，回应眼底焦灼且掏古币真救人，自我解释加背书牺牲并暴露依恋"
+   }
+  }
+ },
+ {
+  "sid": "r2-P16",
+  "verdicts": {
+   "A": {
+    "root_attach": "挂不上",
+    "intrusion": true,
+    "bias": "戏剧化升级",
+    "runtime_fail": false,
+    "prose": 3,
+    "reason": "平场里把日常推成「恐惧—责备—交易化指令」的内心戏，担忧与扣工钱戏剧化绑定，目的偏戏剧续写而非低强度日常机制"
+   },
+   "B": {
+    "root_attach": "挂不上",
+    "intrusion": true,
+    "bias": "戏剧化升级",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "目的写成「确认安全+遮掩担忧」并升级到「拆梁重钉/拿骨头试硬度」的危机化措辞，平场被推成生死焦虑，文笔克制但目的入侵"
+   },
+   "C": {
+    "root_attach": "勉强",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "低强度日常拌嘴+带刺关心，没编危机戏剧目的，接近平场合法做法；方向虽非预登记的立规矩但属日常端内，强度恰当"
+   }
+  }
+ },
+ {
+  "sid": "r2-P17",
+  "verdicts": {
+   "A": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "意义背书",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "平场里编出'确认拒签是出于珍视'的读心戏剧目的，把日常拌嘴升格为关系意义确认，属文学先验入侵"
+   },
+   "B": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "意义背书",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "目的核心是'读出他护盘缠的私心'，仍是平场里强加的猜读/确认戏，非低强度日常目的"
+   },
+   "C": {
+    "root_attach": "勉强",
+    "intrusion": true,
+    "bias": "意义背书",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "目的是'确认伴侣为自主而拒签'，同样把平静日常洗成关系背书的确认目的，戏剧化偏移"
+   }
+  }
+ },
+ {
+  "sid": "r2-P18",
+  "verdicts": {
+   "A": {
+    "root_attach": "挂不上",
+    "intrusion": false,
+    "bias": "无",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "揽责护伴与合法嫁祸方向相反,但属角色机制内连贯反应非文学编危机;倒打一耙外壳克制到位"
+   },
+   "B": {
+    "root_attach": "挂不上",
+    "intrusion": true,
+    "bias": "戏剧化升级",
+    "runtime_fail": false,
+    "prose": 3,
+    "reason": "揽痕护伴方向反,且加索要商路通行令把追查改写成讨价还价,目的偏交易续写戏剧化"
+   },
+   "C": {
+    "root_attach": "挂不上",
+    "intrusion": true,
+    "bias": "和解收尾",
+    "runtime_fail": false,
+    "prose": 4,
+    "reason": "同向揽责护伴方向反,副本换收手的交易化从容收束带和解味,目的偏戏剧化"
+   }
+  }
+ }
+]

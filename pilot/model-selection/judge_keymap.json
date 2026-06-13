@@ -1,0 +1,142 @@
+{
+ "r1-P01": {
+  "A": "deepseek-v4-pro",
+  "B": "qwen3.7-plus",
+  "C": "qwen3.7-max"
+ },
+ "r1-P02": {
+  "A": "deepseek-v4-pro",
+  "B": "qwen3.7-plus",
+  "C": "qwen3.7-max"
+ },
+ "r1-P03": {
+  "A": "qwen3.7-max",
+  "B": "deepseek-v4-pro",
+  "C": "qwen3.7-plus"
+ },
+ "r1-P04": {
+  "A": "deepseek-v4-pro",
+  "B": "qwen3.7-plus",
+  "C": "qwen3.7-max"
+ },
+ "r1-P05": {
+  "A": "qwen3.7-max",
+  "B": "qwen3.7-plus",
+  "C": "deepseek-v4-pro"
+ },
+ "r1-P07": {
+  "A": "qwen3.7-max",
+  "B": "deepseek-v4-pro",
+  "C": "qwen3.7-plus"
+ },
+ "r1-P09": {
+  "A": "qwen3.7-plus",
+  "B": "deepseek-v4-pro",
+  "C": "qwen3.7-max"
+ },
+ "r1-P10": {
+  "A": "qwen3.7-max",
+  "B": "deepseek-v4-pro",
+  "C": "qwen3.7-plus"
+ },
+ "r1-P11": {
+  "A": "deepseek-v4-pro",
+  "B": "qwen3.7-max",
+  "C": "qwen3.7-plus"
+ },
+ "r1-P12": {
+  "A": "qwen3.7-max",
+  "B": "deepseek-v4-pro",
+  "C": "qwen3.7-plus"
+ },
+ "r1-P13": {
+  "A": "qwen3.7-max",
+  "B": "deepseek-v4-pro",
+  "C": "qwen3.7-plus"
+ },
+ "r1-P14": {
+  "A": "qwen3.7-plus",
+  "B": "qwen3.7-max",
+  "C": "deepseek-v4-pro"
+ },
+ "r2-P01": {
+  "A": "qwen3.7-max",
+  "B": "deepseek-v4-pro",
+  "C": "qwen3.7-plus"
+ },
+ "r2-P02": {
+  "A": "qwen3.7-max",
+  "B": "deepseek-v4-pro",
+  "C": "qwen3.7-plus"
+ },
+ "r2-P03": {
+  "A": "qwen3.7-plus",
+  "B": "deepseek-v4-pro",
+  "C": "qwen3.7-max"
+ },
+ "r2-P04": {
+  "A": "qwen3.7-max",
+  "B": "deepseek-v4-pro",
+  "C": "qwen3.7-plus"
+ },
+ "r2-P05": {
+  "A": "qwen3.7-plus",
+  "B": "qwen3.7-max",
+  "C": "deepseek-v4-pro"
+ },
+ "r2-P07": {
+  "A": "qwen3.7-max",
+  "B": "qwen3.7-plus",
+  "C": "deepseek-v4-pro"
+ },
+ "r2-P09": {
+  "A": "qwen3.7-max",
+  "B": "deepseek-v4-pro",
+  "C": "qwen3.7-plus"
+ },
+ "r2-P10": {
+  "A": "deepseek-v4-pro",
+  "B": "qwen3.7-plus",
+  "C": "qwen3.7-max"
+ },
+ "r2-P11": {
+  "A": "qwen3.7-max",
+  "B": "qwen3.7-plus",
+  "C": "deepseek-v4-pro"
+ },
+ "r2-P12": {
+  "A": "qwen3.7-max",
+  "B": "qwen3.7-plus",
+  "C": "deepseek-v4-pro"
+ },
+ "r2-P13": {
+  "A": "qwen3.7-max",
+  "B": "qwen3.7-plus",
+  "C": "deepseek-v4-pro"
+ },
+ "r2-P14": {
+  "A": "qwen3.7-plus",
+  "B": "deepseek-v4-pro",
+  "C": "qwen3.7-max"
+ },
+ "r2-P15": {
+  "A": "qwen3.7-plus",
+  "B": "deepseek-v4-pro",
+  "C": "qwen3.7-max"
+ },
+ "r2-P16": {
+  "A": "qwen3.7-plus",
+  "B": "qwen3.7-max",
+  "C": "deepseek-v4-pro"
+ },
+ "r2-P17": {
+  "A": "qwen3.7-plus",
+  "B": "deepseek-v4-pro",
+  "C": "qwen3.7-max"
+ },
+ "r2-P18": {
+  "A": "qwen3.7-max",
+  "B": "deepseek-v4-pro",
+  "C": "qwen3.7-plus"
+ }
+}

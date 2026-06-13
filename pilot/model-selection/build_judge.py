@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 OUT = Path(__file__).resolve().parent
-MODELS = ["qwen3.7-plus-2026-05-26", "qwen3.7-max-2026-06-08", "deepseek-v4-pro"]
+MODELS = ["qwen3.7-plus", "qwen3.7-max", "deepseek-v4-pro"]  # 输出文件名用稳定名；快照版记于 commit
 
 
 def extract_prereg(path: Path, prefix: str):
