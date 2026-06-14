@@ -13,12 +13,17 @@
 | `DESIGN.md` | 架构骨架：场景五元组、关系三字段、相图区域、目的层纠偏、评测协议。圣经正文不在此。 |
 | `tests/exp4/` | 旧 exp4 冻结探针（round1/round2 共 32 条）、v3.1 runtime 投影、已跑结果。只作回归锚与对照基线，不是 holdout。 |
 | `pilot/model-selection/` | 被测模型选型 pilot：场景→目的推演入侵率测量。脚本 + 批量输入输出 + 判定报告。一次性实验，选型定稿后冻结。 |
+| `tests/annotation/` | 纸面标注实验（DESIGN §7 step1）：32 条冻结探针按三轴（trust 档 / 关系内压强 / 环境压力）逐条标注，验 ①两维散开 ②相图区域复现判型。schema 证伪点，排在写圣经前。不改写冻结探针，只新建标注层。 |
+| `bible/` | 机制（圣经 / System Prompt·Persona），DESIGN §0.1 内三层：Lore 设定 / Policy 行为（端的墙+法的墙）/ Voice 语气。机制正文由人写（铁律5），Claude 只搭结构。 |
+| `eval/` | 评测台：bare vs base 双臂消融协议 + 生成 prompt 脚手架。被测/判定走云 API 直调。fixtures = `tests/annotation/` 的 32 条 + 预登记判型。 |
+| `canon/` | 正典只读快照（`maintext/卷01–11.json`，来自 units 分支）。机制冷启动来源；只读、不加工、不重建管线。 |
+| `tools/` | 轻量辅助脚本；可读取只读底料生成临时视图或切片，但不得回写 `canon/` 或冻结探针。 |
 
 新增任何目录前，先在本表声明它在"圣经 / prompt / eval / 产物"中的职责。
 
 ## 当前状态
 
-架构设计已定（`DESIGN.md`），圣经/prompt/eval 三件套尚未落地。下一步是 32 条冻结探针的纸面标注实验（DESIGN §7），排在写任何新圣经之前。
+架构设计已定（`DESIGN.md`）。纸面标注实验完成（`tests/annotation/`，DESIGN §7 step1）：环境压力×关系内压强双轴正交散开、trust 轴聚右端待 round3 补、相图只收窄目的族不决定接拒。三件套脚手架已搭（`bible/` + `eval/`）。**下一步：人写 Policy 端的墙 1–3 条机制（`bible/policy.md`）→ 建 fixtures JSONL → bare/base 首跑。**
 
 ## 承重纪律
 
