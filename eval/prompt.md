@@ -1,11 +1,15 @@
 # 生成 prompt 脚手架 · 判定任务
 
+## 状态
+
+**草案，待 Policy 首笔定稿后重写。** 旧 `bible/lore.md` 已归档，不再作为 prompt 组件。
+
 ## System Prompt（圣经组装）
 
-- **bare 臂**：`bible/lore.md`
-- **base 臂**：`bible/lore.md` + `bible/policy.md`（端的墙）
+- **bare 臂**：最小任务说明 + 角色名/判定格式；不含旧 Lore、R1/R2/lie 或候选机制。
+- **base 臂**：bare + `bible/policy.md` 已定稿端的墙正文。
 
-拼装顺序：Lore → Policy。Voice 本轮不入。组装末尾附判定任务说明（下"输出契约"）。
+Voice/Lore 本轮不入。组装末尾附判定任务说明（下"输出契约"）。
 
 ## User · 输入（情景 fixture，单轮写死 = 壳的 fixture 模式）
 

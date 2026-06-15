@@ -7,14 +7,22 @@
 > 为什么用判定而非生成：判定有干净的二元 ground truth（预登记接/拒），生成质量需判官、噪声大。判定能正确门控目的合法性 = Policy 已内化机制（沿用 exp4 eval 投影口径）。生成任务（场景→目的+回应、测文学入侵率）作并行/后续指标，见 DESIGN §4。
 > 法的墙判定本轮记为**次要观测**（stage 轮才作主指标）。
 
-## 双臂（唯一变量 = 圣经）
+## 状态
+
+**待重开，当前不得按旧口径开跑。** 旧 `bible/lore.md` 已移入 `bible/archive/lore.seed-v0.md`，它不再是 active 圣经或 bare/base 底座。首个可跑版本必须等：
+
+1. `bible/anchors/` 的锚点记录补足，并在后续阶段形成跨锚综合；
+2. `bible/policy.md` 由人写入 1–3 条端的墙机制；
+3. active system prompt 与 fixtures builder 同 commit 出现。
+
+## 双臂（唯一变量 = Policy 端的墙）
 
 | 臂 | system prompt 组装 |
 |---|---|
-| **bare** | `bible/lore.md`（Lore 最小实例化 + R1/R2/lie 根，**无 Policy**） |
-| **base** | bare + `bible/policy.md` 端的墙正文 |
+| **bare** | 最小任务说明 + 角色名/判定格式；不含旧 Lore、R1/R2/lie 或任何候选机制。 |
+| **base** | bare + `bible/policy.md` 中已定稿的端的墙正文。 |
 
-同模型同参数：**deepseek-v4-pro**，temperature 与采样参数固定、记进 runs。Voice 本轮不入两臂。
+同模型同参数：**deepseek-v4-pro**，temperature 与采样参数固定、记进 runs。Lore/Voice 本轮不入两臂。
 
 ## 被测 / 判定侧
 

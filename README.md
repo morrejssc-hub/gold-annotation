@@ -14,7 +14,7 @@
 | `tests/exp4/` | 旧 exp4 冻结探针（round1/round2 共 32 条）、v3.1 runtime 投影、已跑结果。只作回归锚与对照基线，不是 holdout。 |
 | `pilot/model-selection/` | 被测模型选型 pilot：场景→目的推演入侵率测量。脚本 + 批量输入输出 + 判定报告。一次性实验，选型定稿后冻结。 |
 | `tests/annotation/` | 纸面标注实验（DESIGN §7 step1）：32 条冻结探针按三轴（trust 档 / 关系内压强 / 环境压力）逐条标注，验 ①两维散开 ②相图区域复现判型。schema 证伪点，排在写圣经前。不改写冻结探针，只新建标注层。 |
-| `bible/` | 机制（圣经 / System Prompt·Persona），DESIGN §0.1 内三层：Lore 设定 / Policy 行为（端的墙+法的墙）/ Voice 语气。机制正文由人写（铁律5），Claude 只搭结构。 |
+| `bible/` | 机制工作区。当前只做**锚点记录先行**：`anchors/` 逐场锚点；跨锚候选综合暂不 active，早期候选已归档到 `archive/synthesis/`，后续锚点足够厚时再取回重审；最终才到 `policy.md` 人定稿机制。旧 Lore 等草稿已归档，不是 active prompt。 |
 | `eval/` | 评测台：bare vs base 双臂消融协议 + 生成 prompt 脚手架。被测/判定走云 API 直调。fixtures = `tests/annotation/` 的 32 条 + 预登记判型。 |
 | `canon/` | 正典只读快照（`maintext/卷01–11.json`，来自 units 分支）。机制冷启动来源；只读、不加工、不重建管线。 |
 | `tools/` | 轻量辅助脚本；可读取只读底料生成临时视图或切片，但不得回写 `canon/` 或冻结探针。 |
@@ -23,7 +23,7 @@
 
 ## 当前状态
 
-架构设计已定（`DESIGN.md`）。纸面标注实验完成（`tests/annotation/`，DESIGN §7 step1）：环境压力×关系内压强双轴正交散开、trust 轴聚右端待 round3 补、相图只收窄目的族不决定接拒。三件套脚手架已搭（`bible/` + `eval/`）。**下一步：人写 Policy 端的墙 1–3 条机制（`bible/policy.md`）→ 建 fixtures JSONL → bare/base 首跑。**
+架构当前口径见 `DESIGN.md`。纸面标注实验完成（`tests/annotation/`，DESIGN §7 step1）：环境压力×关系内压强双轴正交散开、trust 轴聚右端待 round3 补、相图只收窄目的族不决定接拒。机制工作区已改为锚点先行：`bible/anchors/` 已有卷01、卷02 两则锚点；早期候选已归档到 `bible/archive/synthesis/`；旧 `lore.md` 已归档。**下一步：补足关键锚点 → 再取回/重审候选 → 人定稿 Policy 端的墙 1–3 条机制（`bible/policy.md`）→ 同 commit 落 active prompt/eval 输入 → bare/base 首跑。**
 
 ## 承重纪律
 
