@@ -13,6 +13,7 @@ Always respond in Chinese-simplified.
 - `bible/` 是机制工作区，不是 active 圣经：当前只做 `anchors/` 逐场锚点记录；后续锚点足够厚时，才进入跨锚综合并可从 `bible/archive/synthesis/` 取回旧候选重审；最后才到 `policy.md` 人定稿。旧 Lore 等草稿在 `bible/archive/`，不得作为 prompt 或机制依据直接复用。
 - active 圣经/prompt/eval 三件套尚未落地；首笔 active 版本必须同 commit 出现（机制正文 + prompt 组装 + eval 输入/协议口径）。
 - 数据层按需外接，不在本分支常驻。
+- 读取正典（`canon/`）必须通过 `canon/tools/canon_slice.py` 切片，不得裸读 JSON 后大段贴入上下文。脚本按卷/scene 范围切片、只返回锚点记录所需的最小窗口。
 
 ## 过去实验的教训（把握精神，不必拘字面）
 
