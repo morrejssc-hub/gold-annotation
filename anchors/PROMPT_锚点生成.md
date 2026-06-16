@@ -28,7 +28,7 @@ python anchors/build_prompt.py -v 5 -o anchors/extract/codex/
 ## 流程位置
 
 - **两臂各喂一份、独立产出、不共享中间结果**（见 `README.md` 生成流程第 1 步）。不得用 subagent 顶替另一真模型臂（同源会制造"已交叉验证"的假象）。Claude 臂走 Claude Code subagent，Codex/GPT 臂是外部真模型。
-- 两臂都产出后，走 `README.md` 第 4 步（机械对比，输出到 `anchors/extract/对比_卷NN_臂A-vs-臂B.md`）与第 5 步（人审定稿，合并稿落 `notebook/`）。
+- 两臂都产出后，走 `README.md` 第 4 步（对比 + 生发新想法——并排列三类分歧，**并交付两版并置才浮出的新读法／新落点**，不只是机械差异清单；纪律是不给两臂排名、不替人拍板。输出到 `anchors/extract/对比_卷NN_臂A-vs-臂B.md`）与第 5 步（人审定稿，裁决 + 综合，合并稿落 `notebook/`）。
 
 ## 维护纪律
 
