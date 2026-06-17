@@ -1,0 +1,759 @@
+
+Let me carefully analyze Volume 08 of Spice and Wolf. I need to read through all the scenes, identify the main relationship-axis scenes versus commercial/plot scenes, and write a proper anchor file.
+
+Let me map out the scenes first:
+
+**Scene 0 (Prologue)**: Lawrence alone at night, watching his sleeping companions. Beautiful quiet moment - he's learned to savor peaceful nights. He looks at Holo's sleeping face.
+
+**Scene 1**: On the ship to Winfill. Holo is excited about the sea. Daily banter - Holo steals coins from Lawrence's purse, the dynamic of their traveling trio. Light scene establishing baseline.
+
+**Scene 2**: Arrival at port town. Brief transition.
+
+**Scene 3**: Meeting with Deitchman at the Tra Trade Guild. Exposition about the political/economic situation. Lawrence gets connected to Piaski.
+
+**Scene 4**: Inn room. Holo and Cole with wool blankets. Discussion about the monastery plan. Light banter about Holo and sheep.
+
+**Scene 5**: Bar scene. Gathering intel about the monastery, Luwick Alliance, the golden sheep legend. Mostly exposition.
+
+**Scene 6**: KEY SCENE. Morning. Holo silently watching the snow. This is a significant emotional moment - snow has special meaning for her (her homeland Yoitsu had snow, Pasloe didn't). Lawrence sits beside her. She's in a contemplative, slightly melancholic mood.
+
+**Scene 7**: Continuation of scene 6. Lawrence puts his hand on her head. He understands what she's thinking about when looking at snow. She says she told him snow would be fine. He reassures her. Brief but emotionally loaded.
+
+**Scene 8**: Breakfast. Light banter. Cole and Lawrence discuss travel. Piaski arrives.
+
+**Scene 9**: Journey to the monastery on horseback. Cold, tiring travel. Light moments - Lawrence uses the promise of distilled spirits to get Holo moving.
+
+**Scene 10**: Inn on the way. Piaski cooks. Discussion about his solitary travel style vs group travel. Mostly character establishment for Piaski.
+
+**Scene 11**: Continuation. Piaski poses a riddle about his work. Light intellectual game.
+
+**Scene 12**: KEY SCENE. Holo figures out Piaski's work involves colonization/settlement - creating new homelands. Lawrence tried to hide this from Holo because it touches on her wound about Yoitsu. Holo gets upset: "咱可没有建立新故乡的想法。故乡就是故乡，重要的不是谁在那里，而是土地在哪里。" This is a significant emotional beat - the concept of "creating a new homeland" vs "finding the original homeland." Holo's anger is described as "像一只希望被人在乎而伸出爪子的小猫" - she's upset that Lawrence tried to protect her from this knowledge.
+
+**Scene 13**: Arrival at the monastery. Brief exploration. They get quarters with the shepherds. Light scene with the shepherd Hasukentz.
+
+**Scene 14**: Meeting Hasukentz the shepherd. Brief character introduction.
+
+**Scene 15**: KEY SCENE. Room dynamics. Holo is restless. Discussion about relying on Piaski. Lawrence is jealous/worried about Piaski getting close to Holo. Holo sees through him completely. The exchange about "每个人的喜好都千差万别啊" - Holo's way of saying she chose Lawrence, not the "best" person. This is a significant relationship moment.
+
+**Scene 16**: Evening prayers and dinner with Hasukentz. Lawrence tries to connect with the old shepherd. Light scene.
+
+**Scene 17**: Morning. Holo still in bed with meat jerky. Light domestic scene. Lawrence goes out to gather intel.
+
+**Scene 18**: Lawrence at the Alliance inn, talking with Piaski. Asking about relics. Mostly plot/commercial.
+
+**Scene 19**: KEY SCENE. Lawrence returns drunk. Holo waits up for him. Significant nighttime conversation. Holo is anxious about the bone search. Lawrence, half-drunk, almost says "even the devil's existence can be proven" - Holo covers his mouth. Then the crucial exchange: Holo says she could carry him anywhere, find anything, fight any enemy, but "只有在你以人类的样子出现的时候，我才有能力为你做点什么" - she can only help when he's in human form. The subtext: once they reach Yoitsu and she uses her wolf powers to resolve things, Lawrence's role ends. Lawrence understands this - their mutual interdependence is what keeps them together. He puts his head on her chest, apologizing. She accepts. "一想到同伴之骨，咱就有可能忍不住" - she might lose control seeing the bones of her kin. Lawrence says "那也没关系。在你露出獠牙冲出去之后，一定会有重要的工作等着我" - even then, there will be important work for him.
+
+This is a MAJOR relationship scene about the structural anxiety underneath their journey.
+
+**Scene 20**: Morning. Cole and Lawrence share a moment. Cole says "她很信任我们呢" about Holo. Lawrence reflects on Cole's perceptiveness. Light but warm.
+
+**Scene 21**: Brief. Planning the relic search.
+
+**Scene 22**: Going to the archive. Light scene.
+
+**Scene 23**: KEY SCENE - PIASKI'S REVELATION AND HOLO'S FLIGHT. In Piaski's workroom. Piaski reveals his colonization work - creating new homelands for displaced people. Stories of families reunited. Then the critical moment: Piaski realizes why Lawrence travels with Holo and Cole - they're looking for their homeland. Holo hears all this and then leaves abruptly: "你们先走吧。我想自己呆一会儿" She runs away. Cole explains: she's shaken because Piaski creates new homelands, something she never considered. Her jealousy/anguish about someone who successfully built what she lost.
+
+Then Lawrence's confession to Cole (not knowing Holo is listening): "我绝对不想看到她拜托其他人" - he absolutely doesn't want to see her ask someone else. And his plan: find something to distract her from Piaski's work.
+
+The scene where Holo reveals she was listening: "亏汝没把咱看作躲在墙角哭泣的小母狼……但是，听得咱都不好意思了" Then the physical moment where Lawrence grabs her, and she says "这样就扯平了" - genuinely happy.
+
+Then Holo proposes her plan: send Cole and Lawrence back to safety while she handles the bone search alone with her wolf powers. "前两天夜里在僻静的修道院到底发生了什么，就算是被巨狼袭击，也不关咱们的事" - she'll use her true form, and they should stay out of danger.
+
+Lawrence agrees: "交给你判断好了" and Holo confirms: "咱只想确认汝的心意。若怀疑那个，咱不就成了傻瓜了吗？"
+
+This is a HUGE scene - multiple relationship beats.
+
+**Scene 24**: Brief. Preparing to leave. Weather concerns. Light.
+
+**Scene 25**: KEY SCENE - NIGHTTIME REFLECTION AND HASUKENTZ'S ARRIVAL. Lawrence can't sleep, thinking about the journey's end. Touching Holo's hair. Then the dramatic arrival of Hasukentz in his true form - a sheep/deer-like being, covered in ice.
+
+Hasukentz reveals his true nature (like Holo, a non-human being). He brings the king's tax notice. He asks Lawrence for help protecting the monastery - his "second homeland" that he built for his scattered people after the Moon Hunt (狩月之熊) destroyed their original home.
+
+Holo's reaction: "不行，你不能冒这个险" - she doesn't want Lawrence to risk himself. Then her jealousy erupts - Hasukentz built a new homeland, something she couldn't do. "当时逃跑了的汝还跟咱谈什么觉悟，别笑死人了" - Hasukentz challenges her: what right does someone who ran away have to talk about resolve? He reveals he started eating meat (sheep meat!) to maintain his human disguise - centuries of sacrifice.
+
+Holo breaks down crying in Lawrence's arms. "那种事……如果咱……回到故乡约伊兹的话……咱也会做……" - she would do the same for Yoitsu.
+
+This is the emotional climax of the volume.
+
+**Scene 26**: Continuation. Holo cries in Lawrence's arms. Lawrence reflects on his limitations as a merchant. He tells Cole the story of encountering a dying merchant on the road - the brutal reality of a traveler's life. Then he decides to help Hasukentz, framing it as a commercial opportunity. Cole and Lawrence plan through the night.
+
+**Scene 27**: KEY SCENE. Morning. Holo and Lawrence discuss the plan. Holo has calmed down. She's accepted the situation. "咱虽然不是个幸运的人呢" - she's not sure if she's lucky. Lawrence frames helping as "义务" - Holo has the obligation to make their journey into a legend. She laughs. They discuss strategy. Holo says she'll handle "气氛" (atmosphere/presentation). Light moment at the end.
+
+**Scene 28**: Lawrence goes to Piaski with the wolf bone information. Tense negotiation scene. Mostly commercial/plot.
+
+**Scene 29**: Brief continuation of the Piaski negotiation. Planning.
+
+**Scene 30**: KEY SCENE. Quiet moment between Holo and Lawrence while waiting. Holo is anxious. Lawrence reassures her. He touches her shoulder. She twists his hand when she hears footsteps - hiding her ears/tail because visitors are coming. Then the monks arrive to search their quarters. Tense scene.
+
+**Scene 31**: The monks' body search. The monk Maruk sexually harasses Holo during the "search." Holo pretends to faint to create a diversion, stealing the letters from Lawrence's clothes. She used the wheat pouch as cover. Clever and tense.
+
+**Scene 32**: Meeting with the Alliance leaders. Mostly commercial negotiation.
+
+**Scene 33**: KEY SCENE - THE NEGOTIATION. Lawrence presents his case to the four Alliance elders. When his evidence falls short, Holo speaks up: "想说什么就说吧" and "不要做出一副不感兴趣的样子。这是神对汝说的" - she invokes divine authority. Then Lawrence's final pitch: "我曾经看到过一头狼" - he's seen a great wolf. He's traveling for this wolf. The elders accept.
+
+This is the moment where Lawrence's personal conviction (not just commercial evidence) wins the day. And Holo's support is crucial.
+
+**Scene 34**: Continuation of negotiation. The elders reveal they already knew about the wolf bone but needed someone else to confirm it. Lawrence shows the king's tax letter.
+
+**Scene 35**: Strategic planning session. How to handle the monastery.
+
+**Scene 36**: KEY SCENE. The monastery's defiant response. The plan to use sheep. Lawrence's desperate gamble: "是羊" - use the sheep to check the boxes. Holo reaches for her chest (about to use her wolf power) but Lawrence stops her with his idea.
+
+**Scene 37**: Hasukentz agrees to use the sheep. Brief but significant - Hasukentz's sacrifice of dignity. Holo calls him "区区一只羊" but with understanding.
+
+**Scene 38**: FINALE. The confrontation resolved off-screen. Holo returns - the bones were fake (deer bones). She's disappointed but covers it with bravado. Lawrence notices her clothes are inside out (she transformed and ran back as a wolf). 
+
+KEY MOMENT: Hasukentz tells Lawrence he has news about Yoitsu - and it's not good news. He tells Lawrence but not Holo. "在我的同伴们说起某些坏消息时，曾提到过那个名字" - his companions mentioned Yoitsu, and it's connected to current events. Lawrence keeps this from Holo.
+
+"祝你好运" - Hasukentz's farewell. Lawrence walks back with Holo and Cole.
+
+**Scene 39**: THE END.
+
+Now let me identify the MAIN AXIS scenes for relationship:
+- Scene 0: Prologue - Lawrence savoring peaceful nights with companions
+- Scene 6-7: Holo watching snow - homeland longing
+- Scene 12: Holo's reaction to Piaski's colonization work - "故乡就是故乡"
+- Scene 15: Lawrence's jealousy about Piaski - Holo's "每个人的喜好都千差万别"
+- Scene 19: Nighttime conversation about structural anxiety - "只有在你以人类的样子出现的时候"
+- Scene 23: Piaski's revelation, Holo's flight, Lawrence's confession, reconciliation
+- Scene 25: Hasukentz's arrival and revelation - parallel to Holo's loss
+- Scene 27: Morning after - acceptance and planning
+- Scene 38: Finale - false bones, Hasukentz's warning about Yoitsu
+
+Commercial/plot scenes (one-line summary):
+- Scenes 1-5: Travel, arrival, meeting Deitchman, bar intel
+- Scenes 8-11: Journey to monastery, Piaski's character establishment
+- Scenes 13-14: Arrival at monastery, meeting Hasukentz
+- Scenes 16-18: Daily life, intel gathering
+- Scenes 20-22: Planning relic search
+- Scenes 24, 28-29, 32, 34-37: Commercial negotiations and action
+
+Now let me think about the key themes and readings:
+
+**Main relationship axis for Vol 08:**
+
+1. **"故乡" (Homeland) as the central wound-axis**: Piaski creates new homelands for displaced people. Hasukentz built a second homeland for his scattered kin. Holo is searching for her original homeland. The volume forces Holo to confront the possibility that "creating a new homeland" might be an answer she hasn't considered - and her jealous, pained reaction to those who succeeded at it.
+
+2. **Structural anxiety about the journey's end**: Scene 19 is the clearest articulation - once Holo uses her wolf powers to resolve things at Yoitsu, Lawrence loses his role. Their interdependence is what keeps them together. "只有在你以人类的样子出现的时候，我才有能力为你做点什么" - Holo can only help Lawrence when he's in human form. When she's in wolf form solving problems, he's unnecessary.
+
+3. **Lawrence's declaration of commitment**: Scene 23 - "我绝对不想看到她拜托其他人" - he doesn't want Holo to ask someone else. This is the closest thing to a love confession in this volume. And his strategy: find something to distract her, prove his usefulness, rather than directly addressing the emotional issue.
+
+4. **Hasukentz as mirror**: A being like Holo who lost his homeland to the same enemy (Moon Hunt Bear), but who responded by building a new one, sacrificing his nature (eating meat, living as human) for centuries. He challenges Holo: "就你这个样子，根本没有办法与熊交战吧？" He represents what Holo could become if she chose to build rather than search.
+
+5. **The ending's double edge**: The bones are fake - momentary disappointment. But Hasukentz has news about Yoitsu that he shares with Lawrence, not Holo. "坏消息" - bad news. Lawrence now carries knowledge Holo doesn't have. This creates a new structural asymmetry.
+
+Let me also note the key relationship mechanics at play:
+
+- Holo's jealousy when someone else might fulfill a role she wants Lawrence to fill (Piaski as colonization expert, Hasukentz as homeland-builder)
+- Lawrence's strategy of proving usefulness rather than declaring feelings directly
+- The "interdependence = relationship survival" logic that drives both of them
+- Holo covering her vulnerability with anger/teasing
+- The physical intimacy escalation (sleeping together for warmth, Lawrence putting his head on her chest, the grabbing moment in scene 23)
+
+Now let me write the anchor file.
+
+Let me think about what to call the short title. The volume's core is about "homeland" (故乡) - finding it, losing it, building a new one, and what that means for the relationship. Also the structural anxiety about what happens when the journey ends.
+
+I'll call it: 锚_卷08_s00-39_故乡的造法与旅途终点的结构焦虑.md
+
+Wait, let me reconsider the range. The main axis scenes span the whole volume but cluster around specific scenes. Let me pick the range that captures the main relationship arc.
+
+Actually, looking at the format examples, the range should reflect the actual scenes covered. Since this is a whole-volume read with specific deep-dive scenes, I should probably mark it as the full volume range.
+
+Let me structure this now.
+
+Actually, I need to be very careful about scene numbers. Let me re-verify:
+
+- Scene 0: Prologue (night, candle)
+- Scene 1: Ship to Winfill
+- Scene 2: Arrival at port
+- Scene 3: Deitchman meeting
+- Scene 4: Inn room with wool blankets
+- Scene 5: Bar scene
+- Scene 6: Holo watching snow (KEY)
+- Scene 7: Continuation of snow scene (KEY)
+- Scene 8: Breakfast, Piaski arrives
+- Scene 9: Horseback journey
+- Scene 10: Inn, Piaski cooks
+- Scene 11: Piaski's riddle
+- Scene 12: Holo figures out colonization (KEY)
+- Scene 13: Arrival at monastery
+- Scene 14: Meeting Hasukentz
+- Scene 15: Lawrence's jealousy, Holo's "喜好千差万别" (KEY)
+- Scene 16: Evening prayers, dinner with Hasukentz
+- Scene 17: Morning, Holo in bed
+- Scene 18: Lawrence at Alliance inn
+- Scene 19: Nighttime conversation, structural anxiety (KEY)
+- Scene 20: Morning, Cole's perceptiveness
+- Scene 21: Planning
+- Scene 22: Archive visit
+- Scene 23: Piaski's revelation, Holo's flight, confession, reconciliation (KEY - MAJOR)
+- Scene 24: Departure prep
+- Scene 25: Hasukentz's arrival, revelation (KEY - MAJOR)
+- Scene 26: Aftermath, planning (KEY)
+- Scene 27: Morning acceptance (KEY)
+- Scene 28-29: Piaski negotiation
+- Scene 30: Quiet moment, monks arrive (KEY)
+- Scene 31: Body search, Holo's diversion
+- Scene 32: Alliance meeting
+- Scene 33: The negotiation (KEY)
+- Scene 34-35: Continuation
+- Scene 36: Monastery response, sheep plan (KEY)
+- Scene 37: Hasukentz agrees
+- Scene 38: Finale - false bones, Hasukentz's warning (KEY)
+- Scene 39: THE END
+
+OK, now let me write the full anchor document.
+
+One more thing to note - the key承重句 (load-bearing quotes) I need to cite with full context:
+
+1. Scene 12, line 72: "咱可没有建立新故乡的想法。故乡就是故乡，重要的不是谁在那里，而是土地在哪里。而且，汝所担心的，就是咱不这样说吧？" - This is crucial. Holo distinguishes between "homeland as place" vs "homeland as community."
+
+2. Scene 15, line 88-89: "每个人的喜好都千差万别啊。" + narrative: "并不是所有人都喜欢最优秀的。" - Holo's way of saying she chose Lawrence.
+
+3. Scene 19, line 110: "毕竟，只有在你以人类的样子出现的时候，我才有能力为你做点什么啊。" - The structural anxiety statement.
+
+4. Scene 19, line 135: "一想到同伴之骨，咱就有可能忍不住。" + line 136: "那也没关系。在你露出獠牙冲出去之后，一定会有重要的工作等着我。" - The mutual commitment.
+
+5. Scene 23, line 260: "没错，尽管如此，我绝对不想看到她拜托其他人。" - Lawrence's declaration.
+
+6. Scene 25, line 225: "那种事……如果咱……回到故乡约伊兹的话……咱也会做……" - Holo's identification with Hasukentz.
+
+7. Scene 25, line 226-227: "就你这个样子，根本没有办法与熊交战吧？你敢说你有赌上性命与熊战斗的觉悟吗？" - Hasukentz's challenge.
+
+8. Scene 38, line 74: "在我的同伴们说起某些坏消息时，曾提到过那个名字。" - The warning about Yoitsu.
+
+9. Scene 38, line 53: "你又打算扭曲自然规律到什么时候？" + line 56: "我是商人，所以，应该是到无利可图的时候吧。" - The question of when the journey ends.
+
+Let me also think about what's happening with the "trust档" - this volume doesn't have a dramatic trust milestone, but there's a deepening of mutual vulnerability. Holo cries in front of Lawrence (scene 25-26), Lawrence confesses his feelings indirectly (scene 23), and they reach a new level of physical comfort (sleeping together, the grabbing moment).
+
+The key progression is on the "关系内可追讨权" axis - Holo can demand more from Lawrence, and Lawrence can be more honest about his feelings. But the volume also introduces a new structural anxiety: what happens after Yoitsu? And the ending creates an information asymmetry (Lawrence knows something about Yoitsu that Holo doesn't).
+
+Let me also note the parallel between Hasukentz and Holo:
+- Both are non-human beings who lived among humans
+- Both lost their homelands to the same enemy (Moon Hunt Bear)
+- Hasukentz chose to build a new homeland; Holo is searching for her old one
+- Hasukentz sacrificed his nature (eating meat); Holo hasn't had to make that sacrifice yet
+- Hasukentz challenges Holo's readiness to face what she might find
+
+And the parallel between Piaski and Lawrence:
+- Piaski creates new homelands for displaced people
+- Lawrence is helping Holo find her old homeland
+- Piaski has found a way to be useful to others on a large scale
+- Lawrence's usefulness is more personal/intimate
+- Holo is drawn to Piaski's work because it represents an answer she hasn't considered
+
+Now let me draft the anchor file. I'll be thorough but focused.
+
+Actually, I realize I should think more carefully about the "range" decision. The volume is 40 scenes (0-39). The main relationship axis scenes are scattered throughout. I should be honest about this being a散点 (scattered) volume rather than a continuous arc.
+
+Main axis scenes (deep read):
+- s00 (prologue - establishes the "savoring peaceful nights" baseline)
+- s06-07 (snow watching - homeland longing)
+- s12 (colonization revelation - "故乡就是故乡")
+- s15 (jealousy scene - "喜好千差万别")
+- s19 (nighttime conversation - structural anxiety)
+- s23 (THE BIG SCENE - Piaski's revelation, Holo's flight, confession, reconciliation)
+- s25-27 (Hasukentz's arrival, Holo's breakdown, morning acceptance)
+- s30 (quiet moment before the storm)
+- s33 (negotiation with Holo's support)
+- s38 (finale - false bones, Hasukentz's warning)
+
+One-line summary scenes:
+- s01-05 (travel, arrival, Deitchman, bar)
+- s08-11 (journey, Piaski character establishment)
+- s13-14 (arrival, Hasukentz intro)
+- s16-18 (daily life, intel)
+- s20-22 (planning)
+- s24 (departure prep)
+- s28-29, s31-32, s34-37 (commercial negotiation/action)
+
+OK, I think I have enough to write a comprehensive anchor. Let me draft it now.
+
+One more consideration: the file name. The README says "文件名含卷号和短标题；scene 范围写进正文「范围留痕」、不进文件名". So I should use something like:
+
+锚_卷08_故乡的造法与旅途终点.md
+
+Or maybe something shorter. Let me think...
+
+锚_卷08_故乡与新故乡.md - captures the central tension
+锚_卷08_s00-39_故乡的造法.md
+
+Actually looking at the examples more carefully:
+- `锚_卷08_s<起>-<止>_<短标题>.md` is what the task says
+
+So: `锚_卷08_s00-39_故乡的造法与旅途终点的结构焦虑.md`
+
+Hmm, that's long. Let me shorten: `锚_卷08_s00-39_造故乡与旅途终了.md`
+
+Or even simpler: `锚_卷08_s00-39_故乡的造法.md`
+
+Actually the task prompt says: `anchors/extract/glm/锚_卷08_s<起>-<止>_<短标题>.md`
+
+Let me go with: `锚_卷08_s00-39_故乡的造法与旅途终了.md`
+
+OK, let me write the actual content now. I need to be very careful about:
+1. Scene numbers matching canon
+2. Who says what
+3. Not over-elevating trust/relationship milestones
+4. Distinguishing fact/reading/pattern layers
+5. Citing承重句 with full context
+
+Let me draft...
+
+Actually, I want to reconsider the scope. The task says "选范围是一等判断" and I should explain why I cut the way I did. Let me think about this.
+
+The volume has two major emotional peaks:
+1. Scene 23 (Piaski's colonization revelation → Holo's flight → Lawrence's confession → reconciliation)
+2. Scene 25-27 (Hasukentz's arrival → Holo's breakdown → acceptance)
+
+These are connected by the same thread: "homeland" and what it means to lose/find/build one. The commercial plot (wolf bone, tax, monastery) serves as the vehicle that brings these emotional confrontations into being.
+
+So the main axis is: **"故乡" as wound and mirror** - how different characters relate to homeland, and how this forces Holo and Lawrence to confront what happens when the journey ends.
+
+The volume also introduces a new structural element: **information asymmetry** - Lawrence now knows something about Yoitsu that Holo doesn't (scene 38). This is a seed for future volumes.
+
+Let me write the anchor now. I'll aim for a comprehensive but not bloated document.
+
+Let me also double-check some key quotes by re-reading the relevant scenes:
+
+Scene 12, lines 72-73:
+"咱可没有建立新故乡的想法。故乡就是故乡，重要的不是谁在那里，而是土地在哪里。而且，汝所担心的，就是咱不这样说吧？"
+This is Holo speaking. She's saying she has no intention of building a new homeland. Homeland is homeland - what matters is the land, not who's there. And she's calling out that Lawrence was worried she'd think otherwise.
+
+Scene 15, lines 87-91:
+Lawrence: "汝也多少长了些记性吧。" → then the exchange about preferences...
+Actually let me re-read scene 15 more carefully.
+
+Scene 15:
+Lines 49-50: Holo says "没关系。正如一个群体中有两个头目就会发生争执一样，群体首领之间的关系并不会特别亲密。没必要担心。" - This is about Piaski, saying there's no need to worry about them getting close.
+
+Lines 55-56: Lawrence says "你和谁变得亲密，我都不会在乎。" - trying to play it cool.
+
+Lines 59-68: Holo sees through him completely, teases him about being a cute cub.
+
+Lines 79-83: Lawrence turns it around - "想吸引自己在意的对象的注意力时，你用的那种表现自己最可爱一面的方法，是什么来着？" - he calls out her behavior as attention-seeking.
+
+Lines 87-90:
+"每个人的喜好都千差万别啊。"
+并不是所有人都喜欢最优秀的。
+即使没提到皮亚斯基，罗伦斯也明白她的意思了。
+这就是赫萝表示投降的话语。
+
+So Holo is saying: not everyone prefers the "best" person. She chose Lawrence even though Piaski might be "better" by some measures. This is her concession statement.
+
+Scene 19 - let me re-read the key exchange:
+
+Lines 106-110:
+"咱呢……"
+赫萝开口说道：
+"如果汝想去远方，咱可以驮着汝去。汝想要什么，咱也可以帮汝找来。受到袭击，咱会把敌人赶走，如果想保护什么，咱也可以帮忙，可是……"
+说着，赫萝温柔地放开罗伦斯的右手，又用自己细小的手重新抓住。
+"毕竟，只有在你以人类的样子出现的时候，我才有能力为你做点什么啊。"
+
+Wait, this is a bit confusing. Let me re-read more carefully.
+
+Lines 96-110:
+"从坎尔贝的事就可以知道吧？我只是强行介入圣遗物之类的高价品交易中，就发生了那样不得了的事。对我而言是不得了，对你来说，同样不得了。"
+赫萝的手细小，手指纤细。
+与狼的真正形态相比，这样的形态是最不方便的吧。
+依靠那巨大的爪子和獠牙，可以轻易地得到大多数的东西。
+"在坎尔贝的时候，你自己也说过，凭借你的利爪和獠牙，可以在一瞬间解决问题。"
+无论是修道院那高高的墙壁，还是坚固的门，甚至是一圈一圈缠起来的锁链和集合手艺人的技术制造出来的精巧的钥匙，她都能够摧毁。
+修道院的警卫自不用说。
+即使是他们所守护的权威，也对赫萝无可奈何。
+只要片刻工夫，她就能达成目的，把修道院搜个遍。
+没那么做的原因，两人都清楚。
+
+Then:
+"咱呢……"
+赫萝开口说道：
+"如果汝想去远方，咱可以驮着汝去。汝想要什么，咱也可以帮汝找来。受到袭击，咱会把敌人赶走，如果想保护什么，咱也可以帮忙，可是……"
+说着，赫萝温柔地放开罗伦斯的右手，又用自己细小的手重新抓住。
+"毕竟，只有在你以人类的样子出现的时候，我才有能力为你做点什么啊。"
+
+OK so the logic is: Holo CAN do everything with her wolf powers. She can carry him, find things, fight enemies, protect. BUT the implication is that once she starts doing everything herself, Lawrence has no role. "只有在你以人类的样子出现的时候" - this is tricky. Let me re-read...
+
+Actually I think the meaning is: "I can only be of use to you when you're in human form" - meaning when Lawrence is functioning as a human (merchant, social actor), Holo can support him. But when she switches to wolf mode to solve problems, the dynamic changes - she becomes the protector and he becomes the protected, which is a role reversal that threatens their partnership.
+
+Then the narrative continues:
+在罗伦斯有困难的时候，自己可以帮忙；但自己有困难的时候，还是凭借自己的力量解决比较快。
+两人之间的这种关系，乍看之下应该让罗伦斯感到高兴，不过，罗伦斯和赫萝都明白。
+这种如同亲鸟给雏鸟喂食一般的关系，只有在双方是亲鸟和雏鸟的前提下才能成立。
+
+So the narrative confirms: their current dynamic is like parent bird feeding chick. It only works when both parties have roles. If Holo becomes self-sufficient (using wolf powers), Lawrence is just a chick being carried.
+
+在大致知道了约伊兹所在位置的现在，如果赫萝决定依靠自己的力量解决狼之骨的事，那么罗伦斯即将完全失去出场的机会。
+
+This is the core structural anxiety stated plainly.
+
+Then Lawrence's response:
+罗伦斯收回被赫萝抓着的右手，用左手从背后揽住赫萝，随后坐下，把头靠在赫萝的胸口。
+如果说罗伦斯这样做的时候完全不感到害羞，那是假话；但实际上，正是因为害羞，他才这样做的。
+
+And:
+"抱歉，再忍耐一下。"
+心生歉意的罗伦斯以这句话做掩饰。
+
+And Holo's response:
+"不要道歉，道歉的话，我的努力就化为泡影了。"
+
+Then the key exchange about the bones:
+Lines 134-142:
+赫萝的表情有所缓和。她以略带疲倦的神情笑着说道：
+"一想到同伴之骨，咱就有可能忍不住。"
+"那也没关系。在你露出獠牙冲出去之后，一定会有重要的工作等着我。"
+站在同伴之骨前的赫萝会露出什么表情，是很容易想象得到的。
+而到那个时候，自己是不可能不陪伴在她身边的。
+"蛮有自信的啊。"
+"因为我就是你经常说的那种，爱胡来的雄性啊。"
+
+This is really important. Lawrence is saying: even if you lose control at the bones, there will be work for me afterward. He's asserting his future usefulness even in the scenario where Holo's wolf nature takes over. And "重要的工作" - what work? Presumably: comforting her, being there, helping her process what she finds. Not commercial work, but emotional/human work.
+
+OK, I think I have a thorough enough understanding now. Let me write the anchor.
+
+For scene 23, let me re-read the key parts:
+
+Scene 23, lines 184-194:
+赫萝低着头，藏在风帽下面的表情不得而知。但看她那纤细的肩膀蜷缩着，就知道她的心情不太好。
+"你们先走吧。我想自己呆一会儿。"
+看她的嘴角，甚至有些微微上翘。但是，笑脸并不总是代表着开心。
+柯尔有些忍不住，正打算接近赫萝，却被罗伦斯阻止了。
+
+Then lines 196-202:
+柯尔看着赫萝的背影，感觉一阵心酸，又马上抬头看着罗伦斯。
+赫萝为什么会变成这样，柯尔心里很清楚。
+所谓百闻不如一见。传闻好像有这样一个工作，但是到现场实际看过之后，发现印象是截然不同的。
+因此，听说皮亚斯基以营造新的故乡为工作，到作业现场实际看过之后，所带来的冲击也不能同日而语。
+而且，皮亚斯基是个好人。
+他并不是只为了钱，但也不是无欲无私的。
+见赫萝走着走着跑了起来，像是要隐藏身形一样迅速转过路口，罗伦斯也感到胸口一滞。
+
+Lines 211-216:
+"但我的故乡还在啊。"
+柯尔吸了一口气，停下来。
+即使如此，他还是很快追上了没有停步的罗伦斯。
+"虽然神明身处没有衰老没有疾病的天国，但他会安慰我们的。"
+
+Lines 219-227:
+"抱歉。我知道一切都是因为我没有勇气。我害怕去她的身边，害怕会被她拒绝。"
+"那种事……"
+"你以为不可能吗？"
+...
+"而且，我并没有这样小看她。与其说是悲伤或寂寞，不如说她只是动摇了。长久以来，她脑子里只有故乡还在不在那里的念头，而从没想过要重新创造一个故乡。因此，她一时整理不好自己的心绪，有些混乱。"
+
+Lines 226-261:
+"我并不会插手有关赫萝的一切事情，也没法解决她的一切问题。所以，我只能做自己力所能及的事情。"
+以赫萝想要的形式，用最好的方法。
+...
+"关于狼之骨的事情，你们已经注意到了吧。"
+...
+Lines 253-261:
+"若她这样希望的话，我会一力承当所有危险。因为我能做到的也只有这些了。"
+...
+"我觉得很难。而且，若她拜托我造个故乡出来可就麻烦了。尽管如此……"
+右嘴角自然而然地上吊了起来，为赫萝而甘冒危险的觉悟都聚集在那里。
+"没错，尽管如此，我绝对不想看到她拜托其他人。"
+
+Then the reveal that Holo was listening:
+Lines 285-296:
+一切都暴露了。
+从皮亚斯基的资料室出来之后，赫萝肯定暗中嘱咐过柯尔了。在她说过想自己独处之后，会躲在暗处偷窥罗伦斯的反应，希望柯尔能协助自己。
+...
+"亏汝没把咱看作躲在墙角哭泣的小母狼……但是，听得咱都不好意思了。"
+赫萝坏笑着。
+...
+"不想看咱拜托别人吗……真是的，汝还是这么可爱呢。你这——"
+
+Then the physical moment:
+Lines 297-311:
+"……！"
+与其说是积蓄已久的怒气爆发了，不如说罗伦斯狗急跳墙。
+赫萝起先被吓得缩成了一团，但马上醒过神来企图逃走。
+但是，在这幅姿态之下，二者力量的差距太明显了。
+赫萝很快老实下来。
+...
+罗伦斯一个踉跄，再次承认自己确实敌不过赫萝。当然了，他不是指手脚快慢这一方面。
+虽然扯着罗伦斯的脸，但赫萝脸上却没有丝毫怒气。
+不仅如此，她甚至面露祥和的微笑。
+"这样就扯平了。"
+...
+"这样就扯平了。"
+"……嗯。"
+听了对方的回答，赫萝满意地点点头，把罗伦斯推进屋子里。
+
+Then Holo's plan:
+Lines 319-335:
+赫萝从背后抱着柯尔，看着炉中的火苗开口道：
+"今天或明天就启程吧。"
+...
+"当然了，汝们也一起走。回那个叫伊克的港口城市，吃饱喝足，睡觉。汝们要呼呼地睡。要冒雪走三天才能回去，这也是当然的。"
+...
+"前两天夜里在僻静的修道院到底发生了什么，就算是被巨狼袭击，也不关咱们的事。当然了，没人会认为这些事和汝们有关系。汝们只需要静静地享受生活，没有任何危险或困难。"
+
+And Lawrence's response:
+Lines 337-361:
+"交给你判断好了。我说过我不在意。"
+"嗯。咱只想确认汝的心意。若怀疑那个，咱不就成了傻瓜了吗？"
+...
+"咱可是唯一的贤狼赫萝。人们畏惧咱、服侍咱，但咱害怕可就不像话了。"
+以自己真正的姿态行使真正的力量。就算是为了守护他人，被守护之人的脸上也可能涂满恐惧的神色。
+那么，为自己而行使力量的时候就更不必说了。
+赫萝会担心也是当然的。
+但是，罗伦斯也希望她能相信自己。
+...
+"嗯。偶尔一次的话。"
+
+OK, I think I have more than enough material. Let me write the anchor now.
+
+For the structure, I'll follow the recommended skeleton:
+1. Title + range
+2. Prior context
+3. What happens in these scenes (facts with citations)
+4. Details worth watching
+5. Coexisting readings
+6. DESIGN interface (optional)
+7. Candidate weak patterns (optional)
+8. What not to abstract yet
+
+Let me write it now. I need to be thorough but not bloated.
+
+Actually, one more thing I want to note about scene 25. The Hasukentz scene is crucial because it provides a MIRROR for Holo:
+
+Hasukentz:
+- Lost homeland to Moon Hunt Bear (same as Holo)
+- Chose to build a new homeland among humans
+- Sacrificed his nature (started eating meat, living as human) for centuries
+- His challenge to Holo: "就你这个样子，根本没有办法与熊交战吧？你敢说你有赌上性命与熊战斗的觉悟吗？"
+- He ran away too, but he USED his escape to build something
+- "我在那家伙来到我故乡的时候逃跑了。逃掉了哟。因为我要守护的同伴太多了。我带着他们一起逃跑了。"
+
+The key difference: Hasukentz ran away WITH his companions and built a new home. Holo was sealed in the wheat alone for centuries. Hasukentz's escape was productive; Holo's was stasis.
+
+And the thing that makes Holo cry: Hasukentz did what she couldn't - he built a new homeland. And he's now asking for help to protect it. Holo's jealousy isn't petty - it's the anguish of seeing someone who faced the same loss and found a way forward that she didn't.
+
+Scene 25, line 208: "赫萝的这种表现，是出于一种嫉妒。"
+Lines 247-253:
+赫萝之所以觉得哈斯肯兹的话是在责备自己，是因为在她看来，自己在同对方的对决之中失败了。
+夹在理性与感性之间的赫萝，最后只能选择从那里逃开来求得解脱。
+
+And Hasukentz's crucial lines about eating meat:
+Lines 242-248:
+"我为了融入人类社会，开始吃肉了。这已经是几百年前的事情了。"
+"！"
+赫萝的目光不由地向他挂在腰间皮带之上的肉干望去。
+那是什么肉呢？而自己和哈斯肯兹一起吃的大锅里面所煮的又是什么肉呢？
+赫萝不由地想象起如果自己像哈斯肯兹一样的话，究竟会怎样？
+
+This is devastating. Hasukentz, a sheep deity, eats sheep meat to maintain his disguise. The parallel question for Holo: what would she have to sacrifice to build a new life among humans?
+
+OK, now I'm really going to write the anchor. Let me be disciplined about length.
+
+Let me think about what the "short title" should be. The core of this volume is:
+
+1. "故乡" - homeland, finding it, building it, losing it
+2. The structural anxiety about journey's end
+3. Hasukentz as mirror for Holo
+
+I think the best short title captures the central tension: Holo encounters someone who BUILT a new homeland (Hasukentz) and someone whose JOB is creating new homelands (Piaski), and this forces her to confront what she's been doing (searching for the old one).
+
+Short title: `故乡的造法` (How to make a homeland) or `造故乡与旅途终了` (Making homelands and journey's end)
+
+Let me go with: `故乡的造法与旅途终了`
+
+File name: `锚_卷08_s00-39_故乡的造法与旅途终了.md`
+
+Now let me actually write it. I'll aim for comprehensive coverage of the main axis scenes with proper citations.
+
+Let me start writing...
+
+Actually, I realize I should also pay attention to one more thing: the scene 0 prologue. It's short but establishes something important:
+
+Scene 0, lines 9-21:
+"不，其实他很清楚不熄灭蜡烛的理由。"
+"因为他开始学会细细品味这原本被当作对工作毫无益处的夜晚时光了。"
+"静静地。平和地。在第二个白昼来临之前的安稳时光。"
+"能听到附近两人此起彼伏的鼻息声。"
+"在凝听着他们平稳的呼吸时，不知不觉又该换上新的蜡烛了。"
+...
+"然后在这一瞬间，他转过头看向发出鼻息的某个角落。"
+"在黑暗中应该没关系吧。"
+"至少在睡前的那一刹那，他想将她的睡颜纳入眼里。"
+
+This establishes: Lawrence has learned to savor peaceful moments. He listens to his companions' breathing. He wants to see Holo's sleeping face. This is a baseline of domestic intimacy that the rest of the volume will stress-test.
+
+And scene 38, lines 53-56:
+"你又打算扭曲自然规律到什么时候？"
+...
+"我是商人，所以，应该是到无利可图的时候吧。"
+
+Hasukentz asks Lawrence when he'll stop "distorting nature" (i.e., traveling with a wolf). Lawrence's answer: when it's no longer profitable. But this is clearly a deflection - the real answer is "never," but neither of them will say that directly.
+
+This exchange bookends the volume nicely with scene 0's quiet intimacy.
+
+OK, NOW I'm writing the anchor. For real this time.
+
+Let me think about the overall structure and flow:
+
+## 1. 范围留痕
+## 2. 前史
+## 3. 事实层（逐场）
+## 4. 值得盯住的细节
+## 5. 暂时并存的读法
+## 6. 与DESIGN的接口
+## 7. 候选弱模式
+## 8. 现在不要急着抽象成什么
+
+Let me write each section.
+
+For section 3, I'll organize by thematic cluster rather than strictly chronologically, since the volume is散点式.
+
+Actually, let me organize chronologically but group nearby scenes. The key scenes are:
+- s00 (prologue)
+- s06-07 (snow)
+- s12 (colonization)
+- s15 (jealousy)
+- s19 (structural anxiety)
+- s23 (the big scene)
+- s25-27 (Hasukentz)
+- s30 (quiet moment)
+- s33 (negotiation)
+- s38 (finale)
+
+I'll write each with scene+line citations.
+
+OK let me actually write now. I've been thinking too long.
+
+Let me draft the complete markdown:
+
+---
+
+# 锚 · 卷08（狼与琥珀色的忧郁）· 逐场锚点
+
+> 本文件为 glm-5.2 臂经 API 直调产出的原始锚点草稿，落 `extract/glm/`。范围为卷08全卷（scene 00–39），主轴为散点式关系线，不构成连续大弧。以下逐场笔记仅含观察、暂时读法与候选弱模式，不写 Policy、不下机制定论。
+
+## 一、范围留痕
+
+**主轴 scene（逐句精读）：**
+- **s00**（序幕·烛火与睡颜）：确立"已经学会品味夜晚"的基线
+- **s06–07**（赫萝看雪）：故乡 longing 的暗涌
+- **s12**（皮亚斯基谜底·殖民＝造新故乡）：赫萝的核心拒绝——"故乡就是故乡"
+- **s15**（罗伦斯的虚荣与赫萝的"喜好千差万别"）：嫉妒轴上的特别性确认
+- **s19**（深夜对话·结构焦虑）：旅途终了后罗伦斯失去角色的恐惧
+- **s23**（皮亚斯基资料室·赫萝出走·罗伦斯告白·和解）：**本卷关系峰值**
+- **s25–27**（哈斯肯兹暴风雪中归来·赫萝崩溃·翌晨接受）：**本卷情感峰值**
+- **s30**（等待中的安静时刻）：焦虑中的相互支撑
+- **s33**（同盟圆桌谈判·赫萝开口）：赫萝在关键时刻支撑罗伦斯
+- **s38**（终幕·赝品骨·哈斯肯兹的告别与约伊兹坏消息）：双重的失望与新的结构不对称
+
+**只读梗概段：**
+- s01–05（船旅、入港、德伊其曼会谈、旅馆闲谈、酒吧情报）：建立温菲尔经济背景与卢威克同盟/修道院/国王三方格局
+- s08–11（雪原行军、皮亚斯基做饭、谜题）：皮亚斯基角色建立与旅途氛围
+- s13–14（抵达修道院、哈斯肯兹初见）：空间建立
+- s16–18（晚祷、晨起、同盟旅馆情报收集）：日常基线与情报线
+- s20–22（柯尔的洞察、出发准备、资料室访问）：计划推进
+- s24（出发准备·暴风雪前兆）：过场
+- s28–29（罗伦斯说服皮亚斯基、分账协商）：商战线
+- s31（修道士搜身·赫萝假哭调包）：动作/机智场
+- s32, s34–37（同盟干部会议、谈判续、修道院回应、羊群计策）：商战/动作高潮
+
+**切分理由：** 卷08 的关系线是**散点暗线**，被商战/政治情节（狼之骨→修道院→卢威克同盟→国王征税）从外部驱动。关系动作不构成连续弧，而是**在商战的间隙、被商战催逼出来的几个窗口里集中爆发**。s23 和 s25–27 是两个真正的峰值窗口；其余关系 beat 散落在旅途日常（s00/s06–07/s15/s19/s30/s38）里，每个都短但承重。商战段不是关系锚的主轴，但提供了"赫萝为何动摇"的具体触媒（皮亚斯基的造故乡工作、哈斯肯兹的第二故乡），因此梗概里保留了触媒要点。
+
+## 二、本段之前已经在场的东西
+
+...
+
+OK, this is getting very long. Let me be more concise but still thorough. I'll write the complete document now.
+
+Let me reconsider the format. Looking at the reference example more carefully, it uses a thematic map structure. But the task says I should follow the recommended skeleton (1-5 mandatory, 6-8 encouraged). Let me follow the skeleton more directly.
+
+Let me write the complete document now, being mindful of length but not skimping on the承重句.
+
+One more check: the task says "输出路径：anchors/extract/glm/锚_卷08_s<起>-<止>_<短标题>.md"
+
+So the filename should be: `锚_卷08_s00-39_故乡的造法与旅途终了.md`
+
+Actually wait, I should double-check: is this volume called "狼与琥珀色的忧郁"? Let me check... The volume title for Vol 8 is "狼与香辛料 VIII" in the original, but the subtitle might be different. Actually looking at the scene content, there's no explicit subtitle mentioned. Let me just use the volume number.
+
+OK, writing now. Final draft.
+
+Let me also note: I should be careful about the "谁说的" issue. Let me verify key quotes:
+
+1. "故乡就是故乡，重要的不是谁在那里，而是土地在哪里" - This is HOLO speaking (s12:72)
+2. "每个人的喜好都千差万别啊" - This is HOLO speaking (s15:88)
+3. "毕竟，只有在你以人类的样子出现的时候，我才有能力为你做点什么啊" - This is HOLO speaking (s19:110)
+4. "那也没关系。在你露出獠牙冲出去之后，一定会有重要的工作等着我" - This is LAWRENCE speaking (s19:136)
+5. "我绝对不想看到她拜托其他人" - This is LAWRENCE speaking (s23:260)
+6. "就你这个样子，根本没有办法与熊交战吧？" - This is HASUKENTZ speaking (s25:226)
+7. "我又打算扭曲自然规律到什么时候？" - Wait, this is HASUKENTZ asking LAWRENCE (s38:53)
+8. "我是商人，所以，应该是到无利可图的时候吧" - This is LAWRENCE speaking (s38:56)
+
+All checked. Let me write.
+
+For the DESIGN interface section, I should reference the 场景五元组 and 关系三字段 (关系位置 / trust档 / 关系内压强) from 架构笔记.md. But I don't have the actual content of that file, so I'll use the concepts as described in the task prompt.
+
+OK, final writing now. I'll aim for a document that's thorough but not excessively long - maybe 4000-6000 words in Chinese.
+
+Let me structure it cleanly:
+
+```markdown
+# 锚 · 卷08 · 逐场锚点
+
+> 草稿层说明...
+
+## 一、范围留痕
+## 二、前史
+## 三、事实层
+## 四、值得盯住的细节
+## 五、暂时并存的读法
+## 六、与 DESIGN 的接口
+## 七、候选弱模式
+## 八、现在不要急着抽象成什么
+```
+
+Let me write it all now.
+
+Hmm, actually I realize the承重句 need to be cited with enough context. Let me make sure I include the surrounding clauses for the most important quotes.
+
+OK I'll write the complete document now. Let me be efficient.
+
+One more thing - I need to check: in scene 23, who says "不想看咱拜托别人吗……真是的，汝还是这么可爱呢"?
+
+Scene 23, lines 296-297:
+"不想看咱拜托别人吗……真是的，汝还是这么可爱呢。你这——"
+就在赫萝龇牙咧嘴，打算用食指戳罗伦斯的胸膛时——
+
+This is HOLO speaking. She heard Lawrence's confession and is teasing him about it. Then Lawrence grabs her (the physical moment).
+
+And lines 306-311:
+不仅如此，她甚至面露祥和的微笑。
+"这样就扯平了。"
+是你先使坏的。
+若赫萝的笑容中带有丝毫虚假，罗伦斯肯定会这样反驳她。
+但他之所以没有吱声，是因为她的笑容是发自内心的。
+"这样就扯平了。"
+"……嗯。"
+
+This exchange: Holo says "这样就扯平了" (now we're even), Lawrence says "嗯" (yeah). The context is that Lawrence grabbed her (physically intimidating), and she's saying this makes them even for the embarrassment she caused him. But the subtext is deeper - it's a reconciliation after the emotional turmoil of the scene.
+
+OK, writing now. For real. Final version.
+
+Let me think about what key承重句 I absolutely must cite in full:
+
+1. **s12:72** - "咱可没有建立新故乡的想法。故乡就是故乡，重要的不是谁在那里，而是土地在哪里。而且，汝所担心的，就是咱不这样说吧？" - Holo's definition of homeland
+
+2. **s15:88-90** - "每个人的喜好都千差万别啊。" / 并不是所有人都喜欢最优秀的。/ 即使没提到皮亚斯基，罗伦斯也明白她的意思了。 - Holo's choice
+
+3. **s19:106-110** - "如果汝想去远方，咱可以驮着汝去。汝想要什么，咱也可以帮汝找来。受到袭击，咱会把敌人赶走，如果想保护什么，咱也可以帮忙，可是……" / "毕竟，只有在你以人类的样子出现的时候，我才有能力为你做点什么啊。" - The structural anxiety
+
+4. **s19:135-140** - "一想到同伴之骨，咱就有可能忍不住。" / "那也没关系。在你露出獠牙冲出去之后，一定会有重要的工作等着我。" / "蛮有自信的啊。" / "因为我就是你经常说的那种，爱胡来的雄性啊。" - Mutual commitment
+
+5. **s23:258-261** - "我觉得很难。而且，若她拜托我造个故乡出来可就麻烦了。尽管如此……" / 右嘴角自然而然地上吊了起来，为赫萝而甘冒危险的觉悟都聚集在那里。/ "没错，尽管如此，我绝对不想看到她拜托其他人。" - Lawrence's declaration
+
+6. **s25:225-227** - "那种事……如果咱……回到故乡约伊兹的话……咱也会做……" / "就你这个样子，根本没有办法与熊交战吧？你敢说你有赌上性命与熊战斗的觉悟吗？" - The confrontation
+
+7. **s38:53-56** - "你又打算扭曲自然规律到什么时候？" / "我是商人，所以，应该是到无利可图的时候吧。" - The question of journey's end
+
+8. **s38:74** - "在我的同伴们说起某些坏消息时，曾提到过那个名字。" - The seed
+
+OK, writing the complete document now.
