@@ -1,0 +1,661 @@
+
+Let me carefully read through the entire volume 07 text to understand the story structure, identify the main relationship scenes, and write a proper anchor file.
+
+Let me first map out the scenes and their content:
+
+**Scene 0**: Prologue - Holo encounters Eve (Apro) Bolan in the dark on the road to Kerube.
+
+**Scene 1**: Morning after arriving at Kerube. Holo is bedridden with muscle pain from running as a wolf. Lawrence feeds her. We learn they came to find Eve for information about wolf bones. Holo got into a near-physical fight with Eve. Lawrence thanks Holo for getting angry on his behalf. Cole brings medicine (smelly ointment).
+
+**Scene 2**: Applying the ointment - brief scene.
+
+**Scene 3**: Cole reports Eve wants to meet Lawrence. Discussion about the wolf bone quest.
+
+**Scene 4**: Lawrence meets Eve at the inn. They go to her hideout. Eve reveals she was bought as a noble who fell from grace. Discussion about good/evil in commerce. Eve tests Lawrence's principles about using money. She agrees to write an introduction letter to Kieman (Reynolds) at Jean Company.
+
+**Scene 5**: Eve's hideout - deeper conversation. Eve asks if Lawrence is companion or enemy of Holo (good or evil). Lawrence explains money should only buy things, not people's feelings. Eve is impressed, writes introduction letter. She mentions she's leaving tomorrow.
+
+**Scene 6**: Eve writes the letter. Discussion about her departure. Lawrence warns Cole about Eve's dangerous nature.
+
+**Scene 7**: Back at the inn. Holo is recovering. The "misunderstanding" scene - Cole thought Lawrence was having an affair with Eve. Holo explains the logic. Near-kiss interrupted by Cole. The "擦背" (back-scrubbing) request.
+
+**Scene 8**: Brief - Lawrence throws towel at Holo instead of scrubbing her back.
+
+**Scene 9**: Walking to Jean Company. Buying shellfish. Discussion about north/south divide of Kerube. Cole wants to visit the delta marketplace.
+
+**Scene 10**: At Jean Company - meeting Reynolds (Ted Reynolds). He's more capable than expected. Discussion about wolf bones - he's been collecting bones but none are real. The church ordered him to find them through Diiba Company.
+
+**Scene 11**: Reynolds laughs at Holo's cleverness. Invites them to lunch.
+
+**Scene 12**: Lunch with chicken and wine. Reynolds tells about the wolf bone search from 2 years ago. The copper coin mystery (57 boxes in, 60 out). Lawrence realizes Reynolds wants to use Eve's connections.
+
+**Scene 13**: At the delta marketplace. Holo and Lawrence banter. They encounter Eve with armed men in the market. Eve is with powerful people from the north. Holo gets jealous/angry when Lawrence looks at Eve. She walks away. Lawrence sends Cole after Holo, gives him a silver coin. Lawrence goes to the Gold Spring to observe the political meeting.
+
+**Scene 14**: At Gold Spring. Eve finds Lawrence. She reveals the political situation - north side borrowed money from south side to build the market, and is trapped in debt. Eve is being used as a scapegoat by the powerful people.
+
+**Scene 15**: Eve explains she's being used as a tool. The city's power dynamics.
+
+**Scene 16**: Lawrence finds Holo in a tavern on the delta. She's been drinking. Key conversation where Lawrence admits his disappointment about Eve being just a tool of others. Holo gets angry about three things: 1) Lawrence implying she's useless as a companion, 2) him being childish about losing to Eve, 3) him still looking like he can go it alone despite saying depressing things. This is a MAJOR relationship scene.
+
+**Scene 17**: Discussion about what they learned. Cole figures out the connection between Reynolds, Eve, and the wolf bones. They decide to investigate further.
+
+**Scene 18**: Splitting up for intelligence gathering. Cole goes to beggars, Holo to the church (south side), Lawrence to the Rowan Company. Holo gets angry when Lawrence worries about her going alone - she says he should learn to manage people if he wants to open a shop.
+
+**Scene 19**: Holo departs on the ferry. Lawrence goes to the Rowan Company branch on the delta, meets Kieman.
+
+**Scene 20**: Lawrence at the Rowan Company with Kieman. Discussion about the north-south conflict. Kieman reveals the debt situation.
+
+**Scene 21**: Kiaman takes Lawrence to a private room. Interrogation about Lawrence's relationship with Eve. Kiaman asks Lawrence to choose between the guild and Eve. Lawrence is trapped into promising loyalty to the guild. Key scene about power dynamics.
+
+**Scene 22**: Holo comes to find Lawrence at the trading house. They discuss what happened. She tells him about being expelled from the church due to commotion. Discussion about the mermaid legend. Lawrence confesses about Kieman's pressure. Holo says "big donkey" but also advises him.
+
+**Scene 23**: Back at the inn. Cole returns exhausted from begging. They discuss what they learned.
+
+**Scene 24**: Cole's findings about Jean Company. Discussion about the church's motives for the wolf bone. Holo's anger about the bone being used for church authority.
+
+**Scene 25**: Cole solves the copper coin mystery - different arrangement methods. But it's not enough leverage. Eve sends a letter asking Lawrence to come alone.
+
+**Scene 26**: Lawrence goes to meet Eve at a craftsman's district hideout. Eve has been beaten. She reveals the Ikakku (sea beast) situation. She asks Lawrence to be her spy. She proposes betraying the guild. She mentions her real situation - being controlled by a landlord's son.
+
+**Scene 27**: Eve reveals more about the landlord's son and Kieman's plans. She proposes Lawrence betray his guild and join her. Lawrence is tempted but conflicted. He leaves without committing.
+
+**Scene 28**: "To be Continued" - just a divider.
+
+**Scene 29**: Lawrence returns to find a letter from Kieman/the guild. He panics and wants to flee. Holo calms him down. Key scene - Holo's three points of anger. She tells him not to act like a dictator. Cole suggests Holo could just steal the Ikakku. Holo points out that what terrifies Lawrence is trivial for her. This is another MAJOR relationship scene.
+
+**Scene 30**: Holo and Cole's suggestion about stealing Ikakku makes Lawrence realize his panic was overblown. Discussion about the plan going forward. Lawrence says he chose Holo as companion not because she's the wise wolf.
+
+**Scene 31**: Waiting at the inn. Cole repairs his coat with threads from his belt. Lawrence offers to buy him proper thread. Quiet domestic scene.
+
+**Scene 32**: Going to buy thread. Lawrence shows off his merchant skills with the shop boy. Teaching moment for Cole.
+
+**Scene 33**: Walking back. Lawrence confesses to Cole about his vanity and insecurity. Cole says he admires Lawrence for traveling with Holo. Key character moment for Lawrence's self-awareness.
+
+**Scene 34**: Back at the inn. Holo wakes up. Discussion about strategy. Lawrence reorganizes his thinking.
+
+**Scene 35**: Evening. Holo and Lawrence drink together after Cole falls asleep. KEY SCENE - Holo reveals she knew about Ikakku from her past. She once searched for it to give someone eternal life. Discussion about the Ikakku legend and her past. She mentions Cole is her "keystone" to staying the wise wolf. Very intimate conversation about mortality and their relationship.
+
+**Scene 36**: Continuation of the intimate conversation. Holo says she doesn't want to cross a certain line. Discussion about their relationship boundaries. She sits on his lap. They're interrupted by Reynolds approaching the inn.
+
+**Scene 37**: Reynolds visits secretly at night. He's desperate to connect with Eve. Lawrence plays dumb.
+
+**Scene 38**: After Reynolds leaves. Lawrence and Holo discuss what happened. They realize Reynolds is desperate.
+
+**Scene 39**: Morning. Kieman arrives to move them to the south side. Lawrence handles the encounter better now. They're taken to a fancy hotel on the south side.
+
+**Scene 40**: In the new hotel. Holo teaches Lawrence about how to handle the situation - enjoy the luxury, don't show fear. She's essentially coaching him on political maneuvering. They decide to go see the Ikakku at the church.
+
+**Scene 41**: At the church, viewing the Ikakku. Holo is deeply moved - it's connected to her past search. The creature is real.
+
+**Scene 42**: After viewing. Holo is contemplative. Discussion about the creature. Holo says it's not beyond normal life. She holds Lawrence's hand.
+
+**Scene 43**: Kieman gives Lawrence his mission - be the messenger between him and Eve. The plan: use Ikakku to buy northern land rights. Lawrence accepts.
+
+**Scene 44**: Night. Lawrence can't sleep. Goes to the well. Holo finds him. KEY SCENE - Holo admits she regrets pushing Lawrence into this situation. She says he's not suited for this kind of political scheming. She reveals she sees herself as a supporting character in his story. She wants him to be the protagonist. Very vulnerable moment.
+
+**Scene 45**: The next day. The political negotiations begin. Lawrence observes.
+
+**Scene 46-48**: Lawrence as messenger between Eve and Kieman. Multiple trips. The tension builds. Eve reveals her true feelings - she wants someone to call her by her real name. She's been used her whole life.
+
+**Scene 49**: Eve asks Lawrence to betray together with her. She reveals her real name: Frufru von Italtert Mariel Bolan. Key scene about Eve's character.
+
+**Scene 50**: Eve writes her response to Kieman. She demands Lawrence be on the exchange boat too. Tension about the plan.
+
+**Scene 51**: Crisis - Eve is captured by Kieman's men at the port. She came to warn Lawrence. Lawrence is helpless.
+
+**Scene 52**: Lawrence's breakdown. He vomits from self-disgust. He realizes he was relieved that only Eve was taken. Holo appears - she saw everything. She tells him Cole is following the captors. They figure out the situation.
+
+**Scene 53-54**: Lawrence goes to rescue Eve from the church basement. Confrontation with Kieman. Lawrence figures out the copper coin scheme - Reynolds has been moving secret funds. He uses this knowledge.
+
+**Scene 55**: Holo stays behind - she doesn't want to see Lawrence show off for another woman. Touching moment.
+
+**Scene 56**: Lawrence bursts into the church basement. Stops Eve's murder. Confronts Kieman. They form an alliance to deal with Reynolds.
+
+**Scene 57-59**: The denouement. Lawrence exposes Reynolds' financial scheme. Eve and Kieman handle the negotiation. Lawrence returns to Holo and Cole.
+
+**Scene 60**: Finale. Eve visits to deliver wolf bone information and say goodbye. She reveals her real name. Warm farewell. Then Holo's jealousy at the end.
+
+Now let me identify the MAIN relationship scenes:
+
+**Primary relationship scenes (主轴)**:
+1. **Scene 1**: Holo's anger at Eve, Lawrence thanking Holo for being angry on his behalf - establishes the triangle dynamic
+2. **Scene 7**: The misunderstanding about Lawrence/Eve affair, near-kiss interrupted
+3. **Scene 13**: Market encounter with Eve, Holo's jealousy, the "one silver coin" transaction between Holo and Lawrence
+4. **Scene 16**: MAJOR - Lawrence's disappointment about Eve, Holo's three points of anger, the "don't act like you can go alone" conversation
+5. **Scene 18**: Holo's anger at being treated as needing protection, teaching Lawrence to delegate
+6. **Scene 22**: Lawrence confessing to Holo about Kieman's pressure, her practical advice
+7. **Scene 29**: Holo calming panicked Lawrence, Cole's suggestion about stealing Ikakku, Holo's "this is trivial for me"
+8. **Scene 33**: Lawrence's confession to Cole about his vanity and insecurity
+9. **Scene 35-36**: MAJOR - The drinking scene, Holo reveals her past search for Ikakku, the "keystone" conversation, boundary discussion
+10. **Scene 40**: Holo coaching Lawrence on political behavior
+11. **Scene 42**: After viewing Ikakku, hand-holding
+12. **Scene 44**: MAJOR - Holo's regret, "supporting character" confession, vulnerability
+13. **Scene 52**: Lawrence's breakdown, Holo's silent presence
+14. **Scene 55**: Holo staying behind, "don't want to see you show off for another woman"
+15. **Scene 60**: Eve's farewell, name revelation, Holo's jealousy
+
+The relationship line in this volume is quite rich. Let me identify the key themes:
+
+1. **"别把咱排除在外" (Don't exclude me)** - Holo's consistent demand to be consulted, not protected. This connects to scene 16 (three points of anger), scene 18 (don't treat me as incapable), scene 29 (don't panic alone).
+
+2. **Eve as mirror/rival** - Eve serves as both a threat (Holo's jealousy) and a mirror (someone who travels alone, who has no one to call her name). The contrast between Eve's isolation and Holo's companionship.
+
+3. **Lawrence's self-knowledge** - His recognition that he's not suited for political scheming, that he panicked and was relieved when only Eve was taken. His confession to Cole. His growth through accepting help.
+
+4. **The Ikakku thread** - Holo's past search for immortality connects to her relationship with mortality and the lifespan gap with Lawrence.
+
+5. **"柯尔是重石" (Cole is a keystone)** - Holo uses Cole to maintain her identity as the wise wolf, to keep from getting too comfortable and crossing a line.
+
+Let me now write the anchor file.
+
+I'll focus on scenes 1, 7, 13, 16, 18, 22, 29, 33, 35-36, 40, 42, 44, 52, 55, 60 as the main relationship scenes. The political/commercial intrigue scenes (14-15, 19-21, 26-27, 43, 45-51, 56-59) get brief summaries.
+
+Let me draft the anchor file now.
+
+Key observations for the anchor:
+
+1. **Range decision**: This volume has a clear relationship thread woven through a political/commercial plot. The relationship scenes are scattered throughout but concentrated in specific windows. I'll identify scenes 1, 7, 13, 16, 18, 22, 29, 33, 35-36, 40, 42, 44, 52, 55, 60 as main axis, with the political scenes as summary.
+
+2. **Previous context to bring in**:
+- Volume 1: debt/contract as shared safety grammar, "not wanting to be alone"
+- Volume 2: public goodness vs special concentration, "don't arrange my exit", strength/weakness axis
+- Volume 3: trust misunderstanding and reconciliation
+- Volume 5: "clearable → non-clearable relationship", Eve as mirror
+
+3. **What happens in these scenes** - with line references
+
+4. **Notable details** - the asymmetries and tensions
+
+5. **Multiple readings** - allowing for different interpretations
+
+Let me write this now. I need to be very careful with scene numbers and line numbers, checking each one.
+
+Let me re-read key scenes more carefully for the anchor:
+
+**Scene 1 (key lines)**:
+- Line 84: "因为汝太软弱了。别忘了汝脸上那伤是怎么来的。" - Holo justifying her anger at Eve
+- Line 91-95: Lawrence explains Eve's strategic retreat from Holo's anger
+- Line 101: "艾普明白，你是在毫无缘由地生气，就像个孩子那样脾气阴晴不定。" - Eve understood Holo was angry without rational cause
+- Line 113-114: "你肯为了我生气……是啊，得谢谢你。" + "自古以来所谓契约都是用语言来缔结的，而现在看来，这一点不只在生意上行得通。" - Lawrence thanking Holo, noting that verbal contracts work beyond business
+
+**Scene 7 (key lines)**:
+- Line 25: "汝真的不明白，旁人是如何看待汝和那只狐狸之间的关系吗？" - Holo pointing out how others see Lawrence and Eve
+- Line 38: "他认为我背着艾普拈花惹草，结果艾普因为吃醋而打了我。" - Cole's misunderstanding
+- Line 40: "那只狐狸是雌性，咱也是雌性，汝是雄性。那么咱和那只狐狸大打出手，答案不就只有一个吗？" - Holo reframing the conflict
+- Line 44: "但汝的行动才是最让人莫名其妙的。没想到居然来接咱，真是的，完全弄不懂汝在想什么。" - Holo expressing confusion about Lawrence coming to pick her up
+- Line 46-48: Holo watching Lawrence, he touches her cheek, she asks "仅此而已吗？"
+- Line 54: Near-kiss interrupted by Cole
+
+**Scene 13 (key lines)**:
+- Line 84: "她看了什么，那就是以充满敌意的目光扫了赫萝一眼。" - Eve glares at Holo
+- Line 108: "竟然当着咱的面看其它雌性，汝胆子实在不小。" - Holo angry at Lawrence looking at Eve
+- Line 111:扇了一巴掌 - slaps him
+- Line 121-137: Lawrence explains his reasoning for not chasing Holo - he knows she's not really angry at him, she's angry at the situation
+- Line 129: "那家伙是真的生气。不过，和我吵架却是假的。" - She's really angry, but fighting with him is fake
+- Line 135: "那家伙早看穿我的心思了。我的心已经被艾普说的那番话勾住了。不过，那家伙很讨厌艾普，不想看见她。"
+- Line 148-152: The "one silver coin" transaction - Holo accepts this arrangement
+
+**Scene 16 (key lines - CRUCIAL)**:
+- Line 73: "那些与汝自身无关的金钱方面的话题，汝在谈论的时候向来都显得饶有兴致，而这次汝却没有。这是为什么呢？" - Holo noting Lawrence's unusual lack of enthusiasm about money talk
+- Line 89: "感觉好幻灭。" - Lawrence's disappointment about Eve being just a tool
+- Line 92: "我很希望能赢我的对手……是个世界的霸者啊。" - He wanted his defeater to be someone great
+- Line 96-99: "现在的话，不管是吃惊还是嘲讽，至少有人会对自己做出回应。直面以前视而不见的事物，这反而能成为继续前进的动力。" - Key realization about having someone to respond to him
+- Line 103-105: "听了汝的话，咱对两件事感到生气，气得肚子胀。" + "不过，看到汝现在这张脸，生气的事变成三件了。"
+- Line 108: "其一，汝的话语听起来，就像身为汝之旅伴的咱也不中用似的。" - Anger 1: implying she's useless
+- Line 110: "其二，汝竟然为这种无聊事感到消沉，说明汝还只是只幼崽。" - Anger 2: being childish
+- Line 116-121: "既然因为那种无聊事而懦弱得不像个能够独当一面的雄性，干吗还露出任何时候都能独自前进的表情。" + "明明说了那样的丧气话……还露出任何时候都能独自前进的表情。" - Anger 3: saying depressing things but looking like he could go on alone
+- Line 129: "当然会。但是，看到被咱大骂并捉弄的汝依然死皮赖脸地跟在咱身后，咱会沉浸在喜悦之中。" - She'd scold him but be happy he stays
+- Line 137: "错总是在汝。" - "It's always your fault"
+- Line 139-143: "赫萝是罗伦斯的旅伴，罗伦斯也是赫萝的旅伴。不该是谁属于谁。两人相互支撑才是最佳形态。就算惹对方生气的总是罗伦斯，生气也不总是赫萝的任务。那么，尽管这样说有点奇怪，但罗伦斯应该拿出勇气，变得软弱一些。对赫萝说，没有你的支持是不行的。即使这样会被赫萝大骂。" - Lawrence's internal realization
+- Line 148: "这样看起来不是像我在安慰你了吗？" - Lawrence noting the role reversal
+- Line 151: "那可是咱的特权。" - "That's my privilege" (comforting him)
+- Line 158-159: "人是很强大的生物。而强者绝对不会回顾过去，咱也从不回顾咱以前漫长的生活。可是，咱已经受够了。" - Holo crying, saying she's had enough of being strong alone
+- Line 163: "我是个胆小鬼，你是知道的吧？总是忍不住战战兢兢地回头看。所以，这方面不用担心。" - Lawrence reassuring her he looks back
+- Line 168: "做任何决定的时候我都会找你商量，好吗？" - Lawrence's promise
+- Line 169: "明明是给咱的供品，却总是不听咱的意见。咱受不了的就是这个。" - Holo's core complaint: being given things without consultation
+
+**Scene 18 (key lines)**:
+- Line 48: "汝认为柯尔那孩子可以单独行动，却把咱当成连跑腿的活儿都办不了的半吊子吗？" - Holo angry at being treated as less capable than Cole
+- Line 57: "大笨驴。" + punch
+- Line 61: "汝在政治上真是差劲透了呐。" - "You're terrible at politics"
+- Line 73: "汝是等待咱们报告的大将，而咱和柯尔是汝的手下对吧？那么让咱们相互竞争的话，汝应该更能握好咱们的缰绳吧。" - Holo explaining the delegation logic
+- Line 85: "汝总有一天要开店的吧？那么也稍微学学差遣他人的方法。" - Connecting to Lawrence's future shop
+
+**Scene 22 (key lines)**:
+- Line 78: "不过，被无理要求的话拒绝就好了呗。" - Holo's practical advice
+- Line 88-91: Holo analyzing Kieman's behavior - "处在统率集群的立场上，利用威势警告属下不要轻举妄动可是基本中的基本。应该不用担心的啦。"
+- Line 93: "总之不管汝会怎样，咱都会按照咱心中的优先顺序来行动。" - Holo declaring her own priorities
+- Line 98-100: "就算那第一位是我，你也不会老实说出口吧？" / "嗯，可不能让汝被魅惑了。"
+
+**Scene 29 (key lines)**:
+- Line 45-46: "汝啊，不能稍微镇定一点吗？" / 冷冷的一句话 - Holo cooling down panicked Lawrence
+- Line 57-58: "虽然大部分生物都有两只眼睛，不过通常却只会用一只眼睛来看问题。"
+- Line 76: "咱们可不是汝的小孩，也不是汝说怎么做咱们就得怎么做，不是吗？" - We're not your children or subordinates
+- Line 80: "在这两人面前施行独裁，无异于是对他们的背叛。" - Dictating to them is betrayal
+- Line 153-154: Cole suggests Holo steal the Ikakku
+- Line 169: "吓得汝脸色苍白只想逃命的事，对咱而言只不过是亮亮爪子和牙齿就能解决的问题。有咱这样的旅伴在，汝还露出那种慌乱的样子，让咱十分头痛呢。会选择汝这样的人做旅伴，还真是咱的失误。" - What terrifies him is trivial for her
+
+**Scene 33 (key lines)**:
+- Line 48-51: "在暴露了那种丑态后，我忍不住找个人小小地报复了一下。" + "我故意在你面前显摆交易技巧，玩弄对手，让你以为我要买高级货而焦躁不安。而我则沉浸在这优越感中……真是的……一点也不像个大人……" - Lawrence confessing his vanity
+- Line 69: "罗伦斯先生也是想证明自己的能力，以回应赫萝小姐的期待吧？" - Cole seeing through to the real motivation
+- Line 88: "既然您连这种事都可以一力负担，那其他还有什么事能让罗伦斯先生无法应付呢。" - Cole's logic: if Lawrence can travel with Holo, nothing else can scare him
+
+**Scene 35 (key lines - CRUCIAL)**:
+- Line 56: "在伊卡库的事情上，你应该有事瞒着我吧。" - Lawrence confronting Holo
+- Line 83-91: Holo's reaction - she knew about Ikakku from her past
+- Line 105: "那个时候的咱呢，的确是不谙世事。相信世间看不惯的事情全都有解决的方法。" - Young Holo was naive
+- Line 119: "现在的咱有汝在。" - "Now I have you"
+- Line 122-128: "咱没法和柯尔说这些。柯尔是为了让咱保持贤狼的重石。" + "柯尔把咱当作贤狼仰慕...他是让咱想起自己是贤狼的最佳存在。" - Cole as keystone
+- Line 134: "因为配得上约伊兹之森的是贤狼赫萝，而不是在商人身边舒舒服服过着自甘堕落生活的小丫头。" - Internal reasoning
+
+**Scene 36 (key lines)**:
+- Line 2: "你总对别人唠叨说，做决定时要找你商量，自己却隐瞒这么重要的事情。" - Lawrence calling out the contradiction
+- Line 8-9: "不可以太过亲近——这是他们彼此间心照不宣的重要事项。" - The unspoken boundary
+- Line 13-14: "拿柯尔捉弄罗伦斯，除了事情本身很有趣以外，大概也包含自卫的意味在内吧。为了不越过那条线。" - Cole as self-defense mechanism
+- Line 24: "汝的利益不就是讨咱的开心吗？" - "Isn't your profit to make me happy?"
+- Line 69: "赫萝无声地笑着坐到他的膝盖上。" - Sitting on his lap
+- Line 81: "嘛，不论汝还是咱，在出声时的确都不是一个人。" - "When either of us makes a sound, we're not alone"
+
+**Scene 40 (key lines)**:
+- Line 36-37: "咱还想问汝呢。又摆出一张臭脸想什么呢？让汝住了自己根本付不起房费的房间，还不给咱高高兴兴的？" - Holo scolding Lawrence for not enjoying the luxury
+- Line 41-43: "知道那个惹人厌的小子为什么一言不发就走掉了吗？" + explanation about Kieman testing them
+- Line 55: "先去找自己认识的人，值得信赖的人去问。" - Holo's strategic advice
+- Line 74-79: "应该老实不客气地享受这一切。" + "我们若是打从心底要帮助奇曼的话，这里就不是什么敌阵，反而是我们自己的大本营"
+- Line 89: "要是咱的话，才不会用这么拐弯抹角的办法呢。" - Holo's confidence
+
+**Scene 42 (key lines)**:
+- Line 71-75: "我也曾拿你去抵押呢。" / "已经没什么好害怕的了吧？" / Holo takes his hand
+- Line 77: "悄悄将自己的手塞进了罗伦斯的掌心"
+
+**Scene 44 (key lines - CRUCIAL)**:
+- Line 58: "汝啊，为听了咱的建议而后悔了吧。" - Holo asking if Lawrence regrets following her advice
+- Line 69: "像汝这么聪明的人，只要学会审情度势，一般的事情都能做得很好。不过呢，无论谁都有适合和不适合的事情。虽说是咱让汝做的，但看来汝可能不太适合这一行，感觉这不是汝所期望的。" - You're not suited for this
+- Line 73: "汝若真想和那些家伙一较高下的话，早就最大限度地利用上咱了。" - If you really wanted to fight them, you'd have used me fully
+- Line 77: "汝更希望能稳健地，一步一个脚印地前进，咱也认为这样更适合汝。而在咱所指引的前方，则是完全相反的结局。不是吗？" - You prefer steady progress, but I led you to the opposite
+- Line 86-87: "可是呢，你居然会认为我不是那块料，这让我很受打击。" - Being told he's not suited hurts
+- Line 104-109: "因为汝好像打算把咱俩的旅行写成一本书。" + "那汝就是主人公了吧？主人公就要像个主人公的样子。咱……咱终归是个配角，想尽配角的一份义务啦。" - Holo sees herself as supporting character
+- Line 113: "不过，那只是咱的一厢情愿罢了。若要汝为此面对什么危险，在夜晚来中庭等人陪汝说话的话，咱会心疼的。" - She'd worry if he faced danger
+- Line 125: "竟敢拒绝咱的好意，汝会付出代价的。" + "我很期待你的表现"
+- Line 139: "罗伦斯要做的事情并不困难。" + "然而，谁都想成为舞台上的主角，但世界却不会为自己的意志所动。"
+
+**Scene 52 (key lines)**:
+- Line 14-17: Lawrence vomits from self-disgust - "为自己没有被奇曼带走而松了口气" - he was relieved he wasn't taken
+- Line 31-32: "可是，即便如此，也不是说只要赫萝平安就万事大吉。" - Even so, it's not like Holo being safe is all that matters
+- Line 41-44: "旅行商人的诅咒，有某种借口的意味。人与人的关系，不像金钱那样是可以算得清的东西。" + "正因为如此，固执地认为比金钱更重要的人际关系，是比金钱更难获得的高不可攀之物的自己，才会产生逃避的想法。" - The traveling merchant's curse
+- Line 66: "而且，自己不是一个人。" - And he's not alone
+- Line 70-71: Holo was there watching everything
+- Line 75: "需要智慧的话，咱借给汝吧。" - "If you need wisdom, I'll lend it to you"
+- Line 83: "可是，一起旅行的只有你哦。" - "But you're the only one I travel with"
+
+**Scene 55 (key lines)**:
+- Line 0: "咱可不想看到汝在别的雌性面前大显身手。" - "I don't want to see you showing off in front of another woman"
+- Line 5: "唔，那么，汝可以把咱扔在这里就跑吗？" - "So, could you leave me here and just run?"
+
+**Scene 60 (key lines)**:
+- Line 82: "弗露露·冯·伊塔尔忒尔·玛丽埃尔·布朗" - Eve's real name
+- Line 84: "应该能帮上你的忙，罗伦斯。" - Eve calling him by name
+- Line 87: "克拉福·罗伦斯，能遇到你真好。" - "Lawrence, it was good to meet you"
+- Line 93: "我不会忘记艾普·布朗这个名字。" - "I won't forget the name Eve Bolan"
+- Line 106-108: Lawrence takes some of the herbs Holo threw at him and eats them
+
+Now let me write the actual anchor file. I need to be careful about:
+1. Scene numbers matching exactly
+2. Who says what
+3. Not overstating trust level or relationship milestones
+4. Distinguishing fact from interpretation from candidate patterns
+5. Not writing policy
+
+Let me organize my thoughts:
+
+**Main axis scenes**: 1, 7, 13, 16, 18, 22, 29, 33, 35-36, 40, 42, 44, 52, 55, 60
+
+**Summary-only scenes**: 0, 2-6, 8-12, 14-15, 17, 19-21, 23-28, 30-32, 34, 37-39, 41, 43, 45-51, 53-54, 56-59
+
+Actually, let me reconsider. The volume is quite long. Let me think about what the REAL relationship thread is.
+
+The main relationship dynamics in this volume:
+
+1. **"做决定时找我商量" (Consult me in decisions)** - This is Holo's core demand throughout. From scene 16 ("明明是给咱的供品，却总是不听咱的意见") to scene 29 ("咱们可不是汝的小孩") to scene 35-36 (the boundary discussion). This connects to volume 2's "don't arrange my exit."
+
+2. **Eve as mirror and rival** - Eve represents both a threat (Holo's jealousy) and a mirror (someone who travels alone, who has been used her whole life, who wants someone to call her name). The contrast between Eve's isolation and Holo's companionship is a key structural element.
+
+3. **Lawrence's self-knowledge and growth** - His recognition that he's not suited for political scheming, his confession of vanity to Cole, his breakdown when Eve is captured, his realization that "it's not like Holo being safe is all that matters."
+
+4. **The Ikakku thread** - Holo's past search for immortality reveals her deeper fears about the lifespan gap. Cole as "keystone" to maintaining her identity as the wise wolf.
+
+5. **"不是一个人" (Not alone)** - The recurring theme that having someone to respond to you, to share burdens with, transforms how you face challenges.
+
+Let me write the anchor now. I'll focus on the most structurally important scenes and keep the political plot to brief summaries.
+
+Actually, I realize I should think more carefully about the range. The volume has 62 scenes (0-61). That's a lot. Let me identify the truly load-bearing relationship scenes:
+
+**Tier 1 (deep dive)**: 16, 29, 35-36, 44, 52
+**Tier 2 (key evidence)**: 1, 7, 13, 18, 33, 40, 55, 60
+**Tier 3 (brief mention)**: 22, 42
+**Summary only**: everything else
+
+Now let me write the file. I'll aim for a focused but thorough anchor.
+
+One more thing I want to note: the "做决定时找我商量" theme is explicitly stated in scene 16 line 168: "做任何决定的时候我都会找你商量，好吗？" and Holo's response in line 169: "明明是给咱的供品，却总是不听咱的意见。咱受不了的就是这个。"
+
+This is a CRUCIAL line because it reveals that Holo's core complaint isn't about being excluded from decisions per se, but about being given things (供品 = offerings) without being consulted. She frames Lawrence's unilateral decisions as "offerings to a god" - which connects to her identity as a harvest deity. The complaint is: "You treat me as a god to receive offerings from, rather than as a companion to consult with."
+
+This connects to:
+- Volume 2's "don't arrange my exit" (留盘缠)
+- Volume 5's "clearable → non-clearable"
+- Volume 4's "don't answer for me"
+
+The evolution here is that Holo is now explicitly naming the mechanism: Lawrence's tendency to make decisions for her (even protective ones) without consulting her first. And she connects it to her centuries of being a deity who received offerings without being asked what she wanted.
+
+OK, I think I have enough to write a strong anchor. Let me do it now.
+
+Let me also note the key structural observation about this volume: the relationship thread is NOT a continuous arc but rather a series of scattered moments embedded in a political/commercial plot. The political plot (Ikakku, north-south conflict, Eve vs. Kieman) provides the PRESSURE that forces relationship moments to surface. Without the political pressure, the relationship dynamics wouldn't be visible.
+
+This is different from volumes 1-3 where the relationship arc was more continuous. Here, the relationship moments are like islands in a sea of political intrigue.
+
+Also important: Eve serves as a structural mirror to Holo in this volume, similar to how Nora served in volume 2 and Diana/Arietti in volume 4. But Eve's mirror function is different:
+- She mirrors Holo's isolation (traveling alone, being used)
+- She mirrors Holo's desire for someone to call her name (real name)
+- She serves as a catalyst for Holo's jealousy (which reveals relationship dynamics)
+- She provides a contrast: Eve has no one to go back to, Holo has Lawrence and Cole
+
+Let me also note the "Holo as former leader" dimension. In scenes 18 and 40, Holo explicitly draws on her experience as a village leader/god to advise Lawrence on management and politics. This is a dimension that hasn't been foregrounded as much in previous volumes.
+
+OK, let me write the anchor now.
+
+Actually, let me re-examine one more key scene - scene 35's revelation about Ikakku:
+
+Scene 35, lines 83-110:
+- Lawrence figures out Holo knew about Ikakku
+- Line 91: "以为汝发现了却故意装作不知道的咱，其实才是大笨驴呐。" - Holo admitting she's the fool for thinking Lawrence had noticed
+- Line 105-106: "那个时候的咱呢，的确是不谙世事。相信世间看不惯的事情全都有解决的方法。讨厌被依赖崇敬的话就去旅行，没有朋友去交就好了。而且，从心底里相信温水般的快乐时间会永远持续下去。" - Young Holo was naive, believed problems had solutions
+- Line 109: "不过也经常因此哭鼻子就是。那也许很合汝的胃口呐。" - She used to cry often
+- Line 119: "现在的咱有汝在。" - "Now I have you"
+- Line 122-128: Cole as keystone explanation
+
+And scene 36, lines 8-9: "不可以太过亲近——这是他们彼此间心照不宣的重要事项。" This is NARRATOR voice, not character voice. It establishes that there's an unspoken agreement between them about not getting too close. This is a crucial piece of evidence for the "boundary" reading.
+
+And scene 36, lines 12-16: "赫萝把柯尔比作'使自己保持贤狼的重石'，应该不是夸张的表现。拿柯尔捉弄罗伦斯，除了事情本身很有趣以外，大概也包含自卫的意味在内吧。为了不越过那条线。为了将明明知道却无计可施的事情蒙混过去。将那焦躁作为最低限度的借口。" - This is NARRATOR/Lawrence's interpretation: Cole serves as self-defense for Holo, to not cross a line she knows shouldn't be crossed.
+
+This is very important evidence for the relationship boundary dynamic.
+
+Now let me write the actual file.
+
+One more thing: the file path should be `anchors/extract/glm/锚_卷07_s01-60_商量权与伊卡库之影.md` or something similar. Let me think of a good title.
+
+How about: "商量权·伊卡库的旧伤·艾普的镜子" (Right to be consulted · Old wound of Ikakku · Eve's mirror)
+
+Or: "做决定时找我商量·伊卡库的影子·独行的狼"
+
+Let me go with something that captures the main themes. The key relationship thread is "consult me in decisions" and the Ikakku revelation. And Eve as mirror.
+
+Title: `锚_卷07_s01-60_商量权与伊卡库之影.md`
+
+Actually, looking at the existing files, the titles tend to be more descriptive. Let me try:
+
+`锚_卷07_s01-60_商量权·伊卡库旧伤·独狼之镜.md`
+
+OK let me just write it now. I'll focus on being accurate and thorough.
+
+Let me finalize the structure:
+
+1. Title + Range
+2. Before this point (context from previous volumes)
+3. What happens (facts with line references)
+4. Details worth watching
+5. Coexisting readings
+6. DESIGN interface
+7. Candidate weak patterns
+8. What not to abstract yet
+
+Let me write this now.
+
+Wait, I need to double-check some scene/line references one more time.
+
+Scene 16, line 169: "明明是给咱的供品，却总是不听咱的意见。咱受不了的就是这个。"
+
+Let me verify: "明明是给咱的供品，却总是不听咱的意见。咱受不了的就是这个。" - Yes, this is Holo speaking. She's saying that Lawrence's feelings/actions are "offerings" to her, but he never listens to her opinions. She can't stand this.
+
+And then Lawrence says: "我的心意是供品吗？" (Is my feeling an offering?)
+
+And Holo: "反正咱觉得是在祈祷时必须的东西。" (Anyway, I think it's something necessary during prayer.)
+
+This exchange is crucial. Holo is framing the relationship dynamic in terms of her deity experience: Lawrence treats her like a deity who receives offerings, rather than a companion who gets consulted. This is a SPECIFIC complaint rooted in her centuries of experience as a harvest god.
+
+OK, now I'm confident. Let me write the anchor.
+
+One more structural observation: the volume's relationship thread has a clear progression:
+1. **Opening baseline** (s1): Holo angry at Eve, Lawrence thanks her → establishes the triangle
+2. **Jealousy/misunderstanding** (s7, s13): The comedy of errors around Eve
+3. **First crisis** (s16): Lawrence's disappointment about Eve → Holo's three points of anger → "consult me" demand
+4. **Practical coaching** (s18, s22, s29, s40): Holo teaching Lawrence to delegate/trust
+5. **Deep revelation** (s35-36): Ikakku → Holo's past → Cole as keystone → boundary
+6. **Vulnerability** (s44): Holo's regret → "supporting character" → protagonist expectation
+7. **Climax/breakdown** (s52): Lawrence's self-disgust → "not alone" → Holo's silent support
+8. **Resolution** (s55, s60): "Don't show off for another woman" → Eve's farewell → jealousy as closing note
+
+This gives the volume a clear emotional arc even though it's embedded in political plot.
+
+Now, for the "coexisting readings" section, I want to present:
+
+**Reading A: "商量权" as the volume's spine**
+- The demand to be consulted runs through s16, s18, s29, s35-36
+- It connects to previous volumes (v2 "don't arrange my exit", v4 "don't answer for me")
+- The specific form here: Holo frames it as "offerings without consultation" - rooted in her deity experience
+- Lawrence's growth: from making unilateral decisions to promising consultation
+
+**Reading B: Eve as structural mirror**
+- Eve mirrors Holo's isolation (no one to call her name)
+- Eve mirrors the "lone wolf" path Holo could have taken
+- Eve serves as catalyst for jealousy (which reveals relationship dynamics)
+- Eve's farewell (s60) contrasts with Holo's continued companionship
+
+**Reading C: The boundary/keystone dynamic**
+- Holo uses Cole to maintain distance ("keystone to stay the wise wolf")
+- The unspoken agreement about not getting too close (s36 narrator)
+- Ikakku as symbol of the lifespan gap
+- This reading is about what DOESN'T happen rather than what does
+
+These three readings aren't mutually exclusive but highlight different aspects.
+
+For the "strong axis" reading (if I want to propose one): The volume's spine could be read as "what it means to not be alone" - from Holo's past (alone as deity, searching for Ikakku alone) to Eve (alone even in a crowd of users) to the present (Holo has Lawrence and Cole). The "consult me" demand is the practical form of "don't leave me out of the decisions that affect us both."
+
+But I should also mark the boundary of this reading: it doesn't explain everything. The jealousy comedy, the political plot, and Cole's own arc have independent dynamics.
+
+OK, now I'll actually write the file.
+
+Let me also note: scene 28 is just "to be Continued..." - a divider, not actual content. And scene 61 is "the END" - also just a marker.
+
+For the file name, I'll go with: `锚_卷07_s01-60_商量权与伊卡库之影.md`
+
+Actually, looking more carefully at the existing filenames in the README:
+- `锚_卷05_s01-39_钱跟咱哪个重要·把咱卖掉与那句明说.md`
+- `锚_卷04_s04-35_别替咱顾虑·咱当年选不到的那一项.md`
+
+So the format includes scene range and a short evocative title. Let me use:
+
+`锚_卷07_s01-60_商量权·伊卡库旧伤·独行的镜子.md`
+
+Or more simply:
+
+`锚_卷07_商量权与伊卡库之影.md`
+
+Let me go with a scene range since the README says to include it:
+
+`锚_卷07_s01-60_做决定时找我商量.md`
+
+Actually, I think the most evocative and accurate title would capture the two main threads:
+
+`锚_卷07_s01-60_商量权与伊卡库的影子.md`
+
+OK let me just write it now. I'll aim for completeness and accuracy.
+
+Let me also make sure I have the right understanding of who Eve is. Eve Bolan (艾普·布朗) is:
+- A fallen noble from the Winfell Kingdom
+- Originally named Frufru von Italtert Mariel Bolan (弗露露·冯·伊塔尔忒尔·玛丽埃尔·布朗)
+- A skilled merchant who operates in the Rom River area
+- Previously appeared in volume 5 (雷诺斯/Renos) where she deceived Lawrence in a fur deal
+- She sank a ship to block river transport
+- She's called "the wolf of the Rom River" (罗姆河之狼)
+- In this volume, she's being used by powerful people as a tool/scapegoat
+
+And Kieman (鲁特·奇曼/Rut Kieman):
+- Deputy head of the Rowan Company branch in Kerube
+- A young, ambitious merchant
+- Wants to use the Ikakku to buy northern land rights
+- Has dangerous underlings
+
+And Reynolds (泰德·雷诺尔兹/Ted Reynolds):
+- Head of Jean Company
+- Handles copper trade
+- Has been secretly moving funds
+- Wants to buy the Ikakku for himself/the north
+
+And Cole (柯尔/Toto Cole):
+- A boy from a northern village studying church law
+- Traveling with Lawrence and Holo
+- Smart, honest, naive
+- His village (Roef) is connected to the wolf bone legend
+
+Now let me write the anchor file. I'll be thorough but focused.
+
+Let me structure the facts section around the key relationship moments, with the political plot as brief context.
+
+Actually, I realize this anchor will be quite long because there are many important scenes. Let me be strategic about what to include in depth vs. what to summarize.
+
+Key scenes for deep analysis:
+- **s16**: The core "consult me" scene - deepest relationship moment
+- **s35-36**: Ikakku revelation + boundary discussion
+- **s44**: Holo's "supporting character" confession
+- **s52**: Lawrence's breakdown
+- **s29**: Holo calming panicked Lawrence
+
+Important supporting scenes:
+- **s1**: Opening baseline
+- **s7**: Jealousy/misunderstanding
+- **s13**: Market encounter, the "silver coin" transaction
+- **s18**: Delegation coaching
+- **s33**: Confession to Cole
+- **s40**: Political coaching
+- **s55**: "Don't show off for another woman"
+- **s60**: Eve's farewell
+
+I'll write deep analysis for the first group and brief mentions for the second.
+
+OK, writing now for real.
+
+Let me also think about what to call the "previous context" section. Key things from previous volumes:
+
+1. **Volume 1**: Debt/contract as shared language; "not wanting to be alone" as Holo's starting point
+2. **Volume 2**: "Don't arrange my exit" (留盘缠); public goodness vs. special concentration; strength/weakness axis (not being protected but being relied upon)
+3. **Volume 3**: Trust crisis and reconciliation; "say what you really feel"
+4. **Volume 4**: "Don't answer for me"; the question that was opened but not answered
+5. **Volume 5**: "Clearable → non-clearable relationship"; Eve as mirror (already established); Holo's attempt to "settle accounts and leave" vs. Lawrence discovering he doesn't want to settle
+
+Volume 5 is particularly important because Eve was already established as a character there, and the "clearable → non-clearable" transition is directly relevant to this volume's dynamics.
+
+Also from volume 5: the ending where Holo "bets everything on one thread" (赌一缕) and the "losing means you can continue" mechanism.
+
+For this volume, the key new development is:
+- The "consult me" demand becomes explicit and named
+- Holo's past (Ikakku search) reveals a deeper layer of her fear
+- Eve's mirror function deepens (from rival merchant to tragic mirror of isolation)
+- Lawrence's self-knowledge grows (he's not suited for political scheming, he panicked, he was relieved)
+- The boundary dynamic becomes visible (Cole as keystone, the unspoken line)
+
+OK, NOW I will write the file.
+
+One more thing: I should note that in scene 16, there's a crucial structural detail. Holo lists THREE points of anger:
+1. Lawrence implying she's useless as a companion
+2. Lawrence being childish about losing
+3. Lawrence saying depressing things but looking like he could go on alone
+
+The THIRD point is the most structurally interesting because it reveals Holo's fear: that Lawrence might leave her. He says "I'm disappointed" but looks like he could continue alone - this triggers her deepest anxiety. It connects to her "I've had enough of being strong alone" (line 158).
+
+This is a key piece of evidence for the reading that Holo's demand for consultation isn't just about respect, but about ensuring that Lawrence actually needs her and won't just continue on his own.
+
+OK, writing now.
+
+Let me also verify: in scene 44, Holo says she regrets pushing Lawrence into this situation. Let me find the exact lines:
+
+Scene 44, line 58: "汝啊，为听了咱的建议而后悔了吧。" - Holo asking if Lawrence regrets following her advice
+Line 64: "咱后悔了。" - "I regret it."
+Line 69: "像汝这么聪明的人，只要学会审情度势，一般的事情都能做得很好。不过呢，无论谁都有适合和不适合的事情。虽说是咱让汝做的，但看来汝可能不太适合这一行，感觉这不是汝所期望的。" - You're not suited for this kind of scheming
+Line 73: "汝若真想和那些家伙一较高下的话，早就最大限度地利用上咱了。" - If you really wanted to fight them, you'd have used me fully
+Line 77: "汝更希望能稳健地，一步一个脚印地前进，咱也认为这样更适合汝。而在咱所指引的前方，则是完全相反的结局。不是吗？" - You prefer steady progress; I led you to the opposite
+Line 104-109: The "book" conversation - Holo sees herself as supporting character
+Line 113: "不过，那只是咱的一厢情愿罢了。若要汝为此面对什么危险，在夜晚来中庭等人陪汝说话的话，咱会心疼的。" - But if he faces danger because of her expectations, she'd be heartbroken
+
+This is a crucial scene because it shows Holo being VULNERABLE about her own mistakes. She pushed Lawrence into a situation she now thinks is wrong for him. She's not just demanding consultation - she's admitting she made a bad call.
+
+And Lawrence's response (line 93): "但我绝不退缩。" - "But I won't back down." + line 95: "因为你会做出这副表情。" - "Because you'd make that face."
+
+So Lawrence is motivated by Holo's distress, not by ambition. This is a key character moment.
+
+OK, now I'm really writing the anchor file. Let me aim for a focused but comprehensive document.
+
+For the file structure, I'll follow the recommended skeleton:
+
+1. Title + Range
+2. Before this point
+3. What happens (facts)
+4. Details worth watching
+5. Coexisting readings
+6. DESIGN interface
+7. Candidate weak patterns
+8. What not to abstract yet
+
+Let me write it now, aiming for maybe 3000-4000 words of Chinese text.
+
+Actually, I want to make sure I note one more crucial detail: In scene 16, lines 139-143, Lawrence has an internal monologue that's very important:
+
+"赫萝是罗伦斯的旅伴，罗伦斯也是赫萝的旅伴。不该是谁属于谁。两人相互支撑才是最佳形态。就算惹对方生气的总是罗伦斯，生气也不总是赫萝的任务。那么，尽管这样说有点奇怪，但罗伦斯应该拿出勇气，变得软弱一些。对赫萝说，没有你的支持是不行的。即使这样会被赫萝大骂。"
+
+Translation: "Holo is Lawrence's traveling companion, and Lawrence is also Holo's traveling companion. It shouldn't be about who belongs to whom. Mutual support is the best form. Even if the one who always provokes the other's anger is Lawrence, getting angry shouldn't always be Holo's job. So, paradoxically, Lawrence should have the courage to be weaker. To tell Holo that he can't do without her support. Even if she'd scold him for it."
+
+This is a MAJOR internal realization. Lawrence recognizes that:
+1. Their relationship should be mutual, not hierarchical
+2. He's been relying on Holo to be the one who gets angry/initiates conflict
+3. He needs to be vulnerable too
+4. Being weak is a form of courage in their relationship
+
+This connects directly to volume 2's "strength/weakness axis" - but from Lawrence's side. In volume 2, the point was that Holo shouldn't be treated as a protected weakling. Here, Lawrence realizes HE needs to show weakness too.
+
+OK, now truly writing.
+
+One more thing about the "consult me" theme: In scene 16, line 168, Lawrence promises: "做任何决定的时候我都会找你商量，好吗？" (I'll consult you when making any decision, OK?)
+
+And Holo's response in line 169: "明明是给咱的供品，却总是不听咱的意见。咱受不了的就是这个。" (Even though it's an offering to me, you never listen to my opinions. That's what I can't stand.)
+
+The word 供品 (offering) is key. Holo is saying: Lawrence's care/decisions are like offerings to a deity - given unilaterally, without asking what the deity actually wants. This is rooted in her centuries of experience as a harvest god who received offerings without being consulted.
+
+And then Holo connects this to her past (line 183-186): "赫萝在作为丰收之神生活在村里的时候，经过漫长的时光，也产生了这样的感受。在谈论狩猎月亮的熊以及赫萝的故乡时，赫萝被排除在外。明明是和自己有关的事，自己却被排除在外，这让她产生了寂寞感。她已经受够了。"
+
+Translation: "When Holo lived in the village as the harvest deity, over the long years, she developed this feeling. When discussing the moon-hunting bear and Holo's homeland, Holo was excluded. Even though it was about things related to her, she was excluded, which made her feel lonely. She's had enough of it."
+
+This is the DEEPEST layer of the "consult me" demand. It's not just about respect or partnership - it's about the specific pain of being excluded from decisions about YOUR OWN LIFE. And she experienced this for centuries as a deity.
+
+This is a crucial piece of evidence that elevates the "consult me" theme from a relationship dynamic to a deeply rooted character need.
+
+OK, now I'm truly writing the file. Let me organize everything and produce the output.
+
+Actually, one more thing: I should note the connection between scene 16's "供品" (offering) language and scene 35-36's "贤狼" (wise wolf) identity. Holo frames Lawrence's unilateral care as "offerings to a deity" in scene 16, and in scene 35 she explains that Cole helps her "stay the wise wolf" rather than becoming "a girl living comfortably beside a merchant." These two are connected: if Lawrence treats her as a deity (giving offerings without consultation), she risks becoming just that - a comfortable deity. But if she's consulted as a companion, she can maintain her identity as the wise wolf who participates in decisions.
+
+This is a subtle but important connection between the "consult me" theme and the "identity maintenance" theme.
+
+Now, truly writing.
+
+Let me also double-check: Is Eve's name "艾普" or "艾普·布朗"? In the text, she's referred to as both "艾普" and "布朗家的当家" and "艾普·布朗". Her full name is revealed in scene 60: "弗露露·冯·伊塔尔忒尔·玛丽埃尔·布朗" (Frufru von Italtert Mariel Bolan).
+
+And the Ikakku (伊卡库) is described as: a sea beast with a horn. Eating its raw flesh grants eternal life. Grinding its horn and drinking it cures all illnesses. It's similar to the narwhal/qilin myth.
+
+OK, I need to stop preparing and start writing. Let me produce the anchor file now.
+
+One final note on structure: I want to make sure I clearly separate:
+- Facts (what happens in the text, with scene+line references)
+- Interpretations (my readings of what these facts mean)
+- Candidate patterns (tentative, conditional, non-final abstractions)
+
+And I need to verify every scene number and line number I cite.
+
+Let me write the file now.
