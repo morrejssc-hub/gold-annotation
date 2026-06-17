@@ -1,0 +1,862 @@
+
+Let me carefully read through the entire volume 03 text with scene numbers and line numbers, then write a comprehensive scene-by-scene anchor record.
+
+Let me first map out all the scenes and identify the main axis vs. summary-only scenes:
+
+**Scene overview:**
+- Scene 0: Travel to Kamerusen, banter about tail-as-heater, "not my type" exchange, "knight" callback
+- Scene 1: Meeting Amati on the road, fish merchant
+- Scene 2: Introduction of Holo to Amati, room arrangement
+- Scene 3: Dinner at inn, Holo's nostalgia from northern liquor, Lawrence hiding Yoitsu destruction info
+- Scene 4: **CRITICAL** - Lawrence asks about Yoitsu location, Holo's fear of being alone, "you can go alone from Nyuhira" slip, Holo's "I've been too comfortable, started acting spoiled" farewell-like words
+- Scene 5: Morning after, Holo hungover, Lawrence relieved she didn't leave
+- Scene 6: Lawrence sells nails to Mark, asks about chroniclers and Yoitsu
+- Scene 7: Lawrence returns with bread, Hole wakes up
+- Scene 8: Letters about military prices, Holo wants to go out, Lawrence must meet chronicler secretly
+- Scene 9: Amati at the guild, offers to take Holo around town
+- Scene 10: Bartos introduction, walking to alchemist district
+- Scene 11: Meeting Diana the chronicler, Yoitsu legend confirmed (destroyed by moon-hunting bear)
+- Scene 12: More stories with Diana, Lawrence realizes adventures are possible
+- Scene 13: Mark tells Lawrence about Amati taking Holo around, Lawrence's jealousy
+- Scene 14: Holo returns drunk with gifts from Amati (fur scarf, pyrite die)
+- Scene 15: Morning interrogation of Holo's gifts, pyrite discussion
+- Scene 16: **CRITICAL** - Amati's public declaration/contract to pay Holo's debt (1000 silver), Lawrence accepts
+- Scene 17: Investigation of Amati's finances, Mark's warning
+- Scene 18: Amati's financial situation revealed (200 Irede = ~800 silver)
+- Scene 19: Watching the festival, dancing together
+- Scene 20: **CRITICAL** - Diana's letter about Yoitsu destruction, Lawrence tells Holo about finding Yoitsu location (Lenoa clue), Holo's joy
+- Scene 21: Mark reveals Amati's money-making method (pyrite speculation)
+- Scene 22: **CRITICAL** - Holo reads Diana's letter about Yoitsu destruction, total breakdown, "I have no home to return to", lashes out at Lawrence for hiding it
+- Scene 23: Lawrence wandering streets in despair
+- Scene 24: Lawrence strategizes - realizes he needs to crash pyrite prices, spots Amati and Holo at window
+- Scene 25: **CRITICAL** - Holo's letter with Amati's financial info + marriage certificate signed by Holo
+- Scene 26: Lawrence proposes credit sale of pyrite to Amati (duel)
+- Scene 27: Lawrence asks Mark to help spread rumor + buy pyrite, Mark refuses direct help but offers indirect
+- Scene 28: Lawrence asks Bartos for help, Bartos tests him then gives Diana connection
+- Scene 29: Lawrence visits Diana at night, asks about human-divine couples
+- Scene 30: Mark helps indirectly, reveals he's changed, "traveling merchant's curse" = love
+- Scene 31: Morning, Lando introduction
+- Scene 32: Market day, pyrite prices soaring, Amati pays with gold coins
+- Scene 33: **CRITICAL** - Market battle, Diana's negotiation fails, despair, Lando's encouragement
+- Scene 34: **CRITICAL** - Holo appears with pyrite, they sell together, white feather signal explained
+- Scene 35: **CRITICAL** - Full reconciliation, "what am I to you" answered, Diana's bird nature revealed, Holo's confession about asking Diana to fake Yoitsu news
+- Scene 36: Festival finale, "even if I burn like the festival fire"
+- Scene 37: End
+
+Now let me identify the main axis scenes for relationship dynamics:
+
+**Main axis scenes (carrying relationship tension):**
+- s00: Daily baseline, "knight" callback, mutual teasing
+- s03: Holo's nostalgia, Lawrence hiding Yoitsu destruction
+- s04: Yoitsu location discussion, "go alone from Nyuhira" slip, Holo's farewell-like behavior
+- s16: Amati's contract challenge, Holo's cold reaction, "I trust you" exchange
+- s19-20: Festival joy + Yoitsu location revelation
+- s22: **The collapse** - Holo reads Diana's letter, discovers Yoitsu destroyed + Lawrence knew
+- s25: Marriage certificate + financial intel letter
+- s33-34: Market battle climax, Holo's white feather signal, reunion
+- s35: Full reconciliation scene
+
+**Summary-only scenes:**
+- s01-02: Meeting Amati (logistical)
+- s05-07: Morning routines, nail selling prep
+- s08-09: Letter business, Amati at guild
+- s10-12: Diana/chronicler visit (important for plot but relationship is secondary)
+- s13-15: Jealousy subplot, gift interrogation
+- s17-18: Financial investigation
+- s21: Pyrite scheme revelation
+- s23-24: Lawrence strategizing
+- s26-32: Commercial battle mechanics
+- s36-37: Festival ending
+
+Wait, let me reconsider. Some of these "summary" scenes actually carry important relationship beats:
+- s08: Holo wants to come along, "拨开手" callback to留宾海根
+- s13: Lawrence's jealousy, wanting to return to Holo
+- s14-15: Gifts from Amati, Holo's manipulation
+- s16: The contract scene is DEFINITELY main axis
+- s19-20: Dancing + Yoitsu revelation is main axis
+- s25: Marriage certificate is main axis
+- s30: Mark's "traveling merchant's curse" speech is important
+- s33: Lando's encouragement scene
+- s34: Holo returns with pyrite
+
+Let me refine:
+
+**Core relationship scenes (detailed analysis):**
+1. s00 - Daily baseline / "knight" / mutual teasing dynamics
+2. s03 - Northern liquor nostalgia / Lawrence's concealment established
+3. s04 - Yoitsu location talk / "go alone" slip / Holo's fear of solitude / farewell-like mood
+4. s16 - Amati's contract / Holo's "I trust you" vs Lawrence's "not confidence, trust" / the "what would good male vs good adult do" debate
+5. s19-20 - Festival dancing joy / Yoitsu location revelation / Holo's hope
+6. s22 - **THE COLLAPSE** - Holo discovers truth / "what am I to you" / Lawrence can't answer / mutual destruction
+7. s25 - Marriage certificate + financial intel / Holo's indirect communication attempt
+8. s33-34 - Market battle / Lando's intervention / Holo's white feather / reunion
+9. s35 - Full reconciliation / every misunderstanding unpacked / "无法用言语来形容"
+
+**Secondary but important:**
+- s08: Holo's "don't push my hand away again" callback
+- s13: Lawrence's jealousy/possessiveness emerging
+- s14-15: Amati gifts, pyrite introduction
+- s30: Mark's "traveling merchant's curse" = love speech
+
+Let me now write the anchor file.
+
+Key themes I see in volume 03:
+
+1. **隐瞒 (Concealment) as relationship failure mode**: Lawrence hides Yoitsu's destruction from Holo. This is the central relationship wound of this volume. It's not malicious - he's trying to protect her feelings - but it creates a catastrophic trust breach when she discovers it independently.
+
+2. **"What am I to you?" (咱是汝的什么人啊)**: This question appears in s22 as the question Lawrence can't answer, and again in s35 as the question he finally answers with "无法用言语来形容" (can't describe in words). This is the volume's central relationship question.
+
+3. **Indirect communication as both weapon and bridge**: Holo uses indirect methods throughout - the marriage certificate is actually an invitation for Lawrence to get angry and confess, the white feather is a signal of her loyalty, the financial intel letter is a test. Lawrence fails to read most of these correctly because he's operating in merchant logic while Holo is operating in relationship logic.
+
+4. **Trust asymmetry**: Holo trusts Lawrence's intent (she buys pyrite to help him, she signals with feathers); Lawrence fails to trust Holo's loyalty (he reads her actions as betrayal). This is explicitly named in s35:58 - "罗伦斯没信任赫萝，但赫萝却信任着罗伦斯"
+
+5. **The "direct sincerity" callback from vol 02**: s35:74 - Holo explicitly references "在留宾海根时，咱不是说过了吗？不要做一些没用的小动作，直接把真心话说出来" - this connects directly to vol 02's "互相发脾气/说出口" rule.
+
+6. **Amati as mirror**: Amati represents what "direct sincerity" looks like in its raw, young form - he's willing to risk everything, declare openly, fight duels. Holo explicitly distinguishes "好雄性" (good male) from "好大人" (good adult) in s16. Amati is the former; Lawrence tries to be the latter. But Holo's frustration is that neither extreme works - she wants Lawrence to be direct about feelings while also being mature enough not to need a crisis to force it out.
+
+7. **Solitude/loneliness axis**: This volume deepens the "loneliness kills" theme from vol 01. Holo's breakdown in s22 is fundamentally about losing her last connection (Yoitsu as home, and potentially Lawrence as companion). Her line "咱变成孤单一人了" echoes her vol 01 fear.
+
+Now let me think about the scope decision:
+
+The main axis spans s00-s35, but the concentrated relationship action happens in a few windows:
+- s00-s04: Daily baseline + concealment setup + "go alone" slip
+- s16: Contract challenge
+- s19-s22: Joy → revelation → collapse
+- s25: Marriage certificate
+- s33-s35: Battle climax → reunion → full reconciliation
+
+The commercial battle (s17-s18, s21, s23-s24, s26-s32) is intricate but mostly serves as the vehicle through which the relationship drama plays out. I should summarize these heavily.
+
+Let me write the file now.
+
+For the file name: `锚_卷03_s00-35_隐瞒与真心话·白羽毛信号·阿玛堤对决.md`
+
+Actually, looking at the existing notebook file name `锚_卷03_约伊兹隐瞒与阿玛蒂对决.md`, I should differentiate. Let me use a different angle.
+
+File name: `锚_卷03_s00-35_隐瞒·白羽毛·无法用言语来形容.md`
+
+Let me draft the content now.
+
+Actually, I need to be very careful about the scene numbers. Let me double-check each scene reference against the provided text.
+
+- Scene 0: Travel, banter, "knight" callback → s00
+- Scene 1: Meeting Amati → s01
+- Scene 2: Introduction, room arrangement → s02
+- Scene 3: Dinner, northern liquor nostalgia → s03
+- Scene 4: Yoitsu location, "go alone" slip → s04
+- Scene 5: Morning, hungover Holo → s05
+- Scene 6: Mark, nails, chronicler inquiry → s06
+- Scene 7: Return with bread → s07
+- Scene 8: Letters, Holo wants to come along → s08
+- Scene 9: Amati at guild → s09
+- Scene 10: Bartos, alchemist district → s10
+- Scene 11: Diana, Yoitsu legend → s11
+- Scene 12: More stories → s12
+- Scene 13: Mark's news about Amati+Holo → s13
+- Scene 14: Holo returns drunk → s14
+- Scene 15: Gift interrogation, pyrite → s15
+- Scene 16: Amati's contract declaration → s16
+- Scene 17: Investigation → s17
+- Scene 18: Financial details → s18
+- Scene 19: Festival, dancing → s19
+- Scene 20: Diana's letter, Yoitsu location → s20
+- Scene 21: Pyrite scheme → s21
+- Scene 22: Holo reads letter, collapse → s22
+- Scene 23: Lawrence wandering → s23
+- Scene 24: Strategy, spots Amati+Holo at window → s24
+- Scene 25: Marriage certificate + financial intel → s25
+- Scene 26: Credit sale proposal → s26
+- Scene 27: Mark refuses, offers indirect help → s27
+- Scene 28: Bartos helps → s28
+- Scene 29: Diana visit at night → s29
+- Scene 30: Mark's indirect help, "curse" speech → s30
+- Scene 31: Morning, Lando → s31
+- Scene 32: Market day, prices soar → s32
+- Scene 33: Market battle, despair, Lando's push → s33
+- Scene 34: Holo returns with pyrite, reunion → s34
+- Scene 35: Full reconciliation → s35
+- Scene 36: Festival finale → s36
+- Scene 37: End → s37
+
+OK, now let me write the actual anchor file.
+
+Let me think about what the core relationship arc of this volume is:
+
+**Volume 03 core arc**: Lawrence conceals Yoitsu's destruction from Holo → Holo discovers it independently → catastrophic breakdown → Holo uses indirect methods (marriage certificate, white feather, financial intel) to give Lawrence openings to be direct → Lawrence fails to read them, operates in merchant logic → final reconciliation where every misreading is unpacked → Lawrence finally answers "what am I to you" with "无法用言语来形容"
+
+The volume is about **the cost of indirectness vs. directness in a relationship where both parties are too proud/scared to say what they mean directly**. It connects to vol 02's "直接把真心话说出来" rule but shows what happens when that rule ISN'T followed.
+
+Key structural insight: **Holo's indirect actions are all attempts to create conditions for Lawrence to be direct** (marriage certificate = make him angry enough to confess; white feather = signal she's on his side so he can act boldly; financial intel = give him ammunition). Lawrence's failure is reading all of these as either betrayal (marriage certificate) or irrelevance (white feather). The trust asymmetry is that Holo trusts Lawrence enough to set up these indirect bridges; Lawrence doesn't trust Holo enough to cross them.
+
+Let me also note the承重句 that need full quotation:
+
+1. s04:77 - "你可以自己一人从纽希拉回去吗？你知道方向吧？" - the slip that wounds Holo
+2. s04:106 - "是咱忘了理所当然的事情。因为在汝的身边感觉太舒适了，一不小心……就撒起娇来。" - farewell-like
+3. s16:159 - "我不是有自信，我只是信任你而已。" - Lawrence's key line
+4. s16:176 - Holo's hypothetical "咱怎么都不可能接受那份契约，咱想要永远和罗伦斯在一起..." - showing what she wanted him to say
+5. s22:53 - "咱啊……无家可归了……" - collapse
+6. s22:103 - "汝是咱的什么人啊……不对，咱是汝的什么人啊？" - the question
+7. s22:107 - "咱不要！咱不要再孤单一人了！" - primal fear
+8. s25:58 - "两人依上述内容宣誓，正式结为夫妻" - marriage certificate
+9. s33:294 - "主人总是告诉我说，财神爷不会眷顾只会祈祷的家伙，而会眷顾死缠烂打不肯放弃的人。" - Lando
+10. s34:69 - "大笨驴。" - reunion
+11. s35:42 - "其实……我没信任你就是最大的问题。" - Lawrence's admission
+12. s35:74 - "不要做一些没用的小动作，直接把真心话说出来，互相怒骂会比较快解决问题。" - callback to vol 02
+13. s35:103-114 - "我想和你一起继续旅行" / "无法用言语来形容" - the answer
+14. s35:140 - Holo asked Diana to fake Yoitsu news - reveals her indirect method
+15. s35:186 - "咱想回到故乡，哪怕……它已经不存在了。" - acceptance
+
+Let me now write the full anchor file.
+
+One more thing - I need to think about the "strong reading" and its boundaries:
+
+**Strong reading candidate**: The volume's main axis is **隐瞒作为关系失败模式** (concealment as relationship failure mode). Lawrence's concealment of Yoitsu's destruction is not just a plot device but the structural key to understanding the entire volume's relationship dynamics. Every subsequent miscommunication can be traced back to the original concealment creating a "secret" that distorts all subsequent interactions.
+
+But I need to mark boundaries:
+- This doesn't explain everything. The Amati subplot has its own independent动力 (young man's infatuation, commercial competition)
+- Holo's indirect communication style is not CAUSED by the concealment - it's her native mode from previous volumes
+- The "what am I to you" question predates the concealment revelation (it's latent in the relationship from the start)
+- The commercial battle mechanics (credit sales, pyrite speculation) have their own logic independent of the relationship
+
+Also important: the concealment itself is on a different axis from the "trust asymmetry" - the concealment is about information asymmetry (Lawrence knows something Holo doesn't), while the trust asymmetry is about emotional trust (Holo trusts Lawrence's loyalty; Lawrence doubts hers). They interact but aren't the same mechanism.
+
+Let me also think about what NOT to abstract:
+- The specific commercial mechanics shouldn't be abstracted into relationship rules
+- Holo's breakdown in s22 shouldn't be reduced to "she was sad about Yoitsu" - the layered nature (discovery of destruction + discovery that Lawrence knew + feeling of being pitied/played) is irreducible
+- The "good male vs good adult" distinction Holo makes in s16 is specific to this context and shouldn't be generalized into a universal framework
+- Diana's role as a non-human mirror of Holo's situation (bird who loved a human, outlived him) is a thematic echo, not a mechanism
+
+OK, I think I have enough to write a comprehensive anchor file. Let me do it now.
+
+For the DESIGN interface section, I should think about:
+- Relationship position: from "traveling companions with debt" to "partners who've survived a trust crisis"
+- Trust level: takes a hit (concealment) but ultimately strengthens through crisis
+- Relationship内压强: extremely high during s22-s34, resolves in s35
+
+For the candidate weak pattern:
+- "Concealment-to-crisis-to-reconciliation" cycle: when one party conceals painful information "for the other's good," it creates a debt that will be called in catastrophically when discovered independently
+- "Indirect bridge-building": Holo creates indirect openings for direct communication, which fail when the other party operates in a different logic mode
+
+Let me write this now. I'll aim for a comprehensive but not bloated file.
+
+Let me structure it:
+
+1. Title + scope
+2. What came before
+3. What happens (facts with line references)
+4. Details worth watching
+5. Coexisting readings
+6. DESIGN interface
+7. Candidate weak patterns
+8. What not to abstract yet
+
+Let me draft...
+
+Actually, I realize I should be more selective. The file shouldn't try to cover every single scene in detail. Let me focus on the main axis scenes and summarize the rest.
+
+Main axis scenes for detailed analysis:
+- s00 (daily baseline)
+- s03-s04 (concealment setup + "go alone" slip)
+- s16 (Amati's contract + "I trust you")
+- s19-s20 (festival joy + Yoitsu location revelation)
+- s22 (THE COLLAPSE)
+- s25 (marriage certificate)
+- s33-s34 (Lando's push + Holo's return)
+- s35 (full reconciliation)
+
+Summary-only:
+- s01-s02, s05-s15, s17-s18, s21, s23-s24, s26-s32, s36-s37
+
+But some of those summary scenes have important relationship beats I need to mention:
+- s08: "拨开手" callback
+- s13: Lawrence's jealousy
+- s14-s15: Amati gifts
+- s30: Mark's "curse" speech
+
+OK let me write this now. I'll aim for something comprehensive but focused.
+
+Let me be careful about the format. The task says to output the complete markdown file content starting from the H1 heading.
+
+Let me write it now.
+
+One more consideration: I should verify who says what for key quotes.
+
+- s04:77 "你可以自己一人从纽希拉回去吗？你知道方向吧？" - Lawrence says this (confirmed in text)
+- s04:106 "是咱忘了理所当然的事情。因为在汝的身边感觉太舒适了，一不小心……就撒起娇来。" - Holo says this (confirmed)
+- s16:159 "我不是有自信，我只是信任你而已。" - Lawrence says this (confirmed)
+- s16:176 "咱怎么都不可能接受那份契约..." - Holo says this as a hypothetical (confirmed)
+- s22:53 "咱啊……无家可归了……" - Holo says this (confirmed)
+- s22:103 "汝是咱的什么人啊……不对，咱是汝的什么人啊？" - Holo says this (confirmed)
+- s22:107 "咱不要！咱不要再孤单一人了！" - Holo says this (confirmed)
+- s25:58 "两人依上述内容宣誓，正式结为夫妻" - This is written on the marriage certificate (confirmed)
+- s35:42 "其实……我没信任你就是最大的问题。" - Lawrence says this (confirmed)
+- s35:74 "在留宾海根时，咱不是说过了吗？不要做一些没用的小动作，直接把真心话说出来，互相怒骂会比较快解决问题。" - Holo says this (confirmed)
+- s35:103 "我想和你一起继续旅行。" - Lawrence says this (confirmed)
+- s35:114 "无法用言语来形容。" - Lawrence says this (confirmed)
+- s35:140 "咱问了那个女娃说，可否捏造约伊兹其实有可能仍存在于某处的虚假事实，然后转告给汝知道。" - Holo says this (confirmed)
+
+Good, all verified.
+
+Now let me write the actual content. I need to be thorough but not bloated. Let me aim for a file that's comprehensive but readable.
+
+Let me also think about what's unique to this volume vs. what's a continuation of previous volumes:
+
+**Continuations from previous volumes:**
+- "孤独会要人命" (vol 01) → directly echoed in s22:107 "咱不要再孤单一人了"
+- "直接把真心话说出来" (vol 02) → explicitly referenced in s35:74
+- "别替我安排退场" → echoed in s04:77 "你可以自己一人从纽希拉回去吗？" (Lawrence again suggesting she go alone)
+- "把我看得够重" → the entire Amati subplot tests this
+- Vol 02's "公共善下的特别性追问" → Amati is a new mirror for this (he's publicly charming to Holo)
+
+**New to this volume:**
+- Concealment as a specific failure mode (Lawrence actively hiding information)
+- "What am I to you?" as an explicit question that gets asked and answered
+- Indirect bridge-building as Holo's method (marriage certificate, white feather)
+- Trust asymmetry named explicitly (s35:42)
+- The "good male vs good adult" distinction
+- Diana as a non-human mirror (bird who loved a human)
+
+OK, I'm going to write this now. Let me be disciplined about length - comprehensive but not bloated.
+
+Let me think about the structure more carefully:
+
+# 锚 · 卷03 · ...
+
+## 一、范围留痕
+
+## 二、本段之前已经在场的东西
+
+## 三、这几幕直接发生了什么
+
+## 四、值得盯住的细节
+
+## 五、暂时并存的读法
+
+## 六、与 DESIGN 的接口
+
+## 七、候选弱模式
+
+## 八、现在不要急着抽象成什么
+
+---
+
+## 完成后回报
+
+Let me write this now. I'll try to keep it focused and not repeat myself.
+
+For section 3, I'll organize by relationship beat rather than strictly chronologically, but I'll make sure every claim has scene+line references.
+
+Actually, looking at the format sample more carefully, the sample uses a "主题地图" structure with atoms. But the task says I should use my own judgment for this volume's structure. Given that this is an extract/codex file (not a notebook final), I should keep it as a single comprehensive file rather than splitting into atoms.
+
+Let me write it now. I'll aim for maybe 4000-6000 words of Chinese content.
+
+Actually wait, I need to re-read the instructions more carefully. The task says:
+
+"输出路径：anchors/extract/codex/锚_卷03_s<起>-<止>_<短标题>.md"
+
+And the recommended skeleton has 8 sections. Let me follow that skeleton.
+
+OK, let me write now. I'll be thorough but disciplined.
+
+One key thing I want to get right: the "strong reading" boundary marking. The prompt says:
+
+"若你反而收敛出一条强主轴/统一读法，必须同时给它划边界：(a) 对'同一套说法在不同 scene 的功能'做分化；(b) 标明哪些主题只是被它'暂时兜住'、各自另有独立动力；(c) 不同 scene 的伤/机制可能落在不同轴上"
+
+My strong reading: **隐瞒 (concealment) as the volume's structural key**. But I need to mark:
+(a) "隐瞒" functions differently in different scenes:
+- s03-s04: Active concealment (Lawrence knows, chooses not to tell)
+- s08: Concealment of purpose (Lawrence hides his chronicler visit from Holo)
+- s22: Discovery of concealment (Holo finds out)
+- s25-s35: Holo's counter-concealment (she hides her loyalty through indirect signals)
+
+(b) Themes that the concealment reading "暂时兜住" but have independent动力:
+- Amati's infatuation subplot
+- The commercial battle (pyrite speculation)
+- Diana's non-human mirror
+- Holo's indirect communication style (predates this volume)
+
+(c) Different axes:
+- s04 "go alone" slip → falls on "孤独/同行" axis (same as vol 02's留盘缠)
+- s22 "汝是咱的什么人啊" → falls on "关系定义/特别性" axis
+- s35 "没信任你就是最大的问题" → falls on "信任" axis
+- These three axes intersect but aren't the same
+
+OK, I think I have a clear picture now. Let me write the file.
+
+Let me also think about the candidate weak pattern:
+
+**Candidate: "隐瞒→独立发现→信任崩塌→间接桥→和解" cycle**
+
+When party A conceals painful information from party B "for their own good," and party B discovers it independently, the resulting trust collapse is far worse than if the information had been shared directly. The concealment creates a secondary wound (you thought I couldn't handle it / you were playing me for a fool) on top of the primary wound (the information itself).
+
+Support: s03-s04 (concealment established), s22 (discovery → collapse), s35 (unpacking)
+
+Conditions: The relationship must be close enough that concealment feels like betrayal, but not yet close enough that A can be direct about painful truths.
+
+Counter-examples to watch: This pattern may NOT apply when:
+- The concealed information is trivial
+- Party B already suspected the truth
+- The concealment is brief and quickly corrected
+
+This connects to vol 02's "直接把真心话说出来" rule but shows the cost of NOT following it.
+
+Actually, I think there's a more interesting candidate pattern:
+
+**Candidate: "间接桥" (indirect bridge)**
+
+Holo creates indirect openings for direct emotional communication when she can't initiate it herself. These bridges have a specific structure:
+1. Holo performs an action that looks like X (betrayal/abandonment/coldness)
+2. The action is actually an invitation for Lawrence to respond with direct emotional honesty
+3. If Lawrence reads it correctly and responds directly, the bridge works
+4. If Lawrence reads it as X and responds with strategy/retreat, the bridge fails
+
+Support: s25 (marriage certificate as invitation for anger/confession), s32-s34 (white feather as loyalty signal), s35 (Holo's financial intel letter as test)
+
+Conditions: This pattern requires Holo to trust the other party enough to create the bridge (she's exposing herself to real risk if they don't cross it).
+
+Failure mode: The bridge fails when the other party operates in a different logic mode (merchant logic vs relationship logic).
+
+This is interesting because it connects to vol 02's "允许发脾气" - Holo is trying to CREATE conditions for emotional directness, but through indirect means. The paradox is that she uses indirection to invite direction.
+
+OK, I think I have enough material. Let me write the file now.
+
+Let me draft the complete file:
+
+Actually, I realize I should also pay attention to some specific textual details:
+
+1. s00:92 - "又不是拥有强劲腕力才是骑士的表现。不过，那是咱第一次受人保护呐。" - Holo acknowledging being protected, but framing it as "first time" - this connects to vol 02's强弱线
+
+2. s00:95-96 - "将来汝一样会好好爱护咱呗？" followed by "那是虚假的笑脸。赫萝正在为罗伦斯说她不是他喜欢的类型而生气" - Holo's anger at being told she's not his type, masked by a fake smile
+
+3. s03:42 - "对于约伊兹老早以前就已经灭亡的传言，罗伦斯一路以来都隐瞒着赫萝没说。因为这个事实，让赫萝想起故乡而感到开心的天真笑容在罗伦斯眼里，变成了刺眼的烈阳。" - The concealment is established here explicitly
+
+4. s04:84 - "赫萝在河口城镇帕兹欧时，曾经说过孤独会要人命。" - Direct callback to vol 01
+
+5. s04:109 - "因为赫萝的话简直像在告别似的。" - Lawrence's reading of Holo's words
+
+6. s08:109 - "咱可不想再被拨开手呐" - Callback to vol 02 (Lawrence pushed her hand away)
+
+7. s16:168 - "面对一场赌局，先确认自己能否获胜；等到笃定局势对自己有利后，才一副游刃有余的样子，纯粹是有点小聪明的表现罢了，根本不是大人的表现。" - Holo's critique of Lawrence's approach
+
+8. s20:47 - "只要花个半年时间，应该就找得到了吧。" - Lawrence commits to the search
+
+9. s22:81 - "汝喜欢可怜柔弱的小羊呐。汝看咱什么都不知情，还说着想回到早已灭亡的故乡是什么感觉啊？一定觉得咱愚蠢得可爱呗？" - Holo's wounded accusation
+
+10. s22:92 - "汝是人类！人类是唯一会饲养动物的存在！所以，汝就拿约伊兹当诱饵看咱怎么反应" - Holo's worst reading of Lawrence's motives
+
+11. s22:112 - "咱已经是孤单一人了。可是，如果有了孩子，就会是两个人。汝瞧，咱现在是人类模样，所以也不是不能与身为人类的汝在一起，是呗？" - Holo at her most desperate
+
+12. s25:34-40 - The financial intel letter, then the marriage certificate - the dual communication
+
+13. s30:82-84 - "你中诅咒了，中了旅行商人的诅咒" / "因为这个诅咒快被解开了，所以你才会变成这么有趣的家伙吧" - Mark's diagnosis
+
+14. s33:300-302 - Lando: "我第一次见面时，就喜欢上赫萝小姐。可是，主人告诉我...如果在罗伦斯先生面前说这种话，一定会被痛打一顿。" - Lando's honest confession that mirrors what Lawrence should have done
+
+15. s34:77-78 - "罗伦斯取下一根别在赫萝长袍上的白色羽毛说：'和某人不一样，是个成熟的美人吧？'" - Lawrence finally reading Holo's signal correctly
+
+16. s35:58 - "罗伦斯没信任赫萝，但赫萝却信任着罗伦斯。" - The trust asymmetry named
+
+17. s35:186 - "咱想回到故乡，哪怕……它已经不存在了。" - Acceptance, not hope
+
+OK, now I'm truly ready to write. Let me do it.
+
+Let me structure the "what happened" section by relationship beat:
+
+Beat 1: Daily baseline & mutual teasing (s00)
+Beat 2: Concealment established (s03-s04)
+Beat 3: Amati enters as challenger (s16)
+Beat 4: Joy & hope (s19-s20)
+Beat 5: The collapse (s22)
+Beat 6: Indirect bridges (s25, s32-s34)
+Beat 7: Reconciliation (s35)
+
+Let me write this now. I'll try to keep each beat concise but with proper line references.
+
+Actually, I want to make sure I capture one more crucial thing: the parallel between Lawrence's concealment and Holo's indirect methods. Both are forms of not being direct. Lawrence hides information; Holo hides intent behind elaborate setups. The volume's reconciliation in s35 is about BOTH of them learning to be more direct - Lawrence answers the question directly, and Holo's indirect methods are finally named and understood.
+
+This is the "统一读法" I'm converging on: **the volume is about the cost of indirection in both directions, and the reconciliation requires both parties to cross the gap toward directness.**
+
+But I need to mark the boundary: this doesn't mean "always be direct" is the lesson. Holo's indirect methods (white feather, financial intel) were necessary because she couldn't initiate the direct conversation either. The problem isn't indirection per se, but the MISMATCH in reading - Lawrence reads everything as strategy/betrayal, Holo reads everything as test/invitation.
+
+OK, truly writing now. Let me be disciplined.
+
+One more note: I need to be careful about the "完成后回报" section at the end. The task says:
+
+"完成后回报（不用贴全文）：
+1. 最终选的主轴 scene 范围 + 切分理由（一句话）；
+2. 本卷关系主线一句话概括；
+3. 文件路径。"
+
+But it also says "请写在 markdown 正文最末，用一个 --- 分隔的小节即可。"
+
+So I'll add this at the end of the file.
+
+Let me write the complete file now. I'll aim for comprehensive coverage of the main axis scenes with proper line references, while keeping summary-only scenes brief.
+
+Let me count roughly how many key quotes I need to include fully vs. briefly:
+
+Full quotes (承重句):
+1. s04:77 - Lawrence's "go alone" slip
+2. s04:106 - Holo's "too comfortable" farewell
+3. s16:159 - "I trust you"
+4. s16:176 - Holo's hypothetical direct confession
+5. s22:53 - "无家可归了"
+6. s22:103 - "汝是咱的什么人啊"
+7. s22:107 - "咱不要再孤单一人了"
+8. s35:42 - "没信任你就是最大的问题"
+9. s35:74 - "直接把真心话说出来" callback
+10. s35:103-114 - "我想和你一起继续旅行" / "无法用言语来形容"
+11. s35:140 - Holo's Diana request
+12. s35:186 - "咱想回到故乡"
+
+Brief quotes (短摘):
+- Many others throughout
+
+OK, let me write now. This is going to be a substantial file.
+
+Let me also think about what goes in section 8 "现在不要急着抽象成什么":
+
+1. Don't abstract the commercial battle into relationship rules - the pyrite speculation, credit sales, etc. are plot vehicles, not relationship mechanisms
+2. Don't abstract Holo's breakdown into a simple "she was sad" - the layered nature (discovery of destruction + discovery that Lawrence knew + feeling of being pitied) is irreducible
+3. Don't abstract the "good male vs good adult" distinction into a universal framework - it's specific to this context
+4. Don't abstract Diana's role into a simple "mirror" - the specific parallels (bird who loved a human, outlived them, was suspected) carry weight that a generic "mirror" label would flatten
+5. Don't resolve the tension between "Holo's indirect methods are necessary" and "Holo's indirect methods cause problems" - this is a genuine paradox that shouldn't be smoothed over
+
+OK, writing now for real.
+
+I also want to note one more thing: the structure of this volume is quite different from vol 01 and vol 02. Those volumes had散点 (scattered points) of relationship tension across a broader arc. This volume has a much more concentrated relationship arc with a clear beginning (concealment), middle (discovery/collapse), and end (reconciliation). The relationship action is front-and-center rather than a dark thread beneath the surface plot. This is worth noting in the scope section.
+
+Also, the volume introduces a new structural element: the "third party challenger" (Amati). Unlike Nora in vol 02 (who was a mirror for Lawrence's public goodness), Amati is an active competitor for Holo's affection. This creates a different dynamic - it's not about "am I special among the people he helps?" but about "will she choose someone else over me?"
+
+This is a significant shift from vol 02's framework. In vol 02, the question was about浓度 within existing善意. In vol 03, the question becomes about选择 between competing offers.
+
+But I should be careful not to overstate this. Amati is never a real threat to the relationship - both the reader and (eventually) Lawrence know this. The real tension isn't "will Holo leave?" but "can Lawrence be direct enough about not wanting her to leave?"
+
+OK, truly writing now. Let me draft the file.
+
+Let me write section by section.
+
+---
+
+# 锚 · 卷03（狼与香辛料·卡梅尔森篇）· 隐瞒、间接桥与"无法用言语来形容"
+
+## 一、范围留痕
+
+**主轴 scene**：s00 / s03-04 / s16 / s19-20 / s22 / s25 / s33-35
+
+**只读梗概段**：
+- s01-02：路上偶遇阿玛堤、旅馆安排（过场）
+- s05-07：宿醉、钉子买卖、早晨日常（日常基线 + 情报收集）
+- s08-09：信件、阿玛堤主动提出带赫萝逛街（关系暗线但非主轴）
+- s10-12：巴托斯介绍狄安娜、约伊兹传说确认（情报线）
+- s13-15：马克传话、赫萝收礼、黄铁矿引入（铺陈）
+- s17-18：阿玛堤财产调查（商战线）
+- s21：黄铁矿赚钱法揭露（商战线）
+- s23-24：罗伦斯独自在街上的策略思考（商战 + 关系暗线）
+- s26-32：信用贩卖对决、马克/巴托斯/狄安娜交涉、市场日（商战机制，关系线在 s30 马克"诅咒"发言处有暗触）
+- s36-37：祭典终幕、尾声
+
+**切分理由**：本卷与卷01/卷02的散点暗线不同，关系线高度集中在三个窗口：(1) 隐瞒的建立（s03-04）；(2) 隐瞒被独立发现后的崩塌（s22）；(3) 通过间接桥走向和解（s25→s33-35）。商战线（黄铁矿投机、信用贩卖）虽占篇幅最大，但关系动作集中在这些窗口内爆发，不需要逐场精读商战机制。s00 作为日常基线单独保留，因为它建立了"互相捉弄/骑士/保护"的前奏，后续被 s22 和 s35 回指。
+
+**回指**：`canon/maintext/卷03.json`，scene 00–37。
+
+## 二、本段之前已经在场的东西
+
+（前史与关系档位）
+
+- **"孤独会要人命"**（卷01 帕兹欧）：赫萝明确表达过独处的恐惧。本卷 s04:84 直接回指此句，s22:107 "咱不要再孤单一人了"是其最极端的爆发。
+- **"别替我安排退场"**（卷01/卷02）：罗伦斯倾向于替赫萝做"为她好"的决定——留宾海根留盘缠（卷02）、本卷"你可以自己一人从纽希拉回去吗"（s04:77）。两次都刺伤了赫萝，且伤点相同：她被单方面安排了一个"独自继续"的未来。
+- **"直接把真心话说出来"**（卷02 s29）：赫萝在留宾海根立下的关系内规则——"不要做一些没用的小动作，直接把真心话说出来，互相怒骂会比较快解决问题"。本卷 s35:74 原文回指此句，作为和解的钥匙。卷03 的核心灾难恰恰是这条规则被全面违反。
+- **"把我看得够重" / 公共善下的特别性追问**（卷02 定稿）：罗伦斯对很多人好，赫萝要确认自己不是顺手被善待的。本卷阿玛堤作为主动追求者登场，把这个问题从"浓度"拧到"选择"——不是"他对别人也这样"，而是"她会不会选别人"。
+- **"不同善意 = 被依靠/托付/接受其可怕一面"**（卷02 强弱线）：罗伦斯对赫萝的特殊性在于承认她的力量、托付危险给她。本卷 s00:92 "那是咱第一次受人保护呐"延续这条线——赫萝把被保护当作稀有体验而非日常。
+- **"特别性预设同行延续"**（卷02 结构关系）：赫萝总是先保同行延续、再压特别性确认。本卷 s22 崩塌的底层正是同行延续受到威胁（约伊兹可能不在了 → 旅行的目的消失 → 同行失去理由）。
+
+## 三、这几幕直接发生了什么
+
+（事实层。每个关键动作回指 scene + 行号。）
+
+### Beat 1：日常基线——互相捉弄与"骑士"回指（s00）
+
+旅途第六天，马车上互相取暖。罗伦斯说赫萝"不是我喜欢的类型"（s00:64），赫萝的耳朵能辨别谎言，罗伦斯的话"勉勉强强不算谎言"但"也并非全然是事实"（s00:66-74）——因为他确实喜欢她的各种模样，只是不愿承认。赫萝反将一军后，提到留宾海根地下水道里罗伦斯挡在她前面的事：
+
+> "又不是拥有强劲腕力才是骑士的表现。不过，那是咱第一次受人保护呐。"（s00:92）
+
+——这句接卷02强弱线：被保护对赫萝是稀有事件，而非默认待遇。随后她贴近罗伦斯问"将来汝一样会好好爱护咱呗？"（s00:95），但叙述者点明"那是虚假的笑脸。赫萝正在为罗伦斯说她不是他喜欢的类型而生气"（s00:97）。
+
+**观察**：s00 的日常互动模式是"互相捉弄→一方占上风→另一方反击→达到平衡"。赫萝用"骑士"话题把互相捉弄拉到关系层（你保护过我/你将来会不会继续爱护我），但立刻用假笑收回——她不会在捉弄模式里停留太久暴露真心。这个模式在 s16 被阿玛堤的契约打碎。
+
+### Beat 2：隐瞒的建立（s03-s04）
+
+**s03**：晚餐时北方蒸馏酒的味道让赫萝想起故乡，她露出真心笑容（s03:28-39）。叙述者交代：
+
+> "对于约伊兹老早以前就已经灭亡的传言，罗伦斯一路以来都隐瞒着赫萝没说。因为这个事实，让赫萝想起故乡而感到开心的天真笑容在罗伦斯眼里，变成了刺眼的烈阳。"（s03:42）
+
+——**事实层**：罗伦斯在卷01之前就知道约伊兹被熊怪毁灭的传说，选择不告诉赫萝。这是本卷核心隐瞒的起点。
+
+**s04**：罗伦斯趁赫萝酒后心情好时提起故乡话题，问约伊兹的位置。赫萝说只记得方向（北方），记得的城镇名只有约伊兹、纽希拉和皮洛摩登。罗伦斯以纽希拉为基点缩小搜索范围后，不经意说出：
+
+> "你可以自己一人从纽希拉回去吗？你知道方向吧？"（s04:77）
+
+——**事实层**：罗伦斯是无意的（s04:79 "别无他意的罗伦斯不经意地说出"），但赫萝"正一脸愕然地看向罗伦斯"（s04:80）。罗伦斯立刻意识到失言——赫萝害怕独自前往故乡（s04:92 "赫萝，一定是害怕独自前往故乡"）。
+
+赫萝用牵强的笑容衔接对话，然后说出本卷最承重的关系台词之一：
+
+> "是咱忘了理所当然的事情。因为在汝的身边感觉太舒适了，一不小心……就撒起娇来。"（s04:106）
+
+——叙述者注："赫萝的话简直像在告别似的"（s04:109）。**读法**：赫萝不是在告别，而是在重新校准距离——她意识到自己在罗伦斯身边太舒适了，而"太舒适"对一个预期终将失去同伴的长寿存在来说是危险的。这句话同时是撒娇和自我警告。
+
+**观察**：s04 的"你可以自己一人回去"与卷02 留盘缠落在同一条伤轴上——**孤独/同行轴**。罗伦斯两次单方面替赫萝安排了"独自继续"的未来。但这次更重，因为它暗示旅行的目的（找约伊兹）可以由赫萝独自完成，等于说"你不需要我了"。
+
+### Beat 3：阿玛堤的契约——"我信任你"（s16）
+
+阿玛堤在商行公开宣告：愿替赫萝还清一千枚崔尼银币的债务，向赫萝求婚（s16:22）。罗伦斯接受契约后回到旅馆，赫萝反应冷淡。赫萝问"万一那位天真的少爷确实付了一千枚银币，汝会怎么做？"（s16:141），罗伦斯回答"结清所有你花掉的钱之后，我会把剩下的钱给你"（s16:145）——赫萝说"不准考验咱"（s16:147），罗伦斯回"每次都是我被考验就太不公平了吧"（s16:148）。
+
+随后罗伦斯说：
+
+> "我不是有自信，我只是信任你而已。"（s16:159）
+
+——**事实层**：这是罗伦斯当场的话。他后来想"这种说法显得更有男子气概"（s16:161），说明他有意识地选择了措辞。赫萝"霎时露出惊愕的表情，但是反应快的她似乎察觉到罗伦斯的想法"（s16:162）——她知道这是包装过的真心话。
+
+赫萝随后做了一个假想演示：如果立场互换，她会怎么说——
+
+> "咱怎么都不可能接受那份契约，咱想要永远和罗伦斯在一起。就算是负债，那也是连系咱和罗伦斯的羁绊之一。尽管咱和罗伦斯之间有再多羁绊相连，只要少了其中之一，都让咱无法承受……既然这样，就算在此受到耻辱，咱也不会接受契约……"（s16:176）
+
+——但赫萝紧接着自我否定："虽然这是好雄性的表现，但却是年轻人不顾后果的冲动表现"（s16:183），并说"好雄性显得孩子气，而好大人显得窝囊"（s16:185）。
+
+**观察**：赫萝在这里明确区分了"好雄性"（直接、冲动、不顾后果的真诚）和"好大人"（稳重、计算、体面的成熟），并认为两者不相容。罗伦斯两头不靠——他不够冲动到当众宣言"我不接受"，也不够成熟到能直接说出真心话。这个"两头不靠"正是本卷灾难的结构性原因。
+
+### Beat 4：祭典之舞与约伊兹位置的希望（s19-s20）
+
+s19：两人手牵手去跳舞。叙述者说："赫萝伸出的小手比千金更可贵"（s19:58）。这是全卷最温暖的段落之一——两人纯粹享受当下。
+
+s20：罗伦斯回到旅馆，告诉赫萝从狄安娜处得到的线索——雷诺斯的传说提到了赫萝来的方向：
+
+> "据说你是从雷诺斯东边的森林前来。在纽希拉的西南方，然后再碰上雷诺斯东边的森林就是约伊兹的所在位置。"（s20:33）
+
+赫萝的反应："赫萝的狼耳朵仿佛每一根毛发都塞满了喜悦情感似的，不停微微颤动着"（s20:34）。罗伦斯接着说"只要花个半年时间，应该就找得到了吧"（s20:47），赫萝"变得有如石像般僵硬的身体里，血液重新流动了起来"（s20:48）。
+
+**观察**：这是隐瞒仍在进行中的最高点——赫萝因为约伊兹"可以找到"而喜悦，罗伦斯因为能给她希望而安心。但这个喜悦建立在罗伦斯仍隐瞒着"约伊兹可能已经灭亡"的信息之上。s20 的温暖是 s22 崩塌的必要前奏：希望越高，摔得越重。
+
+### Beat 5：崩塌——赫萝独立发现真相（s22）
+
+赫萝为了日后捉弄罗伦斯，假装不识字（s22:44），却因此拆开了罗伦斯留在桌上的狄安娜来信。信上写着：
+
+> "关于昨天向您提及，古时已灭亡的城镇约伊兹……"（s22:42）
+
+赫萝的状态：像雪人一样僵硬，嘴唇打颤，信纸从指缝滑落（s22:25-26）。她尝试笑着说"咱脸上……沾、沾了、什么东西吗？"（s22:31），但"到了最后，抽动的嘴唇使得她无法好好说话"（s22:32）。
+
+然后是本卷最承重的情感爆发：
+
+> "咱啊……无家可归了……"（s22:53）
+
+> "汝看咱什么都不知情，还说着想回到早已灭亡的故乡是什么感觉啊？一定觉得咱愚蠢得可爱呗？可怜得让汝觉得心疼，是呗？即使见到咱任性，也想要原谅咱，然后温柔对待咱，是呗？"（s22:81）
+
+> "汝是咱的什么人啊……不对，咱是汝的什么人啊？"（s22:103）
+
+——罗伦斯无法当场回答（s22:105 "罗伦斯无法当场回答，不禁陷入思考"）。
+
+> "咱不要！咱不要再孤单一人了！"（s22:107）
+
+赫萝在极端绝望中说出"如果有了孩子，就会是两个人"（s22:112），罗伦斯说"别再说了，拜托"（s22:113）。赫萝最终说出"……抱歉"（s22:123），关上了心房。罗伦斯退出了房间。
+
+**事实层核对**：
+- 赫萝的愤怒包含三层：(1) 约伊兹可能已灭亡（原发性悲伤）；(2) 罗伦斯知道却隐瞒（背叛感）；(3) 她觉得自己被当成"愚蠢得可爱的可怜对象"（尊严伤害）。
+- 罗伦斯在 s22:99 说出"你不是有我吗？"——这是他的真心话（s22:100 "这是罗伦斯不带虚假的真心话"），但赫萝用"汝是咱的什么人啊"反驳，他答不上来。
+- 赫萝的"抱歉"（s22:123）是**为她情绪失控后的恶劣话语道歉**——叙述者明确说她"察觉到了后，赫萝没有意气用事。她立刻向罗伦斯道了歉，发自真心地道了歉"（s35:88-89）。但罗伦斯把这句道歉读成了"紧闭心房的最后话语"（s22:124 "赫萝在此刻重重地关上了心房"）。这是本卷最致命的误读。
+
+### Beat 6：间接桥——结婚证书与白羽毛（s25, s32-s34）
+
+**s25**：罗伦斯回到旅馆，收到赫萝留的两份文件。第一份是阿玛堤的财产清单（s25:34-40），由他人代写——罗伦斯最初读成"赫萝拐弯抹角的和好信"（s25:44）。第二份是结婚证书：
+
+> "两人依上述内容宣誓，正式结为夫妻"（s25:58）
+
+赫萝的名字"以歪歪扭扭的字迹写着"（s25:67），说明她不会写字却亲手签了名。罗伦斯最初崩溃（s25:59-62），但随后重新解读：财产清单是赫萝"为了告诉罗伦斯现状有多么地严酷"（s25:72），结婚证书则是"如果罗伦斯成功地击败了阿玛堤，她就愿意听罗伦斯解释。然而，反过来的意思就是如果无法击败，一切免谈"（s25:81）。
+
+**s32-s34**：市场决战日。赫萝出现在阿玛堤身边，穿着修女装扮、别了三根**纯白色大羽毛**（s32:22）。罗伦斯当时没有读懂这个信号（s33:48-54 他把阿玛堤在摊贩前的举动误读为赫萝设的陷阱）。
+
+直到 s34，赫萝带着一大袋黄铁矿出现在摊贩前：
+
+> "大笨驴。"（s34:69）
+
+罗伦斯取下赫萝长袍上的白色羽毛说"和某人不一样，是个成熟的美人吧？"（s34:77-78）——他终于读懂了：白色羽毛是赫萝在告诉他自己向狄安娜买了黄铁矿（s35:46-58）。
+
+**s35 的事实层回溯**（和解时逐条澄清）：
+1. 白色羽毛 = "告诉我是你向狄安娜买黄铁矿的"（s35:46）——赫萝信任罗伦斯会读懂。
+2. 结婚证书 = "你为了让我有理由生气，对吧？"（s35:68）——赫萝故意制造让罗伦斯可以直接表达愤怒和占有欲的条件。
+3. s22 的"抱歉" = 赫萝为自己情绪失控的恶劣话语真心道歉（s35:87-89），不是关上心房。
+4. 赫萝去找狄安娜的真正目的 = 请狄安娜捏造"约伊兹可能仍存在"的假消息转告罗伦斯，好让罗伦斯有契机主动与赫萝说话（s35:140）。
+
+叙述者的总结性判断：
+
+> "罗伦斯没信任赫萝，但赫萝却信任着罗伦斯。"（s35:58）
+
+### Beat 7：和解——"无法用言语来形容"（s35）
+
+赫萝怒骂罗伦斯把一切搞复杂后（s35:102-103），罗伦斯终于直接说出：
+
+> "我想和你一起继续旅行。"（s35:103）
+
+赫萝问"那，咱是汝的什么人？"（s35:111）——这是 s22:103 那个问题的复现。罗伦斯的回答：
+
+> "无法用言语来形容。"（s35:114）
+
+赫萝的反应："一副受不了罗伦斯到就快要哭了出来的模样笑着说：'汝那什么穷酸干瘪的台词。'"（s35:116-117）——她接受了。
+
+在和解的尾声，赫萝说出她去找狄安娜的真正目的：
+
+> "咱问了那个女娃说，可否捏造约伊兹其实有可能仍存在于某处的虚假事实，然后转告给汝知道。"（s35:140）
+
+——**事实层**：赫萝在受伤后做的第一件事不是离开，而是想办法给罗伦斯创造一个"主动开口说话"的契机。这暴露了赫萝处理关系危机的核心模式：**她不会直接说"来找我"，而是制造让对方向她走过来的条件**。
+
+最后，赫萝说出本卷的收束句：
+
+> "咱想回到故乡，哪怕……它已经不存在了。"（s35:186）
+
+——这不是希望，是**接受**：接受了约伊兹可能已灭亡的事实，同时确认了"仍然要回去"的意志。
+
+## 四、值得盯住的细节
+
+1. **"你可以自己一人回去"出现两次，伤在同一条轴上**。卷02 留盘缠（s27）和卷03 s04:77 的失言，都是罗伦斯单方面替赫萝规划了"独自继续"的未来。两次赫萝都被刺伤。但两次的伤点不完全相同：卷02 的伤在"同行被结算成分别后的补偿"（孤独/同行轴），卷03 的伤在"旅行的目的（找约伊兹）被判定为不需要同伴就能完成"（同行意义被抽空）。两条伤并列在"孤独/同行"伞下，但不要焊成一条。
+
+2. **赫萝的谎言："不识字"**。s08:33 赫萝说"咱看不懂文字"，s22:44 揭示她其实识字（为了日后捉弄罗伦斯而假装不识字）。这个谎言直接导致了 s22 的崩塌——如果她不假装不识字，她不会独自拆信。赫萝的小恶作剧反噬了她自己。
+
+3. **"好雄性 vs 好大人"的区分**（s16:183-185）。赫萝认为"好雄性显得孩子气，而好大人显得窝囊"——两者不相容。但 s35 的和解表明，她最终接受的不是任何一个极端，而是罗伦斯"无法用言语来形容"这种既不够雄性也不够成熟、但足够真实的回答。**边界**：这个区分是赫萝在特定情境下的即兴分析，不是她的一贯框架——s35 她没有要求罗伦斯变成"好雄性"或"好大人"，而是接受了他本来的样子。
+
+4. **阿玛堤作为"直接性的镜子"**。阿玛堤做了赫萝说"好雄性"会做的事——当众宣言、签血印契约、不惜一切。但赫萝从未真正被他吸引。s35:7-8 揭示"赫萝似乎一开始就没打算屈服于阿玛堤"。阿玛堤的存在不是为了制造真正的三角关系，而是为了让罗伦斯看到"直接表达感情"的长相——然后发现自己做不到。**边界**：阿玛堤的"直接"也是幼稚的（赫萝自己说的），所以这不是"直接就是对的"的简单教训。
+
+5. **狄安娜作为非人类镜子**。s35:174-180 揭示狄安娜是一只大鸟，爱上了旅行修道士，修道士因为她不老而起了疑心。赫萝说这段话时"似乎加重了手臂的力道"（s35:181）——她在投射自己的恐惧。狄安娜的故事是赫萝与罗伦斯关系的暗面镜像：如果赫萝保持年轻而罗伦斯老去，会不会也走到那一步？**边界**：这个镜像有独立动力（狄安娜的孤独是她自己的），不要把它简化成赫萝的替身。
+
+6. **马克的"旅行商人的诅咒"**（s30:82-84）。马克指出罗伦斯"中了诅咒"——因为跟赫萝在一起太幸运了，所以变得看不清四周。这是本卷唯一一个外部视角对罗伦斯状态的诊断。马克说"这个诅咒快被解开了，所以你才会变成这么有趣的家伙"——意思是：罗伦斯正在从"纯粹商人"变成"有感情的人"，而这个变化让他变得笨拙。**边界**：马克的诊断有他自己的投射（他经历过与雅黛儿的恋爱），不是客观真理。
+
+7. **s22 的"三层伤害"不可压扁**。赫萝在 s22 的崩溃不是单一的"约伊兹灭亡让她伤心"。它至少有三层：(1) 故乡可能真的没了（存在性悲伤）；(2) 罗伦斯知道却瞒着她（信任背叛）；(3) 她觉得自己被当成"愚蠢得可爱的可怜对象"（s22:81——尊严伤害，她认为罗伦斯看她的天真笑容"觉得刺眼"是在享受她的无知）。这三层各有独立动力，不能压成一句"她发现约伊兹灭亡所以崩溃了"。
+
+## 五、暂时并存的读法
+
+### 读法 A：隐瞒作为关系失败模式（强主轴候选）
+
+**核心主张**：本卷的脊梁是"隐瞒→独立发现→信任崩塌"这条线。罗伦斯隐瞒约伊兹灭亡的传说，不是出于恶意而是出于"保护她感情"的好意——但这个好意制造了一个信息不对称的炸弹，当赫萝独立发现时，爆炸的威力远大于当初直接告知。
+
+**支持**：s03:42（隐瞒建立）、s04:77（隐瞒扭曲了罗伦斯的言行——他不敢提约伊兹话题，提了就失言）、s22:42-53（独立发现→崩塌）、s22:67-81（赫萝的受伤逻辑：你瞒着我 = 你觉得我承受不了 = 你把我当可怜对象）。
+
+**边界标记**：
+- (a) **"隐瞒"在不同 scene 的功能分化**：
+  - s03-s04：主动隐瞒（罗伦斯知道，选择不说）→ 功能是延迟痛苦，但制造了信息债
+  - s08：隐瞒目的（罗伦斯不告诉赫萝他要去见编年史作家）→ 功能是保护情报线，但排除了赫萝的参与
+  - s22：隐瞒被揭穿 → 功能不再是隐瞒本身，而是"隐瞒的存在"成为新的伤害
+  - s25/s32-s34：赫萝的"反向隐瞒"（用间接信号代替直接告知）→ 功能是给罗伦斯创造主动的机会，但要求他读懂
+- (b) **被这条主轴"暂时兜住"但另有独立动力的主题**：
+  - 阿玛堤的求爱 subplot 有自己的动力（年轻商人的迷恋+商业竞争），不完全是隐瞒的衍生物
+  - 黄铁矿投机是独立的商业线，与隐瞒无因果关系
+  - 赫萝的间接沟通风格（结婚证书、白羽毛）早于本卷——这是她的固有模式，不是隐瞒造成的
+  - 狄安娜的非人类身份有独立的故事线
+- (c) **不同 scene 的伤落在不同轴上**：
+  - s04:77 "自己一人回去" → **孤独/同行轴**（接卷01/卷02）
+  - s22:103 "咱是汝的什么人啊" → **关系定义/特别性轴**（接卷02）
+  - s22:81 "觉得咱愚蠢得可爱呗" → **尊严/被对等对待轴**（赫萝不接受被怜悯）
+  - s35:42 "没信任你就是最大的问题" → **信任轴**
+  - 这四条轴在 s22 的崩塌中同时被激活，但它们不是同一条机制
+
+### 读法 B：间接桥——赫萝用迂回方式邀请直接性
+
+**核心主张**：赫萝在关系危机中不会直接说"来找我/对我说真心话"，而是制造让对方主动走过来的条件。这些"间接桥"有特定结构：她做一个表面看起来像 X（背叛/冷漠/离开）的行动，实际上是邀请对方用直接的情感回应来否定 X。
+
+**支持**：
+- s25 结婚证书：表面 = 赫萝要嫁给阿玛堤；实际 = 给罗伦斯一个"有理由生气"的条件，让他可以直接说出"不要"（s35:66-68 "那是你为了让我有理由生气，对吧？"）
+- s32 白色羽毛：表面 = 修女装扮的装饰；实际 = 告诉罗伦斯"我向狄安娜买了黄铁矿，我站在你这边"（s35:46）
+- s25 财产清单信：表面 = 冰冷的数据；实际 = 给罗伦斯战斗的武器 + "如果你赢了我就听你说"的约定（s25:81）
+- s35:140 狄安娜请托：赫萝请狄安娜捏造假消息，是为了给罗伦斯创造"主动开口"的契机
+
+**与读法 A 的关系**：读法 B 不与 A 矛盾，而是补充了"赫萝侧"的机制。A 说"隐瞒导致崩塌"，B 说"崩塌后赫萝用间接方式修复，但修复也失败了"。
+
+**边界**：
+- 间接桥不是赫萝的唯一沟通方式——s22 的情绪爆发是直接的（虽然内容是扭曲的），s35:102-103 的怒骂也是直接的。她在极端时刻会直接，在"需要给对方留面子/创造条件"的时刻会用间接。
+- 间接桥的失败不全是罗伦斯的错——赫萝的方法确实有风险（结婚证书太像真的，白羽毛太隐晦），如果对方读错了，后果会非常严重。
+- **关键张力**：赫萝用间接方式邀请直接性，这本身是一个悖论。她要求对方"直接说真心话"，但自己用迂回方式提供条件。s35:74 她引用留宾海根的规则"直接把真心话说出来"——但她自己在卷03 也违反了这条规则。
+
+### 读法 C：信任不对称——赫萝信任罗伦斯的忠诚，罗伦斯不信任赫萝的忠诚
+
+**核心主张**：本卷的信任不对称呼应在 s35:58 被一句话点破："罗伦斯没信任赫萝，但赫萝却信任着罗伦斯。"赫萝在 s22 崩塌后做的第一件事是想办法帮罗伦斯（s35:140 请狄安娜捏造假消息），而罗伦斯在 s22 崩塌后做的第一件事是怀疑赫萝会投向阿玛堤（s23:7 "以赫萝目前的状态来说，或许她真有可能接受阿玛堤的求婚"）。
+
+**支持**：s35:58（信任不对称命名）、s33:19-26（罗伦斯把赫萝的举动全读成陷阱）、s34:74（赫萝从一开始就买了黄铁矿来帮罗伦斯）。
+
+**边界**：
+- 罗伦斯的不信任不是"不信任赫萝的人品"，而是"不确定赫萝对自己的执着程度"。赫萝是活了数百年的贤狼，罗伦斯无法确定自己对她而言是否值得留下。这不信任的根是**自卑/寿命差距**，不是"觉得赫萝会骗他"。
+- 赫萝对罗伦斯的信任也不是无条件的——她信任的是"罗伦斯不会恶意害我"，不是"罗伦斯一定能读懂我的信号"。事实上她为罗伦斯读不懂白羽毛而愤怒（s35:48-54）。
+
+## 六、与 DESIGN 的接口
+
+（分析锚定，不等于 active 圣经字段，不构成字段准入主张。§0 gate 归人。）
+
+| 场景 | 关系位置 | trust 档 | 关系内压强 |
+|------|---------|---------|---------|
+| s00 | 同行/日常互相捉弄 | 中（已有信任基础，但"不是喜欢的类型"暴露不安） | 低 |
+| s03-04 | 同行/罗伦斯开始隐瞒 | 中→下（隐瞒制造了隐性不对称） | 中（s04 "告别"气氛） |
+| s16 | 同行受外部挑战（阿玛堤） | 中→上（"我信任你"是 trust 押注） | 高（外部竞争者引入压强） |
+| s19-20 | 同行/共同目标确认（找约伊兹） | 上（半年承诺） | 低→高（希望越高，风险越大） |
+| s22 | **崩塌** | 下（信任危机峰值） | 极高（关系断裂边缘） |
+| s25 | 赫萝发出间接桥 | 无法用 trust 档描述——赫萝在测试的同时给了条件 | 极高 |
+| s33-34 | 赫萝主动回到罗伦斯身边 | 上（赫萝的行动证明信任） | 高→降 |
+| s35 | 和解 | 上（超过 s20 水平——经历了崩塌后重建） | 降 |
+
+**注意**：trust 档的波动在本卷不是线性上升——它经历了一个"上升（s16-s20）→ 暴跌（s22）→ 重建（s34-s35）"的 V 形。而且 s35 重建后的 trust 档与 s20 的 trust 档**质地不同**：s20 的信任建立在"我们一起找约伊兹"的共同目标上（脆弱，因为目标本身可能不存在），s35 的信任建立在"我知道你会隐瞒/误读/搞砸，但我仍然选择留下"的经历过考验的选择上（更韧）。这个质地差异不要压成"trust 数值更高了"。
+
+## 七、候选弱模式 + 支持场景/反例/待验证
+
+（临时、带条件、非定稿。定稿归人。）
+
+### V3-C1（候选）：隐瞒→独立发现→信任崩塌的加倍效应
+
+**主张**：当 A 向 B 隐瞒痛苦信息（出于好意），而 B 独立发现该信息时，伤害 = 原信息伤害 × "你瞒着我"的背叛加成。背叛加成的核心不是"信息被隐藏"，而是 B 解读为"A 觉得我承受不了/在享受我的无知/把我当可怜对象"。
+
+**支持**：s03:42（隐瞒建立）→ s22:42-81（独立发现→三层伤害爆发）→ s35:42（"没信任你就是最大的问题"）
+
+**条件**：
+- 关系已近到 A 的好意会被 B 解读为"关系内的行为"（而非陌生人的礼貌）
+- 信息直接关系到 B 的核心身份/归属（约伊兹 = 赫萝的家/身份）
+- B 有足够的能力独立发现（赫萝识字）
+
+**反例/失效方向**：
+- 如果信息是琐碎的（如罗伦斯隐瞒自己的商业亏损），B 可能只会轻微不满
+- 如果 A 在 B 发现前主动坦白，背叛加成不会出现
+- 如果 B 已怀疑真相，发现的冲击会降低
+
+**与卷02 的连接**：卷02 s29 "直接把真心话说出来"的规则在卷03 被全面违反——不是赫萝违反（她在极端时刻是直接的），而是罗伦斯违反（他用隐瞒代替直接）。这暗示该规则对罗伦斯侧的约束力弱于对赫萝侧。
+
+### V3-C2（候选）：间接桥——用迂回行动邀请对方的直接性
+
+**主张**：赫萝在关系危机中不直接要求对方"来说真心话"，而是制造一个让对方容易直接回应的条件（如假装要离开/假装接受竞争者/留下隐晦信号）。这些间接桥有成功率：如果对方读懂并直接回应，桥成功；如果对方误读为表面意义并用策略回应，桥失败。
+
+**支持**：s25 结婚证书（s35:68 确认是为了让罗伦斯有理由生气）、s32 白色羽毛（s35:46 确认是信号）、s35:140 狄安娜请托（为了给罗伦斯开口的契机）
+
+**条件**：
+- 赫萝信任对方的基本忠诚（否则她不会给桥，而是直接离开）
+- 对方有"读懂"的能力基础（罗伦斯最终读懂了白羽毛，但太晚了）
+
+**反例/失效方向**：
+- 如果对方完全不熟悉赫萝的信号系统（如阿玛堤），间接桥对他无意义
+- 如果间接桥太像表面意义（结婚证书太像真的），对方误读的风险极高
+- 间接桥本身有成本：制造它的过程消耗信任（赫萝签结婚证书 = 她在拿自己的婚姻当筹码）
+
+**复杂化**：间接桥与 s35:74 "直接把真心话说出来"形成悖论——赫萝要求对方直接，但自己用间接。这不是 hypocrisy，而是**赫萝能直接要求"说真心话"（规则层面），但不能直接示范"怎么说"（行动层面）**。她知道规则，但自己也需要条件才能做到。
+
+## 八、现在不要急着抽象成什么
+
+1. **不要把 s22 的三层伤害压成一层**。"约伊兹灭亡的悲伤"≠"罗伦斯隐瞒的背叛"≠"被当成可怜对象的尊严伤害"。三层各有独立动力，s35 的和解也是逐层处理的（罗伦斯承认隐瞒的错误→承认没信任的错误→赫萝解释她去找狄安娜是为了给罗伦斯契机）。如果压成"她发现约伊兹没了所以崩溃"，就丢掉了"隐瞒"和"尊严"两层。
+
+2. **不要把"好雄性 vs 好大人"抽象成万能框架**。这是赫萝在 s16 特定情境下的即兴分析。s35 她接受了"无法用言语来形容"这个既不够雄性也不够大人的回答——说明她最终要的不是某个类型，而是真实。
+
+3. **不要把商战机制抽象成关系机制**。信用贩卖、黄铁矿暴跌、谣言策略是 plot vehicle。它们的功能是给罗伦斯一个"为赫萝拼命"的行动场，但关系动作不在商战本身，而在"他为什么拼命"和"她怎么回应"。
+
+4. **不要把赫萝的间接桥抽象成"她总是迂回的"**。赫萝在 s22 的情绪爆发、s35:102 的怒骂都是直接的。间接桥是她**在需要给对方创造条件时**使用的特定策略，不是她的唯一沟通模式。
+
+5. **不要把狄安娜的鸟身份抽象成"赫萝的未来预言"**。狄安娜的故事确实是一个暗面镜像（非人类爱上人类→被怀疑→孤独留下），但赫萝和罗伦斯的关系有自己的条件（赫萝不是鸟、罗伦斯不是修道士、两人有约伊兹这个共同目标）。镜像提供的是**恐惧的形状**，不是**命运的预言**。
+
+6. **不要把 s35 的和解抽象成"问题已解决"**。s35:186 "咱想回到故乡，哪怕……它已经不存在了"——赫萝接受了约伊兹可能已灭亡，但"想回去"的意志意味着伤口没有愈合，只是被承认为永久性的伤疤。和解是"带着伤疤继续旅行"，不是"伤疤消失了"。
+
+---
+
+## 完成后回报
+
+1. **主轴 scene 范围 + 切分理由**：s00 / s03-04 / s16 / s19-20 / s22 / s25 / s33-35（关系动作集中在这三个窗口：隐瞒建立→崩塌→间接桥与和解；商战线 s17-18/21/23-32 只读梗概）。
+2. **本卷关系主线一句话概括**：罗伦斯隐瞒约伊兹灭亡的传说→赫萝独立发现后信任崩塌→赫萝用间接桥（结婚证书/白羽毛/狄安娜请托）邀请罗伦斯的直接性→罗伦斯最终误读大部分信号但仍以"无法用言语来形容"回答了"咱是汝的什么人"→两人带着约伊兹可能已灭亡的永久伤疤继续旅行。
+3. **文件路径**：`anchors/extract/codex/锚_卷03_s00-35_隐瞒·间接桥·无法用言语来形容.md`
