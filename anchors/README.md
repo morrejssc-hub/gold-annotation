@@ -37,7 +37,8 @@
 
 ## 目录布局
 
-- `extract/claude/`、`extract/codex/`：两个真模型臂各自的原始锚点（Claude 臂走 Claude Code subagent；GPT-5.5 臂是 Codex subagent）。两臂独立、不共享中间结果。**注意：extract 是 subagent 生成时的草稿落点，不是可直接取用的定稿层**——定稿/可用层在 `notebook/`。
+- `extract/claude/`、`extract/codex/`、`extract/glm/`：各真模型臂各自的原始锚点。**Claude 臂**走 Claude Code subagent；**外部臂**是真不同模型经 API 直调（`extract/codex/` 是早期 GPT-5.5/Codex 稿；`extract/glm/` 是当前常驻外部臂 **glm-5.2**，经阿里百炼直调，harness＝`extract/run_glm_arm.py`，纯传输不注入读法）。各臂独立、不共享中间结果。**注意：extract 是生成时的草稿落点，不是可直接取用的定稿层**——定稿/可用层在 `notebook/`。
+- **常驻管线（Workflow 编排，见 `extract/wf_anchor_volume.workflow.js`）**：一卷一跑，三阶段——① Claude 臂隔离 subagent 通读写稿 ② glm-5.2 臂 API 纯传输 ③（fresh context）跨臂对比落 `notebook/`。**两臂在 workflow 里是各自 fresh 的 subagent，结构上互不可见——隔离由 workflow 强制，不靠自觉**；这正是不让"同源伪交叉验证"发生的护栏。裁决/升格/准入/定稿仍归人（不进 workflow）。外部臂的 API key 从 `DASHSCOPE_API_KEY` 环境变量或 gitignore 的 `extract/.dashscope_key` 读，不入库。
 - `notebook/`：跨臂对比/合并（已审）后的产物，是实际可用层。卷03 仍保留这套双臂流程之前的早期单窗口/合并稿作对照；卷01、卷02 旧单窗口稿已被新架构吸收并删除。**删除规则：旧单窗口稿只在其新层「终审定稿」后才删（删了对照仍在 git 历史里）——故卷01、卷02 已终审定稿故已删、卷03 未回填故留。**
 - **卷05 起试行「架构入口 + 主题原子」分层**（解决单文件过长、细节无处补的问题）；**卷01、卷02 已回填采用同范式**（架构入口 `锚_卷NN.md` + `atom/卷NN_*`，重新吸收旧单窗口稿）：
   - `notebook/锚_卷NN.md` ＝**顶层架构/综合层**：把各主题**串成结论**——这主题说明什么、怎么与别的主题关联、得到什么结论、可如何解读，以及**对最终生成机制的候选分析**（候选·锚定正典·带触发条件与反例，定稿归人，见教训5）。不是罗列、不抄逐场事实。

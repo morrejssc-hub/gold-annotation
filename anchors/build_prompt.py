@@ -14,15 +14,18 @@ from __future__ import annotations
 import argparse
 import sys
 
-# 两臂默认输出目录（--arm 的便捷映射；--out-dir 显式给则覆盖）
+# 各臂默认输出目录（--arm 的便捷映射；--out-dir 显式给则覆盖）
 ARM_OUT_DIRS = {
     "claude": "anchors/extract/claude/",
     "codex": "anchors/extract/codex/",
+    "glm": "anchors/extract/glm/",
 }
 
+_EXTERNAL_EXTRA = "\n外部臂补充要求：范围留痕只需说明主轴 scene、只读梗概段和切分理由，**不必列出使用过的切片命令**。\n"
 ARM_EXTRA_INSTRUCTIONS = {
     "claude": "",
-    "codex": "\nCodex 臂补充要求：范围留痕只需说明主轴 scene、只读梗概段和切分理由，**不必列出使用过的切片命令**。\n",
+    "codex": _EXTERNAL_EXTRA,
+    "glm": _EXTERNAL_EXTRA,
 }
 
 # 提示词正文。{{卷号}} 与 {{输出目录}} 由脚本替换；<id>/<起>/<止>/<短标题> 是留给模型填的占位符，保持原样。
