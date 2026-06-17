@@ -1,0 +1,1469 @@
+
+Let me carefully read through the entire volume 06 text with scene numbers and line numbers, then produce a proper anchor record.
+
+Let me first understand what volume 6 is about:
+
+**Volume 6 Overview:**
+This volume follows the events after volume 5. Lawrence has declared his love for Holo at the end of volume 5, and they've reconciled after Holo tried to end their journey. Now they're in Lenos, and Eve (Epu/艾普) has betrayed Lawrence by taking the fur trade profits and fleeing south by river.
+
+The volume is essentially a "river journey" arc where Lawrence and Holo:
+1. Decide to chase Eve (partly for revenge, partly as an excuse to extend their journey)
+2. Board a boat headed downstream toward Kerube (坎尔贝)
+3. Meet the boatman Lagusa (拉古萨) and a boy named Cole (柯尔/托托·柯尔)
+4. Discover a mystery about copper coins (3 extra boxes being shipped)
+5. Deal with a sunken ship blocking the river
+6. Learn about a wolf god's remains being sought by the Church
+7. Cole joins their party at the end
+
+**Key relationship moments:**
+- s0: Post-reunion, Holo is angry at herself, uses "I like you" as leverage
+- s0: The "I like you" declaration has become a weapon Holo can use
+- s4-5: Boat journey intimacy, Holo admits fear of boats, shows vulnerability
+- s5: Discussion about opening a shop vs. continuing the journey
+- s5: Holo's loneliness as a god, "looking up from below"
+- s6: Brief intimate moment
+- s7: Cole introduced - the fake certificate boy
+- s8-10: Cole's backstory revealed, Lawrence teaches him
+- s11-12: The copper coin mystery develops; Holo gets angry when Lawrence treats her intellectual help as transactional
+- s13: Lawrence teaches Cole about survival skills
+- s14: Cole's hometown and motivations revealed
+- s15-17: The river blockage, feast, Holo's anger and reconciliation
+- s17: The key revelation - Holo is angry because Lawrence treated her brain-work as something she enjoys doing, rather than understanding she does it for him
+- s18-19: Drunk conversation with boatmen about Rowef river and wolf bone legend
+- s19-20: Intimate midnight scene
+- s21: The wolf bone plot revealed - Church seeking a wolf god's remains
+- s22-23: Decision to pursue the wolf bone issue
+- s24: Departure from Lagusa's boat, Cole's departure
+- s25-27: Cole catches up, joins the party, Holo reveals wolf form
+- s28-31: Ending - three-person journey begins
+
+**Main relationship themes I'm seeing:**
+
+1. **"I like you" as asymmetric leverage** - Holo has turned Lawrence's confession into a weapon she can deploy at will (s0:194-220)
+
+2. **The river journey as "borrowed time"** - Both are extending the journey through excuses (chasing Eve) while knowing it must end
+
+3. **Holo's invisible labor** - She does things for Lawrence's benefit without him noticing (s17:140-168), and gets angry when he treats her intellectual contributions as transactional/entertaining rather than as gifts
+
+4. **Cole as mirror and catalyst** - His presence reveals things about the Lawrence-Holo dynamic (the "teacher" role, the question of taking on companions, the fear of being replaced vs. the desire to not be alone)
+
+5. **The wolf bone / homeland anxiety** - The revelation about the Church seeking wolf god remains connects to Holo's homeland fears
+
+6. **Two-person vs. three-person journey** - The tension between wanting Cole and wanting to be alone together
+
+Let me now think about how to structure this anchor.
+
+**Range decision:**
+The main relationship axis scenes are:
+- s0: Post-reunion dynamics, "I like you" as weapon, the decision to chase Eve
+- s4-5: Boat intimacy, shop dream vs journey, Holo's god-loneliness
+- s11-12: The copper coin mystery and Holo's anger about being treated transactionally
+- s15-17: The feast, Holo's anger and the key revelation about invisible labor
+- s18-19: Midnight intimacy, wolf bone revelation
+- s21: Wolf bone discussion, decision to pursue
+- s24-27: Cole joins, Holo reveals wolf form, three-person journey begins
+
+The logistics/business scenes (s7-10, s13-14) can be summarized more briefly, though Cole's introduction is important.
+
+Actually, let me reconsider. The relationship tension in this volume is quite different from previous volumes. It's not a crisis-driven arc like volumes 1-5. Instead, it's more of a "daily life on the road" volume where the relationship dynamics play out in subtler ways:
+
+1. The post-confession power dynamic shift
+2. Holo's invisible emotional labor and anger when it's not recognized
+3. The introduction of a third party (Cole) as a mirror
+4. The looming end-of-journey anxiety
+5. The wolf bone plot as a new shared purpose
+
+The key scenes for relationship analysis:
+- s0 (whole): Post-confession dynamics, "I like you" as leverage, extending the journey
+- s4 (whole): Vulnerability on the boat, "don't get too close" callback
+- s5 (whole): Shop dream discussion, Holo's loneliness as god, "looking from below"
+- s11-12: The anger scene - Holo gets mad when Lawrence treats her help as transactional
+- s15-17: The feast scene and the key revelation about why Holo was angry
+- s18-19: Midnight intimacy, wolf bone revelation
+- s21: Wolf bone decision, "I want to make the book thick"
+- s24-27: Cole joins
+
+Let me think about the main axis more carefully.
+
+**The core tension of this volume:** After the confession in volume 5, the relationship has entered a new phase where both know how the other feels, but the journey's end looms. This volume explores:
+- How the confession changes the power dynamic (Holo gains a weapon)
+- How Holo's care for Lawrence operates invisibly and what happens when it's not seen
+- How the introduction of a third party reveals the relationship's nature
+- How a new shared purpose (wolf bone) gives them reason to continue
+
+**Main axis scenes:** s0, s4-5, s11-12, s15-17, s18-19, s21, s24-27
+
+**Summary scenes:** s1-3 (finding the boat), s6 (brief intimate moment), s7-10 (Cole's backstory/copper coin mystery setup), s13-14 (walking with Cole, Cole's hometown), s20 (brief midnight moment), s22-23 (brief forward-looking), s28-31 (ending)
+
+Actually, let me reconsider the scope. The volume is 32 scenes (0-31). That's a lot. But many are quite short. Let me identify the true main axis:
+
+**Primary relationship axis:**
+1. s0: The confession-as-weapon dynamic and the decision to extend the journey
+2. s4-5: Boat journey intimacy and the shop dream conversation
+3. s11-12: Holo's anger about transactional treatment of her help
+4. s15-17: The feast and the revelation about Holo's invisible labor
+5. s18-19: Midnight intimacy and the wolf bone revelation
+6. s21: Decision to pursue wolf bone, "thick book" metaphor
+7. s24-27: Cole joins, three-person dynamic
+
+**Secondary/summary:**
+- s1-3: Finding the boat, meeting Lagusa (logistics + character intro)
+- s6: Brief intimate moment (can be folded into s4-5)
+- s7-10: Cole's introduction and backstory (important for Cole but secondary for relationship)
+- s13-14: Walking with Cole (some relationship content but mostly Cole's story)
+- s20: Brief midnight moment (can be folded into s18-19)
+- s22-23: Brief forward-looking (can be folded into s21)
+- s28-31: Ending (very brief)
+
+Let me now write the anchor.
+
+Actually, I need to be more careful about what the relationship main axis really is in this volume. Let me re-read the key scenes.
+
+**s0 (lines 0-220):**
+- Holo is dragging Lawrence through the town, angry
+- She hit him on his already-swollen face (s0:5)
+- She's angry at herself (s0:10, 66, 94, 119-120)
+- She wanted to end the journey because she was scared of getting too close (s0:121-122)
+- Lawrence went to get her, confessed he likes her (s0:11, 194)
+- They've found an excuse to continue: chase Eve (s0:127-128, 145-146)
+- The "I like you" has become a weapon: s0:189-220
+  - "咱真的是很高兴啊" (s0:190)
+  - "因为汝说喜欢咱，所以——" (s0:194)
+  - Lawrence surrenders: "明白了，明白了！我们去找船下河！" (s0:195)
+  - The confession is compared to a blood-sealed contract (s0:200-202)
+  - Holo uses it again: "汝难道不是喜欢咱吗？" (s0:216)
+  - Lawrence: "啊啊，是这样没错。不过，我也很喜欢钱。" (s0:219)
+  - Holo steps on his foot (s0:220)
+
+Key observation: The confession has created an asymmetric power dynamic. Holo can deploy it at will; Lawrence can't counter it. But he finds a minimal resistance: "I also like money."
+
+**s4 (lines 0-70):**
+- Holo admits fear of boats (s4:16-18): "虽然不是说不习惯乘船……不过，还是很害怕摇晃"
+- "咱暴露出自己的软弱一面，就是因为信任汝的关系嘛" (s4:18) - vulnerability = trust
+- "不行，明明不应该跟汝变得这么要好的" (s4:22) - callback to fear of closeness
+- "旅行必须以笑容作为终点。因为已经约定了这件事" (s4:28) - the agreement
+- "汝的温柔还真是可怕呐" (s4:64) - Holo notices Lawrence's consideration
+- "我可是觉得你的笑容很可怕啊" (s4:68) - mutual awareness of each other's power
+
+**s5 (lines 0-142):**
+- "汝不是放弃了开店的梦想才来迎接咱的吗？" (s5:69) - Hole tests Lawrence's commitment
+- Lawrence admits he partly wants to give up the dream: "也多少有点真的想放弃" (s5:75)
+- "因为如果开店的话，做生意的乐趣恐怕就会减半了啊" (s5:81)
+- "一旦觉得能够开店的话，我就会有种漠然的感觉。就是说，一旦得到店子的话，冒险就在那时候结束了" (s5:83)
+- This mirrors Holo's fear: getting what you want means the journey ends
+- Holo's god-loneliness: "咱一直都是独自呆在山上，我已经对从下面看着咱的目光感到厌倦了" (s5:128)
+- "汝这个人非但没有求我教导，反而是个拼命想要抓住咱的缰绳的罕见大笨驴啊" (s5:128)
+- "这样子从下面看着汝，就会觉得很开心" (s5:139) - position reversal; Holo now looks up at Lawrence and finds joy in it
+
+This is a crucial scene. The shop dream conversation reveals:
+1. Lawrence's dream and Holo's fear are structurally identical: achieving the goal ends the adventure
+2. Holo's loneliness as a god was about being looked up at; now she finds joy looking up at Lawrence
+3. The power dynamic has shifted: Lawrence is no longer below Holo
+
+**s11-12 (the anger scene):**
+- Lawrence asks Holo to help search through papers for the name "吉恩商会" (s11:107-113)
+- Holo helps but is slower than Lawrence, gets frustrated (s11:115)
+- Holo suddenly asks about downstream destinations (s11:129-133)
+- She's actually asking about Lawrence's past travel routes, imagining traveling with him (s12:41)
+- Lawrence realizes: "被唤作神的赫萝，大概是打算借用罗伦斯的话来创造一个临时的世界吧" (s12:53)
+- Then Lawrence says: "你也并不讨厌动脑筋吧？这样思考的话也能消磨一下时间" (s12:121)
+- Holo explodes: "生气？汝说生气是吗？" (s12:129)
+- Then collapses: "毕竟是汝啊……反正，汝肯定不知道为什么咱会说这些事情啦……" (s12:134)
+- "到你明白为止，咱都不跟汝说话" (s12:146) - declaration of silence
+
+What happened here: Lawrence treated Holo's intellectual engagement as something she does for fun/entertainment. But she was actually doing it for him. The anger is about misrecognition of her motive.
+
+**s15-17 (the feast and revelation):**
+- Holo won't talk to Lawrence during the walk (s15)
+- Lagusa asks: "你和你的女伴是不是吵架了？" (s15:90)
+- "你们两个根本就像一分一秒都不想离开对方的样子" (s15:97) - outsiders see them as inseparable
+- s16: Brief realization that even without Holo, he could get along with people - "就算跟赫萝分别，自己也能很好地过下去了" (s16:2) - but this is immediately complicated
+- s17: The key revelation
+  - Holo comes to sit by Lawrence despite being "not talking" (s17:60-71)
+  - She leans on him: "把整个身体靠在了罗伦斯身上" (s17:71)
+  - Lawrence realizes: "只要自己在这里肯低头认错的话，赫萝一定会原谅自己" (s17:73)
+  - "赫萝会靠在罗伦斯身上，一脸不耐烦地抬起头来吧。然后，说出一堆尖酸刻薄的话，大骂一通。但她绝对不会起来，也不会离开。" (s17:76-78)
+  - The key insight: "赫萝总是教会自己各种各样的事情" (s17:152)
+  - Lagusa's riddle: "河本来就会流动，但是即使如此，为什么会流动呢？" (s17:143)
+  - Answer: "就算赫萝会为罗伦斯开动脑筋，但开动脑筋这件事本身对她而言却绝对不是快乐的事情" (s17:148)
+  - Lawrence realizes: "赫萝所做的事情大部分都是为了罗伦斯这个事实" (s17:162)
+  - "如果说罗伦斯的头脑反应速度比不上赫萝，那么也就是说赫萝自己一个人考虑在前面，还十分多余地照顾着罗伦斯" (s17:167)
+
+This is the crux of the volume's relationship dynamic: Holo's invisible labor. She does things for Lawrence not because she enjoys the activities themselves, but because she cares about him. When he fails to recognize this and treats her contributions as transactional ("you enjoy thinking, so help me think"), it denies the relational meaning of her actions.
+
+**s18-19 (midnight):**
+- Holo sleeps on top of Lawrence (s19:9)
+- "你好重" / "你的感情很重" exchange (s19:18-24)
+- Holo shares what she learned about Nyohira (s19:34)
+- "罗埃弗山不是什么好地方" (s21:83) - Holo's homeland is degraded
+- "这是咱自己应该担心的事。汝一露出那种表情，咱就无法冷静下来担心了啦" (s21:103) - she doesn't want him to worry on her behalf
+- "算了，要是真有个万一的话，到时就把汝的胸膛借给咱呗。得预约好才行。" (s21:110)
+
+**s21 (wolf bone decision):**
+- The revelation about the Church seeking wolf god remains
+- Holo's anger: "咱之所以讨厌被称为神，是因为大家都会跑得远远的看着咱" (s21:407)
+- "如果他们得到了真正的骨头，然后把它踩在脚下的话？...什么嘛，原来咱一直以来当作神明崇拜的，就是这种程度的东西啊？" (s21:419-423)
+- "咱没有问汝事情的善恶。汝反正是跟教会一样的人——" (s21:439) - she catches herself
+- Lawrence decides to pursue: "和你不同，我倒是想把书写得厚一点" (s21:487)
+- "故事的话，都是有始有终比较好，不是吗？" (s21:493)
+
+**s24-27 (Cole joins):**
+- Holo wanted to bring Cole partly to give Lawrence company after she leaves: "怕汝跟咱分开之后会感到寂寞，所以打算给汝找个伴罢了" (s24:94)
+- But also: "剩下的，就是单纯喜欢他这种小鬼而已" (s24:107)
+- Lawrence's reason for not bringing Cole initially: "还是两个人旅行比较好" (s24:123)
+- Cole catches up, shows determination (s25)
+- Holo reveals wolf form, Cole is overjoyed (s26-27)
+- "出乎意料之外的三人之旅" (s27:80)
+- "罗伦斯知道有一个词能够形容这种关系。但是他不会说出来。" (s27:81-82)
+
+OK, now I have a good grasp of the volume. Let me structure the anchor.
+
+**Range decision:**
+Main axis: s0 (whole), s4-5, s11-12, s15-17, s18-19, s21, s24-27
+Summary only: s1-3, s6, s7-10, s13-14, s20, s22-23, s28-31
+
+Actually, I think the most efficient way to organize this is around the key relationship beats:
+
+1. **s0**: Post-confession power dynamic, extending the journey
+2. **s4-5**: Boat intimacy, shop dream = Holo's fear mirror, god-loneliness reversed
+3. **s11-12**: The anger about invisible labor / transactional misrecognition
+4. **s15-17**: The feast, reconciliation, and the revelation of Holo's invisible care
+5. **s18-19 + s21**: Midnight intimacy, wolf bone, decision to pursue
+6. **s24-27**: Cole joins, two→three, the unspoken word
+
+Let me write the anchor now.
+
+For the file name: `锚_卷06_s00-27_告白后的权力不对称·看不见的照顾·三人之旅.md`
+
+Wait, let me reconsider the scope. The volume has 32 scenes (0-31). But scenes 28-31 are extremely short (epilogue-like). The main content is s0-s27.
+
+Let me write the anchor file now.
+
+Actually, I need to think about what the main relationship thread is in this volume. Let me try to articulate it:
+
+**Volume 6's relationship main line:** After the confession, the relationship enters a new phase where (1) Holo gains asymmetric leverage through the confession, (2) her invisible care for Lawrence becomes more visible precisely through the moment he fails to recognize it, and (3) they find a new shared purpose (wolf bone) that gives them reason to continue beyond the original journey's logic. The introduction of Cole as a third party reveals that Holo is already thinking about Lawrence's loneliness after she leaves.
+
+This is not a trust-jump volume or a milestone-confession volume. It's a "new normal" volume that explores how the relationship operates after the major declarations have been made.
+
+**Key structural observations:**
+
+1. **The confession as contract/weapon (s0):** The "I like you" from volume 5 has been transformed into something Holo can deploy at will. Lawrence compares it to "a blood-sealed contract" (s0:200). But this isn't one-sided exploitation - it's also the excuse that lets them continue traveling together.
+
+2. **Structural parallel: shop dream = Holo's fear (s5):** Lawrence's realization that getting a shop would end the adventure mirrors Holo's fear that getting too close will erode the joy. Both are about the relationship between fulfillment and loss. This is a crucial moment of structural empathy.
+
+3. **Invisible labor and its misrecognition (s11-12, s15-17):** The central conflict of the volume. Holo does things for Lawrence not because she enjoys the activities but because she cares about him. When he treats her help as transactional ("you enjoy thinking"), it strips the relational meaning from her actions. Lagusa's riddle ("why does the river flow?") crystallizes this: just because something happens naturally doesn't mean you should take it for granted.
+
+4. **Cole as mirror (s7-10, s24-27):** Cole's presence reveals:
+   - Holo's maternal side (s7:135, s10:8-14)
+   - Holo's strategic thinking about Lawrence's future loneliness (s24:94)
+   - The teacher-student dynamic that parallels Holo-Lawrence
+   - The question of who gets to be a companion and on what terms
+
+5. **Wolf bone as new shared purpose (s18-21):** The discovery that the Church is seeking wolf god remains gives them a reason to continue that isn't just "extending the journey." It connects to Holo's identity and homeland, and Lawrence chooses to pursue it knowing it's dangerous.
+
+6. **The unspoken word (s27:81-82):** "罗伦斯知道有一个词能够形容这种关系。但是他不会说出来。" - The word is likely "family" (家族). This is the volume's quiet endpoint: not a confession, not a milestone, but the recognition of a shape their relationship has taken.
+
+Now let me think about what candidate weak patterns might emerge:
+
+**Candidate 1: Invisible labor misrecognition**
+When someone consistently does things for you out of relational care, treating those actions as transactional (they enjoy it / they're good at it / it's their nature) strips the care from the action and causes anger. The anger isn't about the task itself but about the failure to see the motive behind it.
+
+**Candidate 2: Goal achievement = journey end (structural parallel)**
+Both Holo's fear of closeness and Lawrence's hesitation about the shop dream share the same structure: achieving the desired endpoint terminates the process that gives it meaning. This creates a pattern where both characters find reasons to extend the journey rather than complete it.
+
+**Candidate 3: Confession as asymmetric leverage**
+After a genuine emotional declaration, the declarer loses negotiating power because the declaration can be quoted back at will. The recipient gains a "weapon" that operates outside normal transactional logic.
+
+OK, let me now write the actual anchor file. I'll be careful to:
+- Separate fact observation / tentative reading / candidate weak patterns
+- Use scene.line references
+- Not over-elevate or dramatize
+- Check who says what
+- Not impose milestone framing where there isn't one
+
+Let me draft this now.
+
+One more thing - I need to check the scene numbers carefully against the text provided.
+
+Looking at the text:
+- scene 0 (序幕) - lines 0-220
+- scene 1 (第一幕) - lines 0-63
+- scene 2 (第一幕) - lines 0-33
+- scene 3 (第一幕) - lines 0-9
+- scene 4 (第一幕) - lines 0-70
+- scene 5 (第一幕) - lines 0-142
+- scene 6 (第一幕) - lines 0-2
+- scene 7 (第一幕) - lines 0-179
+- scene 8 (第二幕) - lines 0-71
+- scene 9 (第二幕) - lines 0-157
+- scene 10 (第二幕) - lines 0-196
+- scene 11 (第三幕) - lines 0-167
+- scene 12 (第三幕) - lines 0-133
+- scene 13 (第四幕) - lines 0-120
+- scene 14 (第四幕) - lines 0-118
+- scene 15 (第四幕) - lines 0-128
+- scene 16 (第四幕) - lines 0-2
+- scene 17 (第四幕) - lines 0-172
+- scene 18 (第四幕) - lines 0-133
+- scene 19 (第五幕) - lines 0-45
+- scene 20 (第五幕) - lines 0-7
+- scene 21 (第五幕) - lines 0-505
+- scene 22 (第五幕) - lines 0-5
+- scene 23 (终幕) - lines 0-46
+- scene 24 (终幕) - lines 0-192
+- scene 25 (终幕) - lines 0-51
+- scene 26 (终幕) - lines 0-3
+- scene 27 (终幕) - lines 0-86
+- scene 28 (终幕) - line 0
+- scene 29 (终幕) - lines 0-1
+- scene 30 (终幕) - lines 0-4
+- scene 31 (终幕) - line 0
+
+OK, now let me write the anchor.
+
+Actually, I realize I should pay more attention to some details I might have missed. Let me re-check some key passages:
+
+s0:189-202 - The confession as weapon:
+"因为赫萝已经掌握了新的武器。" (189)
+"咱真的很高兴。嗯，因为汝说喜欢咱，所以——" (194)
+"明白了，明白了！我们去找船下河！这样就行了吧？" (195)
+"就好像在毫无担保的情况下把按了血指印的契约书交给了对方一样。" (200)
+"因为写在那张契约书上的，全都是真话。" (202)
+
+s0:216-220:
+"汝难道不是喜欢咱吗？" (216)
+"啊啊，是这样没错。不过，我也很喜欢钱。" (219)
+"就在这一瞬间，罗伦斯就被面无表情的赫萝狠狠地踩了一脚。" (220)
+
+s4:18: "咱暴露出自己的软弱一面，就是因为信任汝的关系嘛"
+s4:22: "不行，明明不应该跟汝变得这么要好的。"
+s4:28: "旅行必须以笑容作为终点。因为已经约定了这件事，所以根本就没有任何值得害怕的事。"
+
+s5:83: "一旦觉得能够开店的话，我就会有种漠然的感觉。就是说，一旦得到店子的话，冒险就在那时候结束了。"
+s5:128: "汝这个人非但没有求我教导，反而是个拼命想要抓住咱的缰绳的罕见大笨驴啊。虽然在成功率上没什么希望，不过汝肯定是想站在跟咱相同的高度上呗。咱一直都是独自呆在山上，我已经对从下面看着咱的目光感到厌倦了。"
+s5:139: "这样子从下面看着汝，就会觉得很开心。"
+
+s11:129: "汝还是不打算真的去追赶那狐狸吗？" - Actually wait, this is s12:113. Let me re-check.
+
+s12:113-114: "汝还是不打算真的去追赶那狐狸吗？" / 那副神情，就好像在说"既然那样就不该丢下自己不管"似的。
+
+s12:121: "你也并不讨厌动脑筋吧？这样思考的话也能消磨一下时间。"
+- This is Lawrence speaking to Holo.
+
+s12:122-128: Holo's reaction - eyes widen, then closes eyes, grabs hood, looks angry.
+s12:129: "生气？汝说生气是吗？"
+s12:134: "毕竟是汝啊……反正，汝肯定不知道为什么咱会说这些事情啦……"
+s12:146: "到你明白为止，咱都不跟汝说话。"
+
+s17:140-168: The key revelation
+s17:140-141: "当提出一起思考铜币之谜的时候，赫萝的头脑转得快；而且对罗伦斯时而贬低时而嘲笑时而逗乐的手段，可以说是十分高超"
+s17:142-148: Lagusa's riddle and its meaning
+s17:146: "当信任成为理所当然的事情时，必定会看漏某些重要的事物。"
+s17:148: "也就是说，就算赫萝会为罗伦斯开动脑筋，但开动脑筋这件事本身对她而言却绝对不是快乐的事情。拉古萨想说的，应该就是这一点。"
+s17:162: "刚才才注意到的、赫萝所做的事情大部分都是为了罗伦斯这个事实。"
+s17:167: "如果说罗伦斯的头脑反应速度比不上赫萝，那么也就是说赫萝自己一个人考虑在前面，还十分多余地照顾着罗伦斯。"
+
+s21:407: "咱之所以讨厌被称为神，是因为大家都会跑得远远的看着咱。他们会畏惧、敬仰咱的一举手一投足，尽说些感激的话。所谓的敬而远之就是这么回事。所以，汝啊，反过来想的话……"
+s21:419-423: "没错。如果他们得到了真正的骨头，然后把它踩在脚下的话？...什么嘛，原来咱一直以来当作神明崇拜的，就是这种程度的东西啊？"
+s21:439: "咱没有问汝事情的善恶。汝反正是跟教会一样的人——" (she catches herself)
+s21:487: "和你不同，我倒是想把书写得厚一点。"
+s21:493: "故事的话，都是有始有终比较好，不是吗？"
+
+s24:94: "哼，那只不过是怕汝跟咱分开之后会感到寂寞，所以打算给汝找个伴罢了。既然用不上的话，那当然就没有必要了。"
+s24:107: "剩下的，就是单纯喜欢他这种小鬼而已。"
+s24:123: "还是两个人旅行比较好。"
+
+s27:80-85:
+"出乎意料之外的三人之旅。"
+"罗伦斯知道有一个词能够形容这种关系。"
+"但是他不会说出来。"
+"绝对不会说出来。"
+"只是，要是有一天真要写跟赫萝一起旅行的书的话，说不定会把这写进去。"
+"在一本厚厚的书的某个地方，不为人知地。"
+"要是写的话，一定会加上这句话。"
+
+The "word" is almost certainly "family" (家族). He won't say it because saying it would acknowledge a permanence that contradicts the journey's end.
+
+Now, let me also note the cross-volume connections:
+
+From volume 5:
+- The confession happened at the end of volume 5
+- Holo tried to end the journey because she feared closeness would erode joy
+- The "可结清→不可结清" shift from volume 5
+
+From volume 2:
+- "公共善下的特别性追问" - this is still operative
+- "不同善意=被依靠/托付/接受其可怕一面" - Cole's introduction tests this
+
+From volume 1:
+- "延后付款的同行" - the confession is a form of payment that can't be deferred anymore
+- "孤独会要人命" - still operative, now both directions
+
+From volume 3:
+- "直接把真心话说出来" - the confession was the ultimate version of this
+
+OK, now I'm ready to write. Let me structure the anchor file.
+
+Let me also think about what NOT to do:
+- Don't write policy
+- Don't impose milestone framing
+- Don't over-elevate
+- Check who says what
+- Scene numbers must be correct
+
+Let me be very careful about scene numbers. The text labels them as "scene 0", "scene 1", etc. I'll use s00, s01, etc. or just s0, s1, etc.
+
+Now writing the anchor:
+
+Title: 锚 · 卷06（狼与辛香料）· 告白后的权力不对称、看不见的照顾、与三人之旅的起点
+
+File name: 锚_卷06_s00-27_告白后新常态·看不见的照顾·三人之旅.md
+
+Actually, let me think about the filename more carefully. The instructions say: `锚_卷06_s<起>-<止>_<短标题>.md`
+
+So: `锚_卷06_s00-27_告白后新常态·看不见的照顾.md`
+
+Let me write the full anchor now.
+
+One more consideration - I should think about whether there's a "strong main axis" or if this is more of a scattered-point volume. Looking at it:
+
+There IS a fairly strong main axis: **the confession has changed the relationship's operating mode, and the volume explores what that change looks like in practice.** The key beats are:
+1. Confession as asymmetric leverage (s0)
+2. Structural empathy through parallel fears (s5)
+3. Invisible labor misrecognition (s11-12, s15-17)
+4. New shared purpose (s21)
+5. Two→three transition (s24-27)
+
+But I should also note the scattered elements that don't fit neatly:
+- Cole's backstory (s7-10) is important but operates on a different axis
+- The copper coin mystery is a plot device that serves the relationship dynamics
+- The wolf bone plot is setup for future volumes
+
+Let me also think about the "different scenes' wounds/mechanisms may fall on different axes" warning:
+
+- The confession-as-weapon (s0) falls on the **power balance axis**
+- The invisible labor anger (s11-12, s15-17) falls on the **recognition/motive-reading axis**
+- The shop dream parallel (s5) falls on the **structural empathy axis**
+- Cole's introduction (s7-10, s24-27) falls on the **companion/family axis**
+- The wolf bone (s21) falls on the **shared purpose / identity axis**
+
+These all intersect but shouldn't be welded into a single line.
+
+OK, I'm now going to write the anchor. Let me be thorough but not bloated.
+
+Let me also double-check some specific quotes I want to use:
+
+s0:189: "因为赫萝已经掌握了新的武器。"
+s0:194: "咱真的很高兴。嗯，因为汝说喜欢咱，所以——"
+s0:200: "就好像在毫无担保的情况下把按了血指印的契约书交给了对方一样。"
+s0:202: "因为写在那张契约书上的，全都是真话。"
+
+s4:18: "咱暴露出自己的软弱一面，就是因为信任汝的关系嘛。"
+s4:22: "不行，明明不应该跟汝变得这么要好的。"
+
+s5:83: "一旦觉得能够开店的话，我就会有种漠然的感觉。就是说，一旦得到店子的话，冒险就在那时候结束了。"
+s5:128: "汝这个人非但没有求我教导，反而是个拼命想要抓住咱的缰绳的罕见大笨驴啊。虽然在成功率上没什么希望，不过汝肯定是想站在跟咱相同的高度上呗。咱一直都是独自呆在山上，我已经对从下面看着咱的目光感到厌倦了。"
+s5:139: "这样子从下面看着汝，就会觉得很开心。"
+
+s12:121: "你也并不讨厌动脑筋吧？这样思考的话也能消磨一下时间。" (Lawrence)
+s12:129: "生气？汝说生气是吗？" (Holo)
+s12:134: "毕竟是汝啊……反正，汝肯定不知道为什么咱会说这些事情啦……" (Holo)
+s12:146: "到你明白为止，咱都不跟汝说话。" (Holo)
+
+s17:146: "当信任成为理所当然的事情时，必定会看漏某些重要的事物。"
+s17:148: "也就是说，就算赫萝会为罗伦斯开动脑筋，但开动脑筋这件事本身对她而言却绝对不是快乐的事情。"
+s17:162: "刚才才注意到的、赫萝所做的事情大部分都是为了罗伦斯这个事实。"
+s17:167: "如果说罗伦斯的头脑反应速度比不上赫萝，那么也就是说赫萝自己一个人考虑在前面，还十分多余地照顾着罗伦斯。"
+
+s21:407: "咱之所以讨厌被称为神，是因为大家都会跑得远远的看着咱。"
+s21:419-423: "没错。如果他们得到了真正的骨头，然后把它踩在脚下的话？...什么嘛，原来咱一直以来当作神明崇拜的，就是这种程度的东西啊？"
+s21:487: "和你不同，我倒是想把书写得厚一点。" (Lawrence)
+s21:493: "故事的话，都是有始有终比较好，不是吗？" (Lawrence)
+
+s24:94: "哼，那只不过是怕汝跟咱分开之后会感到寂寞，所以打算给汝找个伴罢了。" (Holo)
+s24:123: "还是两个人旅行比较好。" (Lawrence)
+
+s27:80-83: "出乎意料之外的三人之旅。罗伦斯知道有一个词能够形容这种关系。但是他不会说出来。绝对不会说出来。"
+
+Good. Now let me write.
+
+Actually, one more thing. I want to make sure I understand the "invisible labor" scene correctly. Let me re-read s11-12 and s15-17 more carefully.
+
+In s11-12:
+- Lawrence asks Holo to help sort through papers (s11:107-113)
+- Holo is slower than Lawrence, gets self-conscious (s11:115)
+- Holo starts asking about downstream towns (s11:129-133)
+- This is actually her imagining traveling with Lawrence on his past routes (s12:41-53)
+- Then Lawrence says "你也并不讨厌动脑筋吧？这样思考的话也能消磨一下时间。" (s12:121)
+- Holo gets angry (s12:122-128)
+
+Wait, but the question is: what exactly is Holo angry about?
+
+Looking at s17:140-168 for the answer:
+- "赫萝的头脑转得快" (s17:141) - she's smart
+- "当信任成为理所当然的事情时，必定会看漏某些重要的事物。" (s17:146)
+- "就算赫萝会为罗伦斯开动脑筋，但开动脑筋这件事本身对她而言却绝对不是快乐的事情。" (s17:148)
+- "赫萝所做的事情大部分都是为了罗伦斯这个事实。" (s17:162)
+- "赫萝自己一个人考虑在前面，还十分多余地照顾着罗伦斯。" (s17:167)
+
+So the anger is: Lawrence assumed Holo helps him think because she enjoys thinking. But she does it because she cares about him. By saying "you don't hate using your brain, right? It kills time," he reduced her relational care to a personal preference/hobby. It's the misrecognition of motive.
+
+But there's also a second layer: Holo was asking about Lawrence's past travels (s11:129-133, s12:37-53) because she was imagining/creating a temporary world of traveling together. She was doing something emotionally significant for herself and for them. Then Lawrence pivoted to "you like thinking, help me with this puzzle" - completely missing what she was doing.
+
+And there's a third layer from s17:163-167: "如果除了一起思考谜团或者困难的解决方案之外，还有别的呢？" / "怎么可能？" / "赫萝那活力无限、像在宣告自己已经无法思考别的事情似地忘我地跳着舞的身影，突然变小了。" / "要是罗伦斯的想法是对的话，那也实在太可笑了。" / "如果说罗伦斯的头脑反应速度比不上赫萝，那么也就是说赫萝自己一个人考虑在前面，还十分多余地照顾着罗伦斯。"
+
+This is Lawrence realizing that Holo might be doing even MORE invisible labor than he thought - that she's thinking ahead of him in multiple areas, not just the coin mystery. This is a staggering realization about the asymmetry of care in the relationship.
+
+This connects to the broader pattern: Holo's care is invisible because she's competent. The more capable she is, the less visible her effort becomes. And Lawrence, being less perceptive, takes it for granted.
+
+OK, this is a rich vein. Let me write the anchor now.
+
+One more thing I want to note: the parallel between s5 (shop dream = adventure ends) and Holo's fear (closeness = joy erodes). This is explicitly drawn:
+
+s5:86: "不管是什么开心的事情，总有一天也会觉得没趣——对因为长寿而感到恐惧的赫萝来说，这大概也是共通的吧。"
+
+Lawrence explicitly recognizes the parallel between his shop dream hesitation and Holo's fear of closeness. Both are about the paradox of fulfillment: getting what you want terminates the process that gives it meaning.
+
+And then s5:128: Holo says she was alone on the mountain, tired of being looked up at. Now she looks up at Lawrence and finds joy in it. This is a positional reversal - she's no longer the god being worshipped from below, but the companion looking up at her partner.
+
+This connects to the volume 2 axis of "强弱线" - Holo is not the protected one looking down; she's the one choosing to look up.
+
+OK, now I'll write. Let me aim for a comprehensive but not bloated anchor.
+
+Let me also think about what the "range" should be. The main axis scenes are:
+- s00 (whole): Post-confession dynamics
+- s04-s05: Boat journey, shop dream, god-loneliness
+- s11-s12: The anger about invisible labor
+- s15-s17: Feast, reconciliation, revelation
+- s18-s19 + s21: Midnight intimacy, wolf bone decision
+- s24-s27: Cole joins
+
+Summary scenes: s01-s03, s06-s10, s13-s14, s20, s22-s23, s28-s31
+
+So the range is s00-s27, with detailed focus on the above scenes.
+
+File name: `锚_卷06_s00-27_告白后新常态·看不见的照顾·三人之旅.md`
+
+Let me write it now.
+
+Actually, I realize I should also pay attention to some details I might gloss over:
+
+1. The "I like you" weapon scene has a counter: Lawrence says "我也很喜欢钱" (s0:219). This is his minimal resistance - he doesn't deny the confession but refuses to let it override everything else. Holo steps on his foot, but the dynamic is established: the confession is powerful but not absolute.
+
+2. In s5, there's a crucial exchange about "放弃梦想来迎接咱" (s5:69). Holo tests whether Lawrence really gave up his dream for her. Lawrence admits it's partly true ("也多少有点真的想放弃" s5:75). Holo then says "还真是灾难呐" (s5:89-92) - she's pointing out that he gave up one rabbit to chase another and might end up with neither. This is a sharp observation that connects to the volume's theme of extending vs. completing.
+
+3. In s21, the decision to pursue the wolf bone is framed as "把书写得厚一点" (s21:487). This is a metaphor for wanting the story to be substantial - not just safe and comfortable. It's a deliberate choice to pursue danger for the sake of the narrative quality of their time together. This is different from previous volumes where danger was thrust upon them.
+
+4. The "unspoken word" in s27:81-82 is almost certainly "family" (家族). The context: three people traveling together, Lawrence knows a word for this relationship but won't say it. He'll only write it in a book, hidden in a thick volume. This is the volume's quiet endpoint: the relationship has taken a shape that he recognizes but can't name, because naming it would acknowledge its permanence.
+
+OK, let me write now. For real this time.
+
+Let me draft the sections:
+
+## 1. 标题 + 范围留痕
+## 2. 本段之前已经在场的东西
+## 3. 这几幕直接发生了什么
+## 4. 值得盯住的细节
+## 5. 暂时并存的读法
+## 6. 与 DESIGN 的接口
+## 7. 候选弱模式
+## 8. 现在不要急着抽象成什么
+## 完成后回报
+
+Let me write each section.
+
+For section 3, I need to organize by scene groups and include line references.
+
+Let me start writing now. I'll be careful about the three-layer discipline.
+
+Actually, I realize the text is very long and I need to be efficient. Let me focus on the most important scenes and be concise about the summary scenes.
+
+OK here's my plan for the anchor:
+
+**Section 1: Scope**
+- Main axis: s00, s04-s05, s11-s12, s15-s17, s18-s19, s21, s24-s27
+- Summary: s01-s03 (finding boat), s06-s10 (Cole intro/backstory), s13-s14 (walking with Cole), s20 (brief midnight), s22-s23 (brief forward), s28-s31 (epilogue)
+- Why: The relationship axis runs through the post-confession power dynamics and the invisible labor conflict; Cole's backstory and the copper coin mystery are plot infrastructure that serve the relationship dynamics but don't carry independent relationship weight.
+
+**Section 2: Prior context**
+- Volume 5 confession and its aftermath
+- "可结清→不可结清" shift
+- Holo's fear of closeness eroding joy
+- Previous axes: 特别性追问, 强弱线, 延后付款的同行
+- "孤独会要人命"
+
+**Section 3: What happens**
+- Organized by scene groups with line references
+
+**Section 4: Details worth watching**
+- The confession-as-contract metaphor
+- The shop dream = Holo's fear parallel
+- The invisible labor pattern
+- Cole as mirror
+- The unspoken word
+
+**Section 5: Readings**
+- Multiple readings allowed
+- Main axis: post-confession new normal
+
+**Section 6: DESIGN interface**
+- Scene five-tuple / relationship three fields
+
+**Section 7: Candidate weak patterns**
+
+**Section 8: Don't abstract yet**
+
+OK, writing now.
+
+Let me also note: the instructions say "完成后回报" should be at the end, separated by `---`.
+
+Let me write the full anchor now.
+
+Actually, I want to reconsider one thing. The instructions say:
+> **推荐骨架（按本卷裁量增删，但 1–5 节是底线，6–8 节强烈鼓励）**
+
+So sections 1-5 are mandatory, 6-8 are encouraged. I'll aim for all 8.
+
+Also, the instructions say:
+> 最终请在回复正文里输出**完整的锚点 markdown 文件内容**（从一级标题 `#` 开始，到文件结束），不要用 ``` 代码块包裹整篇，不要在前后加寒暄。
+
+OK, let me write the full thing now. I'll try to be comprehensive but not bloated. The reference example (volume 2 architecture) is quite detailed, so I'll aim for similar depth.
+
+One more thing I want to capture: the "borrowed time" quality of this volume. Both characters are extending the journey through excuses (chasing Eve, then wolf bone) while knowing it must end. The entire volume has a bittersweet quality of people savoring something they know is finite. This is different from previous volumes where the journey's end was abstract; now it's been explicitly discussed (s0:121-125, s4:28).
+
+Also, the introduction of Cole creates a structural change: the journey goes from two to three. This is significant because:
+1. It gives Holo someone else to care for (maternal side)
+2. It creates a "family" shape that neither character can name
+3. It means Holo is thinking about Lawrence's post-separation loneliness
+4. Cole's own quest (protect his village through church law) mirrors Holo's earlier village-guardian role
+
+Let me write now.
+
+Hmm, I also want to note something about s5:128-129:
+
+"汝这个人非但没有求我教导，反而是个拼命想要抓住咱的缰绳的罕见大笨驴啊。虽然在成功率上没什么希望，不过汝肯定是想站在跟咱相同的高度上呗。咱一直都是独自呆在山上，我已经对从下面看着咱的目光感到厌倦了。"
+
+And then: "作为神被崇拜，就意味着孤独。" (s5:129)
+
+And: "在跟赫萝相遇的当初，赫萝曾经说过是为了寻找朋友才出来旅行的。" (s5:130)
+
+This is important context: Holo originally said she was looking for a friend. Now she's saying that Lawrence is someone who tries to stand at the same height as her, not looking up from below. This is the volume 2 "强弱线" continuing: Lawrence doesn't worship her, he tries to be her equal. And she finds joy in looking up at him (s5:139).
+
+But there's a complication: "这样子从下面看着汝，就会觉得很开心。" This could mean:
+1. She enjoys being in a lower position (looking up at him)
+2. She enjoys the fact that he's someone worth looking up to
+3. She enjoys the reversal - she used to be looked up at as a god, now she looks up at him as a companion
+
+Reading 3 seems most supported by the text. The key is that this is about relational position, not subordination.
+
+OK, writing now for real.
+
+Let me also think about what "candidate weak patterns" I can extract:
+
+**V6-W1: Confession as asymmetric leverage**
+After a genuine emotional declaration, the declarer creates a reusable "weapon" for the recipient. The declaration can be quoted back at will to override resistance. The declarer's only counter is to find an equally genuine but different attachment (Lawrence: "I also like money").
+
+Support: s0:189-220
+Conditions: The declaration must be genuine (if fake, it has no power). The recipient must know it's genuine.
+Boundary: This doesn't mean the relationship is adversarial. It's more like... the confession has created a new "currency" in the relationship that Holo can spend.
+
+**V6-W2: Invisible labor misrecognition**
+When someone consistently does things for you out of relational care (not because they enjoy the activity), treating their contribution as transactional ("you enjoy this") causes anger. The anger is about motive misrecognition, not about the task.
+
+Support: s11-12 (the anger), s17:140-168 (the revelation)
+Conditions: The care-giver must be competent enough that their effort is invisible. The care-receiver must be self-absorbed enough to not notice.
+Boundary: This isn't about Holo being a "nagging wife" - it's specifically about the failure to see the motive behind the action.
+
+**V6-W3: Goal achievement as journey termination**
+Both characters share a structural fear: achieving the desired endpoint (shop for Lawrence, closeness for Holo) terminates the process that gives it meaning. This creates a pattern of finding reasons to extend rather than complete.
+
+Support: s5:81-86 (shop dream = Holo's fear), s0:127 (chasing Eve as excuse), s21 (wolf bone as new purpose)
+Conditions: Both must be aware the journey has a defined endpoint.
+Boundary: This isn't about procrastination - it's about the paradox of fulfillment.
+
+**V6-W4: Third party as relationship mirror**
+The introduction of a third party (Cole) reveals dynamics that are invisible in a two-person relationship: maternal instincts, post-separation planning, the shape of "family."
+
+Support: s7:135 (Holo's maternal care), s24:94 (planning for Lawrence's loneliness), s27:80-85 (the unspoken word)
+Conditions: The third party must be someone both characters care about but neither can claim exclusively.
+Boundary: Cole doesn't replace Holo; he extends the relationship's shape.
+
+OK, I think I have enough to write a comprehensive anchor. Let me do it now.
+
+I'll write in Chinese, matching the style of the reference examples.
+
+Let me also be careful about one thing: the instructions say "别预设本卷一定有 trust 档跃迁或恋爱里程碑式升温。" This volume is NOT a milestone volume. The confession already happened in volume 5. This volume is about the new normal after the confession. The progress is subtle: relationship内可追讨权 continues to rise, the mode shifts further from "被保护" to "被依靠/共同面对", and the shape of the relationship begins to include a third party.
+
+The trust档 in this volume is stable - no major tests of trust. The relationship内压强 is moderate - the invisible labor conflict is resolved within the same volume, not left as a rupture.
+
+OK, writing now.
+
+Let me think about the structure one more time. I'll organize section 3 (what happens) by thematic scene groups rather than strictly chronologically, since the volume is episodic.
+
+Actually, chronological is probably better for reference purposes. Let me do chronological but group adjacent scenes.
+
+Here's my final structure:
+
+1. 标题 + 范围留痕
+2. 本段之前已经在场的东西
+3. 这几幕直接发生了什么
+   3a. s00: 告白后的权力不对称
+   3b. s01-s03: 找船（梗概）
+   3c. s04-s06: 船上的亲密与新恐惧
+   3d. s07-s10: 柯尔登场（梗概 + 关键关系点）
+   3e. s11-s12: 看不见的照顾与赫萝的愤怒
+   3f. s13-s14: 与柯尔同行（梗概 + 关键关系点）
+   3g. s15-s17: 宴会与拉古萨的谜题
+   3h. s18-s19: 深夜与狼骨传说
+   3i. s20-s23: 决定追寻狼骨
+   3j. s24-s27: 柯尔加入，三人之旅
+   3k. s28-s31: 终幕（梗概）
+4. 值得盯住的细节
+5. 暂时并存的读法
+6. 与 DESIGN 的接口
+7. 候选弱模式
+8. 现在不要急着抽象成什么
+---
+完成后回报
+
+OK, let me write this now. I'll try to be thorough but not overly long.
+
+One more check: the instructions say "事实层一律回原文亲核，带 scene + 行号短摘。" So every factual claim needs a scene.line reference.
+
+Let me be disciplined about this.
+
+Also: "承重句（你某条读法的关键证据）要引足到结构完整、能自证"
+
+So for the key evidence sentences, I need to quote them fully enough to be self-proving.
+
+OK, writing now. For real this time. No more planning.
+
+Wait, one more thing. I want to check: is the anger scene in s11-s12 or s12 only? Let me re-check.
+
+The anger starts in s12:118-167. The trigger is s12:121 where Lawrence says "你也并不讨厌动脑筋吧？这样思考的话也能消磨一下时间。"
+
+Actually, looking more carefully:
+
+s11 ends at line 167.
+s12 starts at line 0.
+
+The trigger is in s12:121: "你也并不讨厌动脑筋吧？这样思考的话也能消磨一下时间。"
+
+Wait, but the setup is in s11. Let me trace:
+
+s11:107-113 - Lawrence asks Holo to help search papers
+s11:115 - Holo is slower, gets self-conscious
+s11:117-125 - Holo tries distraction tactics
+s11:129-133 - Holo asks about downstream towns (her actual interest)
+s11:137-148 - Lawrence tells her about his past travels
+s12:37-53 - Holo is creating a "temporary world" through his stories
+s12:113-114 - Holo asks "汝还是不打算真的去追赶那狐狸吗？" (changing subject)
+s12:118-119 - Holo says "如果那样能让汝大赚一笔的话。" (somewhat dismissive)
+s12:121 - Lawrence: "你也并不讨厌动脑筋吧？这样思考的话也能消磨一下时间。"
+s12:122-128 - Holo's reaction (anger)
+s12:129 - "生气？汝说生气是吗？"
+s12:134 - "毕竟是汝啊……反正，汝肯定不知道为什么咱会说这些事情啦……"
+s12:146 - "到你明白为止，咱都不跟汝说话。"
+
+So the trigger is clearly in s12:121. The setup spans s11-s12.
+
+OK, now I'll write.
+
+One more important detail I want to capture: in s17, there's a passage where Lawrence realizes the full extent of Holo's invisible care:
+
+s17:162-167:
+"刚才才注意到的、赫萝所做的事情大部分都是为了罗伦斯这个事实。"
+"如果除了一起思考谜团或者困难的解决方案之外，还有别的呢？"
+"怎么可能？"
+"赫萝那活力无限、像在宣告自己已经无法思考别的事情似地忘我地跳着舞的身影，突然变小了。"
+"要是罗伦斯的想法是对的话，那也实在太可笑了。"
+"如果说罗伦斯的头脑反应速度比不上赫萝，那么也就是说赫萝自己一个人考虑在前面，还十分多余地照顾着罗伦斯。"
+
+This is a crucial realization. Lawrence is not just realizing that Holo helps him with specific tasks; he's realizing that she's been operating ahead of him across multiple domains, smoothing his path invisibly. The dancing scene (s17:159-161) becomes evidence: her "wild" dancing might not be pure release but an attempt to forget/compensate for something.
+
+This is the kind of detail that shouldn't be flattened into a simple "she cares about him" conclusion. The specific mechanism is: competence makes care invisible.
+
+OK, NOW I'm writing.
+
+Let me also think about the volume title. The Japanese title of volume 6 is "狼と香辛料VI" (Spice and Wolf VI). The subtitle might be something like "少年と狼と" or similar. Actually, I'm not sure about the subtitle. Let me not worry about it.
+
+For the filename, I'll use: `锚_卷06_s00-27_告白后新常态·看不见的照顾·三人之旅.md`
+
+Wait, the instructions say the filename should be `锚_卷06_s<起>-<止>_<短标题>.md`. Let me use a shorter title.
+
+`锚_卷06_s00-27_告白武器·看不见的照顾·三人之旅.md`
+
+Hmm, that's still long. Let me try:
+
+`锚_卷06_s00-27_告白后新常态.md`
+
+That's too short to capture the key themes. Let me go with:
+
+`锚_卷06_s00-27_告白后新常态·看不见的照顾.md`
+
+OK, that works. Let me write now.
+
+Actually, I realize I should also address the cross-volume connection more explicitly in the anchor. The instructions say:
+> 把前几卷的旧伤/线索带进来（如"孤独会要人命""别替我安排退场""直接把真心话说出来""把我看得够重"；卷02 定稿核："公共善下的特别性追问"...）
+
+So I need to bring in:
+- "孤独会要人命" (from vol 1)
+- "别替我安排退场" (from vol 4)
+- "直接把真心话说出来" (from vol 3)
+- "把我看得够重" (from vol 2)
+- 卷02 核: "公共善下的特别性追问"
+- "不同善意=被依靠/托付/接受其可怕一面"
+- "特别性预设同行延续"
+
+These are all relevant to volume 6:
+- The confession is the ultimate "直接把真心话说出来"
+- Cole's introduction tests "公共善下的特别性追问" in a new way (does Lawrence care for Cole the same way he cares for Holo?)
+- The invisible labor pattern connects to "把我看得够重" - Holo wants her care to be recognized, not taken for granted
+- "别替我安排退场" connects to Holo's attempt to end the journey in vol 5, and Lawrence's refusal
+
+OK, now I'll write the full anchor. Let me be comprehensive but efficient.
+
+Here's my attempt:
+
+---
+
+# 锚 · 卷06 · 告白后新常态：看不见的照顾、权力不对称与三人之旅的起点
+
+> extract/glm 层原始锚点稿。来源：`canon/maintext/卷06.json`，scene 00–31。本稿在一步内完成通读 + 选范围 + 精读。
+
+## 一、范围留痕
+
+**主轴 scene（逐句精读）：**
+- **s00**（全）：告白后的权力新格局——"我喜欢你"变成赫萝可随时调用的武器；两人找到延长旅途的借口（追艾普）。
+- **s04–s05**（全）：船上的亲密与新恐惧——赫萝承认怕船（信任才暴露软弱）；开店梦对话（结构对称：达成目标＝冒险终结）；赫萝的孤独神论与位置逆转（"从下面看着汝就很开心"）。
+- **s11–s12**（全）：看不见的照顾与赫萝的愤怒——罗伦斯把赫萝的智力协助当成"你也喜欢动脑筋"来处理，触怒了她；赫萝宣布"到你明白为止不跟你说话"。
+- **s15–s17**（全）：宴会与拉古萨的谜题——拉古萨识破两人吵架、用"河为什么会流"点醒罗伦斯；罗伦斯意识到"赫萝所做的事情大部分都是为了罗伦斯"。
+- **s18–s19 + s21**（全）：深夜亲密（赫萝趴在罗伦斯身上入睡）；狼骨传说浮出；赫萝对教会践踏骨头的愤怒；罗伦斯决定追寻（"想把书写得厚一点"）。
+- **s24–s27**（全）：柯尔追上来、切断后路加入；赫萝亮出狼形；三人之旅开始。罗伦斯知道一个词但不说出来。
+
+**只读梗概段：**
+- **s01–s03**：港口找船、上拉古萨的船（物流过场，仅 s02:3 罗伦斯理解艾普隐藏女性身份的理由值得标记）。
+- **s06**：极短过渡（赫萝贴在罗伦斯胸口笑）。
+- **s07–s10**：柯尔登场与背景——伪造证书少年被罗伦斯拉上船；柯尔的身世（流浪学生、被骗买书、为保护故乡皮努而学教会法学）。这些是柯尔的人物建立，不是本卷关系主轴的承重墙，但有两处关系暗线值得标记：(1) s07:135 赫萝对少年的母性温柔；(2) s10:8–14 赫萝安抚恐惧的柯尔。
+- **s13–s14**：罗伦斯与柯尔步行段——教柯尔生存智慧（鲱鱼策略）；柯尔的故乡皮努与教会冲突。这是罗伦斯作为"老师"的一面，有独立价值但不直接承重关系线。
+- **s20**：极短的月光过渡（赫萝骑在罗伦斯身上打哈欠）。
+- **s22–s23**：极短的"有了前进的理由"过渡。
+- **s28–s31**：终幕极短收束（"三人之旅开始了""旅程开始了""为了结束旅程的这一路上，充满了希望"）。
+
+**切分理由：** 卷06 是一卷"日常旅行 + 新常态探索"——没有卷03/05 那样的集中危机弧，关系张力散布在旅途细节里。主轴不在商战（铜币之谜、艾普追踪都是情节基础设施），而在告白之后两人如何操作新关系：告白成了赫萝的武器（s00）、赫萝的隐性照顾被罗伦斯误读为个人偏好（s11–s17）、两人为旅途找到了超越"借口"的新目的（s21）、关系从二人扩展到三人（s24–s27）。柯尔的登场是本卷的结构性事件，但他的背景故事（s07–s10, s13–s14）主要服务于他自身的人物建立，不直接承重关系主轴。
+
+## 二、本段之前已经在场的东西
+
+**卷05 遗留：**
+- 罗伦斯在卷05 终幕对赫萝说了"我喜欢你"（告白已落地）。
+- 赫萝在卷05 主动提分手，理由是"害怕关系变好、乐趣会被温柔加速磨耗"（s00:121–122 回指）。
+- 罗伦斯前往德林克商会把赫萝接回来，两人约定"旅行必须以笑容作为终点"（s00:125, s04:28 回指）。
+- 卷05 的"可结清→不可结清"相变已经发生：告白把关系推过了"可结清"的门槛。
+
+**跨卷旧伤/线索：**
+- **"孤独会要人命"**（卷01）：仍然在场景中——赫萝的孤独神论（s05:128–131）是它的回响。
+- **"别替我安排退场"**（卷04）：赫萝在卷05 主动提分手时被罗伦斯否决了；本卷 s00:121–125 是那次否决的余震。
+- **"直接把真心话说出来"**（卷03）：告白是这条线的终极形态——但本卷展示的是"说完之后"的新问题。
+- **卷02"公共善下的特别性追问"**：柯尔的出现让这条线换了新形——罗伦斯对柯尔的关照是否会让赫萝感到"被泛化"？文本显示没有（s07:135 赫萝主动关爱柯尔），但原因值得分析。
+- **卷02"不同善意＝被依靠/托付"**：本卷 s05:128 赫萝说罗伦斯是"拼命想抓住咱缰绳的大笨驴"——他不仰视她，想站在同高度；这是强弱线的延续。
+- **"特别性预设同行延续"**（卷02 定稿核）：本卷两人一直在找延长同行的理由（追艾普→狼骨），因为特别性追问的前提是关系还在。
+
+## 三、这几幕直接发生了什么
+
+### 3a. s00：告白后的权力新格局
+
+赫萝拽着罗伦斯在雷诺斯城里大步走，脸上有扇过他肿脸的巴掌痕迹（s00:5–7）。罗伦斯判断出"赫萝正在对自己本身感到生气"（s00:10, 66, 94）——因为她自己都知道正在说一些任性的话（s00:94）。
+
+赫萝的任性：要求追上艾普、取回利益（s00:72–76）。但罗伦斯分析后确认：艾普的赌博已成功、自己已退出交易、在法律/利益上没有追讨权（s00:82–92）。赫萝当然也明白（s00:93）。两人在"彼此都知道对方在说谎"的前提下找到了延长旅途的弯路（s00:127–128, 145–146）。
+
+**告白变成了武器：**
+- s00:189："因为赫萝已经掌握了新的武器。"
+- s00:190–194：赫萝转换语调："咱真的很高兴。嗯，因为汝说喜欢咱，所以——"（话未说完，罗伦斯就投降了。）
+- s00:195：罗伦斯："明白了，明白了！我们去找船下河！这样就行了吧？"
+- s00:200–202（承重句）：罗伦斯把告白比作"在毫无担保的情况下把按了血指印的契约书交给了对方"——"只要对方拿在手上露出奸笑，开玩笑似地摆出要撕破的动作，罗伦斯就只有慌张失措的份了。因为写在那张契约书上的，全都是真话。"
+
+罗伦斯找到的最低限度抵抗：s00:219："啊啊，是这样没错。不过，我也很喜欢钱。"——不否认告白，但拒绝让它覆盖一切。赫萝踩了他一脚（s00:220）。
+
+### 3b. s01–s03：找船（梗概）
+
+港口混乱中找到拉古萨的船。s02:3 罗伦斯理解了艾普隐藏女性身份经商的理由。拉古萨把赫萝当成"立于船首祈求航行安全的美女"（s02:30–33）。
+
+### 3c. s04–s06：船上的亲密与新恐惧
+
+**赫萝承认怕船（s04:16–18）：**
+- s04:16："虽然不是说不习惯乘船……不过，还是很害怕摇晃。"
+- s04:18（承重句）："咱暴露出自己的软弱一面，就是因为信任汝的关系嘛。"
+
+**恐惧的回声（s04:22–28）：**
+- s04:22："不行，明明不应该跟汝变得这么要好的。"——这是卷05 恐惧的余响，但罗伦斯判断"现在的赫萝不可能以认真的态度说出这样的话"（s04:24）。
+- s04:25–28："两人都很明白彼此之间真正必须避免的话题是什么……只要知道悬崖在哪里的话，在附近散步简直是轻而易举的事。旅行必须以笑容作为终点。因为已经约定了这件事，所以根本没有任何值得害怕的事。"
+
+**开店梦对话（s05:69–86）——结构对称的承重段：**
+- s05:69：赫萝："汝不是放弃了开店的梦想才来迎接咱的吗？"
+- s05:75：罗伦斯坦白："也多少有点真的想放弃。"
+- s05:81："因为如果开店的话，做生意的乐趣恐怕就会减半了啊。"
+- s05:83（承重句）："一旦觉得能够开店的话，我就会有种漠然的感觉。就是说，一旦得到店子的话，冒险就在那时候结束了。"
+- s05:86（叙述者注）："不管是什么开心的事情，总有一天也会觉得没趣——对因为长寿而感到恐惧的赫萝来说，这大概也是共通的吧。"
+
+→ 罗伦斯的"开店＝冒险终结"与赫萝的"亲密＝乐趣风化"是同一结构。两人各自恐惧的"达成目标"会杀死"追寻过程"。这不是巧合而是共鸣点。
+
+**赫萝的孤独神论与位置逆转（s05:128–139）：**
+- s05:128（承重句）："汝这个人非但没有求我教导，反而是个拼命想要抓住咱的缰绳的罕见大笨驴啊。虽然在成功率上没什么希望，不过汝肯定是想站在跟咱相同的高度上呗。咱一直都是独自呆在山上，我已经对从下面看着咱的目光感到厌倦了。"
+- s05:129："作为神被崇拜，就意味着孤独。"
+- s05:130："在跟赫萝相遇的当初，赫萝曾经说过是为了寻找朋友才出来旅行的。"
+- s05:139："这样子从下面看着汝，就会觉得很开心。"
+
+→ 位置逆转：赫萝从"被仰视的神"变成"仰视同伴的人"，并从中获得喜悦。这不是降格——卷02 强弱线的延续：她选择站在同等高度而非被保护/被仰视的位置。
+
+### 3d. s07–s10：柯尔登场（梗概 + 关系暗线）
+
+柯尔拿着伪造证书在关口被士兵欺压，喊罗伦斯"老师"求救（s07:90–96）。罗伦斯在"他站起来了、喊出了声音"的判断下出手相助（s07:110–120）。
+
+**关系暗线两处：**
+1. s07:135：赫萝对柯尔露出"罗伦斯从没见过的温柔表情，轻轻抚摸了一下少年的前发"——然后立刻说"汝也想被咱这样摸一下吗？"（一半捉弄一半害羞）。这是赫萝母性的一面，但也是她在试探罗伦斯对"她对别人好"的反应。
+2. s10:8–14：赫萝安抚恐惧的柯尔（"好啦。不要哭，没事的。"），罗伦斯感到新鲜——"看到赫萝以安抚小孩子的动作抱着柯尔的样子，不禁感到有点新鲜"。
+
+柯尔的背景：流浪学生、被骗买书、为保护故乡皮努而学教会法学（s10:66–87, s14:44–87）。
+
+### 3e. s11–s12：看不见的照顾与赫萝的愤怒
+
+**起因：** 罗伦斯请赫萝帮忙从柯尔的纸片中找"吉恩商会"字样（s11:107–113）。赫萝比罗伦斯慢，感到不甘心（s11:115–116）。然后赫萝开始问下游的城镇是什么样的（s11:129–133）。
+
+**赫萝问下游城镇的真实意图（s12:37–53）：**
+- s12:38："并不是波澜壮阔的冒险故事，而是跟罗伦斯一直以来没什么两样的行程路线。"
+- s12:41："赫萝每一天都很开心地、同时也很沉静地倾听着。就好像在享受活了好几百年也未曾见过的土地无限延展开去的乐趣一般……同时，在那既漫长又常见、没什么值得特别关注的旅途中，她仿佛想象着自己一直伴随在身边的情形。"
+- s12:53："被唤作神的赫萝，大概是打算借用罗伦斯的话来创造一个临时的世界吧。"
+
+→ 赫萝在用罗伦斯讲述的平凡旅途路线，想象一个"一直伴随在身边"的虚拟旅程——一个她知道永远不会实现的旅程（s12:45："那是永远不会迎来实现的一天的、漫长的旅途"）。
+
+**触发句（s12:121）：** 罗伦斯说："你也并不讨厌动脑筋吧？这样思考的话也能消磨一下时间。"
+
+→ 这句话把赫萝的智力协助理解为"她个人喜欢思考"，而非"她为了罗伦斯在动脑"。动机被误读了。
+
+**赫萝的反应（s12:122–146）：**
+- s12:122–128：眼睛瞪大、想说些什么又闭上嘴、把脸藏在风帽里、露出"充满怒色的眼眸"。
+- s12:129："生气？汝说生气是吗？"
+- s12:134（承重句）："毕竟是汝啊……反正，汝肯定不知道为什么咱会说这些事情啦……"
+- s12:146："到你明白为止，咱都不跟汝说话。"
+
+### 3f. s13–s14：与柯尔同行（梗概 + 关系暗线）
+
+罗伦斯教柯尔生存智慧（"鲱鱼策略"——拿一条鲱鱼去求别人做成馅饼，借机要到钱）。s14:82 罗伦斯用风帽边缘帮柯尔擦眼泪——"说起故乡的事情，就连那个赫萝也会变得脆弱起来"。
+
+### 3g. s15–s17：宴会与拉古萨的谜题
+
+**吵架被外人看穿（s15:90–98）：**
+- s15:90：拉古萨："你和你的女伴是不是吵架了？"
+- s15:97–98："你们两个根本就像一分一秒都不想离开对方的样子，对吧？"——外人视角：两人黏得离谱。
+
+**拉古萨的谜题（s17:14, s17:143–148）：**
+- s17:14：拉古萨扔下一句"河本来就会流动，但是即使如此，为什么会流动呢？"然后带着柯尔走了。
+- s17:143–148（罗伦斯的领悟）："船夫们多亏了河流的川流不息，才能经营买卖……但即便如此，他们也从来没有把这个当作是理所当然。"
+- s17:146（承重句）："当信任成为理所当然的事情时，必定会看漏某些重要的事物。"
+- s17:148（承重句）："也就是说，就算赫萝会为罗伦斯开动脑筋，但开动脑筋这件事本身对她而言却绝对不是快乐的事情。拉古萨想说的，应该就是这一点。"
+
+**罗伦斯的核心领悟（s17:162–167）：**
+- s17:162（承重句）："刚才才注意到的、赫萝所做的事情大部分都是为了罗伦斯这个事实。"
+- s17:163："如果除了一起思考谜团或者困难的解决方案之外，还有别的呢？"
+- s17:167（承重句）："如果说罗伦斯的头脑反应速度比不上赫萝，那么也就是说赫萝自己一个人考虑在前面，还十分多余地照顾着罗伦斯。"
+
+→ 罗伦斯意识到赫萝的照顾远不止"帮忙解谜"——她在多个领域里走在前面、替他铺路，而他因为她的能干而看不见这些努力。
+
+**赫萝的回归（s17:60–78）：**
+- s17:60–61：赫萝走到罗伦斯身边，夺过酒杯一饮而尽。
+- s17:71：把整个身体靠在罗伦斯身上。
+- s17:73–78（罗伦斯的判断）："只要自己在这里肯低头认错的话，赫萝一定会原谅自己……赫萝会靠在罗伦斯身上，一脸不耐烦地抬起头来吧。然后，说出一堆尖酸刻薄的话，大骂一通。但她绝对不会起来，也不会离开。"
+
+→ 罗伦斯对赫萝的行为模式已有预判：她会骂、会刺、但不会走。这不是"吵架后和好"的常规模式，而是他对关系稳定性的判断——她不会因为这种程度的误解而离开。
+
+### 3h. s18–s19 + s21：深夜亲密与狼骨传说
+
+**深夜亲密（s19:9–24）：**
+- s19:9：赫萝趴在罗伦斯身上入睡。
+- s19:18–24："你好重。" / "咱的身体可是很轻的" / "你是不是想我说……你的感情很重？" / "这样说的话不就像是咱逼汝说了吗。"
+
+**狼骨传说浮出（s18:18–21, s21:282–334）：**
+- 拉古萨提到雷斯科的商会在寻找"地狱看门狗的骨头"（s18:124–133）。
+- 柯尔讲述鲁皮村传说：村民的先祖是狼，狼神死在村里留下了右前足；教会的人来找过这只前足（s21:291–306）。
+
+**赫萝的愤怒（s21:407–439）：**
+- s21:407（承重句）："咱之所以讨厌被称为神，是因为大家都会跑得远远的看着咱。他们会畏惧、敬仰咱的一举手一投足，尽说些感激的话。所谓的敬而远之就是这么回事。所以，汝啊，反过来想的话……"
+- s21:419–423（承重句）："没错。如果他们得到了真正的骨头，然后把它踩在脚下的话？……什么嘛，原来咱一直以来当作神明崇拜的，就是这种程度的东西啊？"
+- s21:439："咱没有问汝事情的善恶。汝反正是跟教会一样的人——"（说到这里突然闭嘴，罗伦斯回踩了她的脚作为报复。）
+
+→ 教会的策略是：找到异教神明的遗骨→当众践踏→让信徒看到"原来神不过如此"→摧毁信仰。赫萝的愤怒有两个层面：(1) 这是对她同族/旧友的骨头的亵渎；(2) 这种手段利用的正是"敬而远之"的信仰逻辑——把崇拜变成轻蔑只需要一个物理动作。
+
+**罗伦斯的决定（s21:460–503）：**
+- s21:460：赫萝："就这样悠哉游哉地继续旅程，等找到约伊兹之后就说拜拜。这汝觉得如何？"
+- s21:487（承重句）："和你不同，我倒是想把书写得厚一点。"
+- s21:493（承重句）："故事的话，都是有始有终比较好，不是吗？"
+- s21:502："跟赫萝在一起的旅程，总是选择稳妥的最佳方案是不够的。要把牛肉切成厚厚的一块，在上面撒上一大把浓浓的香辛料才行。"
+
+→ 这不是英雄式的赴死决心，而是商人式的选择：他想要旅途的故事足够厚、足够有滋味。这与 s05 的"开店＝冒险终结"形成呼应——他不要安稳的结局，要值得写进厚书的冒险。
+
+### 3i. s24–s27：柯尔加入，三人之旅
+
+**赫萝为什么宠爱柯尔（s24:94–109）：**
+- s24:94："怕汝跟咱分开之后会感到寂寞，所以打算给汝找个伴罢了。"
+- s24:107："剩下的，就是单纯喜欢他这种小鬼而已。"
+- → 两个理由：一半是为罗伦斯离别后的孤独做准备（赫萝已经在想"之后"），一半是真的喜欢柯尔。
+
+**罗伦斯为什么不想带柯尔（s24:113–123）：**
+- s24:123："还是两个人旅行比较好。"——既不想破坏二人世界，也因为此行危险。
+- 但他没有说出口的理由也包含：他承认自己想收柯尔为徒（s14:112–114），但"时期尚早"（s14:114）。
+
+**柯尔的觉悟（s25:36–43）：**
+- s25:36–41：柯尔从袋子里掏出赤红的新造埃尼币——"我已经不能回去拉古萨先生的船上了。"
+- s25:43（叙述者注）："切断后路的觉悟。"
+- → 柯尔用"偷了铜币所以回不去"的演技（实际是拉古萨自掏腰包给的，s27:22–25），制造了不可逆的加入条件。
+
+**赫萝亮出狼形（s25:60–67, s26–s27）：**
+- s25:60–67：赫萝解开腰带、脱衣变身。
+- s26:1–3：柯尔大声尖叫——"不是出于害怕。他的表情接近笑容，也接近哭泣。"
+- s27:1–2："遇上自己所憧憬的英雄的少年。"
+- s27:9：柯尔的第一句话是"请让我摸一摸尾巴"。
+
+**罗伦斯与赫萝的旧账（s27:3–6）：**
+- s27:3–4：赫萝（狼形）讽刺罗伦斯："汝看起来很不满嘛。"——因为罗伦斯第一次看到狼形时吓得后退了。
+- → 赫萝记着这件事。柯尔的反应（憧憬而非恐惧）与罗伦斯当年的反应形成对照。这不是嫉妒，但赫萝不会放过做文章的机会。
+
+**那个不说的词（s27:80–85，承重句）：**
+- s27:80："出乎意料之外的三人之旅。"
+- s27:81："罗伦斯知道有一个词能够形容这种关系。"
+- s27:82："但是他不会说出来。"
+- s27:83："绝对不会说出来。"
+- s27:84–85："只是，要是有一天真要写跟赫萝一起旅行的书的话，说不定会把这写进去。在一本厚厚的书的某个地方，不为人知地。"
+
+→ 这个词几乎可以确定是"家族"（family）。他不说出来，因为命名会承认一种永久性，而旅途是有终点的。但他把它藏进了"厚厚的书"的意象里——与 s21:487 的"想把书写得厚一点"首尾呼应。
+
+## 四、值得盯住的细节
+
+### 4.1 告白作为"血指印契约"——单向授权的武器化
+
+s00:200–202 的比喻极其精确：告白不是双方契约，而是单方面交出的、盖了血指印的、无法撤回的凭证。只要对方拿出来晃一晃，你就只能慌张。这不是"赫萝在利用罗伦斯的感情"——告白是真的（s00:202："因为写在那张契约书上的，全都是真话"），正因为是真的才无法对抗。
+
+罗伦斯的最低抵抗（s00:219："我也很喜欢钱"）不否认告白，只是声明自己不是只有这一个偏好。这是商人的应对：不抵赖，但分散风险。
+
+### 4.2 "达成目标＝冒险终结"的结构对称
+
+s05:81–86 把罗伦斯的开店梦犹豫和赫萝的亲密恐惧放在同一个结构里：两人各自害怕的"得到想要的"会杀死"追寻的过程"。这不是简单的"两人很像"，而是一个生成性的对称——它意味着两人延长旅途的动机不仅仅是"舍不得分开"，而是共同认识到"过程本身比终点更有价值"。
+
+### 4.3 看不见的照顾——能干使努力隐形
+
+s11–s17 的核心冲突不是"罗伦斯不感激赫萝"，而是"赫萝的能干使她的照顾不可见"。她比他聪明、比他先想到、比他先行动——所以他不觉得她在"为他做事"，而觉得她在"做她擅长的事"。
+
+拉古萨的谜题（"河为什么会流"）是钥匙：船夫靠河吃饭，但从不把河当成理所当然——他们感谢河流精灵。罗伦斯对赫萝的智力协助犯了"当成理所当然"的错。
+
+s17:167 的推论更进一层：如果赫萝在多个领域都走在罗伦斯前面，那么她的"照顾"远不止帮忙解谜。这是本卷最让罗伦斯震动的一个认识。
+
+### 4.4 柯尔作为关系的镜子
+
+柯尔在本卷的功能不是"第三者"或"情敌"——他是关系的一面镜子：
+- **赫萝的母性**（s07:135, s10:8–14）：她对柯尔的温柔是罗伦斯从未直接接收过的一面。
+- **赫萝的预先安排**（s24:94）：她想给罗伦斯"找个伴"——她在为离别后的他做准备。
+- **罗伦斯的师徒冲动**（s14:112–114）：他想收柯尔为徒，但"时期尚早"。
+- **狼形的反应对照**（s27:3–9）：柯尔看到狼形是"憧憬的英雄"，罗伦斯当年是"吓得后退"——赫萝记着这个差别。
+
+### 4.5 教会践踏骨头的策略——信仰的物理解构
+
+s21:419–423 赫萝描述的教会策略极其冷酷：不是辩经、不是传教，而是物理性地践踏遗骨，让信徒亲眼看到"神不过如此"。这比千言万语都有效。赫萝的愤怒不仅是情感层面的（同族的骨头），也是认知层面的——她理解这种策略的合理性（s21:425："这种想法的合理性，真不愧是几百年来一直跟异教作斗争的教会才想得出来"），这让她更愤怒。
+
+### 4.6 "不说的词"与"厚厚的书"——首尾呼应
+
+s21:487"想把书写得厚一点"→ s27:84–85"在一本厚厚的书的某个地方，不为人知地"写上那个词。全书首尾通过"书"的意象连接：旅途的故事要厚、要有滋味，但有些东西只能藏在书页深处，不能说出来。
+
+## 五、暂时并存的读法
+
+### 读法 A：告白创造了新的权力不对称——但不是剥削性的
+
+告白让赫萝获得了可随时调用的"武器"（s00:189），罗伦斯几乎无法对抗（s00:200–202）。但这不是剥削——因为告白是真的，赫萝不是在撒谎，只是在引用真话。权力不对称来自真实性本身：越真的话越不能被撤回，越不能撤回就越有杀伤力。
+
+**边界：** 这不是"赫萝在控制罗伦斯"。罗伦斯找到了最低抵抗（s00:219"我也很喜欢钱"），而且他在其他领域（商业判断、旅途决策）仍然有主导权。告白武器的效力限于"赫萝想要罗伦斯陪她做某事而他本不想做"的场合。
+
+### 读法 B：本卷的主轴是"看不见的照顾被误读"
+
+赫萝在多个领域替罗伦斯做事（s17:162–167），但因为她的能干使这些努力隐形。罗伦斯把她的智力协助当成"她喜欢思考"（s12:121），触发了愤怒。拉古萨的谜题让罗伦斯意识到：信任一旦成为理所当然，就会看漏重要的事物（s17:146）。
+
+**边界：** 这个读法兜住了 s11–s17 的核心冲突，但不能解释 s00（告白武器）、s05（开店梦对称）、s21（狼骨决定）、s24–s27（柯尔加入）。它是一条强主轴，但不是全部。
+
+### 读法 C：本卷是"延长旅途的语法"研究
+
+两人从卷05 继承了"旅途必须结束"的约定，本卷展示他们如何反复找到理由延长：追艾普（s00）→ 铜币之谜（s09–s12）→ 狼骨（s21）。每次延长都从"外部借口"逐渐变成"内在选择"——到 s21 罗伦斯说"想把书写得厚一点"时，延长已经不需要借口了。
+
+**边界：** 这个读法是中介语法，能串联多个 scene，但各自另有独立动力：追艾普的伤在"被背叛"轴、铜币之谜在"好奇心/商人本能"轴、狼骨在"身份/信仰"轴。它们服务同一主轴（延长）但不可焊成一条。
+
+### 读法 D：柯尔的加入把"二人关系"变成了"关系形状"问题
+
+柯尔的出现让两人第一次面对"我们的关系对第三人是什么形状"的问题。赫萝想给罗伦斯"找个伴"（s24:94）说明她在为离别做准备；罗伦斯说"还是两个人比较好"（s24:123）说明他珍惜二人形态。但最终柯尔还是加入了——因为他用自己的觉悟（s25:36–43）通过了罗伦斯的测试。三人之旅让罗伦斯想到了一个词（s27:81），但他不说——因为命名意味着承认永久性。
+
+**边界：** 柯尔的加入不是本卷关系主轴的"完成"，而是一个新阶段的开始。他与赫萝/罗伦斯的关系将在后续卷展开。
+
+### 不同 scene 的伤落在不同轴上
+
+- s00 的告白武器落在**权力平衡轴**。
+- s11–s17 的隐形照顾落在**动机识别轴**。
+- s05 的开店梦对称落在**结构共情轴**。
+- s21 的狼骨决定落在**共同目的轴**。
+- s24–s27 的柯尔加入落在**关系形状轴**。
+- 这五条轴在本卷伞下并列，不直接焊接。s17:162–167 的"赫萝做的事情都是为了罗伦斯"是动机识别轴的结论，不能自动延伸到其他轴。
+
+## 六、与 DESIGN 的接口
+
+> 以下为分析锚定，不等于 active 圣经字段，不构成字段准入主张。字段化与准入归人审（`架构笔记.md` §0 gate）。
+
+**场景五元组示例：**
+
+| 场景 | 事实层 | 关系位置 | trust 档 | 关系内压强 |
+|---|---|---|---|---|
+| s00 告白武器 | 赫萝用告白迫使罗伦斯同意找船 | 赫萝获得单向可调用权 | 稳定（告白已落地，不是试探） | 低（玩闹性质为主） |
+| s04–s05 船上亲密 | 赫萝承认怕船、开店梦对话 | 同行者/结构共情者 | 稳定偏高（主动暴露软弱） | 低（温馨探索） |
+| s11–s12 隐形照顾 | 罗伦斯误读赫萝动机→赫萝宣布不说话 | 照顾者被当成工具人 | 稳定但受挫 | 中高（冷战） |
+| s17 领悟 | 罗伦斯意识到赫萝的全面照顾 | 被照顾者→开始识别 | 回升 | 下降（理解后释然） |
+| s21 狼骨决定 | 罗伦斯主动选择危险路线 | 共同冒险者 | 高 | 低（共识达成） |
+| s24–s27 三人之旅 | 柯尔加入、赫萝亮狼形 | 关系形状扩展 | 高 | 低（新的平衡） |
+
+**关系三字段（非准入）：**
+- **关系位置：** 从卷05 的"告白者→被告白者"演化为"同行者＋照顾者＋被照顾者"的多层结构。柯尔的加入增加了"引导者/保护者"维度。
+- **trust 档：** 本卷无显著跃迁——告白已落地，信任在稳定区间运行。变化在 trust 的"内容"上：从"他会不会来救我"变成"他能不能看见我在做什么"。
+- **关系内压强：** s11–s12 的冷战是本卷压强峰值，但在 s17 解决。整体压强低于卷03（阿玛蒂对决）和卷05（分手提议）。
+
+## 七、候选弱模式（临时·带条件·非定稿）
+
+> 以下为正典锚定的候选抽象，定稿归人。不主张新增字段。
+
+### V6-W1：告白后的单向授权——真心话变成不可撤回的凭证
+
+**描述：** 当一方发自真心地说出重大情感宣言后，该宣言变成接收方可以随时调用的"凭证"。宣言越真，越不可撤回；越不可撤回，越有杀伤力。声明方唯一的抵抗是找到另一个同样真实但不被宣言覆盖的偏好。
+
+**支持：** s00:189–202, s00:216–220。
+**条件：** (1) 宣言必须是真的；(2) 双方都知道是真的；(3) 接收方知道声明方知道她知道。
+**反例方向：** 如果声明方后来发现宣言不再成立（感情变化），凭证失效。如果宣言是假的，从一开始就没有力量。
+**复杂化：** 这不是"赫萝在利用罗伦斯"。告白武器只在"赫萝想让罗伦斯陪她做某事而他本不情愿"的场合生效；在商业判断、旅途安全等领域罗伦斯仍有主导权。
+
+### V6-W2：能干使照顾隐形——动机误读触发愤怒
+
+**描述：** 当一方持续为另一方做事（出于关系性关心，而非个人偏好），且做得足够好以至于努力不可见时，另一方可能把行为归因为"她喜欢做这个"而非"她为了我在做这个"。这种动机误读会触怒做事的一方——不是因为任务本身，而是因为关系性的关心被降格为个人偏好。
+
+**支持：** s12:121（触发句）, s12:122–146（愤怒）, s17:140–168（领悟）。
+**条件：** (1) 做事方足够能干，使努力不可见；(2) 接收方足够自我中心（或迟钝），看不见动机；(3) 做事方期待的不是感激而是"被看见"。
+**反例方向：** 如果做事方真的只是为了个人偏好而做（享受过程），则不会因动机误读而愤怒。如果接收方主动询问动机而非假设，冲突不会触发。
+**复杂化：** s17:163–167 暗示赫萝的隐形照顾可能远不止智力协助——如果她在多个领域都在前面替罗伦斯铺路，那么这个模式的适用范围比本卷展示的更广。
+
+### V6-W3：达成目标＝冒险终结——两人共有的结构恐惧
+
+**描述：** 两人各自恐惧"得到想要的"会杀死"追寻的过程"。这种结构恐惧使他们反复寻找理由延长旅途，而非完成旅途。
+
+**支持：** s05:81–86（开店梦＝亲密恐惧的镜像）, s00:127–128（追艾普作为借口）, s21:487–502（狼骨作为新目的，"想把书写得厚一点"）。
+**条件：** (1) 双方都知道旅途有终点；(2) 双方都珍惜过程胜过终点；(3) 存在外部理由可以合理化延长。
+**反例方向：** 如果一方真的想结束旅途（如卷05 赫萝提分手时），这个模式不适用。如果外部威胁太大使延长不可行，两人会接受结束。
+
+## 八、现在不要急着抽象成什么
+
+1. **不要把告白武器抽象成"赫萝在关系中处于上位"。** s00 的权力不对称是特定场景（赫萝想让罗伦斯陪她做事）下的局部现象，不是全局结构。罗伦斯在商业判断、旅途决策上仍有主导权。把局部武器化抽象成全局权力关系会失真。
+
+2. **不要把"隐形照顾"抽象成"赫萝是付出更多的一方"。** s17:162–167 是罗伦斯的一次性领悟，不是对关系全局的清算。赫萝确实做了很多看不见的照顾，但罗伦斯也在做他那份（保护她、教她人类世界的规则、接她回来）。不要把一次误读事件升级为"关系不对等"的结论。
+
+3. **不要把柯尔的加入抽象成"三人家庭成立了"。** s27:81–82 罗伦斯知道那个词但不说出来——文本刻意不让它落地。柯尔的加入是新的动态，不是"家庭"的完成态。把它抽象成家庭会抹掉"不说出来"的分量。
+
+4. **不要把"开店梦＝亲密恐惧"的对称抽象成"两人完全理解彼此"。** 对称是结构性的（两人各自恐惧的东西有相同形状），不等于他们完全理解对方的恐惧。罗伦斯是在 s05:86 通过叙述者注才意识到共通性的，不是通过对话确认的。
+
+5. **不要把狼骨决定抽象成"罗伦斯为赫萝赴死"。** s21:487–502 的措辞是商人式的选择（"想把书写得厚一点""把牛肉切厚一块撒香辛料"），不是英雄式的牺牲。他选择的是"值得写的冒险"，不是"为爱赴死"。拔高成后者会失真。
+
+---
+
+## 完成后回报
+
+1. **主轴 scene 范围 + 切分理由：** s00, s04–s05, s11–s12, s15–s17, s18–s19, s21, s24–s27。切分理由：卷06 是"告白后新常态"的日常旅行卷，关系张力不在集中危机弧里，散布在旅途细节中——主轴选的是承载"告白武器化、隐形照顾误读、共同目的生成、关系形状扩展"这四组关系动作的 scene；柯尔的背景建立（s07–s10, s13–s14）和铜币之谜（s09）是情节基础设施，只标记关系暗线不逐句精读。
+
+2. **本卷关系主线一句话概括：** 告白落地后，两人进入"新常态"——告白变成赫萝的武器、赫萝的隐性照顾因她的能干而隐形并被罗伦斯误读为个人偏好（触发本卷核心冲突）、两人为旅途找到了超越"借口"的内在理由（狼骨）、关系从二人扩展到三人但那个形容它的词不能说出来。
+
+3. **文件路径：** `anchors/extract/glm/锚_卷06_s00-27_告白后新常态·看不见的照顾.md`
+
+---
+
+Wait, I need to double-check some things:
+
+1. Scene numbers - let me verify each scene number I referenced is correct:
+- s00 ✓ (scene 0)
+- s01 ✓ (scene 1)
+- s02 ✓ (scene 2)
+- s04 ✓ (scene 4)
+- s05 ✓ (scene 5)
+- s07 ✓ (scene 7)
+- s10 ✓ (scene 10)
+- s11 ✓ (scene 11)
+- s12 ✓ (scene 12)
+- s14 ✓ (scene 14)
+- s15 ✓ (scene 15)
+- s17 ✓ (scene 17)
+- s18 ✓ (scene 18)
+- s19 ✓ (scene 19)
+- s21 ✓ (scene 21)
+- s24 ✓ (scene 24)
+- s25 ✓ (scene 25)
+- s27 ✓ (scene 27)
+
+2. Who says what - let me verify some key quotes:
+- s00:194 "咱真的很高兴。嗯，因为汝说喜欢咱，所以——" → This is Holo speaking ✓
+- s00:200 "就好像在毫无担保的情况下把按了血指印的契约书交给了对方一样。" → This is narrator/Lawrence's inner thought ✓
+- s00:219 "啊啊，是这样没错。不过，我也很喜欢钱。" → This is Lawrence speaking ✓
+- s04:18 "咱暴露出自己的软弱一面，就是因为信任汝的关系嘛。" → This is Holo speaking ✓
+- s05:83 "一旦觉得能够开店的话，我就会有种漠然的感觉。" → This is Lawrence speaking ✓
+- s05:128 "汝这个人非但没有求我教导..." → This is Holo speaking ✓
+- s12:121 "你也并不讨厌动脑筋吧？" → This is Lawrence speaking ✓
+- s12:129 "生气？汝说生气是吗？" → This is Holo speaking ✓
+- s17:146 "当信任成为理所当然的事情时..." → This is narrator/Lawrence's thought ✓
+- s17:148 "也就是说，就算赫萝会为罗伦斯开动脑筋..." → This is narrator/Lawrence's thought ✓
+- s21:407 "咱之所以讨厌被称为神..." → This is Holo speaking ✓
+- s21:487 "和你不同，我倒是想把书写得厚一点。" → This is Lawrence speaking ✓
+- s24:94 "怕汝跟咱分开之后会感到寂寞..." → This is Holo speaking ✓
+- s24:123 "还是两个人旅行比较好。" → This is Lawrence speaking ✓
+
+All checks out.
+
+3. Let me verify some line numbers more carefully:
+
+s00:189 - "因为赫萝已经掌握了新的武器。" ✓
+s00:194 - "咱真的很高兴。嗯，因为汝说喜欢咱，所以——" ✓
+s00:200 - "就好像在毫无担保的情况下把按了血指印的契约书交给了对方一样。" ✓
+s00:202 - "因为写在那张契约书上的，全都是真话。" ✓
+s00:219 - "啊啊，是这样没错。不过，我也很喜欢钱。" ✓
+s00:220 - "就在这一瞬间，罗伦斯就被面无表情的赫萝狠狠地踩了一脚。" ✓
+
+s04:16 - "虽然不是说不习惯乘船……不过，还是很害怕摇晃。" ✓
+s04:18 - "咱暴露出自己的软弱一面，就是因为信任汝的关系嘛。" ✓
+s04:22 - "不行，明明不应该跟汝变得这么要好的。" ✓
+s04:28 - "旅行必须以笑容作为终点。因为已经约定了这件事，所以根本就没有任何值得害怕的事。" ✓
+
+s05:69 - "汝不是放弃了开店的梦想才来迎接咱的吗？" ✓
+s05:75 - "但是，嗯，也多少有点真的想放弃。" ✓
+s05:81 - "因为如果开店的话，做生意的乐趣恐怕就会减半了啊。" ✓
+s05:83 - "一旦觉得能够开店的话，我就会有种漠然的感觉。就是说，一旦得到店子的话，冒险就在那时候结束了。" ✓
+s05:86 - Let me check... s05:86 is "不管是什么开心的事情，总有一天也会觉得没趣——对因为长寿而感到恐惧的赫萝来说，这大概也是共通的吧。" ✓
+s05:128 - "汝这个人非但没有求我教导，反而是个拼命想要抓住咱的缰绳的罕见大笨驴啊..." ✓
+s05:129 - "作为神被崇拜，就意味着孤独。" ✓
+s05:130 - "在跟赫萝相遇的当初，赫萝曾经说过是为了寻找朋友才出来旅行的。" ✓
+s05:139 - "这样子从下面看着汝，就会觉得很开心。" ✓
+
+s12:121 - "你也并不讨厌动脑筋吧？这样思考的话也能消磨一下时间。" ✓
+s12:129 - "生气？汝说生气是吗？" ✓
+s12:134 - "毕竟是汝啊……反正，汝肯定不知道为什么咱会说这些事情啦……" ✓
+s12:146 - "到你明白为止，咱都不跟汝说话。" ✓
+
+s17:14 - "河本来就会流动，但是即使如此，为什么会流动呢？" ✓
+s17:146 - "当信任成为理所当然的事情时，必定会看漏某些重要的事物。" ✓
+s17:148 - "也就是说，就算赫萝会为罗伦斯开动脑筋，但开动脑筋这件事本身对她而言却绝对不是快乐的事情。拉古萨想说的，应该就是这一点。" ✓
+s17:162 - "刚才才注意到的、赫萝所做的事情大部分都是为了罗伦斯这个事实。" ✓
+s17:167 - "如果说罗伦斯的头脑反应速度比不上赫萝，那么也就是说赫萝自己一个人考虑在前面，还十分多余地照顾着罗伦斯。" ✓
+
+s21:407 - "咱之所以讨厌被称为神，是因为大家都会跑得远远的看着咱。" ✓
+s21:419-423 - Let me check exact lines...
+s21:419 - "没错。如果他们得到了真正的骨头，然后把它踩在脚下的话？就算是咱们这一族，也不可能在成了骨头以后还能杀人。只有被踩的份。奇迹什么的都不会发生。那么，看到的人会怎么想？应该会这样想吧——"
+s21:423 - "——什么嘛，原来咱一直以来当作神明崇拜的，就是这种程度的东西啊？"
+✓
+
+s21:439 - "咱没有问汝事情的善恶。汝反正是跟教会一样的人——" ✓
+s21:487 - "和你不同，我倒是想把书写得厚一点。" ✓
+s21:493 - "故事的话，都是有始有终比较好，不是吗？" ✓
+
+s24:94 - "哼，那只不过是怕汝跟咱分开之后会感到寂寞，所以打算给汝找个伴罢了。既然用不上的话，那当然就没有必要了。" ✓
+s24:107 - "剩下的，就是单纯喜欢他这种小鬼而已。" ✓
+s24:123 - "还是两个人旅行比较好。" ✓
+
+s25:36-43 - Let me check...
+s25:36 - "你给我的钱，我也能还给你了。而且……"
+s25:37 - "柯尔粗鲁地把手伸进袋子里，然后拉了一个东西出来。细瘦的手用力地握得紧紧的。"
+s25:41 - "他的手上是赤红的铜币。"
+s25:43 - "切断后路的觉悟。"
+✓
+
+s27:80-85 - Let me check...
+s27:80 - "出乎意料之外的三人之旅。"
+s27:81 - "罗伦斯知道有一个词能够形容这种关系。"
+s27:82 - "但是他不会说出来。"
+s27:83 - "绝对不会说出来。"
+s27:84 - "只是，要是有一天真要写跟赫萝一起旅行的书的话，说不定会把这写进去。"
+s27:85 - "在一本厚厚的书的某个地方，不为人知地。"
+✓
+
+OK, everything checks out. Let me finalize the anchor.
+
+Actually, I realize my anchor is quite long. Let me check if it's too long... The reference example (volume 02) is also quite detailed, so I think this length is appropriate.
+
+Let me also make sure I'm not making any factual errors. Let me re-check a few things:
+
+1. s00:121-122 - "赫萝说过想要结束跟罗伦斯的旅行。她说过，自己这样做的理由，是因为害怕关系变得越来越好，乐趣会逐渐减少直至风化。" - This is narrator recapping vol 5 events. ✓
+
+2. s00:127 - "这是一味把旅途延长下去的弯路。" - This is narrator noting that both are using the Eve chase as an excuse. ✓
+
+3. s05:128 - I need to make sure this is the right line. Let me count... The text shows:
+"当然，汝这个人非但没有求我教导，反而是个拼命想要抓住咱的缰绳的罕见大笨驴啊。虽然在成功率上没什么希望，不过汝肯定是想站在跟咱相同的高度上呗。咱一直都是独自呆在山上，我已经对从下面看着咱的目光感到厌倦了。"
+
+This is at s05:128. ✓
+
+4. s07:135 - "平时看起来虽然好像很喜欢捉弄和嘲笑别人，不过看她蹲下来向少年打招呼的样子，却宛如一个跟外表相符的温柔修女一样。" - This is narrator describing Holo's behavior toward Cole. ✓
+
+Actually wait, I said s07:135 for "赫萝对柯尔露出'罗伦斯从没见过的温柔表情'" but let me check the exact line:
+
+s07:155: "赫萝先是一脸担心地看着他，随后听到他发出了均匀的呼吸声，似乎就放下心来了。她露出罗伦斯从没见过的温柔表情，轻轻抚摸了一下少年的前发，然后站起来说道："
+
+So it's s07:155, not s07:135. Let me correct this.
+
+Wait, s07:135 says: "平时看起来虽然好像很喜欢捉弄和嘲笑别人，不过看她蹲下来向少年打招呼的样子，却宛如一个跟外表相符的温柔修女一样。对于她的样子非常像模像样这个事实，罗伦斯感到非常没趣。"
+
+And s07:155: "赫萝先是一脸担心地看着他，随后听到他发出了均匀的呼吸声，似乎就放下心来了。她露出罗伦斯从没见过的温柔表情，轻轻抚摸了一下少年的前发"
+
+So the "罗伦斯从没见过的温柔表情" is at s07:155, not s07:135. I need to correct this in my anchor.
+
+Also, s07:156: "汝也想被咱这样摸一下吗？" ✓
+
+Let me also check s10:8-14:
+s10:8: "咱的同伴虽然是个唯利是图的商人，不过也是个超级烂好人呐。汝没必要这么害怕。"
+s10:9: "即使同样是笑容，男人和女人的价值也是不一样的。而且赫萝还拥有相当标致的容貌。"
+s10:10: "被赫萝抓住了手臂的柯尔，虽然刚开始还是挣扎着作出抵抗；不过被拉过来之后，他总算是放弃了抵抗。"
+s10:11: "看他那样子，简直就跟赫萝一模一样。"
+s10:12: "呵呵，好啦。不要哭，没事的。"
+s10:13: "大概是平常看惯了她捉弄自己的嚣张姿态吧，罗伦斯看到赫萝以安抚小孩子的动作抱着柯尔的样子，不禁感到有点新鲜。"
+s10:14: "虽然纤细娇小的身段很容易诱发男人们的保护欲，不过她实际上毕竟是被称为贤狼、好几百年来都为了村子而尽心尽力的、等同于神的存在。"
+
+So s10:8-14 is correct for the passage about Holo comforting Cole. ✓
+
+Let me also check s14:82:
+s14:82: "说起故乡的事情，就连那个赫萝也会变得脆弱起来。罗伦斯用风帽的边缘，擦掉了柯尔用双手挡住的泪水。"
+
+Hmm, this is narrator + Lawrence action. The "说起故乡的事情，就连那个赫萝也会变得脆弱起来" is narrator's thought. ✓
+
+s14:112-114:
+s14:112: "真想不到他看到赫萝的样子，第一句话竟然是'请让我摸一摸尾巴'。"
+
+Wait, that's s27:9, not s14. Let me re-check s14:112:
+
+Looking at scene 14 text:
+s14:112: "虽然并不是因为听了赫萝的话，不过如果真要收徒弟的话，比柯尔更合适的人选恐怕不是那么容易找吧。"
+
+Hmm, that doesn't match what I wrote. Let me re-check what I referenced:
+
+I wrote: "s14:112–114：他想收柯尔为徒，但'时期尚早'。"
+
+Let me find the actual text:
+s14:112: "虽然并不是因为听了赫萝的话，不过如果真要收徒弟的话，比柯尔更合适的人选恐怕不是那么容易找吧。"
+s14:113: "而且，跟赫萝的旅程一旦结束，之后等待着自己的就是那又冷又艰辛的孤独行商之旅。这样一来，就算不能代替赫萝，柯尔也是一个有足够资格坐在驾车座上的少年。"
+s14:114: "但是，柯尔有他的目的，而且那并不仅仅是为了他自己本身。所以，要吞下"要不要当我的徒弟？"这句话，的确需要相当大的力气。"
+
+OK so s14:114 has "要吞下'要不要当我的徒弟？'这句话，的确需要相当大的力气" - not exactly "时期尚早" but the idea is there. Let me fix this reference. Actually, the "时期尚早" comes from a different line. Let me find it:
+
+s11:74: "不过，对我来说还是为时尚早，是吗？"
+s11:75: "没错。如果再过十年，不，再过十五年的话，也许吧——"
+
+This is in scene 11, not scene 14. So I should reference s11:74-75 for the "为时尚早" discussion, and s14:112-114 for Lawrence wanting to take Cole as apprentice.
+
+Let me fix this in my anchor.
+
+Also, I need to double-check s17:14. Looking at the text:
+
+s17:14: "河本来就会流动，但是即使如此，为什么会流动呢？"
+
+Wait, this is actually s17:14 in scene 17. Let me verify:
+
+Scene 17 text starts with:
+0: "——谁有破布或者其他不要的东西没有？"
+...
+14: "河本来就会流动，但是即使如此，为什么会流动呢？"
+
+Yes, s17:14. ✓
+
+OK, let me also verify s17:60-61:
+s17:60: "会出现在像自己这种窝囊旅行商人身边的只有一个人。回头一看，是赫萝。"
+s17:61: "呼——好久不曾讲这么多话，咱的喉咙都干了。"
+
+Yes, this is correct. ✓
+
+And s17:71:
+s17:71: "明明对于罗伦斯所说的话没有半点反应，连看也不肯看他一眼；可是赫萝却像在马车上经常会做的那样，把整个身体靠在了罗伦斯身上。"
+
+Yes. ✓
+
+And s17:73-78:
+s17:73: "虽然没有什么依据，但是他觉得只要自己在这里肯低头认错的话，赫萝一定会原谅自己。"
+s17:76: "赫萝会靠在罗伦斯身上，一脸不耐烦地抬起头来吧。然后，说出一堆尖酸刻薄的话，大骂一通。"
+s17:78: "因为离得越近越能够让罗伦斯听清她所说的每一句话。"
+
+Yes. ✓
+
+OK, I think my references are mostly correct with a few minor fixes needed. Let me finalize the anchor now.
+
+Actually, I realize I should also address one more thing: the "赫萝在旅途之中曾经遇到过跟他差不多的小鬼和丫头" passage (s24:102-104). This is important because it reveals that Holo has taken in stray children before during her long life, which contextualizes her attachment to Cole.
+
+s24:102: "虽然咱不太记得是什么时候了，咱在旅途之中曾经遇到过跟他差不多的小鬼和丫头。"
+s24:103: "那是连左右都分不清的两个小家伙。就这样放着他们不管的话实在太危险了，于是咱就暂时照顾他们，一起踏上了旅途。那还真是有趣的旅程啊。所以到现在也不禁偶尔回想起来。"
+
+This is important context. Let me add it.
+
+Also, I want to note something about the s21 scene. The decision to pursue the wolf bone is a significant moment because it's the first time in the series that Lawrence chooses to pursue danger not for profit but for the relationship's narrative quality. This is different from:
+- Vol 1: pursued danger for profit (gold)
+- Vol 2: pursued danger because Holo was in trouble
+- Vol 3: pursued danger because of Amarty's challenge
+- Vol 4: pursued danger because of the village crisis
+- Vol 5: pursued danger because of Eve's scheme
+
+In vol 6, he pursues danger because he wants the story to be thick. This is a meta-level choice about the quality of their time together.
+
+OK, let me finalize. I'll make the necessary corrections and produce the final version.
+
+One more thing: I notice I haven't addressed the "s05:69" exchange properly. Let me re-read:
+
+s05:69: "汝不是放弃了开店的梦想才来迎接咱的吗？"
+
+This is Holo testing Lawrence. She's asking: "Didn't you give up your dream of opening a shop to come get me?" This is a test of his commitment - and also a subtle weaponization of the confession (you gave up your dream for me, so...).
+
+Lawrence's response (s05:71): "只是暂时搁置一边而已，并不是已经放弃了。"
+
+And then s05:73-75:
+s05:73: "而且，那句话中还包含着虚假的成分。"
+s05:74: "能够轻易看穿别人谎言的赫萝应该早就理解了这一点吧。在被她指出来之前，罗伦斯主动坦白道："
+s05:75: "但是，嗯，也多少有点真的想放弃。"
+
+So Lawrence admits that his claim to have "only temporarily shelved" the dream is partly false - he genuinely wants to give it up. Holo sees through him.
+
+This is important because it shows that the confession has created a dynamic where Holo can probe Lawrence's true feelings more directly. But it also shows Lawrence being honest (after being caught) - which is itself a form of trust.
+
+OK, I think I have enough material. Let me produce the final anchor now.
+
+Let me also make sure I'm not missing any key relationship beats:
+
+1. s00: The confession weapon ✓
+2. s04-05: Boat intimacy, shop dream, god-loneliness ✓
+3. s07: Holo's maternal side with Cole ✓
+4. s10: Holo comforting Cole ✓
+5. s11-12: The invisible labor anger ✓
+6. s15-17: The feast and revelation ✓
+7. s18-19: Midnight intimacy ✓
+8. s21: Wolf bone decision ✓
+9. s24-27: Cole joins ✓
+
+I think I've covered all the major beats. Let me finalize.
+
+One last thing: I should address the s16 passage about Lawrence realizing he could get along without Holo:
+
+s16:0: "明明年龄和职业都不一样，而且也是今天才认识的；可是不知为什么，突然会产生这三人好像从很久以前就是朋友的错觉。"
+s16:1: "如果是在遇上赫萝之前的话，恐怕是不会有这样的事吧——罗伦斯冷静地想道。"
+s16:2: "虽然只是无意识的感觉，不过罗伦斯觉得，就算跟赫萝分别，自己也能很好地过下去了。"
+
+This is a crucial and painful realization. Lawrence is aware that he has grown enough to survive without Holo. But this isn't a happy realization - it's immediately complicated by the fact that he doesn't want to. The growth that makes him independent is the same growth that makes him valuable to her, and potentially replaceable.
+
+Actually, re-reading this, I think it's more subtle. The passage says "就算跟赫萝分别，自己也能很好地过下去了" - but this is immediately followed by the scene where he can't solve the Holo problem without help. So the text is both affirming and undermining this realization.
+
+I should mention this in the "details worth watching" section.
+
+OK, NOW I'm writing the final version. Let me be efficient.
+
+Actually, I realize my draft is already quite comprehensive. Let me just make the necessary corrections and produce the final output. The main corrections needed are:
+
+1. s07:155 (not s07:135) for "罗伦斯从没见过的温柔表情"
+2. s11:74-75 for "为时尚早" discussion (not s14)
+3. Add s24:102-104 about Holo's past travel companions
+4. Add s16:0-2 about Lawrence's independence realization
+
+Let me also reconsider the overall structure. I think my draft is good but could be slightly more concise in some areas. Let me tighten it up.
+
+OK, final version coming now.

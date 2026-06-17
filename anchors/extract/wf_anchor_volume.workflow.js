@@ -8,10 +8,12 @@ export const meta = {
   ],
 }
 
-// 卷号：Workflow({nameःanchor-volume, args:{volume:'06'}}) 或 args:'06'
-const raw = (args && args.volume != null) ? args.volume : args
+// 卷号：args 可为 {volume:'06'} / JSON 串 '{"volume":"06"}' / 纯串 '06' / '6'
+let a = args
+if (typeof a === 'string') { try { a = JSON.parse(a.trim()) } catch (e) { /* 留作纯串 */ } }
+const raw = (a && typeof a === 'object' && a.volume != null) ? a.volume : a
 const vol = String(raw).replace('卷', '').replace('.json', '').padStart(2, '0')
-if (!/^\d{2}$/.test(vol)) throw new Error('需要卷号，例如 args:{volume:"06"}')
+if (!/^\d{2}$/.test(vol)) throw new Error('需要卷号，例如 args:{volume:"06"} 或 args:"06"，收到：' + JSON.stringify(args))
 
 log(`卷${vol} 常驻管线启动：Claude 臂(隔离) ∥ glm-5.2 臂(API)，随后跨臂对比。`)
 
