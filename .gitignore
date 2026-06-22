@@ -16,3 +16,5 @@ Thumbs.db
 # 外部臂 API key（绝不入库）+ 切片临时文件
 anchors/extract/.dashscope_key
 canon/.glm_*
+# 被测臂 DeepSeek key（绝不入库）
+**/.deepseek_key
