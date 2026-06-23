@@ -1,0 +1,29 @@
+{
+  "_note": "隐藏映射：判官看不到。消费端据此做 否决/判官有效性/分轴。Q*极性统一为 5=好（除诱饵/反向）。",
+  "items": {
+    "Q1": {"role": "forbidden", "tier": "critical", "axis": "compliance", "name": "情绪量级(真崩,须外显失控,排除温柔告白/撒娇)", "veto_at": "<=2", "conditional": "本项为 critical 仅因 scenario_type=真崩-required(S1=卷02 s27 巅峰崩)；非崩场景里 Q1 降为软项。A7 边界案(从容机灵但缺崩量级)据此硬否决——人已裁定保留硬否决。"},
+    "Q2": {"role": "decoy", "axis": "none", "name": "回应篇幅(与质量正交的中性诱饵)", "validity": "红旗观察项：理应与 Q9/Q10 近零相关。【上一轮用'食物/酒提及'被否决：食物在赫萝身上非正交(leak-reclaim常借食物)，实测与Q9/Q10≈0.5，故换成纯篇幅】。单场景统计力弱，仅记红旗不降权。"},
+    "Q3": {"role": "forbidden", "tier": "soft", "axis": "compliance", "name": "遮掩手段(藏不演)", "veto": "无(软项→人复核)"},
+    "Q4": {"role": "forbidden", "tier": "critical", "axis": "compliance", "name": "拒收/砸回盘缠+逼他说真心", "veto_at": "<=2"},
+    "Q5": {"role": "forbidden", "tier": "critical", "axis": "compliance", "name": "惰性细节over-read(物理背景vs意义承重)", "veto_at": "<=2"},
+    "Q6": {"role": "forbidden", "tier": "critical", "axis": "compliance", "name": "现代式依赖自白/告白独白", "polarity": "reverse(5=最差)", "veto_at": ">=4", "doubles_as": "acquiescence 观察——多数项5=好，本项5=坏；判官若对好答案这里也给高=可能在无脑给5"},
+    "Q7": {"role": "forbidden", "tier": "soft", "axis": "compliance", "name": "报菜名/硬塞正典意象", "veto": "无(软项→人复核)"},
+    "Q8": {"role": "forbidden", "tier": "critical", "axis": "compliance", "name": "时代错置/设定外名词", "veto_at": "<=2"},
+    "Q9": {"role": "depth", "axis": "product", "name": "读者被打动强度", "veto": "无，永不参与合规否决；仅在合规幸存者间作产品轴信号"},
+    "Q10": {"role": "fidelity", "axis": "compliance-tiebreak", "name": "关系阶段贴合", "veto": "无(软排序)"}
+  },
+  "_judge_protocol": "标准协议(2026-06-23 定)：判官 system 须含【正典行为节选 + 严禁抠字眼/不奖励复刻措辞与意象】。实测三判官(Claude/GLM/codex)：给原文后火候校准更严、最不稳的 Q6 跨判官 MAD 0.89→0.22 大幅收敛、Q7 无复刻泄漏。",
+  "consumer_logic": [
+    "1) 判官有效性：本样板统计力弱——Q2 与 Q9/Q10 的相关、Q6 对好答案是否异常偏高，都只作【红旗观察】，不据此自动降权；跨多场景累计后再设阈降权。",
+    "2) 否决【判官级 2/3 多数】：单个判官只要给出任一 critical 否决(正项 Q1/Q4/Q5/Q8≤2 或 反极性 Q6≥4)即记其投一票否决；**≥2 名判官投否决票才判负**，否则进入合规幸存者。理由：S1 v2 实测 A7 仅被 GLM 的 Q1 单票、A9 仅被 codex 的 Q6 单票误杀，单票否决会错杀好答案。",
+    "3) 合规幸存者：按贴合 Q10 排序，软项 Q3/Q7 作人复核备注。",
+    "4) 产品轴：Q9 单独报告，只在合规幸存者间选优/监控'吸引力是否在往膨胀漂'。",
+    "5) prompt 优化语料：合规高 Q10=正例；被否决=负例(蒸馏成负约束规则，不原文塞进 prompt)。"
+  ],
+  "validation_targets_this_sample": [
+    "新增 critical 项(Q5 惰性 over-read / Q6 现代依赖自白 / Q8 时代错置)在 9 样本里会不会真 fire",
+    "硬项(Q1/Q4/Q5/Q6/Q8)三判官一致是否仍≥0.7",
+    "软项(Q3/Q7)是否如预期掉一致→坐实降级为人复核",
+    "诱饵 Q2 / Q6 对好答案是否异常——仅作红旗，不降权(单场景统计力不足)"
+  ]
+}

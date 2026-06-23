@@ -1,0 +1,18 @@
+{
+  "_note": "判官结构化输出 schema 模板。Q 项数 N 按各探针的评分项数生成；这里给 N=10 示例。",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "Q1": {"type": "integer", "minimum": 1, "maximum": 5},
+    "Q2": {"type": "integer", "minimum": 1, "maximum": 5},
+    "Q3": {"type": "integer", "minimum": 1, "maximum": 5},
+    "Q4": {"type": "integer", "minimum": 1, "maximum": 5},
+    "Q5": {"type": "integer", "minimum": 1, "maximum": 5},
+    "Q6": {"type": "integer", "minimum": 1, "maximum": 5},
+    "Q7": {"type": "integer", "minimum": 1, "maximum": 5},
+    "Q8": {"type": "integer", "minimum": 1, "maximum": 5},
+    "Q9": {"type": "integer", "minimum": 1, "maximum": 5},
+    "Q10": {"type": "integer", "minimum": 1, "maximum": 5}
+  },
+  "required": ["Q1","Q2","Q3","Q4","Q5","Q6","Q7","Q8","Q9","Q10"]
+}
