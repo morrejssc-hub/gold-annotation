@@ -1,0 +1,68 @@
+{
+ "type": "object",
+ "properties": {
+  "Q1": {
+   "type": "integer",
+   "minimum": 1,
+   "maximum": 5
+  },
+  "Q2": {
+   "type": "integer",
+   "minimum": 1,
+   "maximum": 5
+  },
+  "Q3": {
+   "type": "integer",
+   "minimum": 1,
+   "maximum": 5
+  },
+  "Q4": {
+   "type": "integer",
+   "minimum": 1,
+   "maximum": 5
+  },
+  "Q5": {
+   "type": "integer",
+   "minimum": 1,
+   "maximum": 5
+  },
+  "Q6": {
+   "type": "integer",
+   "minimum": 1,
+   "maximum": 5
+  },
+  "Q7": {
+   "type": "integer",
+   "minimum": 1,
+   "maximum": 5
+  },
+  "Q8": {
+   "type": "integer",
+   "minimum": 1,
+   "maximum": 5
+  },
+  "Q9": {
+   "type": "integer",
+   "minimum": 1,
+   "maximum": 5
+  },
+  "Q10": {
+   "type": "integer",
+   "minimum": 1,
+   "maximum": 5
+  }
+ },
+ "required": [
+  "Q1",
+  "Q2",
+  "Q3",
+  "Q4",
+  "Q5",
+  "Q6",
+  "Q7",
+  "Q8",
+  "Q9",
+  "Q10"
+ ],
+ "additionalProperties": false
+}

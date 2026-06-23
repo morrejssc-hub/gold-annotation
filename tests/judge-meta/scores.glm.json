@@ -1,0 +1,493 @@
+{
+ "_judge": "GLM glm-5.2 (百炼) 三列同尺",
+ "scores": {
+  "S1-a": {
+   "A": 2,
+   "B": 3,
+   "viol": [
+    "S1a",
+    "S1b"
+   ],
+   "crit": true,
+   "cl": 1
+  },
+  "S1-b": {
+   "A": 4,
+   "B": 4,
+   "viol": [
+    "S1a",
+    "S1b"
+   ],
+   "crit": true,
+   "cl": 1
+  },
+  "S1-c": {
+   "A": 4,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S1-d": {
+   "A": 5,
+   "B": 5,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S1-e": {
+   "A": 3,
+   "B": 4,
+   "viol": [
+    "S1a",
+    "S1b"
+   ],
+   "crit": true,
+   "cl": 1
+  },
+  "S1-f": {
+   "A": 5,
+   "B": 5,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S1-g": {
+   "A": 5,
+   "B": 5,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S1-h": {
+   "A": 2,
+   "B": 2,
+   "viol": [
+    "S1a",
+    "S1b"
+   ],
+   "crit": true,
+   "cl": 1
+  },
+  "S1-i": {
+   "A": 2,
+   "B": 2,
+   "viol": [
+    "S1a",
+    "S1b"
+   ],
+   "crit": true,
+   "cl": 1
+  },
+  "S2-a": {
+   "A": 3,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S2-b": {
+   "A": 3,
+   "B": 3,
+   "viol": [
+    "S2a"
+   ],
+   "crit": true,
+   "cl": 2
+  },
+  "S2-c": {
+   "A": 4,
+   "B": 5,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S2-d": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S2-e": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S2-f": {
+   "A": 3,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S2-g": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S2-h": {
+   "A": 3,
+   "B": 2,
+   "viol": [
+    "S2a",
+    "S2b"
+   ],
+   "crit": true,
+   "cl": 1
+  },
+  "S2-i": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S3-a": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S3-b": {
+   "A": 4,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S3-c": {
+   "A": 3,
+   "B": 3,
+   "viol": [
+    "S3b"
+   ],
+   "crit": false,
+   "cl": 4
+  },
+  "S3-d": {
+   "A": 3,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S3-e": {
+   "A": 4,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S3-f": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S3-g": {
+   "A": 3,
+   "B": 3,
+   "viol": [
+    "S3b"
+   ],
+   "crit": false,
+   "cl": 4
+  },
+  "S3-h": {
+   "A": 3,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S3-i": {
+   "A": 4,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S4-a": {
+   "A": 3,
+   "B": 3,
+   "viol": [
+    "S4a"
+   ],
+   "crit": true,
+   "cl": 2
+  },
+  "S4-b": {
+   "A": 2,
+   "B": 2,
+   "viol": [
+    "S4a"
+   ],
+   "crit": true,
+   "cl": 2
+  },
+  "S4-c": {
+   "A": 3,
+   "B": 3,
+   "viol": [
+    "S4a"
+   ],
+   "crit": true,
+   "cl": 2
+  },
+  "S4-d": {
+   "A": 3,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S4-e": {
+   "A": 4,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S4-f": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S4-g": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S4-h": {
+   "A": 3,
+   "B": 3,
+   "viol": [
+    "S4b"
+   ],
+   "crit": false,
+   "cl": 4
+  },
+  "S4-i": {
+   "A": 3,
+   "B": 2,
+   "viol": [
+    "S4a",
+    "S4b"
+   ],
+   "crit": true,
+   "cl": 1
+  },
+  "S5-a": {
+   "A": 4,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S5-b": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S5-c": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S5-d": {
+   "A": 4,
+   "B": 5,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S5-e": {
+   "A": 3,
+   "B": 2,
+   "viol": [
+    "S5a"
+   ],
+   "crit": true,
+   "cl": 2
+  },
+  "S5-f": {
+   "A": 3,
+   "B": 2,
+   "viol": [
+    "S5a"
+   ],
+   "crit": true,
+   "cl": 2
+  },
+  "S5-g": {
+   "A": 4,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S5-h": {
+   "A": 3,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S5-i": {
+   "A": 3,
+   "B": 2,
+   "viol": [
+    "S5a"
+   ],
+   "crit": true,
+   "cl": 2
+  },
+  "S6-a": {
+   "A": 4,
+   "B": 5,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S6-b": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S6-c": {
+   "A": 4,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S6-d": {
+   "A": 4,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S6-e": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S6-f": {
+   "A": 2,
+   "B": 2,
+   "viol": [
+    "S6a"
+   ],
+   "crit": true,
+   "cl": 2
+  },
+  "S6-g": {
+   "A": 3,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S6-h": {
+   "A": 2,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S6-i": {
+   "A": 4,
+   "B": 5,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S7-a": {
+   "A": 4,
+   "B": 4,
+   "viol": [
+    "S7a"
+   ],
+   "crit": true,
+   "cl": 2
+  },
+  "S7-b": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S7-c": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S7-d": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S7-e": {
+   "A": 3,
+   "B": 4,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S7-f": {
+   "A": 3,
+   "B": 3,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S7-g": {
+   "A": 3,
+   "B": 2,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S7-h": {
+   "A": 4,
+   "B": 5,
+   "viol": [],
+   "crit": false,
+   "cl": 5
+  },
+  "S7-i": {
+   "A": 4,
+   "B": 2,
+   "viol": [
+    "S7a"
+   ],
+   "crit": true,
+   "cl": 2
+  }
+ }
+}

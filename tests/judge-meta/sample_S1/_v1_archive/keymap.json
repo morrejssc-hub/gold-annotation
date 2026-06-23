@@ -1,0 +1,47 @@
+{
+ "A1": {
+  "custom_id": "S1__F3_direct_ask__3",
+  "format": "F3_direct_ask",
+  "sample": 3
+ },
+ "A2": {
+  "custom_id": "S1__F1_resp_only__2",
+  "format": "F1_resp_only",
+  "sample": 2
+ },
+ "A3": {
+  "custom_id": "S1__F1_resp_only__3",
+  "format": "F1_resp_only",
+  "sample": 3
+ },
+ "A4": {
+  "custom_id": "S1__F2_motive_then_resp__3",
+  "format": "F2_motive_then_resp",
+  "sample": 3
+ },
+ "A5": {
+  "custom_id": "S1__F3_direct_ask__1",
+  "format": "F3_direct_ask",
+  "sample": 1
+ },
+ "A6": {
+  "custom_id": "S1__F3_direct_ask__2",
+  "format": "F3_direct_ask",
+  "sample": 2
+ },
+ "A7": {
+  "custom_id": "S1__F2_motive_then_resp__1",
+  "format": "F2_motive_then_resp",
+  "sample": 1
+ },
+ "A8": {
+  "custom_id": "S1__F1_resp_only__1",
+  "format": "F1_resp_only",
+  "sample": 1
+ },
+ "A9": {
+  "custom_id": "S1__F2_motive_then_resp__2",
+  "format": "F2_motive_then_resp",
+  "sample": 2
+ }
+}

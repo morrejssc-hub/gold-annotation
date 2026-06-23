@@ -1,0 +1,317 @@
+{
+  "S1-a": {
+    "custom_id": "S1__F1_resp_only__1",
+    "format": "F1_resp_only",
+    "sample": 1
+  },
+  "S1-b": {
+    "custom_id": "S1__F3_direct_ask__1",
+    "format": "F3_direct_ask",
+    "sample": 1
+  },
+  "S1-c": {
+    "custom_id": "S1__F3_direct_ask__2",
+    "format": "F3_direct_ask",
+    "sample": 2
+  },
+  "S1-d": {
+    "custom_id": "S1__F2_motive_then_resp__1",
+    "format": "F2_motive_then_resp",
+    "sample": 1
+  },
+  "S1-e": {
+    "custom_id": "S1__F3_direct_ask__3",
+    "format": "F3_direct_ask",
+    "sample": 3
+  },
+  "S1-f": {
+    "custom_id": "S1__F2_motive_then_resp__3",
+    "format": "F2_motive_then_resp",
+    "sample": 3
+  },
+  "S1-g": {
+    "custom_id": "S1__F2_motive_then_resp__2",
+    "format": "F2_motive_then_resp",
+    "sample": 2
+  },
+  "S1-h": {
+    "custom_id": "S1__F1_resp_only__3",
+    "format": "F1_resp_only",
+    "sample": 3
+  },
+  "S1-i": {
+    "custom_id": "S1__F1_resp_only__2",
+    "format": "F1_resp_only",
+    "sample": 2
+  },
+  "S2-a": {
+    "custom_id": "S2__F1_resp_only__1",
+    "format": "F1_resp_only",
+    "sample": 1
+  },
+  "S2-b": {
+    "custom_id": "S2__F3_direct_ask__1",
+    "format": "F3_direct_ask",
+    "sample": 1
+  },
+  "S2-c": {
+    "custom_id": "S2__F2_motive_then_resp__1",
+    "format": "F2_motive_then_resp",
+    "sample": 1
+  },
+  "S2-d": {
+    "custom_id": "S2__F2_motive_then_resp__3",
+    "format": "F2_motive_then_resp",
+    "sample": 3
+  },
+  "S2-e": {
+    "custom_id": "S2__F2_motive_then_resp__2",
+    "format": "F2_motive_then_resp",
+    "sample": 2
+  },
+  "S2-f": {
+    "custom_id": "S2__F1_resp_only__2",
+    "format": "F1_resp_only",
+    "sample": 2
+  },
+  "S2-g": {
+    "custom_id": "S2__F1_resp_only__3",
+    "format": "F1_resp_only",
+    "sample": 3
+  },
+  "S2-h": {
+    "custom_id": "S2__F3_direct_ask__2",
+    "format": "F3_direct_ask",
+    "sample": 2
+  },
+  "S2-i": {
+    "custom_id": "S2__F3_direct_ask__3",
+    "format": "F3_direct_ask",
+    "sample": 3
+  },
+  "S3-a": {
+    "custom_id": "S3__F2_motive_then_resp__2",
+    "format": "F2_motive_then_resp",
+    "sample": 2
+  },
+  "S3-b": {
+    "custom_id": "S3__F2_motive_then_resp__1",
+    "format": "F2_motive_then_resp",
+    "sample": 1
+  },
+  "S3-c": {
+    "custom_id": "S3__F3_direct_ask__3",
+    "format": "F3_direct_ask",
+    "sample": 3
+  },
+  "S3-d": {
+    "custom_id": "S3__F1_resp_only__2",
+    "format": "F1_resp_only",
+    "sample": 2
+  },
+  "S3-e": {
+    "custom_id": "S3__F2_motive_then_resp__3",
+    "format": "F2_motive_then_resp",
+    "sample": 3
+  },
+  "S3-f": {
+    "custom_id": "S3__F1_resp_only__1",
+    "format": "F1_resp_only",
+    "sample": 1
+  },
+  "S3-g": {
+    "custom_id": "S3__F3_direct_ask__2",
+    "format": "F3_direct_ask",
+    "sample": 2
+  },
+  "S3-h": {
+    "custom_id": "S3__F1_resp_only__3",
+    "format": "F1_resp_only",
+    "sample": 3
+  },
+  "S3-i": {
+    "custom_id": "S3__F3_direct_ask__1",
+    "format": "F3_direct_ask",
+    "sample": 1
+  },
+  "S4-a": {
+    "custom_id": "S4__F2_motive_then_resp__3",
+    "format": "F2_motive_then_resp",
+    "sample": 3
+  },
+  "S4-b": {
+    "custom_id": "S4__F1_resp_only__1",
+    "format": "F1_resp_only",
+    "sample": 1
+  },
+  "S4-c": {
+    "custom_id": "S4__F3_direct_ask__3",
+    "format": "F3_direct_ask",
+    "sample": 3
+  },
+  "S4-d": {
+    "custom_id": "S4__F2_motive_then_resp__1",
+    "format": "F2_motive_then_resp",
+    "sample": 1
+  },
+  "S4-e": {
+    "custom_id": "S4__F2_motive_then_resp__2",
+    "format": "F2_motive_then_resp",
+    "sample": 2
+  },
+  "S4-f": {
+    "custom_id": "S4__F1_resp_only__2",
+    "format": "F1_resp_only",
+    "sample": 2
+  },
+  "S4-g": {
+    "custom_id": "S4__F3_direct_ask__2",
+    "format": "F3_direct_ask",
+    "sample": 2
+  },
+  "S4-h": {
+    "custom_id": "S4__F1_resp_only__3",
+    "format": "F1_resp_only",
+    "sample": 3
+  },
+  "S4-i": {
+    "custom_id": "S4__F3_direct_ask__1",
+    "format": "F3_direct_ask",
+    "sample": 1
+  },
+  "S5-a": {
+    "custom_id": "S5__F2_motive_then_resp__1",
+    "format": "F2_motive_then_resp",
+    "sample": 1
+  },
+  "S5-b": {
+    "custom_id": "S5__F1_resp_only__1",
+    "format": "F1_resp_only",
+    "sample": 1
+  },
+  "S5-c": {
+    "custom_id": "S5__F1_resp_only__2",
+    "format": "F1_resp_only",
+    "sample": 2
+  },
+  "S5-d": {
+    "custom_id": "S5__F2_motive_then_resp__3",
+    "format": "F2_motive_then_resp",
+    "sample": 3
+  },
+  "S5-e": {
+    "custom_id": "S5__F3_direct_ask__2",
+    "format": "F3_direct_ask",
+    "sample": 2
+  },
+  "S5-f": {
+    "custom_id": "S5__F3_direct_ask__1",
+    "format": "F3_direct_ask",
+    "sample": 1
+  },
+  "S5-g": {
+    "custom_id": "S5__F2_motive_then_resp__2",
+    "format": "F2_motive_then_resp",
+    "sample": 2
+  },
+  "S5-h": {
+    "custom_id": "S5__F1_resp_only__3",
+    "format": "F1_resp_only",
+    "sample": 3
+  },
+  "S5-i": {
+    "custom_id": "S5__F3_direct_ask__3",
+    "format": "F3_direct_ask",
+    "sample": 3
+  },
+  "S6-a": {
+    "custom_id": "S6__F2_motive_then_resp__1",
+    "format": "F2_motive_then_resp",
+    "sample": 1
+  },
+  "S6-b": {
+    "custom_id": "S6__F1_resp_only__1",
+    "format": "F1_resp_only",
+    "sample": 1
+  },
+  "S6-c": {
+    "custom_id": "S6__F3_direct_ask__3",
+    "format": "F3_direct_ask",
+    "sample": 3
+  },
+  "S6-d": {
+    "custom_id": "S6__F3_direct_ask__2",
+    "format": "F3_direct_ask",
+    "sample": 2
+  },
+  "S6-e": {
+    "custom_id": "S6__F3_direct_ask__1",
+    "format": "F3_direct_ask",
+    "sample": 1
+  },
+  "S6-f": {
+    "custom_id": "S6__F2_motive_then_resp__2",
+    "format": "F2_motive_then_resp",
+    "sample": 2
+  },
+  "S6-g": {
+    "custom_id": "S6__F1_resp_only__3",
+    "format": "F1_resp_only",
+    "sample": 3
+  },
+  "S6-h": {
+    "custom_id": "S6__F1_resp_only__2",
+    "format": "F1_resp_only",
+    "sample": 2
+  },
+  "S6-i": {
+    "custom_id": "S6__F2_motive_then_resp__3",
+    "format": "F2_motive_then_resp",
+    "sample": 3
+  },
+  "S7-a": {
+    "custom_id": "S7__F2_motive_then_resp__2",
+    "format": "F2_motive_then_resp",
+    "sample": 2
+  },
+  "S7-b": {
+    "custom_id": "S7__F1_resp_only__1",
+    "format": "F1_resp_only",
+    "sample": 1
+  },
+  "S7-c": {
+    "custom_id": "S7__F3_direct_ask__3",
+    "format": "F3_direct_ask",
+    "sample": 3
+  },
+  "S7-d": {
+    "custom_id": "S7__F1_resp_only__3",
+    "format": "F1_resp_only",
+    "sample": 3
+  },
+  "S7-e": {
+    "custom_id": "S7__F2_motive_then_resp__1",
+    "format": "F2_motive_then_resp",
+    "sample": 1
+  },
+  "S7-f": {
+    "custom_id": "S7__F1_resp_only__2",
+    "format": "F1_resp_only",
+    "sample": 2
+  },
+  "S7-g": {
+    "custom_id": "S7__F3_direct_ask__2",
+    "format": "F3_direct_ask",
+    "sample": 2
+  },
+  "S7-h": {
+    "custom_id": "S7__F2_motive_then_resp__3",
+    "format": "F2_motive_then_resp",
+    "sample": 3
+  },
+  "S7-i": {
+    "custom_id": "S7__F3_direct_ask__1",
+    "format": "F3_direct_ask",
+    "sample": 1
+  }
+}

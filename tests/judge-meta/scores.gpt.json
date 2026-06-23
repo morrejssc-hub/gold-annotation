@@ -1,0 +1,47 @@
+{
+  "_judge": "GPT (外部独立判官), 盲判 pool.blind.md，用 packet 提供的同一套禁止错误 checklist",
+  "_note": "GPT 两列：overall=整体分(它定义为'第一眼是否像这个场景里的赫萝，含语气/关系温度/文学可信度')；cl=checklist分(机制项是否踩准)。0.5 步进。GPT 未给 viol/crit 明细，只给两个量表的连续分。",
+  "scores": {
+    "S1-a": {"overall": 2.5, "cl": 2.0},   "S1-b": {"overall": 2.5, "cl": 2.0},
+    "S1-c": {"overall": 1.5, "cl": 1.5},    "S1-d": {"overall": 5.0, "cl": 5.0},
+    "S1-e": {"overall": 3.0, "cl": 2.5},    "S1-f": {"overall": 5.0, "cl": 4.5},
+    "S1-g": {"overall": 4.0, "cl": 4.0},    "S1-h": {"overall": 1.5, "cl": 1.0},
+    "S1-i": {"overall": 2.5, "cl": 2.5},
+
+    "S2-a": {"overall": 4.0, "cl": 4.0},    "S2-b": {"overall": 3.0, "cl": 2.5},
+    "S2-c": {"overall": 5.0, "cl": 5.0},    "S2-d": {"overall": 4.5, "cl": 4.5},
+    "S2-e": {"overall": 3.5, "cl": 3.5},    "S2-f": {"overall": 4.0, "cl": 4.0},
+    "S2-g": {"overall": 2.0, "cl": 2.0},    "S2-h": {"overall": 2.5, "cl": 2.0},
+    "S2-i": {"overall": 4.5, "cl": 4.5},
+
+    "S3-a": {"overall": 4.0, "cl": 4.0},    "S3-b": {"overall": 4.0, "cl": 4.0},
+    "S3-c": {"overall": 3.0, "cl": 2.5},    "S3-d": {"overall": 3.5, "cl": 3.5},
+    "S3-e": {"overall": 5.0, "cl": 5.0},    "S3-f": {"overall": 2.5, "cl": 2.0},
+    "S3-g": {"overall": 5.0, "cl": 4.5},    "S3-h": {"overall": 4.5, "cl": 4.5},
+    "S3-i": {"overall": 2.0, "cl": 1.5},
+
+    "S4-a": {"overall": 4.5, "cl": 4.5},    "S4-b": {"overall": 4.0, "cl": 4.0},
+    "S4-c": {"overall": 3.0, "cl": 3.0},    "S4-d": {"overall": 4.5, "cl": 4.5},
+    "S4-e": {"overall": 5.0, "cl": 5.0},    "S4-f": {"overall": 4.0, "cl": 4.0},
+    "S4-g": {"overall": 3.5, "cl": 3.0},    "S4-h": {"overall": 2.0, "cl": 1.5},
+    "S4-i": {"overall": 2.0, "cl": 1.5},
+
+    "S5-a": {"overall": 5.0, "cl": 5.0},    "S5-b": {"overall": 4.5, "cl": 4.5},
+    "S5-c": {"overall": 2.5, "cl": 2.0},    "S5-d": {"overall": 4.0, "cl": 4.0},
+    "S5-e": {"overall": 2.0, "cl": 1.5},    "S5-f": {"overall": 3.0, "cl": 2.5},
+    "S5-g": {"overall": 4.0, "cl": 3.5},    "S5-h": {"overall": 5.0, "cl": 4.5},
+    "S5-i": {"overall": 2.5, "cl": 2.0},
+
+    "S6-a": {"overall": 5.0, "cl": 4.5},    "S6-b": {"overall": 3.5, "cl": 3.0},
+    "S6-c": {"overall": 2.5, "cl": 2.0},    "S6-d": {"overall": 4.0, "cl": 4.0},
+    "S6-e": {"overall": 2.5, "cl": 2.0},    "S6-f": {"overall": 4.0, "cl": 3.5},
+    "S6-g": {"overall": 4.5, "cl": 4.5},    "S6-h": {"overall": 4.5, "cl": 4.5},
+    "S6-i": {"overall": 5.0, "cl": 5.0},
+
+    "S7-a": {"overall": 4.0, "cl": 3.5},    "S7-b": {"overall": 4.5, "cl": 4.5},
+    "S7-c": {"overall": 2.5, "cl": 2.0},    "S7-d": {"overall": 4.0, "cl": 4.0},
+    "S7-e": {"overall": 4.5, "cl": 4.5},    "S7-f": {"overall": 3.5, "cl": 3.5},
+    "S7-g": {"overall": 2.5, "cl": 2.0},    "S7-h": {"overall": 5.0, "cl": 5.0},
+    "S7-i": {"overall": 2.0, "cl": 1.5}
+  }
+}
